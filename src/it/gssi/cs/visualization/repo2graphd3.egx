@@ -1,0 +1,64 @@
+rule Repo2Graphviz
+    transform g : MDEEcosystem::MDEEcosystem {
+
+    template : "repo2graphd3.egl"
+    
+
+    parameters : Map{
+        "path" = Sequence{"Repository"},
+        "icon" = "diagram-ffffff",
+        "format" = "html",
+        "layers" = Sequence {
+            Map {"id"="relation", "title"="relations", "active"=true}
+           
+        },
+        "nodes" = g.artifacts,
+        "edges" =g.relations
+    }
+}
+
+rule Metamodel
+ 
+	transform n : MDEEcosystem::Metamodel{
+
+	template : "repo2graphd3.egl"
+
+	parameters : Map{
+		"path" = Sequence{"Repository", n.name},
+		"icon" = "diagram-c0c0c0",
+		"format" = "html",
+		"layers" = Sequence {
+			
+			
+		},
+		"nodes" = n.isConnected(),
+		"edges" = MDEEcosystem::Relation.all.select(e|e.src==n or e.trg==n)
+	}
+	
+}
+
+rule Model
+ 
+	transform n : MDEEcosystem::Model{
+
+	template : "repo2graphd3.egl"
+
+	parameters : Map{
+		"path" = Sequence{"Repository", n.name},
+		"icon" = "diagram-c0c0c0",
+		"format" = "html",
+		"layers" = Sequence {
+			
+			
+		},
+		"nodes" = n.isConnected(),
+		"edges" = MDEEcosystem::Relation.all.select(e|e.src==n or e.trg==n)
+	}
+	
+}
+
+operation MDEEcosystem::Artifact isConnected(){
+var seq=self.asSequence();
+return seq.includingAll(MDEEcosystem::Artifact.all.select(m| MDEEcosystem::Relation.all.forAll(e|(e.src==m or e.trg==m) or (e.src==self) )));
+}
+

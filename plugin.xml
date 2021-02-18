@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated DistanceModel -->
+      <package
+            uri="http://cs.gssi.it/distancemodel"
+            class="distancemodel.DistanceModelPackage"
+            genModel="src/it/gssi/cs/metamodels/DistanceModel.genmodel"/>
+   </extension>
+
+</plugin>

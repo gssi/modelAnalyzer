@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="socialnetwork" nsURI="http://cs.gssi.it/socialnetwork/" nsPrefix="socialnetwork">
+  <eClassifiers xsi:type="ecore:EClass" name="SocialNetwork" eSuperTypes="#//NamedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="registeredUsers" upperBound="-1"
+        eType="#//User" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="User" eSuperTypes="#//NamedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="wall" lowerBound="1" eType="#//Wall"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="friendships" upperBound="-1"
+        eType="#//User" eOpposite="#//User/_friends"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_friends" upperBound="-1"
+        eType="#//User" eOpposite="#//User/friendships"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="likes" upperBound="-1"
+        eType="#//Post"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Wall">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="posts" upperBound="-1"
+        eType="#//Post" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Post">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="content" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NamedElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>

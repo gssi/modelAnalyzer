@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<qualitymodel:QualityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:qualitymodel="http://cs.gssi.it/qualitymodel" xmi:id="_ss9GoHIKEeuBc5zGAU8pNg">
+  <qualityattrs xmi:id="_vhr4EHIKEeuBc5zGAU8pNg" name="Complexity">
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Model"/>
+  </qualityattrs>
+  <metrics xmi:id="_w-fNQHIKEeuBc5zGAU8pNg" name="Size" metricProvider="size" library="quality.lib.eol"/>
+</qualitymodel:QualityModel>

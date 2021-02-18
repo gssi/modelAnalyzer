@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mdeecosystem:MDEEcosystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdeecosystem="http://cs.gssi.it/mdeecosystem" xsi:schemaLocation="http://cs.gssi.it/mdeecosystem file:///Users/administrator/git/modelAnalyzer/bin/it/gssi/cs/metamodels/MDEEcosystemMM.ecore">
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="smach.ecore">
+    <nsURI>http://ros/1.0</nsURI>
+    <nsURI>http://smach/1.0</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="log.ecore">
+    <nsURI>log</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="process.ecore">
+    <nsURI>http://process/1.0</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="ETMap.ecore">
+    <nsURI>http://www.eclipse.org/etrice/core/etmap/ETMap</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="wikicontent.ecore">
+    <nsURI>http://wikicontent/1.0</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="ETPhys.ecore">
+    <nsURI>http://www.eclipse.org/etrice/core/etphys/ETPhys</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="Room.ecore">
+    <nsURI>http://www.eclipse.org/etrice/Room</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="etricegen.ecore">
+    <nsURI>http://www.eclipse.org/etrice/generator</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="customer.ecore">
+    <nsURI>http:///org.eclipse.emf.test.models/Customer</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="My.ecore">
+    <nsURI>cs.gssi.it/taskmanager</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="store.ecore">
+    <nsURI>store</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="Petrinetv2.ecore">
+    <nsURI>petrinetv2</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="DB.ecore">
+    <nsURI>http:///org.eclipse.emf.test.models/MovieDB</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="system.ecore">
+    <nsURI>http://system/1.0</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="PersonList.ecore">
+    <nsURI>http://cs.gssi.it/sourceMM</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="Petrinetv1.ecore">
+    <nsURI>petrinetv1</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="ros.ecore">
+    <nsURI>http://ros/1.0</nsURI>
+    <nsURI>http://smach/1.0</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="Petrinetv3.ecore">
+    <nsURI>petrinetv3</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="workbench.ecore">
+    <nsURI>http://workbench/1.0</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="SocialNetwork.ecore">
+    <nsURI>http://cs.gssi.it/socialnetwork/</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="task.ecore">
+    <nsURI>http://www.sebastianbenz.de/task/2011/</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="derivedModel.ecore">
+    <nsURI>http://derivedmodel/1.0</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="Ecore" virtual="true">
+    <nsURI>http://www.eclipse.org/emf/2002/Ecore</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" name="operation.ecore" virtual="true">
+    <nsURI>file:///Users/administrator/git/modelAnalyzer/bin/it/gssi/cs/reposelection/operation.ecore</nsURI>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Model" name="persons.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" name="fb.model"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.1" trg="//@artifacts.10" label="log.ecore->store.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.3" trg="//@artifacts.5" label="ETMap.ecore->ETPhys.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.3" trg="//@artifacts.6" label="ETMap.ecore->Room.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.7" trg="//@artifacts.6" label="etricegen.ecore->Room.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.8" trg="//@artifacts.22" label="customer.ecore->Ecore"/>
+  <relations xsi:type="mdeecosystem:Distance" src="//@artifacts.11" trg="//@artifacts.15" label="Petrinetv2.ecore->Petrinetv1.ecore" value="75.0"/>
+  <relations xsi:type="mdeecosystem:Distance" src="//@artifacts.11" trg="//@artifacts.17" label="Petrinetv2.ecore->Petrinetv3.ecore" value="100.0"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.12" trg="//@artifacts.8" label="DB.ecore->customer.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.12" trg="//@artifacts.22" label="DB.ecore->Ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.13" trg="//@artifacts.2" label="system.ecore->process.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.13" trg="//@artifacts.23" label="system.ecore->operation.ecore"/>
+  <relations xsi:type="mdeecosystem:Distance" src="//@artifacts.15" trg="//@artifacts.11" label="Petrinetv1.ecore->Petrinetv2.ecore" value="87.0"/>
+  <relations xsi:type="mdeecosystem:Distance" src="//@artifacts.15" trg="//@artifacts.17" label="Petrinetv1.ecore->Petrinetv3.ecore" value="87.0"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.16" trg="//@artifacts.0" label="ros.ecore->smach.ecore"/>
+  <relations xsi:type="mdeecosystem:Distance" src="//@artifacts.17" trg="//@artifacts.11" label="Petrinetv3.ecore->Petrinetv2.ecore" value="83.0"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.18" trg="//@artifacts.4" label="workbench.ecore->wikicontent.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.21" trg="//@artifacts.13" label="derivedModel.ecore->system.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.21" trg="//@artifacts.2" label="derivedModel.ecore->process.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" src="//@artifacts.21" trg="//@artifacts.23" label="derivedModel.ecore->operation.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" src="//@artifacts.24" trg="//@artifacts.14" label="persons.model->PersonList.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" src="//@artifacts.25" trg="//@artifacts.19" label="fb.model->SocialNetwork.ecore"/>
+</mdeecosystem:MDEEcosystem>

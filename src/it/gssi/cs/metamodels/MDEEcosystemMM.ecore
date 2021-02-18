@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="MDEEcosystem" nsURI="http://cs.gssi.it/mdeecosystem" nsPrefix="mdeecosystem">
+  <eClassifiers xsi:type="ecore:EClass" name="MDEEcosystem">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="artifacts" upperBound="-1"
+        eType="#//Artifact" containment="true" eOpposite="#//Artifact/ecosystem"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="author" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relations" upperBound="-1"
+        eType="#//Relation" containment="true" eOpposite="#//Relation/ecosystem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Artifact" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ecosystem" lowerBound="1"
+        eType="#//MDEEcosystem" eOpposite="#//MDEEcosystem/artifacts"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="virtual" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model" eSuperTypes="#//Artifact"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Metamodel" eSuperTypes="#//Artifact">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nsURI" upperBound="-1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Transformation" eSuperTypes="#//Artifact #//Relation">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceMM" lowerBound="1"
+        eType="#//Metamodel"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="targetMM" lowerBound="1"
+        eType="#//Metamodel"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inmodel" lowerBound="1"
+        eType="#//Model"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outmodel" lowerBound="1"
+        eType="#//Model"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TraceModel" eSuperTypes="#//Relation">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inmodel" lowerBound="1"
+        eType="#//Model"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outmodel" lowerBound="1"
+        eType="#//Model"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Relation" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ecosystem" lowerBound="1"
+        eType="#//MDEEcosystem" eOpposite="#//MDEEcosystem/relations"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="src" lowerBound="1" eType="#//Artifact"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="trg" lowerBound="1" eType="#//Artifact"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="label" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Conformance" eSuperTypes="#//Relation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Dependency" eSuperTypes="#//Relation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DomainDependency" eSuperTypes="#//Relation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Versioning" eSuperTypes="#//Relation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Distance" eSuperTypes="#//Relation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+</ecore:EPackage>

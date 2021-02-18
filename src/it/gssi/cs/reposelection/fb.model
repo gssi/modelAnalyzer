@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<socialnetwork:SocialNetwork xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:socialnetwork="http://cs.gssi.it/socialnetwork/" xmi:id="_Qvm6UDmIEeumx56nlctcXQ">
+  <registeredUsers xmi:id="_RcE-wDmIEeumx56nlctcXQ" name="Ludovico" friendships="_Bph0UDo-Eeumx56nlctcXQ" _friends="_9EzE4Do9Eeumx56nlctcXQ" likes="_Q1zPoDmNEeumx56nlctcXQ _93hJADpCEeumx56nlctcXQ _5F_TsDpCEeumx56nlctcXQ">
+    <wall xmi:id="_QPHDEDmNEeumx56nlctcXQ">
+      <posts xmi:id="_Q1zPoDmNEeumx56nlctcXQ" content="my first post"/>
+      <posts xmi:id="_pIDfEDo8Eeumx56nlctcXQ" content="my second post"/>
+      <posts xmi:id="_zUM7QDpCEeumx56nlctcXQ" content="I shared a link"/>
+    </wall>
+  </registeredUsers>
+  <registeredUsers xmi:id="_9EzE4Do9Eeumx56nlctcXQ" name="John Doe" friendships="_SrpcEDo_Eeumx56nlctcXQ _RcE-wDmIEeumx56nlctcXQ" _friends="_Bph0UDo-Eeumx56nlctcXQ" likes="_6zIyADpCEeumx56nlctcXQ">
+    <wall xmi:id="_4v_1kDpCEeumx56nlctcXQ">
+      <posts xmi:id="_5F_TsDpCEeumx56nlctcXQ" content="Hi friends!"/>
+    </wall>
+  </registeredUsers>
+  <registeredUsers xmi:id="_Bph0UDo-Eeumx56nlctcXQ" name="Daniele" friendships="_9EzE4Do9Eeumx56nlctcXQ" _friends="_RcE-wDmIEeumx56nlctcXQ" likes="_pIDfEDo8Eeumx56nlctcXQ _Q1zPoDmNEeumx56nlctcXQ">
+    <wall xmi:id="_Cr9hsDo-Eeumx56nlctcXQ">
+      <posts xmi:id="_DH7E8Do-Eeumx56nlctcXQ" content="This is my wall"/>
+      <posts xmi:id="_6zIyADpCEeumx56nlctcXQ" content="Good to see you friends!"/>
+    </wall>
+  </registeredUsers>
+  <registeredUsers xmi:id="_SrpcEDo_Eeumx56nlctcXQ" name="Basciani" _friends="_9EzE4Do9Eeumx56nlctcXQ" likes="_Q1zPoDmNEeumx56nlctcXQ">
+    <wall xmi:id="_9G_D8DpCEeumx56nlctcXQ">
+      <posts xmi:id="_93hJADpCEeumx56nlctcXQ" content="Nothing to declare"/>
+    </wall>
+  </registeredUsers>
+</socialnetwork:SocialNetwork>

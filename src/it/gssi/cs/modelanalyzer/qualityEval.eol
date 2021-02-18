@@ -1,0 +1,20 @@
+import "quality.lib.eol";
+var emfTool = new Native("org.eclipse.epsilon.emc.emf.tools.EmfTool");
+
+var ecosys = ecosystem.getAllOfType("MDEEcosystem").first;
+
+//for (op in System.context.module.
+//		operations) { 
+	//op.getContextType(System.context).println();
+//}		
+
+for (a in ecosys.artifacts) { 
+	
+	a.call('size',Sequence{}).println();
+}
+
+
+
+
+
+

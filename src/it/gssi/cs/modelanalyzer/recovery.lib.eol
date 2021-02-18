@@ -1,0 +1,208 @@
+
+
+operation Any isMetamodel(){
+for (extension in metamodelext) { 
+	if(self.name.endsWith(extension)){
+	return true;
+	}	
+}
+	return false;
+}
+
+operation Any isModel(){
+
+for (extension in modelext) { 
+
+	if(self.name.endsWith(extension) ){
+	
+	return true;
+	}
+	}
+	return false;
+	
+}
+
+operation Sequence(EmfModel) createEcosystem(distancemodel: Any){
+var mdeecosystem = new ecosystem!MDEEcosystem;
+
+//first metamodels are created...important!
+for (m in self.select(a|a.isMetamodel())) { 
+	("Processing..."+m.name).println();
+		var artifact = m.createArtifact(mdeecosystem);
+				
+}
+// generate relations for metamodels
+for (m in self.select(a|a.isMetamodel())) { 
+	
+		m.getDependencies(m.getArtifact(), m.getArtifact().ecosystem);
+		m.getDistance(m.getArtifact(), m.getArtifact().ecosystem, distancemodel.getAllOfType("DistanceModel").first);		
+}
+
+//generate models nodes
+for (m in self.select(a|a.isModel())) { 
+	
+		var artifact = m.createArtifact(mdeecosystem);				
+}
+
+}
+operation Any getArtifact(): ecosystem!Artifact{
+
+	return ecosystem.getAllOfType('Metamodel').select(a|a.name==self.name).first;
+
+}
+operation Any createArtifact(ecosystem: ecosystem!MDEEcosystem) : ecosystem!Artifact{
+
+if(self.isMetamodel()){
+		var artifact = new ecosystem!Metamodel();
+		artifact.ecosystem = ecosystem;
+		artifact.name=   self.name;
+		artifact.nsURI=(self.getAllOfType('EPackage').nsURI).asSet();
+		
+		
+		return artifact;
+}
+
+if(self.isModel()){
+
+
+		var artifact = new ecosystem!Model();
+		artifact.name=self.name;	
+		artifact.ecosystem = ecosystem;
+		
+		self.genConformance(ecosystem,artifact);
+		
+		return artifact;
+}		
+
+}
+
+operation Any genConformance(ecosystem: ecosystem!MDEEcosystem,artifact: ecosystem!Artifact){
+var corresponding_mms = self.allInstances().eClass.ePackage.nsURI.asSet();
+ 
+for (mm in corresponding_mms) { 
+			for (mm_trg in ecosystem.artifacts.select(a|a.isTypeOf(ecosystem!Metamodel)).select(aa|aa.nsURI.includes(mm)).asSet()) { 
+						var rel = new ecosystem!Conformance();
+						rel.src = artifact;
+		 				rel.trg = mm_trg;
+		 				rel.label= rel.src.name+"->"+rel.trg.name;
+						rel.ecosystem = ecosystem;	
+			}
+
+		}
+}
+
+operation Any getDistance(src : ecosystem!Artifact, ecosystem : ecosystem!MDEEcosystem, distancemodel: distancemodel!DistanceModel): Set{
+
+var distanceedges = distancemodel.measurements.select(measure|measure.left== src.name and measure.value>=distancemodel.threshold);
+for (distance in distanceedges) { 
+	//(distance.left+"->"+distance.right).println();
+	var rel = new ecosystem!Distance();
+	var sourceMM = ecosystem.artifacts.select(a|a.isTypeOf(ecosystem!Metamodel)).select(mm|mm.name.equals(distance.left)).first;
+	var targetMM = ecosystem.artifacts.select(a|a.isTypeOf(ecosystem!Metamodel)).select(mm|mm.name.equals(distance.right)).first;
+	rel.src = sourceMM;
+	rel.trg = targetMM;
+	rel.label= rel.src.name+"->"+rel.trg.name;
+	rel.value =distance.value;
+	rel.ecosystem = ecosystem;	
+}
+
+}
+
+operation Any getDependencies(src : ecosystem!Artifact, ecosystem : ecosystem!MDEEcosystem): Set{
+
+	var connections :List ;
+	
+	for (c in self.getAllOfType("EClass") ){ 
+	
+	for (r in c.eAllReferences) { 
+
+	/*if(r.eType.isDefined() ){
+	//check if reference type is in another package
+	
+		if((not self!EPackage.all.includes(r.eType.eContainer) and not r.eType.eProxyURI.isDefined())){
+		
+		 	connections.add(r.eType.eContainer.nsURI);
+		 	}
+			 if(r.eType.eProxyURI.isDefined()){
+				
+			 	connections.add(r.eType.eProxyURI.toString().split("#").first);
+			 }
+			}else{
+				
+				connections.add("undefined");
+			}*/
+		//self!EPackage.all.name.println();
+		
+		if(not self!EPackage.all.includes(r.eType.eContainer)){
+		
+		if(r.eType.eContainer.isDefined()) {
+		
+			connections.add(r.eType.eContainer.nsURI);
+			
+		}else if(r.eType.eProxyURI.isDefined()){
+		
+			//r.eType.eProxyURI.println();
+			connections.add(r.eType.eProxyURI.toString().split("#").first);
+		
+		}
+		}
+			
+		}
+		
+		for (st in c.eSupertypes) { 
+		
+			if(not self!EPackage.all.includes(st.eContainer) or ((c.ePackage.isDefined() and st.ePackage.isDefined()) and (c.ePackage.name<>st.ePackage.name))){
+		
+			if(st.eContainer.isDefined()) connections.add(st.eContainer.nsURI);
+			
+			}
+		}	
+	}
+	
+	//(src.name +"->"+connections.asSet()).println();
+	for(con in connections.asSet()){
+
+						
+						var trgmms = ecosystem.artifacts.select(a|a.isTypeOf(ecosystem!Metamodel)).select(mm|mm.nsURI.includes(con)  or con.endsWith(mm.name));
+		 				//(src.name +"->"+trgmms.name).println();
+		 				//we exclude self reference types
+		 				if(trgmms.first<>src){
+		 				var rel = new ecosystem!Dependency();
+						rel.src = src;
+		 					
+		 				if(trgmms.isEmpty()){
+		 				
+		 					//create virtual artifact
+								var artifact = new ecosystem!Metamodel();
+								artifact.ecosystem = ecosystem;
+								artifact.virtual = true;
+								artifact.name =	con.extractMMname();
+								artifact.nsURI.add(con);
+								rel.trg = ecosystem.artifacts.select(a|a.isTypeOf(ecosystem!Metamodel)).select(mm|mm.nsURI.includes(con)  or con.endsWith(mm.name)).first;
+		 				}else {
+		 					rel.trg = trgmms.first ;
+						}
+						rel.label= rel.src.name+"->"+(rel.trg.isDefined()?rel.trg.name:"undefined");
+						rel.ecosystem = ecosystem;	
+						}
+	}
+	
+}
+
+operation String extractMMname(){
+
+if(self.startsWith("file://")){
+	return self.split("/").select(p|p.endsWith(".ecore")).first;
+}else if(self.startsWith("http://")){
+	return self.split("/").last;
+}else{
+	return self;
+}
+}
+
+operation String fuzzyMatch(other: String): Boolean {
+	return simmetrics.similarity(self,other,'Levenshtein') > 0.5;
+}
+
+
+

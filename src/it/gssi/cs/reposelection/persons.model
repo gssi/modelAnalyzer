@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sourceMM:PersonList xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sourceMM="http://cs.gssi.it/sourceMM" xmi:id="_E7CV0JQ4Eem4pNoILqcxsQ">
+  <persons xmi:id="_F7KWEJQ4Eem4pNoILqcxsQ" name="John Doe" card="_OCzWIJQ5Eem4pNoILqcxsQ"/>
+  <persons xmi:id="_HoPi8JQ4Eem4pNoILqcxsQ" name="Mariah Carey" card="_e7H-IJQ5Eem4pNoILqcxsQ"/>
+  <cards xmi:id="_OCzWIJQ5Eem4pNoILqcxsQ" uid="cde7dj4"/>
+  <cards xmi:id="_e7H-IJQ5Eem4pNoILqcxsQ" uid="e9jnhd9"/>
+</sourceMM:PersonList>

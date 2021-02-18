@@ -1,0 +1,19 @@
+
+
+operation ecosystem!Model size() : Any {
+
+	return 0.0;
+}
+
+
+operation ecosystem!Metamodel size() : Any {
+	return 0.5;
+}
+
+operation Any call(op : String, par: Sequence) : Any {
+
+	return System.context.module.
+		operations.selectOne(o|o.name = op  and ("ecosystem"+"!"+self.eClass.name)=o.getContextType(System.context).name)
+		.execute(self,  par, System.context);
+
+}

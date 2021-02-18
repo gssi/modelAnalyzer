@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="QualityEcosystem" nsURI="http://cs.gssi.it/qualityecosystem"
+    nsPrefix="qualityecosystem">
+  <eClassifiers xsi:type="ecore:EClass" name="QualityEcosystemDef">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="evaluations" upperBound="-1"
+        eType="#//QualityEval" containment="true" eOpposite="#//QualityEval/def"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="qualityDefModelPath" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ecosystemModelPath" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QualityEval">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qa" lowerBound="1" eType="ecore:EClass http://cs.gssi.it/qualitymodel#//QualityAttribute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subject" lowerBound="1"
+        eType="ecore:EClass http://cs.gssi.it/mdeecosystem#//Artifact"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="actualizedvalue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="calculatedBy" eType="#//CalculatedOperation"
+        containment="true" eOpposite="#//CalculatedOperation/eval"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="def" lowerBound="1" eType="#//QualityEcosystemDef"
+        eOpposite="#//QualityEcosystemDef/evaluations"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CalculatedOperation">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="calculatedBy" lowerBound="1"
+        eType="ecore:EClass http://cs.gssi.it/qualitymodel#//Operation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="calculatedMetrics" upperBound="-1"
+        eType="#//CalculatedMetric" containment="true" eOpposite="#//CalculatedMetric/owner"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eval" eType="#//QualityEval"
+        eOpposite="#//QualityEval/calculatedBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nestedcOps" upperBound="-1"
+        eType="#//CalculatedOperation" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CalculatedMetric">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="metric" lowerBound="1"
+        eType="ecore:EClass http://cs.gssi.it/qualitymodel#//Metric"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
+        eType="ecore:EClass http://cs.gssi.it/mdeecosystem#//Artifact"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="actualizedvalue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="owner" lowerBound="1" eType="#//CalculatedOperation"
+        eOpposite="#//CalculatedOperation/calculatedMetrics"/>
+  </eClassifiers>
+</ecore:EPackage>
