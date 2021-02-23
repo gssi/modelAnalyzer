@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ASCII"?>
+<qualityecosystem:QualityEcosystemDef xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdeecosystem="http://cs.gssi.it/mdeecosystem" xmlns:qualityecosystem="http://cs.gssi.it/qualityecosystem" xsi:schemaLocation="http://cs.gssi.it/qualityecosystem file:///Users/administrator/git/modelAnalyzer/bin/it/gssi/cs/metamodels/qualityEcosystem.ecore">
+  <evaluations actualizedvalue="23.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQwXVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="24.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQwnVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="4.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQw3VVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="7.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQxHVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="3.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQxXVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="10.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQxnVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="104.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQx3VVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="31.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQyHVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="6.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQyXVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="6.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQynVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="64.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQy3VVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="4.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQzHVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="7.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQzXVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="8.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQznVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="3.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQz3VVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="3.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQ0HVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="23.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQ0XVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="5.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQ0nVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="2.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQ03VVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="5.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQ1HVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="11.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQ1XVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="8.0">
+    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_GuaQ1nVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="5.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_GuaQ2XVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+  <evaluations actualizedvalue="16.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_GuaQ2nVVEeuBc5zGAU8pNg"/>
+  </evaluations>
+</qualityecosystem:QualityEcosystemDef>

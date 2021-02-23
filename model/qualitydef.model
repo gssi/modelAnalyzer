@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<qualitymodel:QualityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:qualitymodel="http://cs.gssi.it/qualitymodel" xmi:id="_1LL9IHKMEeuBc5zGAU8pNg">
+  <qualityattrs xmi:id="_12Q6cHKMEeuBc5zGAU8pNg" name="Complexity">
+    <calculatedBy xmi:id="_Z9btMHKeEeuBc5zGAU8pNg" withoperation="AVG" metrics="_5RbZwHKMEeuBc5zGAU8pNg _LtZFkHSMEeuBc5zGAU8pNg"/>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_AU7zkHKfEeuBc5zGAU8pNg" name="complexity">
+    <calculatedBy xmi:id="_DIfgUHKfEeuBc5zGAU8pNg" withoperation="GET" metrics="_5RbZwHKMEeuBc5zGAU8pNg"/>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Model"/>
+  </qualityattrs>
+  <metrics xmi:id="_5RbZwHKMEeuBc5zGAU8pNg" name="size" metricProvider="size" library="quality.lib.eol"/>
+  <metrics xmi:id="_LtZFkHSMEeuBc5zGAU8pNg" name="nrReferences" metricProvider="nrReferences"/>
+</qualitymodel:QualityModel>

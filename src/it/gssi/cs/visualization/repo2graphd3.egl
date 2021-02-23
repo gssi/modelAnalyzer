@@ -113,11 +113,22 @@ var path = svg.append("svg:g").selectAll("path")
   .enter().append("svg:path")
     .attr("class", function(d) { return "link " + d.relationtype; })
     //.attr("class", "link")
-    
+     .attr("id", (d, i) => "path_" + i)
   .style("stroke-dasharray", ("3, 3"))
  .attr("marker-end", link => link.type === "unidirectional" ? "url(#end)" : 0)
  ;
  
+//TEXTPATH
+svg.append("g").selectAll("text")
+.data(force.links())
+.enter()
+.append("text")
+.append("textPath")
+.attr("xlink:href", (d,i) => "#path_" + i)
+.attr("text-anchor", "middle")
+.attr("startOffset", "50%")
+.text(d => d.relationtype === "Distance" && d.value !== "" ? d.value : null)
+
 
 // define the nodes
 var node = svg.selectAll(".node")

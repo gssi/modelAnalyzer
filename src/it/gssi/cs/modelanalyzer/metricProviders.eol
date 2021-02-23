@@ -1,0 +1,15 @@
+operation ecosystem!Model size() : Real {
+
+	return self.getRealArtifact().allInstances().size();
+}
+
+
+operation ecosystem!Metamodel size() : Real {
+
+	return self.getRealArtifact().getAllOfType("EClass").size();
+}
+
+operation ecosystem!Metamodel nrReferences() : Real {
+
+	return self.getRealArtifact().getAllOfType("EReference").size();
+}

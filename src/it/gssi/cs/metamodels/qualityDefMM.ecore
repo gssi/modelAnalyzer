@@ -32,5 +32,8 @@
     <eLiterals name="SUB" value="2"/>
     <eLiterals name="DIV" value="3"/>
     <eLiterals name="AVG" value="4"/>
+    <eLiterals name="GET" value="5"/>
+    <eLiterals name="MIN" value="6"/>
+    <eLiterals name="MAX" value="7"/>
   </eClassifiers>
 </ecore:EPackage>

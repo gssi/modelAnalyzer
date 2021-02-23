@@ -1,0 +1,35 @@
+@namespace(uri="http://cs.gssi.it/qualityecosystem", prefix="qualityecosystem")
+package QualityEcosystem;
+
+import "http://cs.gssi.it/mdeecosystem";
+import "http://cs.gssi.it/qualitymodel";
+
+class QualityEcosystemDef {
+	val QualityEval[*]#def evaluations;
+	attr String[1] qualityDefModelPath;
+	attr String name;
+	attr String[1] ecosystemModelPath;
+}
+
+class QualityEval {
+	ref QualityModel.QualityAttribute[1] qa;
+	ref MDEEcosystem.Artifact[1] subject;
+	attr Double actualizedvalue;
+	val CalculatedOperation#eval calculatedBy;
+	ref QualityEcosystemDef[1]#evaluations def;
+}
+
+class CalculatedOperation {
+	ref QualityModel.Operation[1] calculatedBy;
+	val CalculatedMetric[*]#owner calculatedMetrics;
+	ref QualityEval#calculatedBy eval;
+	val CalculatedOperation[*] nestedcOps;
+}
+
+class CalculatedMetric {
+	ref QualityModel.Metric[1] metric;
+	ref MDEEcosystem.Artifact[*] parameters;
+	attr Double actualizedvalue;
+	ref CalculatedOperation[1]#calculatedMetrics owner;
+}
+

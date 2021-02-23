@@ -1,19 +1,78 @@
+import "metricProviders.eol";
 
+operation qualitydef!Operation getOp(artifact : ecosystem!Artifact): Real{
 
-operation ecosystem!Model size() : Any {
+var listresult = new OrderedSet<Real>();
 
-	return 0.0;
+	for(metric in self.metrics.metricProvider){
+		listresult.add(artifact.call(metric,Sequence{}));
+	}
+if(self.withoperation.name=='GET'){
+	
+	return listresult.first;
+	
+}else if(self.withoperation.name=='SUM'){
+	
+	return listresult.sum();
+	
+}else if(self.withoperation.name=='SUB'){
+	var result =listresult.first;
+	for (e in listresult.excluding(result.first)) { 
+		result= result-e;
+	} 
+	return result;
+}else if(self.withoperation.name=='PROD'){
+	
+	return listresult.product();
+}else if(self.withoperation.name=='MIN'){
+	
+	return listresult.min();
+}else if(self.withoperation.name=='MAX'){
+	
+	return listresult.max();
+}else if(self.withoperation.name=='DIV'){
+	
+	if(listresult.size()==2){
+	var first: Real  =listresult.first().asReal();
+	var second:  Real =listresult.second().asReal();
+		return	(first/second);
+	}else{
+		return 0.0;
+	}
+}else if(self.withoperation.name=='AVG'){
+	return (listresult.sum()/listresult.size()).asReal();	
+}
 }
 
-
-operation ecosystem!Metamodel size() : Any {
-	return 0.5;
+operation ecosystem!Artifact getRealArtifact(){
+	var repository = System.context.modelRepository.models.excluding(ecosystem).excluding(evaluatedecosystem).excluding(qualitydef);
+	return repository.selectOne(a|a.name=self.name);
 }
 
-operation Any call(op : String, par: Sequence) : Any {
+operation evaluatedecosystem!QualityEcosystemDef evaluate(qualityM:qualitydef!QualityModel ,ecosys: ecosystem!MDEEcosystem ){
+for (a in ecosys.artifacts.select(a|not a.virtual)) { 
+	var aqualityeval = new evaluatedecosystem!QualityEval ();
+	var subject : ecosystem!Artifact()= a;
+	aqualityeval.subject  = subject;
+	var qualityattrs = qualityM.qualityattrs.select(qa|emfTool.ecoreUtil.equals(qa.subject,a.eClass));	
+for (qa in qualityattrs) { 
+	var result =qa.calculatedBy.getOp(a).asReal();
+	aqualityeval.qa = qa;
+	aqualityeval.actualizedvalue = result;
+	("Evaluating: "+a.name+"-->"+qa.name+": "+result).println();
+	evaluatedeecosys.evaluations.add(aqualityeval);
+}
+}
+}
 
-	return System.context.module.
+operation Any call(op : String, par: Sequence) : Real {
+if(System.context.module.
+		operations.exists(o|o.name = op  and ("ecosystem"+"!"+self.eClass.name)=o.getContextType(System.context).name)){
+		return System.context.module.
 		operations.selectOne(o|o.name = op  and ("ecosystem"+"!"+self.eClass.name)=o.getContextType(System.context).name)
 		.execute(self,  par, System.context);
-
+		}else{
+			("Undefined metric provider for operation: "+op).println();
+		return 0;
+		}
 }
