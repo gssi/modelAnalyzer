@@ -6,9 +6,9 @@ import "http://cs.gssi.it/qualitymodel";
 
 class QualityEcosystemDef {
 	val QualityEval[*]#def evaluations;
-	attr String[1] qualityDefModelPath;
+	ref QualityModel.QualityModel[1] qualityModel;
 	attr String name;
-	attr String[1] ecosystemModelPath;
+	ref MDEEcosystem.MDEEcosystem[1] ecosystemModel;
 }
 
 class QualityEval {

@@ -5,11 +5,11 @@
   <eClassifiers xsi:type="ecore:EClass" name="QualityEcosystemDef">
     <eStructuralFeatures xsi:type="ecore:EReference" name="evaluations" upperBound="-1"
         eType="#//QualityEval" containment="true" eOpposite="#//QualityEval/def"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="qualityDefModelPath" lowerBound="1"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qualityModel" lowerBound="1"
+        eType="ecore:EClass http://cs.gssi.it/qualitymodel#//QualityModel"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ecosystemModelPath" lowerBound="1"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ecosystemModel" lowerBound="1"
+        eType="ecore:EClass http://cs.gssi.it/mdeecosystem#//MDEEcosystem"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="QualityEval">
     <eStructuralFeatures xsi:type="ecore:EReference" name="qa" lowerBound="1" eType="ecore:EClass http://cs.gssi.it/qualitymodel#//QualityAttribute"/>

@@ -1,5 +1,5 @@
 rule Repo2Graphviz
-    transform g : MDEEcosystem::MDEEcosystem {
+    transform g : QualityEcosystem::QualityEcosystemDef {
 
     template : "repo2graphd3.egl"
     
@@ -12,27 +12,27 @@ rule Repo2Graphviz
             Map {"id"="relation", "title"="relations", "active"=true}
            
         },
-        "nodes" = g.artifacts,
-        "edges" =g.relations
+        "nodes" = g.ecosystemModel.artifacts,
+        "edges" =g.ecosystemModel.relations
     }
 }
 
 rule Metamodel
  
-	transform n : MDEEcosystem::Metamodel{
+	transform n : QualityEcosystem::QualityEval{
 
 	template : "repo2graphd3.egl"
 
 	parameters : Map{
-		"path" = Sequence{"Repository", n.name},
+		"path" = Sequence{"Repository", n.subject.name},
 		"icon" = "diagram-c0c0c0",
 		"format" = "html",
 		"layers" = Sequence {
 			
 			
 		},
-		"nodes" = n.isConnected(),
-		"edges" = MDEEcosystem::Relation.all.select(e|e.src==n or e.trg==n)
+		"nodes" = n.subject.isConnected(),
+		"edges" = n.def.ecosystemModel.relations.select(e|e.src==n.subject or e.trg==n.subject)
 	}
 	
 }
@@ -44,14 +44,14 @@ rule Model
 	template : "repo2graphd3.egl"
 
 	parameters : Map{
-		"path" = Sequence{"Repository", n.name},
+		"path" = Sequence{"Repository", n.subject.name},
 		"icon" = "diagram-c0c0c0",
 		"format" = "html",
 		"layers" = Sequence {
 			
 			
 		},
-		"nodes" = n.isConnected(),
+		"nodes" = n.subject.isConnected(),
 		"edges" = MDEEcosystem::Relation.all.select(e|e.src==n or e.trg==n)
 	}
 	
