@@ -2,14 +2,14 @@ import "metricProviders.eol";
 
 operation qualitydef!Operation getOp(artifact : ecosystem!Artifact, aqualityeval:evaluatedecosystem!QualityEval): Real{
 
-var listresult = new OrderedSet<Real>();
+var listresult = new Sequence<Real>();
 var calculatedOperation = new CalculatedOperation;
-
 	for(metric in self.metrics){
 	var calculatedMetric = new CalculatedMetric;
 		calculatedMetric.metric = metric;
 		
 		var result = artifact.call(metric.metricProvider,Sequence{});
+		
 		calculatedMetric.actualizedvalue = result.asReal();
 		listresult.add(result);
 		calculatedOperation.calculatedMetrics.add(calculatedMetric);
@@ -40,8 +40,9 @@ if(self.withoperation.name=='GET'){
 }else if(self.withoperation.name=='MAX'){
 	
 	return listresult.max();
-}else if(self.withoperation.name=='DIV'){
 	
+}else if(self.withoperation.name=='DIV'){
+		
 	if(listresult.size()==2){
 	var first: Real  =listresult.first().asReal();
 	var second:  Real =listresult.second().asReal();
@@ -62,12 +63,15 @@ operation ecosystem!Artifact getRealArtifact(){
 operation evaluatedecosystem!QualityEcosystemDef evaluate(qualityM:qualitydef!QualityModel ,ecosys: ecosystem!MDEEcosystem ){
 self.ecosystemModel = ecosys;
 self.qualityModel = qualityM;
+
 for (a in ecosys.artifacts.select(a|not a.virtual)) { 
+	
+	var qualityattrs = qualityM.qualityattrs.select(qa|emfTool.ecoreUtil.equals(qa.subject,a.eClass));	
+	
+for (qa in qualityattrs) { 
 	var aqualityeval = new evaluatedecosystem!QualityEval ();
 	var subject : ecosystem!Artifact()= a;
 	aqualityeval.subject  = subject;
-	var qualityattrs = qualityM.qualityattrs.select(qa|emfTool.ecoreUtil.equals(qa.subject,a.eClass));	
-for (qa in qualityattrs) { 
 	var result =qa.calculatedBy.getOp(a, aqualityeval).asReal();
 	aqualityeval.qa = qa;
 	aqualityeval.actualizedvalue = result;

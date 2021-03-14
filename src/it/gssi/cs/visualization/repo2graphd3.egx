@@ -1,5 +1,10 @@
+import "helper.eol";
+pre{
+var emfTool = new Native("org.eclipse.epsilon.emc.emf.tools.EmfTool");
+}
+
 rule Repo2Graphviz
-    transform g : QualityEcosystem::QualityEcosystemDef {
+    transform qe : QualityEcosystem::QualityEcosystemDef {
 
     template : "repo2graphd3.egl"
     
@@ -8,31 +13,33 @@ rule Repo2Graphviz
         "path" = Sequence{"Repository"},
         "icon" = "diagram-ffffff",
         "format" = "html",
-        "layers" = Sequence {
-            Map {"id"="relation", "title"="relations", "active"=true}
-           
-        },
-        "nodes" = g.ecosystemModel.artifacts,
-        "edges" =g.ecosystemModel.relations
+        "layers" = qe.getMapLayers(),
+        "nodes" = qe.ecosystemModel.artifacts,
+        "evals" = qe.evaluations,
+        "edges" =qe.ecosystemModel.relations
     }
 }
 
 rule Metamodel
  
-	transform n : QualityEcosystem::QualityEval{
+	transform qeval : QualityEcosystem::QualityEval{
 
-	template : "repo2graphd3.egl"
+	template : "selection2graphd3.egl"
 
 	parameters : Map{
-		"path" = Sequence{"Repository", n.subject.name},
+		"path" = Sequence{"Repository", qeval.subject.name},
 		"icon" = "diagram-c0c0c0",
 		"format" = "html",
 		"layers" = Sequence {
 			
 			
 		},
-		"nodes" = n.subject.isConnected(),
-		"edges" = n.def.ecosystemModel.relations.select(e|e.src==n.subject or e.trg==n.subject)
+		"layers" = qeval.def.getMapLayers(),
+        "nodes" =  qeval.getConnected(),
+        "evals" =  qeval.def.evaluations,
+        "edges" = qeval.def.ecosystemModel.relations.select(e|e.src==qeval.subject or e.trg==qeval.subject)
+        
+		
 	}
 	
 }
@@ -41,7 +48,7 @@ rule Model
  
 	transform n : MDEEcosystem::Model{
 
-	template : "repo2graphd3.egl"
+	template : "selection2graphd3.egl"
 
 	parameters : Map{
 		"path" = Sequence{"Repository", n.subject.name},
@@ -51,14 +58,18 @@ rule Model
 			
 			
 		},
-		"nodes" = n.subject.isConnected(),
-		"edges" = MDEEcosystem::Relation.all.select(e|e.src==n or e.trg==n)
+		"layers" = qeval.def.getMapLayers(),
+        "nodes" =  qeval.getConnected(),
+        "evals" =  qeval.def.evaluations,
+        "edges" = qeval.def.ecosystemModel.relations.select(e|e.src==qeval.subject or e.trg==qeval.subject)
+        
+		
 	}
 	
 }
 
-operation MDEEcosystem::Artifact isConnected(){
-var seq=self.asSequence();
-return seq.includingAll(MDEEcosystem::Artifact.all.select(m| MDEEcosystem::Relation.all.forAll(e|(e.src==m or e.trg==m) or (e.src==self) )));
+operation QualityEval getConnected(): Set(Artifact){
+var ecosystem = self.def.ecosystemModel;
+return ecosystem.artifacts.select(a|ecosystem.relations.select(rel| emfTool.EcoreUtil.equals(rel.src,a) or emfTool.EcoreUtil.equals(rel.trg,a)).select(r|emfTool.EcoreUtil.equals(r.src,self.subject) or emfTool.EcoreUtil.equals(r.trg,self.subject)).size()>0);
 }
 

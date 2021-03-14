@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="ASCII"?>
 <distance:DistanceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:distance="http://cs.gssi.it/distancemodel" threshold="70">
+  <measurements left="smach.ecore" right="personsList.model"/>
   <measurements left="smach.ecore" right="persons.model"/>
   <measurements left="smach.ecore" right="log.ecore"/>
   <measurements left="smach.ecore" right="process.ecore"/>
   <measurements left="smach.ecore" right="ETMap.ecore"/>
+  <measurements left="smach.ecore" right="Feature.ecore"/>
+  <measurements left="smach.ecore" right="property.ecore"/>
   <measurements left="smach.ecore" right="wikicontent.ecore"/>
+  <measurements left="smach.ecore" right="Publication.ecore"/>
   <measurements left="smach.ecore" right="ETPhys.ecore"/>
   <measurements left="smach.ecore" right="Room.ecore"/>
   <measurements left="smach.ecore" right="etricegen.ecore"/>
@@ -12,6 +16,7 @@
   <measurements left="smach.ecore" right="My.ecore"/>
   <measurements left="smach.ecore" right="store.ecore" value="4.0"/>
   <measurements left="smach.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="smach.ecore" right="Features.ecore"/>
   <measurements left="smach.ecore" right="fb.model"/>
   <measurements left="smach.ecore" right="DB.ecore"/>
   <measurements left="smach.ecore" right="system.ecore"/>
@@ -23,11 +28,16 @@
   <measurements left="smach.ecore" right="SocialNetwork.ecore"/>
   <measurements left="smach.ecore" right="task.ecore"/>
   <measurements left="smach.ecore" right="derivedModel.ecore"/>
+  <measurements left="smach.ecore" right="SqlDSL.ecore"/>
   <measurements left="log.ecore" right="smach.ecore"/>
+  <measurements left="log.ecore" right="personsList.model"/>
   <measurements left="log.ecore" right="persons.model"/>
   <measurements left="log.ecore" right="process.ecore"/>
   <measurements left="log.ecore" right="ETMap.ecore"/>
+  <measurements left="log.ecore" right="Feature.ecore"/>
+  <measurements left="log.ecore" right="property.ecore"/>
   <measurements left="log.ecore" right="wikicontent.ecore"/>
+  <measurements left="log.ecore" right="Publication.ecore"/>
   <measurements left="log.ecore" right="ETPhys.ecore"/>
   <measurements left="log.ecore" right="Room.ecore"/>
   <measurements left="log.ecore" right="etricegen.ecore"/>
@@ -35,6 +45,7 @@
   <measurements left="log.ecore" right="My.ecore"/>
   <measurements left="log.ecore" right="store.ecore" value="4.0"/>
   <measurements left="log.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="log.ecore" right="Features.ecore"/>
   <measurements left="log.ecore" right="fb.model"/>
   <measurements left="log.ecore" right="DB.ecore"/>
   <measurements left="log.ecore" right="system.ecore"/>
@@ -46,34 +57,45 @@
   <measurements left="log.ecore" right="SocialNetwork.ecore"/>
   <measurements left="log.ecore" right="task.ecore"/>
   <measurements left="log.ecore" right="derivedModel.ecore"/>
+  <measurements left="log.ecore" right="SqlDSL.ecore"/>
   <measurements left="process.ecore" right="smach.ecore"/>
+  <measurements left="process.ecore" right="personsList.model"/>
   <measurements left="process.ecore" right="persons.model"/>
   <measurements left="process.ecore" right="log.ecore"/>
   <measurements left="process.ecore" right="ETMap.ecore"/>
+  <measurements left="process.ecore" right="Feature.ecore"/>
+  <measurements left="process.ecore" right="property.ecore"/>
   <measurements left="process.ecore" right="wikicontent.ecore"/>
+  <measurements left="process.ecore" right="Publication.ecore"/>
   <measurements left="process.ecore" right="ETPhys.ecore"/>
   <measurements left="process.ecore" right="Room.ecore"/>
   <measurements left="process.ecore" right="etricegen.ecore"/>
   <measurements left="process.ecore" right="customer.ecore"/>
-  <measurements left="process.ecore" right="My.ecore" value="5.0"/>
+  <measurements left="process.ecore" right="My.ecore" value="10.0"/>
   <measurements left="process.ecore" right="store.ecore"/>
   <measurements left="process.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="process.ecore" right="Features.ecore"/>
   <measurements left="process.ecore" right="fb.model"/>
   <measurements left="process.ecore" right="DB.ecore"/>
-  <measurements left="process.ecore" right="system.ecore" value="10.0"/>
+  <measurements left="process.ecore" right="system.ecore"/>
   <measurements left="process.ecore" right="PersonList.ecore"/>
   <measurements left="process.ecore" right="Petrinetv1.ecore"/>
   <measurements left="process.ecore" right="ros.ecore"/>
   <measurements left="process.ecore" right="Petrinetv3.ecore"/>
   <measurements left="process.ecore" right="workbench.ecore"/>
   <measurements left="process.ecore" right="SocialNetwork.ecore"/>
-  <measurements left="process.ecore" right="task.ecore" value="5.0"/>
+  <measurements left="process.ecore" right="task.ecore" value="10.0"/>
   <measurements left="process.ecore" right="derivedModel.ecore"/>
+  <measurements left="process.ecore" right="SqlDSL.ecore"/>
   <measurements left="ETMap.ecore" right="smach.ecore"/>
+  <measurements left="ETMap.ecore" right="personsList.model"/>
   <measurements left="ETMap.ecore" right="persons.model"/>
   <measurements left="ETMap.ecore" right="log.ecore"/>
   <measurements left="ETMap.ecore" right="process.ecore"/>
+  <measurements left="ETMap.ecore" right="Feature.ecore"/>
+  <measurements left="ETMap.ecore" right="property.ecore"/>
   <measurements left="ETMap.ecore" right="wikicontent.ecore"/>
+  <measurements left="ETMap.ecore" right="Publication.ecore"/>
   <measurements left="ETMap.ecore" right="ETPhys.ecore" value="17.0"/>
   <measurements left="ETMap.ecore" right="Room.ecore" value="17.0"/>
   <measurements left="ETMap.ecore" right="etricegen.ecore"/>
@@ -81,6 +103,7 @@
   <measurements left="ETMap.ecore" right="My.ecore"/>
   <measurements left="ETMap.ecore" right="store.ecore"/>
   <measurements left="ETMap.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="ETMap.ecore" right="Features.ecore"/>
   <measurements left="ETMap.ecore" right="fb.model"/>
   <measurements left="ETMap.ecore" right="DB.ecore"/>
   <measurements left="ETMap.ecore" right="system.ecore"/>
@@ -92,11 +115,74 @@
   <measurements left="ETMap.ecore" right="SocialNetwork.ecore"/>
   <measurements left="ETMap.ecore" right="task.ecore"/>
   <measurements left="ETMap.ecore" right="derivedModel.ecore"/>
+  <measurements left="ETMap.ecore" right="SqlDSL.ecore"/>
+  <measurements left="Feature.ecore" right="smach.ecore"/>
+  <measurements left="Feature.ecore" right="personsList.model"/>
+  <measurements left="Feature.ecore" right="persons.model"/>
+  <measurements left="Feature.ecore" right="log.ecore"/>
+  <measurements left="Feature.ecore" right="process.ecore"/>
+  <measurements left="Feature.ecore" right="ETMap.ecore"/>
+  <measurements left="Feature.ecore" right="property.ecore" value="7.0"/>
+  <measurements left="Feature.ecore" right="wikicontent.ecore"/>
+  <measurements left="Feature.ecore" right="Publication.ecore"/>
+  <measurements left="Feature.ecore" right="ETPhys.ecore"/>
+  <measurements left="Feature.ecore" right="Room.ecore"/>
+  <measurements left="Feature.ecore" right="etricegen.ecore"/>
+  <measurements left="Feature.ecore" right="customer.ecore"/>
+  <measurements left="Feature.ecore" right="My.ecore"/>
+  <measurements left="Feature.ecore" right="store.ecore"/>
+  <measurements left="Feature.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="Feature.ecore" right="Features.ecore" value="12.0"/>
+  <measurements left="Feature.ecore" right="fb.model"/>
+  <measurements left="Feature.ecore" right="DB.ecore"/>
+  <measurements left="Feature.ecore" right="system.ecore"/>
+  <measurements left="Feature.ecore" right="PersonList.ecore"/>
+  <measurements left="Feature.ecore" right="Petrinetv1.ecore"/>
+  <measurements left="Feature.ecore" right="ros.ecore"/>
+  <measurements left="Feature.ecore" right="Petrinetv3.ecore"/>
+  <measurements left="Feature.ecore" right="workbench.ecore"/>
+  <measurements left="Feature.ecore" right="SocialNetwork.ecore"/>
+  <measurements left="Feature.ecore" right="task.ecore"/>
+  <measurements left="Feature.ecore" right="derivedModel.ecore"/>
+  <measurements left="Feature.ecore" right="SqlDSL.ecore"/>
+  <measurements left="property.ecore" right="smach.ecore"/>
+  <measurements left="property.ecore" right="personsList.model"/>
+  <measurements left="property.ecore" right="persons.model"/>
+  <measurements left="property.ecore" right="log.ecore"/>
+  <measurements left="property.ecore" right="process.ecore"/>
+  <measurements left="property.ecore" right="ETMap.ecore"/>
+  <measurements left="property.ecore" right="Feature.ecore" value="1.0"/>
+  <measurements left="property.ecore" right="wikicontent.ecore"/>
+  <measurements left="property.ecore" right="Publication.ecore" value="17.0"/>
+  <measurements left="property.ecore" right="ETPhys.ecore"/>
+  <measurements left="property.ecore" right="Room.ecore" value="2.0"/>
+  <measurements left="property.ecore" right="etricegen.ecore"/>
+  <measurements left="property.ecore" right="customer.ecore"/>
+  <measurements left="property.ecore" right="My.ecore"/>
+  <measurements left="property.ecore" right="store.ecore"/>
+  <measurements left="property.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="property.ecore" right="Features.ecore" value="2.0"/>
+  <measurements left="property.ecore" right="fb.model"/>
+  <measurements left="property.ecore" right="DB.ecore"/>
+  <measurements left="property.ecore" right="system.ecore"/>
+  <measurements left="property.ecore" right="PersonList.ecore"/>
+  <measurements left="property.ecore" right="Petrinetv1.ecore"/>
+  <measurements left="property.ecore" right="ros.ecore"/>
+  <measurements left="property.ecore" right="Petrinetv3.ecore"/>
+  <measurements left="property.ecore" right="workbench.ecore"/>
+  <measurements left="property.ecore" right="SocialNetwork.ecore"/>
+  <measurements left="property.ecore" right="task.ecore" value="2.0"/>
+  <measurements left="property.ecore" right="derivedModel.ecore"/>
+  <measurements left="property.ecore" right="SqlDSL.ecore"/>
   <measurements left="wikicontent.ecore" right="smach.ecore"/>
+  <measurements left="wikicontent.ecore" right="personsList.model"/>
   <measurements left="wikicontent.ecore" right="persons.model"/>
   <measurements left="wikicontent.ecore" right="log.ecore"/>
   <measurements left="wikicontent.ecore" right="process.ecore"/>
   <measurements left="wikicontent.ecore" right="ETMap.ecore"/>
+  <measurements left="wikicontent.ecore" right="Feature.ecore"/>
+  <measurements left="wikicontent.ecore" right="property.ecore"/>
+  <measurements left="wikicontent.ecore" right="Publication.ecore"/>
   <measurements left="wikicontent.ecore" right="ETPhys.ecore"/>
   <measurements left="wikicontent.ecore" right="Room.ecore"/>
   <measurements left="wikicontent.ecore" right="etricegen.ecore"/>
@@ -104,6 +190,7 @@
   <measurements left="wikicontent.ecore" right="My.ecore"/>
   <measurements left="wikicontent.ecore" right="store.ecore"/>
   <measurements left="wikicontent.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="wikicontent.ecore" right="Features.ecore"/>
   <measurements left="wikicontent.ecore" right="fb.model"/>
   <measurements left="wikicontent.ecore" right="DB.ecore"/>
   <measurements left="wikicontent.ecore" right="system.ecore"/>
@@ -115,18 +202,53 @@
   <measurements left="wikicontent.ecore" right="SocialNetwork.ecore"/>
   <measurements left="wikicontent.ecore" right="task.ecore" value="8.0"/>
   <measurements left="wikicontent.ecore" right="derivedModel.ecore"/>
+  <measurements left="wikicontent.ecore" right="SqlDSL.ecore"/>
+  <measurements left="Publication.ecore" right="smach.ecore"/>
+  <measurements left="Publication.ecore" right="personsList.model"/>
+  <measurements left="Publication.ecore" right="persons.model"/>
+  <measurements left="Publication.ecore" right="log.ecore"/>
+  <measurements left="Publication.ecore" right="process.ecore"/>
+  <measurements left="Publication.ecore" right="ETMap.ecore"/>
+  <measurements left="Publication.ecore" right="Feature.ecore"/>
+  <measurements left="Publication.ecore" right="property.ecore" value="21.0"/>
+  <measurements left="Publication.ecore" right="wikicontent.ecore"/>
+  <measurements left="Publication.ecore" right="ETPhys.ecore"/>
+  <measurements left="Publication.ecore" right="Room.ecore" value="2.0"/>
+  <measurements left="Publication.ecore" right="etricegen.ecore"/>
+  <measurements left="Publication.ecore" right="customer.ecore"/>
+  <measurements left="Publication.ecore" right="My.ecore"/>
+  <measurements left="Publication.ecore" right="store.ecore"/>
+  <measurements left="Publication.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="Publication.ecore" right="Features.ecore"/>
+  <measurements left="Publication.ecore" right="fb.model"/>
+  <measurements left="Publication.ecore" right="DB.ecore"/>
+  <measurements left="Publication.ecore" right="system.ecore"/>
+  <measurements left="Publication.ecore" right="PersonList.ecore"/>
+  <measurements left="Publication.ecore" right="Petrinetv1.ecore"/>
+  <measurements left="Publication.ecore" right="ros.ecore"/>
+  <measurements left="Publication.ecore" right="Petrinetv3.ecore"/>
+  <measurements left="Publication.ecore" right="workbench.ecore"/>
+  <measurements left="Publication.ecore" right="SocialNetwork.ecore"/>
+  <measurements left="Publication.ecore" right="task.ecore" value="2.0"/>
+  <measurements left="Publication.ecore" right="derivedModel.ecore"/>
+  <measurements left="Publication.ecore" right="SqlDSL.ecore"/>
   <measurements left="ETPhys.ecore" right="smach.ecore"/>
+  <measurements left="ETPhys.ecore" right="personsList.model"/>
   <measurements left="ETPhys.ecore" right="persons.model"/>
   <measurements left="ETPhys.ecore" right="log.ecore"/>
   <measurements left="ETPhys.ecore" right="process.ecore"/>
   <measurements left="ETPhys.ecore" right="ETMap.ecore" value="9.0"/>
+  <measurements left="ETPhys.ecore" right="Feature.ecore"/>
+  <measurements left="ETPhys.ecore" right="property.ecore"/>
   <measurements left="ETPhys.ecore" right="wikicontent.ecore"/>
+  <measurements left="ETPhys.ecore" right="Publication.ecore"/>
   <measurements left="ETPhys.ecore" right="Room.ecore" value="33.0"/>
   <measurements left="ETPhys.ecore" right="etricegen.ecore"/>
   <measurements left="ETPhys.ecore" right="customer.ecore"/>
   <measurements left="ETPhys.ecore" right="My.ecore"/>
   <measurements left="ETPhys.ecore" right="store.ecore"/>
   <measurements left="ETPhys.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="ETPhys.ecore" right="Features.ecore"/>
   <measurements left="ETPhys.ecore" right="fb.model"/>
   <measurements left="ETPhys.ecore" right="DB.ecore"/>
   <measurements left="ETPhys.ecore" right="system.ecore"/>
@@ -138,18 +260,24 @@
   <measurements left="ETPhys.ecore" right="SocialNetwork.ecore"/>
   <measurements left="ETPhys.ecore" right="task.ecore"/>
   <measurements left="ETPhys.ecore" right="derivedModel.ecore"/>
+  <measurements left="ETPhys.ecore" right="SqlDSL.ecore"/>
   <measurements left="Room.ecore" right="smach.ecore"/>
+  <measurements left="Room.ecore" right="personsList.model"/>
   <measurements left="Room.ecore" right="persons.model"/>
   <measurements left="Room.ecore" right="log.ecore"/>
   <measurements left="Room.ecore" right="process.ecore"/>
   <measurements left="Room.ecore" right="ETMap.ecore" value="1.0"/>
+  <measurements left="Room.ecore" right="Feature.ecore"/>
+  <measurements left="Room.ecore" right="property.ecore"/>
   <measurements left="Room.ecore" right="wikicontent.ecore"/>
+  <measurements left="Room.ecore" right="Publication.ecore"/>
   <measurements left="Room.ecore" right="ETPhys.ecore" value="3.0"/>
   <measurements left="Room.ecore" right="etricegen.ecore" value="1.0"/>
   <measurements left="Room.ecore" right="customer.ecore"/>
   <measurements left="Room.ecore" right="My.ecore"/>
   <measurements left="Room.ecore" right="store.ecore"/>
   <measurements left="Room.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="Room.ecore" right="Features.ecore"/>
   <measurements left="Room.ecore" right="fb.model"/>
   <measurements left="Room.ecore" right="DB.ecore"/>
   <measurements left="Room.ecore" right="system.ecore"/>
@@ -161,18 +289,24 @@
   <measurements left="Room.ecore" right="SocialNetwork.ecore"/>
   <measurements left="Room.ecore" right="task.ecore"/>
   <measurements left="Room.ecore" right="derivedModel.ecore"/>
+  <measurements left="Room.ecore" right="SqlDSL.ecore"/>
   <measurements left="etricegen.ecore" right="smach.ecore"/>
+  <measurements left="etricegen.ecore" right="personsList.model"/>
   <measurements left="etricegen.ecore" right="persons.model"/>
   <measurements left="etricegen.ecore" right="log.ecore"/>
   <measurements left="etricegen.ecore" right="process.ecore"/>
   <measurements left="etricegen.ecore" right="ETMap.ecore"/>
+  <measurements left="etricegen.ecore" right="Feature.ecore"/>
+  <measurements left="etricegen.ecore" right="property.ecore"/>
   <measurements left="etricegen.ecore" right="wikicontent.ecore"/>
+  <measurements left="etricegen.ecore" right="Publication.ecore"/>
   <measurements left="etricegen.ecore" right="ETPhys.ecore"/>
   <measurements left="etricegen.ecore" right="Room.ecore" value="5.0"/>
   <measurements left="etricegen.ecore" right="customer.ecore"/>
   <measurements left="etricegen.ecore" right="My.ecore"/>
   <measurements left="etricegen.ecore" right="store.ecore"/>
   <measurements left="etricegen.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="etricegen.ecore" right="Features.ecore"/>
   <measurements left="etricegen.ecore" right="fb.model"/>
   <measurements left="etricegen.ecore" right="DB.ecore"/>
   <measurements left="etricegen.ecore" right="system.ecore"/>
@@ -184,18 +318,24 @@
   <measurements left="etricegen.ecore" right="SocialNetwork.ecore"/>
   <measurements left="etricegen.ecore" right="task.ecore"/>
   <measurements left="etricegen.ecore" right="derivedModel.ecore"/>
+  <measurements left="etricegen.ecore" right="SqlDSL.ecore"/>
   <measurements left="customer.ecore" right="smach.ecore"/>
+  <measurements left="customer.ecore" right="personsList.model"/>
   <measurements left="customer.ecore" right="persons.model"/>
   <measurements left="customer.ecore" right="log.ecore"/>
   <measurements left="customer.ecore" right="process.ecore"/>
   <measurements left="customer.ecore" right="ETMap.ecore"/>
+  <measurements left="customer.ecore" right="Feature.ecore"/>
+  <measurements left="customer.ecore" right="property.ecore"/>
   <measurements left="customer.ecore" right="wikicontent.ecore"/>
+  <measurements left="customer.ecore" right="Publication.ecore"/>
   <measurements left="customer.ecore" right="ETPhys.ecore"/>
   <measurements left="customer.ecore" right="Room.ecore"/>
   <measurements left="customer.ecore" right="etricegen.ecore"/>
   <measurements left="customer.ecore" right="My.ecore"/>
   <measurements left="customer.ecore" right="store.ecore"/>
   <measurements left="customer.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="customer.ecore" right="Features.ecore"/>
   <measurements left="customer.ecore" right="fb.model"/>
   <measurements left="customer.ecore" right="DB.ecore" value="31.0"/>
   <measurements left="customer.ecore" right="system.ecore"/>
@@ -207,18 +347,24 @@
   <measurements left="customer.ecore" right="SocialNetwork.ecore"/>
   <measurements left="customer.ecore" right="task.ecore"/>
   <measurements left="customer.ecore" right="derivedModel.ecore"/>
+  <measurements left="customer.ecore" right="SqlDSL.ecore"/>
   <measurements left="My.ecore" right="smach.ecore"/>
+  <measurements left="My.ecore" right="personsList.model"/>
   <measurements left="My.ecore" right="persons.model"/>
   <measurements left="My.ecore" right="log.ecore"/>
   <measurements left="My.ecore" right="process.ecore" value="6.0"/>
   <measurements left="My.ecore" right="ETMap.ecore"/>
+  <measurements left="My.ecore" right="Feature.ecore"/>
+  <measurements left="My.ecore" right="property.ecore"/>
   <measurements left="My.ecore" right="wikicontent.ecore"/>
+  <measurements left="My.ecore" right="Publication.ecore"/>
   <measurements left="My.ecore" right="ETPhys.ecore"/>
   <measurements left="My.ecore" right="Room.ecore"/>
   <measurements left="My.ecore" right="etricegen.ecore"/>
   <measurements left="My.ecore" right="customer.ecore"/>
   <measurements left="My.ecore" right="store.ecore" value="13.0"/>
   <measurements left="My.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="My.ecore" right="Features.ecore"/>
   <measurements left="My.ecore" right="fb.model"/>
   <measurements left="My.ecore" right="DB.ecore"/>
   <measurements left="My.ecore" right="system.ecore" value="6.0"/>
@@ -230,18 +376,24 @@
   <measurements left="My.ecore" right="SocialNetwork.ecore"/>
   <measurements left="My.ecore" right="task.ecore" value="18.0"/>
   <measurements left="My.ecore" right="derivedModel.ecore"/>
+  <measurements left="My.ecore" right="SqlDSL.ecore"/>
   <measurements left="store.ecore" right="smach.ecore"/>
+  <measurements left="store.ecore" right="personsList.model"/>
   <measurements left="store.ecore" right="persons.model"/>
   <measurements left="store.ecore" right="log.ecore" value="1.0"/>
   <measurements left="store.ecore" right="process.ecore"/>
   <measurements left="store.ecore" right="ETMap.ecore"/>
+  <measurements left="store.ecore" right="Feature.ecore"/>
+  <measurements left="store.ecore" right="property.ecore"/>
   <measurements left="store.ecore" right="wikicontent.ecore"/>
+  <measurements left="store.ecore" right="Publication.ecore"/>
   <measurements left="store.ecore" right="ETPhys.ecore"/>
   <measurements left="store.ecore" right="Room.ecore"/>
   <measurements left="store.ecore" right="etricegen.ecore"/>
   <measurements left="store.ecore" right="customer.ecore"/>
   <measurements left="store.ecore" right="My.ecore" value="1.0"/>
   <measurements left="store.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="store.ecore" right="Features.ecore"/>
   <measurements left="store.ecore" right="fb.model"/>
   <measurements left="store.ecore" right="DB.ecore"/>
   <measurements left="store.ecore" right="system.ecore"/>
@@ -253,18 +405,24 @@
   <measurements left="store.ecore" right="SocialNetwork.ecore"/>
   <measurements left="store.ecore" right="task.ecore"/>
   <measurements left="store.ecore" right="derivedModel.ecore"/>
+  <measurements left="store.ecore" right="SqlDSL.ecore"/>
   <measurements left="Petrinetv2.ecore" right="smach.ecore"/>
+  <measurements left="Petrinetv2.ecore" right="personsList.model"/>
   <measurements left="Petrinetv2.ecore" right="persons.model"/>
   <measurements left="Petrinetv2.ecore" right="log.ecore"/>
   <measurements left="Petrinetv2.ecore" right="process.ecore"/>
   <measurements left="Petrinetv2.ecore" right="ETMap.ecore"/>
+  <measurements left="Petrinetv2.ecore" right="Feature.ecore"/>
+  <measurements left="Petrinetv2.ecore" right="property.ecore"/>
   <measurements left="Petrinetv2.ecore" right="wikicontent.ecore"/>
+  <measurements left="Petrinetv2.ecore" right="Publication.ecore"/>
   <measurements left="Petrinetv2.ecore" right="ETPhys.ecore"/>
   <measurements left="Petrinetv2.ecore" right="Room.ecore" value="18.0"/>
   <measurements left="Petrinetv2.ecore" right="etricegen.ecore"/>
   <measurements left="Petrinetv2.ecore" right="customer.ecore"/>
   <measurements left="Petrinetv2.ecore" right="My.ecore"/>
   <measurements left="Petrinetv2.ecore" right="store.ecore"/>
+  <measurements left="Petrinetv2.ecore" right="Features.ecore"/>
   <measurements left="Petrinetv2.ecore" right="fb.model"/>
   <measurements left="Petrinetv2.ecore" right="DB.ecore"/>
   <measurements left="Petrinetv2.ecore" right="system.ecore"/>
@@ -276,12 +434,46 @@
   <measurements left="Petrinetv2.ecore" right="SocialNetwork.ecore"/>
   <measurements left="Petrinetv2.ecore" right="task.ecore"/>
   <measurements left="Petrinetv2.ecore" right="derivedModel.ecore"/>
+  <measurements left="Petrinetv2.ecore" right="SqlDSL.ecore"/>
+  <measurements left="Features.ecore" right="smach.ecore"/>
+  <measurements left="Features.ecore" right="personsList.model"/>
+  <measurements left="Features.ecore" right="persons.model"/>
+  <measurements left="Features.ecore" right="log.ecore"/>
+  <measurements left="Features.ecore" right="process.ecore"/>
+  <measurements left="Features.ecore" right="ETMap.ecore"/>
+  <measurements left="Features.ecore" right="Feature.ecore" value="25.0"/>
+  <measurements left="Features.ecore" right="property.ecore" value="25.0"/>
+  <measurements left="Features.ecore" right="wikicontent.ecore"/>
+  <measurements left="Features.ecore" right="Publication.ecore"/>
+  <measurements left="Features.ecore" right="ETPhys.ecore"/>
+  <measurements left="Features.ecore" right="Room.ecore"/>
+  <measurements left="Features.ecore" right="etricegen.ecore"/>
+  <measurements left="Features.ecore" right="customer.ecore"/>
+  <measurements left="Features.ecore" right="My.ecore"/>
+  <measurements left="Features.ecore" right="store.ecore"/>
+  <measurements left="Features.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="Features.ecore" right="fb.model"/>
+  <measurements left="Features.ecore" right="DB.ecore"/>
+  <measurements left="Features.ecore" right="system.ecore"/>
+  <measurements left="Features.ecore" right="PersonList.ecore"/>
+  <measurements left="Features.ecore" right="Petrinetv1.ecore"/>
+  <measurements left="Features.ecore" right="ros.ecore"/>
+  <measurements left="Features.ecore" right="Petrinetv3.ecore"/>
+  <measurements left="Features.ecore" right="workbench.ecore"/>
+  <measurements left="Features.ecore" right="SocialNetwork.ecore"/>
+  <measurements left="Features.ecore" right="task.ecore"/>
+  <measurements left="Features.ecore" right="derivedModel.ecore"/>
+  <measurements left="Features.ecore" right="SqlDSL.ecore" value="25.0"/>
   <measurements left="DB.ecore" right="smach.ecore"/>
+  <measurements left="DB.ecore" right="personsList.model"/>
   <measurements left="DB.ecore" right="persons.model"/>
   <measurements left="DB.ecore" right="log.ecore"/>
   <measurements left="DB.ecore" right="process.ecore"/>
   <measurements left="DB.ecore" right="ETMap.ecore"/>
+  <measurements left="DB.ecore" right="Feature.ecore"/>
+  <measurements left="DB.ecore" right="property.ecore"/>
   <measurements left="DB.ecore" right="wikicontent.ecore"/>
+  <measurements left="DB.ecore" right="Publication.ecore"/>
   <measurements left="DB.ecore" right="ETPhys.ecore"/>
   <measurements left="DB.ecore" right="Room.ecore"/>
   <measurements left="DB.ecore" right="etricegen.ecore"/>
@@ -289,6 +481,7 @@
   <measurements left="DB.ecore" right="My.ecore"/>
   <measurements left="DB.ecore" right="store.ecore"/>
   <measurements left="DB.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="DB.ecore" right="Features.ecore"/>
   <measurements left="DB.ecore" right="fb.model"/>
   <measurements left="DB.ecore" right="system.ecore"/>
   <measurements left="DB.ecore" right="PersonList.ecore"/>
@@ -299,12 +492,17 @@
   <measurements left="DB.ecore" right="SocialNetwork.ecore"/>
   <measurements left="DB.ecore" right="task.ecore"/>
   <measurements left="DB.ecore" right="derivedModel.ecore"/>
+  <measurements left="DB.ecore" right="SqlDSL.ecore"/>
   <measurements left="system.ecore" right="smach.ecore"/>
+  <measurements left="system.ecore" right="personsList.model"/>
   <measurements left="system.ecore" right="persons.model"/>
   <measurements left="system.ecore" right="log.ecore"/>
   <measurements left="system.ecore" right="process.ecore" value="10.0"/>
   <measurements left="system.ecore" right="ETMap.ecore"/>
+  <measurements left="system.ecore" right="Feature.ecore"/>
+  <measurements left="system.ecore" right="property.ecore"/>
   <measurements left="system.ecore" right="wikicontent.ecore"/>
+  <measurements left="system.ecore" right="Publication.ecore"/>
   <measurements left="system.ecore" right="ETPhys.ecore"/>
   <measurements left="system.ecore" right="Room.ecore"/>
   <measurements left="system.ecore" right="etricegen.ecore"/>
@@ -312,6 +510,7 @@
   <measurements left="system.ecore" right="My.ecore" value="5.0"/>
   <measurements left="system.ecore" right="store.ecore"/>
   <measurements left="system.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="system.ecore" right="Features.ecore"/>
   <measurements left="system.ecore" right="fb.model"/>
   <measurements left="system.ecore" right="DB.ecore"/>
   <measurements left="system.ecore" right="PersonList.ecore"/>
@@ -322,12 +521,17 @@
   <measurements left="system.ecore" right="SocialNetwork.ecore"/>
   <measurements left="system.ecore" right="task.ecore" value="5.0"/>
   <measurements left="system.ecore" right="derivedModel.ecore"/>
+  <measurements left="system.ecore" right="SqlDSL.ecore"/>
   <measurements left="PersonList.ecore" right="smach.ecore"/>
+  <measurements left="PersonList.ecore" right="personsList.model"/>
   <measurements left="PersonList.ecore" right="persons.model"/>
   <measurements left="PersonList.ecore" right="log.ecore"/>
   <measurements left="PersonList.ecore" right="process.ecore"/>
   <measurements left="PersonList.ecore" right="ETMap.ecore"/>
+  <measurements left="PersonList.ecore" right="Feature.ecore"/>
+  <measurements left="PersonList.ecore" right="property.ecore"/>
   <measurements left="PersonList.ecore" right="wikicontent.ecore"/>
+  <measurements left="PersonList.ecore" right="Publication.ecore"/>
   <measurements left="PersonList.ecore" right="ETPhys.ecore"/>
   <measurements left="PersonList.ecore" right="Room.ecore"/>
   <measurements left="PersonList.ecore" right="etricegen.ecore"/>
@@ -335,6 +539,7 @@
   <measurements left="PersonList.ecore" right="My.ecore"/>
   <measurements left="PersonList.ecore" right="store.ecore" value="16.0"/>
   <measurements left="PersonList.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="PersonList.ecore" right="Features.ecore"/>
   <measurements left="PersonList.ecore" right="fb.model"/>
   <measurements left="PersonList.ecore" right="DB.ecore"/>
   <measurements left="PersonList.ecore" right="system.ecore"/>
@@ -345,12 +550,17 @@
   <measurements left="PersonList.ecore" right="SocialNetwork.ecore"/>
   <measurements left="PersonList.ecore" right="task.ecore"/>
   <measurements left="PersonList.ecore" right="derivedModel.ecore"/>
+  <measurements left="PersonList.ecore" right="SqlDSL.ecore"/>
   <measurements left="Petrinetv1.ecore" right="smach.ecore"/>
+  <measurements left="Petrinetv1.ecore" right="personsList.model"/>
   <measurements left="Petrinetv1.ecore" right="persons.model"/>
   <measurements left="Petrinetv1.ecore" right="log.ecore"/>
   <measurements left="Petrinetv1.ecore" right="process.ecore"/>
   <measurements left="Petrinetv1.ecore" right="ETMap.ecore"/>
+  <measurements left="Petrinetv1.ecore" right="Feature.ecore"/>
+  <measurements left="Petrinetv1.ecore" right="property.ecore"/>
   <measurements left="Petrinetv1.ecore" right="wikicontent.ecore"/>
+  <measurements left="Petrinetv1.ecore" right="Publication.ecore"/>
   <measurements left="Petrinetv1.ecore" right="ETPhys.ecore"/>
   <measurements left="Petrinetv1.ecore" right="Room.ecore" value="22.0"/>
   <measurements left="Petrinetv1.ecore" right="etricegen.ecore"/>
@@ -358,6 +568,7 @@
   <measurements left="Petrinetv1.ecore" right="My.ecore"/>
   <measurements left="Petrinetv1.ecore" right="store.ecore"/>
   <measurements left="Petrinetv1.ecore" right="Petrinetv2.ecore" value="87.0"/>
+  <measurements left="Petrinetv1.ecore" right="Features.ecore"/>
   <measurements left="Petrinetv1.ecore" right="fb.model"/>
   <measurements left="Petrinetv1.ecore" right="DB.ecore"/>
   <measurements left="Petrinetv1.ecore" right="system.ecore"/>
@@ -368,12 +579,17 @@
   <measurements left="Petrinetv1.ecore" right="SocialNetwork.ecore"/>
   <measurements left="Petrinetv1.ecore" right="task.ecore"/>
   <measurements left="Petrinetv1.ecore" right="derivedModel.ecore"/>
+  <measurements left="Petrinetv1.ecore" right="SqlDSL.ecore"/>
   <measurements left="ros.ecore" right="smach.ecore" value="31.0"/>
+  <measurements left="ros.ecore" right="personsList.model"/>
   <measurements left="ros.ecore" right="persons.model"/>
   <measurements left="ros.ecore" right="log.ecore"/>
   <measurements left="ros.ecore" right="process.ecore"/>
   <measurements left="ros.ecore" right="ETMap.ecore"/>
+  <measurements left="ros.ecore" right="Feature.ecore"/>
+  <measurements left="ros.ecore" right="property.ecore"/>
   <measurements left="ros.ecore" right="wikicontent.ecore"/>
+  <measurements left="ros.ecore" right="Publication.ecore"/>
   <measurements left="ros.ecore" right="ETPhys.ecore"/>
   <measurements left="ros.ecore" right="Room.ecore"/>
   <measurements left="ros.ecore" right="etricegen.ecore"/>
@@ -381,6 +597,7 @@
   <measurements left="ros.ecore" right="My.ecore"/>
   <measurements left="ros.ecore" right="store.ecore" value="4.0"/>
   <measurements left="ros.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="ros.ecore" right="Features.ecore"/>
   <measurements left="ros.ecore" right="fb.model"/>
   <measurements left="ros.ecore" right="DB.ecore"/>
   <measurements left="ros.ecore" right="system.ecore"/>
@@ -391,12 +608,17 @@
   <measurements left="ros.ecore" right="SocialNetwork.ecore"/>
   <measurements left="ros.ecore" right="task.ecore"/>
   <measurements left="ros.ecore" right="derivedModel.ecore"/>
+  <measurements left="ros.ecore" right="SqlDSL.ecore"/>
   <measurements left="Petrinetv3.ecore" right="smach.ecore"/>
+  <measurements left="Petrinetv3.ecore" right="personsList.model"/>
   <measurements left="Petrinetv3.ecore" right="persons.model"/>
   <measurements left="Petrinetv3.ecore" right="log.ecore"/>
   <measurements left="Petrinetv3.ecore" right="process.ecore"/>
   <measurements left="Petrinetv3.ecore" right="ETMap.ecore"/>
+  <measurements left="Petrinetv3.ecore" right="Feature.ecore"/>
+  <measurements left="Petrinetv3.ecore" right="property.ecore"/>
   <measurements left="Petrinetv3.ecore" right="wikicontent.ecore"/>
+  <measurements left="Petrinetv3.ecore" right="Publication.ecore"/>
   <measurements left="Petrinetv3.ecore" right="ETPhys.ecore"/>
   <measurements left="Petrinetv3.ecore" right="Room.ecore" value="16.0"/>
   <measurements left="Petrinetv3.ecore" right="etricegen.ecore"/>
@@ -404,6 +626,7 @@
   <measurements left="Petrinetv3.ecore" right="My.ecore"/>
   <measurements left="Petrinetv3.ecore" right="store.ecore"/>
   <measurements left="Petrinetv3.ecore" right="Petrinetv2.ecore" value="83.0"/>
+  <measurements left="Petrinetv3.ecore" right="Features.ecore"/>
   <measurements left="Petrinetv3.ecore" right="fb.model"/>
   <measurements left="Petrinetv3.ecore" right="DB.ecore"/>
   <measurements left="Petrinetv3.ecore" right="system.ecore"/>
@@ -414,12 +637,17 @@
   <measurements left="Petrinetv3.ecore" right="SocialNetwork.ecore"/>
   <measurements left="Petrinetv3.ecore" right="task.ecore"/>
   <measurements left="Petrinetv3.ecore" right="derivedModel.ecore"/>
+  <measurements left="Petrinetv3.ecore" right="SqlDSL.ecore"/>
   <measurements left="workbench.ecore" right="smach.ecore"/>
+  <measurements left="workbench.ecore" right="personsList.model"/>
   <measurements left="workbench.ecore" right="persons.model"/>
   <measurements left="workbench.ecore" right="log.ecore"/>
   <measurements left="workbench.ecore" right="process.ecore"/>
   <measurements left="workbench.ecore" right="ETMap.ecore"/>
+  <measurements left="workbench.ecore" right="Feature.ecore"/>
+  <measurements left="workbench.ecore" right="property.ecore"/>
   <measurements left="workbench.ecore" right="wikicontent.ecore" value="29.0"/>
+  <measurements left="workbench.ecore" right="Publication.ecore"/>
   <measurements left="workbench.ecore" right="ETPhys.ecore"/>
   <measurements left="workbench.ecore" right="Room.ecore"/>
   <measurements left="workbench.ecore" right="etricegen.ecore"/>
@@ -427,6 +655,7 @@
   <measurements left="workbench.ecore" right="My.ecore"/>
   <measurements left="workbench.ecore" right="store.ecore"/>
   <measurements left="workbench.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="workbench.ecore" right="Features.ecore"/>
   <measurements left="workbench.ecore" right="fb.model"/>
   <measurements left="workbench.ecore" right="DB.ecore"/>
   <measurements left="workbench.ecore" right="system.ecore"/>
@@ -437,12 +666,17 @@
   <measurements left="workbench.ecore" right="SocialNetwork.ecore"/>
   <measurements left="workbench.ecore" right="task.ecore" value="8.0"/>
   <measurements left="workbench.ecore" right="derivedModel.ecore"/>
+  <measurements left="workbench.ecore" right="SqlDSL.ecore"/>
   <measurements left="SocialNetwork.ecore" right="smach.ecore"/>
+  <measurements left="SocialNetwork.ecore" right="personsList.model"/>
   <measurements left="SocialNetwork.ecore" right="persons.model"/>
   <measurements left="SocialNetwork.ecore" right="log.ecore"/>
   <measurements left="SocialNetwork.ecore" right="process.ecore"/>
   <measurements left="SocialNetwork.ecore" right="ETMap.ecore"/>
+  <measurements left="SocialNetwork.ecore" right="Feature.ecore"/>
+  <measurements left="SocialNetwork.ecore" right="property.ecore"/>
   <measurements left="SocialNetwork.ecore" right="wikicontent.ecore"/>
+  <measurements left="SocialNetwork.ecore" right="Publication.ecore"/>
   <measurements left="SocialNetwork.ecore" right="ETPhys.ecore"/>
   <measurements left="SocialNetwork.ecore" right="Room.ecore" value="10.0"/>
   <measurements left="SocialNetwork.ecore" right="etricegen.ecore"/>
@@ -450,6 +684,7 @@
   <measurements left="SocialNetwork.ecore" right="My.ecore"/>
   <measurements left="SocialNetwork.ecore" right="store.ecore" value="10.0"/>
   <measurements left="SocialNetwork.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="SocialNetwork.ecore" right="Features.ecore"/>
   <measurements left="SocialNetwork.ecore" right="fb.model"/>
   <measurements left="SocialNetwork.ecore" right="DB.ecore"/>
   <measurements left="SocialNetwork.ecore" right="system.ecore"/>
@@ -460,12 +695,17 @@
   <measurements left="SocialNetwork.ecore" right="workbench.ecore"/>
   <measurements left="SocialNetwork.ecore" right="task.ecore"/>
   <measurements left="SocialNetwork.ecore" right="derivedModel.ecore"/>
+  <measurements left="SocialNetwork.ecore" right="SqlDSL.ecore"/>
   <measurements left="task.ecore" right="smach.ecore" value="7.0"/>
+  <measurements left="task.ecore" right="personsList.model"/>
   <measurements left="task.ecore" right="persons.model"/>
   <measurements left="task.ecore" right="log.ecore"/>
   <measurements left="task.ecore" right="process.ecore" value="3.0"/>
   <measurements left="task.ecore" right="ETMap.ecore"/>
+  <measurements left="task.ecore" right="Feature.ecore"/>
+  <measurements left="task.ecore" right="property.ecore" value="3.0"/>
   <measurements left="task.ecore" right="wikicontent.ecore" value="3.0"/>
+  <measurements left="task.ecore" right="Publication.ecore" value="3.0"/>
   <measurements left="task.ecore" right="ETPhys.ecore"/>
   <measurements left="task.ecore" right="Room.ecore"/>
   <measurements left="task.ecore" right="etricegen.ecore"/>
@@ -473,6 +713,7 @@
   <measurements left="task.ecore" right="My.ecore" value="10.0"/>
   <measurements left="task.ecore" right="store.ecore" value="3.0"/>
   <measurements left="task.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="task.ecore" right="Features.ecore"/>
   <measurements left="task.ecore" right="fb.model"/>
   <measurements left="task.ecore" right="DB.ecore"/>
   <measurements left="task.ecore" right="system.ecore" value="3.0"/>
@@ -483,12 +724,17 @@
   <measurements left="task.ecore" right="workbench.ecore" value="3.0"/>
   <measurements left="task.ecore" right="SocialNetwork.ecore"/>
   <measurements left="task.ecore" right="derivedModel.ecore"/>
+  <measurements left="task.ecore" right="SqlDSL.ecore"/>
   <measurements left="derivedModel.ecore" right="smach.ecore"/>
+  <measurements left="derivedModel.ecore" right="personsList.model"/>
   <measurements left="derivedModel.ecore" right="persons.model"/>
   <measurements left="derivedModel.ecore" right="log.ecore"/>
   <measurements left="derivedModel.ecore" right="process.ecore"/>
   <measurements left="derivedModel.ecore" right="ETMap.ecore"/>
+  <measurements left="derivedModel.ecore" right="Feature.ecore"/>
+  <measurements left="derivedModel.ecore" right="property.ecore"/>
   <measurements left="derivedModel.ecore" right="wikicontent.ecore"/>
+  <measurements left="derivedModel.ecore" right="Publication.ecore"/>
   <measurements left="derivedModel.ecore" right="ETPhys.ecore"/>
   <measurements left="derivedModel.ecore" right="Room.ecore" value="7.0"/>
   <measurements left="derivedModel.ecore" right="etricegen.ecore"/>
@@ -496,6 +742,7 @@
   <measurements left="derivedModel.ecore" right="My.ecore"/>
   <measurements left="derivedModel.ecore" right="store.ecore"/>
   <measurements left="derivedModel.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="derivedModel.ecore" right="Features.ecore"/>
   <measurements left="derivedModel.ecore" right="fb.model"/>
   <measurements left="derivedModel.ecore" right="DB.ecore"/>
   <measurements left="derivedModel.ecore" right="system.ecore"/>
@@ -506,4 +753,34 @@
   <measurements left="derivedModel.ecore" right="workbench.ecore"/>
   <measurements left="derivedModel.ecore" right="SocialNetwork.ecore"/>
   <measurements left="derivedModel.ecore" right="task.ecore"/>
+  <measurements left="derivedModel.ecore" right="SqlDSL.ecore"/>
+  <measurements left="SqlDSL.ecore" right="smach.ecore"/>
+  <measurements left="SqlDSL.ecore" right="personsList.model"/>
+  <measurements left="SqlDSL.ecore" right="persons.model"/>
+  <measurements left="SqlDSL.ecore" right="log.ecore"/>
+  <measurements left="SqlDSL.ecore" right="process.ecore"/>
+  <measurements left="SqlDSL.ecore" right="ETMap.ecore"/>
+  <measurements left="SqlDSL.ecore" right="Feature.ecore"/>
+  <measurements left="SqlDSL.ecore" right="property.ecore"/>
+  <measurements left="SqlDSL.ecore" right="wikicontent.ecore"/>
+  <measurements left="SqlDSL.ecore" right="Publication.ecore"/>
+  <measurements left="SqlDSL.ecore" right="ETPhys.ecore"/>
+  <measurements left="SqlDSL.ecore" right="Room.ecore"/>
+  <measurements left="SqlDSL.ecore" right="etricegen.ecore"/>
+  <measurements left="SqlDSL.ecore" right="customer.ecore"/>
+  <measurements left="SqlDSL.ecore" right="My.ecore"/>
+  <measurements left="SqlDSL.ecore" right="store.ecore" value="3.0"/>
+  <measurements left="SqlDSL.ecore" right="Petrinetv2.ecore"/>
+  <measurements left="SqlDSL.ecore" right="Features.ecore" value="3.0"/>
+  <measurements left="SqlDSL.ecore" right="fb.model"/>
+  <measurements left="SqlDSL.ecore" right="DB.ecore"/>
+  <measurements left="SqlDSL.ecore" right="system.ecore"/>
+  <measurements left="SqlDSL.ecore" right="PersonList.ecore"/>
+  <measurements left="SqlDSL.ecore" right="Petrinetv1.ecore"/>
+  <measurements left="SqlDSL.ecore" right="ros.ecore"/>
+  <measurements left="SqlDSL.ecore" right="Petrinetv3.ecore"/>
+  <measurements left="SqlDSL.ecore" right="workbench.ecore"/>
+  <measurements left="SqlDSL.ecore" right="SocialNetwork.ecore"/>
+  <measurements left="SqlDSL.ecore" right="task.ecore"/>
+  <measurements left="SqlDSL.ecore" right="derivedModel.ecore"/>
 </distance:DistanceModel>

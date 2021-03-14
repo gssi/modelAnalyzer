@@ -1,0 +1,8 @@
+var alldependencies = Dependency.all;
+var allmm = Metamodel.all;
+
+var maxdep = allmm.excluding(allmm.selectOne(ex|ex.name="Ecore")).collect(mm| alldependencies.trg.name.count(mm.name)).max();
+allmm.excluding(allmm.selectOne(ex|ex.name="Ecore")).select(mm| alldependencies.trg.name.count(mm.name)=maxdep).println();
+
+
+alldependencies.select(dep|dep.trg.name="Feature.ecore").label.asSet().size().println();

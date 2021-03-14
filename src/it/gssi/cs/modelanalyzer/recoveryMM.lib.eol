@@ -1,0 +1,197 @@
+
+operation Any isMetamodel(){
+for (extension in metamodelext) { 
+	if(self.name.isDefined() and self.name.endsWith(extension)){
+		return true;
+	}	
+}
+return false;
+}
+
+operation Sequence(EmfModel) createEcosystem(distancemodel: Any){
+var mdeecosystem = new ecosystem!MDEEcosystem;
+
+//first metamodels are created...important!
+for (m in self.select(a|a.isMetamodel())) { 
+	("Processing..."+m.name).println();
+		var artifacts = m.createArtifact(mdeecosystem);			
+}
+
+// generate relations for metamodels
+for (m in self.select(a|a.isMetamodel())) { 
+var artifact = m.getArtifact();
+if(artifact.isDefined()) {
+	
+//for each ecore model in repository find the dependencies to m
+		m.getDependencies(artifact, artifact.ecosystem);
+		if(distancemodel.isDefined()) m.getDistance(m.getArtifact(), m.getArtifact().ecosystem, distancemodel.getAllOfType("DistanceModel").first);		
+	}
+	}
+}
+
+operation Any getArtifact(): ecosystem!Artifact{
+	return ecosystem.getAllOfType('Metamodel').selectOne(a|a.name==self.name);
+}
+
+
+
+operation Any createArtifact(mdeecosystem: ecosystem!MDEEcosystem) : ecosystem!Artifact{
+
+if(self.isMetamodel()){
+
+		var artifact = new ecosystem!Metamodel;
+		artifact.ecosystem = mdeecosystem;
+		artifact.name =  self.name;
+		artifact.nsURIs.addAll((self!EPackage.all.nsURI.size()>0? self!EPackage.all.nsURI : self!EPackage.all.name));
+		artifact.packagenames.addAll(self!EPackage.all.name);
+		return artifact;
+		
+}	 
+	return;	
+}
+
+operation Any getDistance(src : ecosystem!Artifact, ecosystem : ecosystem!MDEEcosystem, distancemodel: distancemodel!DistanceModel): Set{
+
+var distanceedges = distancemodel.measurements.select(measure|measure.left== src.name and measure.value>=distancemodel.threshold);
+for (distance in distanceedges) { 
+	//(distance.left+"->"+distance.right).println();
+	var rel = new ecosystem!Distance();
+	var sourceMM = ecosystem.artifacts.select(a|a.isTypeOf(ecosystem!Metamodel)).select(mm|mm.name.equals(distance.left)).first;
+	var targetMM = ecosystem.artifacts.select(a|a.isTypeOf(ecosystem!Metamodel)).select(mm|mm.name.equals(distance.right)).first;
+	rel.src = sourceMM;
+	rel.trg = targetMM;
+	rel.label= rel.src.name+"->"+rel.trg.name;
+	rel.value =distance.value;
+	rel.ecosystem = ecosystem;	
+}
+
+}
+operation EPackage getPackage(): EPackage{
+
+if(self.eSuperPackage.isDefined()){
+
+ 	return self.eSuperPackage.getPackage();
+ 	
+ } 
+  return self;
+ 
+}
+
+operation self!EClass getPackage(): EPackage{
+
+ 	return self.ePackage.getPackage();
+ 
+}
+
+operation EPackage excludeEcore(): Boolean{
+return self.nsURI<>"http://www.eclipse.org/emf/2002/Ecore";
+}
+
+operation String getEcoreFilename(): Any{
+//given the uri extract ecore file name
+var mmname = self.toString().split("#")[0].split("/").last;
+if(mmname.matches("[a-zA-Z]*\\.(ecore)")){
+	return mmname;
+}  
+ 	return mmname+".ecore";
+ 
+}
+
+operation ecosystem!EClassifier resolveUsedPackage(): String {
+
+	if(self.eProxyURI.isDefined()){
+	
+		return (self.eProxyURI.toString()).getEcoreFilename();
+			
+	}else if(self.ePackage.nsURI.isDefined()){
+		return (self.ePackage.nsURI.toString());
+	}
+			
+	return (self.ePackage.name.toString());
+			 
+}
+
+operation ecosystem!EPackage usedPackages (): Set(ecosystem!EPackages){
+	var crossrefs  = emfTool.getCrossReferences(self);
+	var usedPackages = Set{};
+	/*for (ks in crossrefs.keySet) { 
+			crossrefs.get(ks).println();
+		}*/
+		for ( s in crossrefs) {
+		var eclassifiers = s.keySet.select(k|k.isKindOf(ecosystem!EClassifier));
+		
+		
+		for (c in eclassifiers) { 
+			//(c+","+c.resolveUsedPackage()).println();
+			usedPackages.add(c.resolveUsedPackage());
+		}
+       		
+    	}
+    	
+    	return usedPackages.select(up|up.isDefined()).reject(p|p="http://www.eclipse.org/emf/2002/Ecore" or p=self.nsURI)
+    	;
+    	
+}
+
+operation Any getDependencies(src : ecosystem!Artifact, mdeecosystem : ecosystem!MDEEcosystem): Set{
+//self is the phisical model of src
+
+	
+	var connections :List ;
+	//all packages of src
+	var allpackages = self!EPackage.all;
+	
+	for (p in allpackages) { 
+	var usedpackages = p.usedPackages();
+		connections.addAll(usedpackages);
+	}
+	
+	(src.name +"->"+connections.asSet()).println();
+	
+	if(not connections.asSet().isEmpty()){
+	for(con in connections.asSet()){
+	(con+"--"+con.findArtifactInRepo(mdeecosystem).name).println();
+						if(con.isDefined()){
+						
+						var trgmms = con.findArtifactInRepo(mdeecosystem);
+		 				//(src.name +"->"+trgmms.name).println();
+		 				var rel = new ecosystem!Dependency();
+						rel.src = src;
+		 					
+		 				if(trgmms.isEmpty()){
+		 				
+		 					//create virtual artifact
+								var artifact = new ecosystem!Metamodel();
+								artifact.ecosystem = mdeecosystem;
+								artifact.virtual = true;
+								artifact.name =	con.extractMMname();
+								artifact.nsURIs.add(con);
+								rel.trg = mdeecosystem.artifacts.select(a|a.isTypeOf(ecosystem!Metamodel)).select(mm|mm.nsURIs.includes(con)  or con.endsWith(mm.name)).first;
+		 				}else {
+		 					rel.trg = trgmms.first ;
+						}
+						rel.label= rel.src.name+"->"+(rel.trg.isDefined()?rel.trg.name:"undefined");
+						rel.ecosystem = mdeecosystem;		
+		}
+	}}
+	
+}
+
+operation String findArtifactInRepo(mdeecosystem : ecosystem!MDEEcosystem): Set<Metamodel>{
+var con  = self;
+return mdeecosystem.artifacts.select(a|a.isTypeOf(ecosystem!Metamodel)).select(mm|mm.name.isDefined() and mm.nsURIs.includes(con)  or con.endsWith(mm.name));
+}
+
+operation String extractMMname(){
+
+if(self.startsWith("file://")){
+	return self.split("/").select(p|p.endsWith(".ecore")).first;
+}else if(self.startsWith("http://")){
+	return self.split("/").last;
+}else{
+	return self;
+}
+}
+
+
+

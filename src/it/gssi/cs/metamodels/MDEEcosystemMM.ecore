@@ -16,7 +16,9 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Model" eSuperTypes="#//Artifact"/>
   <eClassifiers xsi:type="ecore:EClass" name="Metamodel" eSuperTypes="#//Artifact">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nsURI" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nsURIs" upperBound="-1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="packagenames" upperBound="-1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Transformation" eSuperTypes="#//Artifact #//Relation">

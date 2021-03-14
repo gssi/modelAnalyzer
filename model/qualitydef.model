@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="ASCII"?>
 <qualitymodel:QualityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:qualitymodel="http://cs.gssi.it/qualitymodel" xmi:id="_1LL9IHKMEeuBc5zGAU8pNg">
   <qualityattrs xmi:id="_12Q6cHKMEeuBc5zGAU8pNg" name="Complexity">
-    <calculatedBy xmi:id="_Z9btMHKeEeuBc5zGAU8pNg" withoperation="AVG" metrics="_5RbZwHKMEeuBc5zGAU8pNg _LtZFkHSMEeuBc5zGAU8pNg"/>
+    <calculatedBy xmi:id="_Z9btMHKeEeuBc5zGAU8pNg" withoperation="AVG" metrics="_AVkTIH3LEeuBc5zGAU8pNg"/>
     <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
   </qualityattrs>
-  <qualityattrs xmi:id="_AU7zkHKfEeuBc5zGAU8pNg" name="complexity">
-    <calculatedBy xmi:id="_DIfgUHKfEeuBc5zGAU8pNg" withoperation="GET" metrics="_5RbZwHKMEeuBc5zGAU8pNg"/>
+  <qualityattrs xmi:id="_AU7zkHKfEeuBc5zGAU8pNg" name="Complexity" description="Complexity of models">
+    <calculatedBy xmi:id="_DIfgUHKfEeuBc5zGAU8pNg" withoperation="GET" metrics="_gg6R4H3OEeuBc5zGAU8pNg"/>
     <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Model"/>
   </qualityattrs>
-  <metrics xmi:id="_5RbZwHKMEeuBc5zGAU8pNg" name="size" metricProvider="size" library="quality.lib.eol"/>
-  <metrics xmi:id="_LtZFkHSMEeuBc5zGAU8pNg" name="nrReferences" metricProvider="nrReferences"/>
+  <qualityattrs xmi:id="_cazfgH3LEeuBc5zGAU8pNg" name="Understandability" description="Understandability of the metamodel">
+    <calculatedBy xmi:id="_1_wgcH3LEeuBc5zGAU8pNg" withoperation="DIV" metrics="_Ut1MwH3LEeuBc5zGAU8pNg _AVkTIH3LEeuBc5zGAU8pNg"/>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
+  </qualityattrs>
+  <metrics xmi:id="_AVkTIH3LEeuBc5zGAU8pNg" name="NC" metricProvider="getNC" description="number of metaclasses"/>
+  <metrics xmi:id="_Ut1MwH3LEeuBc5zGAU8pNg" name="PRED" metricProvider="getSumPRED" description="get sum  of predecessor of a classes"/>
+  <metrics xmi:id="_gg6R4H3OEeuBc5zGAU8pNg" name="size" metricProvider="getSize" description="Size of the model"/>
 </qualitymodel:QualityModel>

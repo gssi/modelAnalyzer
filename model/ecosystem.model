@@ -1,100 +1,172 @@
 <?xml version="1.0" encoding="ASCII"?>
-<mdeecosystem:MDEEcosystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdeecosystem="http://cs.gssi.it/mdeecosystem" xmi:id="_GuaQwHVVEeuBc5zGAU8pNg">
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQwXVVEeuBc5zGAU8pNg" name="smach.ecore">
-    <nsURI>http://ros/1.0</nsURI>
-    <nsURI>http://smach/1.0</nsURI>
+<mdeecosystem:MDEEcosystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdeecosystem="http://cs.gssi.it/mdeecosystem" xmi:id="_XwFkIID9EeuBc5zGAU8pNg">
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwFkIYD9EeuBc5zGAU8pNg" name="smach.ecore">
+    <nsURIs>http://smach/1.0</nsURIs>
+    <packagenames>smach</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQwnVVEeuBc5zGAU8pNg" name="log.ecore">
-    <nsURI>log</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwGLMID9EeuBc5zGAU8pNg" name="log.ecore">
+    <nsURIs>log</nsURIs>
+    <packagenames>log</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQw3VVEeuBc5zGAU8pNg" name="process.ecore">
-    <nsURI>http://process/1.0</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwHZUID9EeuBc5zGAU8pNg" name="process.ecore">
+    <nsURIs>http://process/1.0</nsURIs>
+    <packagenames>process</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQxHVVEeuBc5zGAU8pNg" name="ETMap.ecore">
-    <nsURI>http://www.eclipse.org/etrice/core/etmap/ETMap</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwIAYID9EeuBc5zGAU8pNg" name="ETMap.ecore">
+    <nsURIs>http://www.eclipse.org/etrice/core/etmap/ETMap</nsURIs>
+    <packagenames>eTMap</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQxXVVEeuBc5zGAU8pNg" name="wikicontent.ecore">
-    <nsURI>http://wikicontent/1.0</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwIncID9EeuBc5zGAU8pNg" name="Feature.ecore">
+    <nsURIs>http:///org/generationcp/model/core/feature.ecore</nsURIs>
+    <packagenames>feature</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQxnVVEeuBc5zGAU8pNg" name="ETPhys.ecore">
-    <nsURI>http://www.eclipse.org/etrice/core/etphys/ETPhys</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwJ1kID9EeuBc5zGAU8pNg" name="property.ecore">
+    <nsURIs>http:///org/generationcp/model/core/organization/property.ecore</nsURIs>
+    <packagenames>property</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQx3VVEeuBc5zGAU8pNg" name="Room.ecore">
-    <nsURI>http://www.eclipse.org/etrice/Room</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwMR0ID9EeuBc5zGAU8pNg" name="wikicontent.ecore">
+    <nsURIs>http://wikicontent/1.0</nsURIs>
+    <packagenames>wikicontent</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQyHVVEeuBc5zGAU8pNg" name="etricegen.ecore">
-    <nsURI>http://www.eclipse.org/etrice/generator</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwM44ID9EeuBc5zGAU8pNg" name="Publication.ecore">
+    <nsURIs>http:///org/generationcp/model/core/publication.ecore</nsURIs>
+    <packagenames>publication</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQyXVVEeuBc5zGAU8pNg" name="customer.ecore">
-    <nsURI>http:///org.eclipse.emf.test.models/Customer</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwNf8ID9EeuBc5zGAU8pNg" name="ETPhys.ecore">
+    <nsURIs>http://www.eclipse.org/etrice/core/etphys/ETPhys</nsURIs>
+    <packagenames>eTPhys</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQynVVEeuBc5zGAU8pNg" name="My.ecore">
-    <nsURI>cs.gssi.it/taskmanager</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwOHAID9EeuBc5zGAU8pNg" name="Room.ecore">
+    <nsURIs>http://www.eclipse.org/etrice/Room</nsURIs>
+    <packagenames>room</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQy3VVEeuBc5zGAU8pNg" name="store.ecore">
-    <nsURI>store</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwOHAYD9EeuBc5zGAU8pNg" name="etricegen.ecore">
+    <nsURIs>http://www.eclipse.org/etrice/generator</nsURIs>
+    <packagenames>etricegen</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQzHVVEeuBc5zGAU8pNg" name="Petrinetv2.ecore">
-    <nsURI>petrinetv2</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwOuEID9EeuBc5zGAU8pNg" name="customer.ecore">
+    <nsURIs>http:///org.eclipse.emf.test.models/Customer</nsURIs>
+    <packagenames>customer</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQzXVVEeuBc5zGAU8pNg" name="DB.ecore">
-    <nsURI>http:///org.eclipse.emf.test.models/MovieDB</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwPVIID9EeuBc5zGAU8pNg" name="My.ecore">
+    <nsURIs>cs.gssi.it/taskmanager</nsURIs>
+    <packagenames>taskmanager</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQznVVEeuBc5zGAU8pNg" name="system.ecore">
-    <nsURI>http://system/1.0</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwP8MID9EeuBc5zGAU8pNg" name="store.ecore">
+    <nsURIs>store</nsURIs>
+    <packagenames>store</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQz3VVEeuBc5zGAU8pNg" name="PersonList.ecore">
-    <nsURI>http://cs.gssi.it/sourceMM</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwQjQID9EeuBc5zGAU8pNg" name="Petrinetv2.ecore">
+    <nsURIs>petrinetv2</nsURIs>
+    <packagenames>petrinetv2</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQ0HVVEeuBc5zGAU8pNg" name="Petrinetv1.ecore">
-    <nsURI>petrinetv1</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwRKUID9EeuBc5zGAU8pNg" name="Features.ecore">
+    <nsURIs>http://www.protos.de/myFeatures/core/Features</nsURIs>
+    <packagenames>features</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQ0XVVEeuBc5zGAU8pNg" name="ros.ecore">
-    <nsURI>http://ros/1.0</nsURI>
-    <nsURI>http://smach/1.0</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwRxYID9EeuBc5zGAU8pNg" name="DB.ecore">
+    <nsURIs>http:///org.eclipse.emf.test.models/MovieDB</nsURIs>
+    <packagenames>db</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQ0nVVEeuBc5zGAU8pNg" name="Petrinetv3.ecore">
-    <nsURI>petrinetv3</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwSYcID9EeuBc5zGAU8pNg" name="system.ecore">
+    <nsURIs>http://system/1.0</nsURIs>
+    <packagenames>system</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQ03VVEeuBc5zGAU8pNg" name="workbench.ecore">
-    <nsURI>http://workbench/1.0</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwS_gID9EeuBc5zGAU8pNg" name="PersonList.ecore">
+    <nsURIs>http://cs.gssi.it/sourceMM</nsURIs>
+    <packagenames>sourceMM</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQ1HVVEeuBc5zGAU8pNg" name="SocialNetwork.ecore">
-    <nsURI>http://cs.gssi.it/socialnetwork/</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwTmkID9EeuBc5zGAU8pNg" name="Petrinetv1.ecore">
+    <nsURIs>petrinetv1</nsURIs>
+    <packagenames>petrinetv1</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQ1XVVEeuBc5zGAU8pNg" name="task.ecore">
-    <nsURI>http://www.sebastianbenz.de/task/2011/</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwU0sID9EeuBc5zGAU8pNg" name="ros.ecore">
+    <nsURIs>http://ros/1.0</nsURIs>
+    <packagenames>ros</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQ1nVVEeuBc5zGAU8pNg" name="derivedModel.ecore">
-    <nsURI>http://derivedmodel/1.0</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwVbwID9EeuBc5zGAU8pNg" name="Petrinetv3.ecore">
+    <nsURIs>petrinetv3</nsURIs>
+    <packagenames>petrinetv3</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQ13VVEeuBc5zGAU8pNg" name="Ecore" virtual="true">
-    <nsURI>http://www.eclipse.org/emf/2002/Ecore</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwWC0ID9EeuBc5zGAU8pNg" name="workbench.ecore">
+    <nsURIs>http://workbench/1.0</nsURIs>
+    <packagenames>workbench</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_GuaQ2HVVEeuBc5zGAU8pNg" name="operation.ecore" virtual="true">
-    <nsURI>file:///Users/administrator/git/modelAnalyzer/bin/it/gssi/cs/reposelection/operation.ecore</nsURI>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwWp4ID9EeuBc5zGAU8pNg" name="SocialNetwork.ecore">
+    <nsURIs>http://cs.gssi.it/socialnetwork/</nsURIs>
+    <packagenames>socialnetwork</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_GuaQ2XVVEeuBc5zGAU8pNg" name="persons.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_GuaQ2nVVEeuBc5zGAU8pNg" name="fb.model"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ23VVEeuBc5zGAU8pNg" src="_GuaQwnVVEeuBc5zGAU8pNg" trg="_GuaQy3VVEeuBc5zGAU8pNg" label="log.ecore->store.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ3HVVEeuBc5zGAU8pNg" src="_GuaQxHVVEeuBc5zGAU8pNg" trg="_GuaQxnVVEeuBc5zGAU8pNg" label="ETMap.ecore->ETPhys.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ3XVVEeuBc5zGAU8pNg" src="_GuaQxHVVEeuBc5zGAU8pNg" trg="_GuaQx3VVEeuBc5zGAU8pNg" label="ETMap.ecore->Room.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ3nVVEeuBc5zGAU8pNg" src="_GuaQyHVVEeuBc5zGAU8pNg" trg="_GuaQx3VVEeuBc5zGAU8pNg" label="etricegen.ecore->Room.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ33VVEeuBc5zGAU8pNg" src="_GuaQyXVVEeuBc5zGAU8pNg" trg="_GuaQ13VVEeuBc5zGAU8pNg" label="customer.ecore->Ecore"/>
-  <relations xsi:type="mdeecosystem:Distance" xmi:id="_GuaQ4HVVEeuBc5zGAU8pNg" src="_GuaQzHVVEeuBc5zGAU8pNg" trg="_GuaQ0HVVEeuBc5zGAU8pNg" label="Petrinetv2.ecore->Petrinetv1.ecore" value="75.0"/>
-  <relations xsi:type="mdeecosystem:Distance" xmi:id="_GuaQ4XVVEeuBc5zGAU8pNg" src="_GuaQzHVVEeuBc5zGAU8pNg" trg="_GuaQ0nVVEeuBc5zGAU8pNg" label="Petrinetv2.ecore->Petrinetv3.ecore" value="100.0"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ4nVVEeuBc5zGAU8pNg" src="_GuaQzXVVEeuBc5zGAU8pNg" trg="_GuaQyXVVEeuBc5zGAU8pNg" label="DB.ecore->customer.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ43VVEeuBc5zGAU8pNg" src="_GuaQzXVVEeuBc5zGAU8pNg" trg="_GuaQ13VVEeuBc5zGAU8pNg" label="DB.ecore->Ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ5HVVEeuBc5zGAU8pNg" src="_GuaQznVVEeuBc5zGAU8pNg" trg="_GuaQw3VVEeuBc5zGAU8pNg" label="system.ecore->process.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ5XVVEeuBc5zGAU8pNg" src="_GuaQznVVEeuBc5zGAU8pNg" trg="_GuaQ2HVVEeuBc5zGAU8pNg" label="system.ecore->operation.ecore"/>
-  <relations xsi:type="mdeecosystem:Distance" xmi:id="_GuaQ5nVVEeuBc5zGAU8pNg" src="_GuaQ0HVVEeuBc5zGAU8pNg" trg="_GuaQzHVVEeuBc5zGAU8pNg" label="Petrinetv1.ecore->Petrinetv2.ecore" value="87.0"/>
-  <relations xsi:type="mdeecosystem:Distance" xmi:id="_GuaQ53VVEeuBc5zGAU8pNg" src="_GuaQ0HVVEeuBc5zGAU8pNg" trg="_GuaQ0nVVEeuBc5zGAU8pNg" label="Petrinetv1.ecore->Petrinetv3.ecore" value="87.0"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ6HVVEeuBc5zGAU8pNg" src="_GuaQ0XVVEeuBc5zGAU8pNg" trg="_GuaQwXVVEeuBc5zGAU8pNg" label="ros.ecore->smach.ecore"/>
-  <relations xsi:type="mdeecosystem:Distance" xmi:id="_GuaQ6XVVEeuBc5zGAU8pNg" src="_GuaQ0nVVEeuBc5zGAU8pNg" trg="_GuaQzHVVEeuBc5zGAU8pNg" label="Petrinetv3.ecore->Petrinetv2.ecore" value="83.0"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ6nVVEeuBc5zGAU8pNg" src="_GuaQ03VVEeuBc5zGAU8pNg" trg="_GuaQxXVVEeuBc5zGAU8pNg" label="workbench.ecore->wikicontent.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ63VVEeuBc5zGAU8pNg" src="_GuaQ1nVVEeuBc5zGAU8pNg" trg="_GuaQznVVEeuBc5zGAU8pNg" label="derivedModel.ecore->system.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ7HVVEeuBc5zGAU8pNg" src="_GuaQ1nVVEeuBc5zGAU8pNg" trg="_GuaQw3VVEeuBc5zGAU8pNg" label="derivedModel.ecore->process.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_GuaQ7XVVEeuBc5zGAU8pNg" src="_GuaQ1nVVEeuBc5zGAU8pNg" trg="_GuaQ2HVVEeuBc5zGAU8pNg" label="derivedModel.ecore->operation.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_GuaQ7nVVEeuBc5zGAU8pNg" src="_GuaQ2XVVEeuBc5zGAU8pNg" trg="_GuaQz3VVEeuBc5zGAU8pNg" label="persons.model->PersonList.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_GuaQ73VVEeuBc5zGAU8pNg" src="_GuaQ2nVVEeuBc5zGAU8pNg" trg="_GuaQ1HVVEeuBc5zGAU8pNg" label="fb.model->SocialNetwork.ecore"/>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwXQ8ID9EeuBc5zGAU8pNg" name="task.ecore">
+    <nsURIs>http://www.sebastianbenz.de/task/2011/</nsURIs>
+    <packagenames>task</packagenames>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwX4AID9EeuBc5zGAU8pNg" name="derivedModel.ecore">
+    <nsURIs>http://derivedmodel/1.0</nsURIs>
+    <packagenames>derivedmodel</packagenames>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwYfEID9EeuBc5zGAU8pNg" name="SqlDSL.ecore">
+    <nsURIs>http://www.lunifera.org/metamodel/dsl/SqlDSL</nsURIs>
+    <packagenames>sqlDSL</packagenames>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwZGIID9EeuBc5zGAU8pNg" name="identification.ecore" virtual="true">
+    <nsURIs>identification.ecore</nsURIs>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwZtMID9EeuBc5zGAU8pNg" name="ontology.ecore" virtual="true">
+    <nsURIs>ontology.ecore</nsURIs>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwaUQID9EeuBc5zGAU8pNg" name="evidence.ecore" virtual="true">
+    <nsURIs>evidence.ecore</nsURIs>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_Xwa7UID9EeuBc5zGAU8pNg" name="value.ecore" virtual="true">
+    <nsURIs>value.ecore</nsURIs>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_Xwa7UYD9EeuBc5zGAU8pNg" name="organization.ecore" virtual="true">
+    <nsURIs>organization.ecore</nsURIs>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwbiYID9EeuBc5zGAU8pNg" name="XMLType" virtual="true">
+    <nsURIs>http://www.eclipse.org/emf/2003/XMLType</nsURIs>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_XwcJcID9EeuBc5zGAU8pNg" name="operation.ecore" virtual="true">
+    <nsURIs>operation.ecore</nsURIs>
+  </artifacts>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_XwcwgID9EeuBc5zGAU8pNg" name="personsList.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_XwcwgYD9EeuBc5zGAU8pNg" name="persons.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_XwdXkID9EeuBc5zGAU8pNg" name="fb.model"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwdXkYD9EeuBc5zGAU8pNg" src="_XwFkIYD9EeuBc5zGAU8pNg" trg="_XwU0sID9EeuBc5zGAU8pNg" label="smach.ecore->ros.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwdXkoD9EeuBc5zGAU8pNg" src="_XwGLMID9EeuBc5zGAU8pNg" trg="_XwP8MID9EeuBc5zGAU8pNg" label="log.ecore->store.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_Xwd-oID9EeuBc5zGAU8pNg" src="_XwIAYID9EeuBc5zGAU8pNg" trg="_XwNf8ID9EeuBc5zGAU8pNg" label="ETMap.ecore->ETPhys.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwelsID9EeuBc5zGAU8pNg" src="_XwIAYID9EeuBc5zGAU8pNg" trg="_XwOHAID9EeuBc5zGAU8pNg" label="ETMap.ecore->Room.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwfMwID9EeuBc5zGAU8pNg" src="_XwIncID9EeuBc5zGAU8pNg" trg="_XwZGIID9EeuBc5zGAU8pNg" label="Feature.ecore->identification.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwfMwYD9EeuBc5zGAU8pNg" src="_XwIncID9EeuBc5zGAU8pNg" trg="_XwZtMID9EeuBc5zGAU8pNg" label="Feature.ecore->ontology.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_Xwfz0ID9EeuBc5zGAU8pNg" src="_XwIncID9EeuBc5zGAU8pNg" trg="_XwaUQID9EeuBc5zGAU8pNg" label="Feature.ecore->evidence.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_Xwfz0YD9EeuBc5zGAU8pNg" src="_XwIncID9EeuBc5zGAU8pNg" trg="_Xwa7UID9EeuBc5zGAU8pNg" label="Feature.ecore->value.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_Xwga4ID9EeuBc5zGAU8pNg" src="_XwJ1kID9EeuBc5zGAU8pNg" trg="_XwM44ID9EeuBc5zGAU8pNg" label="property.ecore->Publication.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwhB8ID9EeuBc5zGAU8pNg" src="_XwJ1kID9EeuBc5zGAU8pNg" trg="_Xwa7UYD9EeuBc5zGAU8pNg" label="property.ecore->organization.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwhB8YD9EeuBc5zGAU8pNg" src="_XwJ1kID9EeuBc5zGAU8pNg" trg="_XwIncID9EeuBc5zGAU8pNg" label="property.ecore->Feature.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwhB8oD9EeuBc5zGAU8pNg" src="_XwJ1kID9EeuBc5zGAU8pNg" trg="_XwZGIID9EeuBc5zGAU8pNg" label="property.ecore->identification.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwhpAID9EeuBc5zGAU8pNg" src="_XwJ1kID9EeuBc5zGAU8pNg" trg="_XwZtMID9EeuBc5zGAU8pNg" label="property.ecore->ontology.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwhpAYD9EeuBc5zGAU8pNg" src="_XwM44ID9EeuBc5zGAU8pNg" trg="_Xwa7UYD9EeuBc5zGAU8pNg" label="Publication.ecore->organization.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwiQEID9EeuBc5zGAU8pNg" src="_XwM44ID9EeuBc5zGAU8pNg" trg="_XwIncID9EeuBc5zGAU8pNg" label="Publication.ecore->Feature.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwiQEYD9EeuBc5zGAU8pNg" src="_XwM44ID9EeuBc5zGAU8pNg" trg="_XwZtMID9EeuBc5zGAU8pNg" label="Publication.ecore->ontology.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_Xwi3IID9EeuBc5zGAU8pNg" src="_XwM44ID9EeuBc5zGAU8pNg" trg="_XwZGIID9EeuBc5zGAU8pNg" label="Publication.ecore->identification.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwjeMID9EeuBc5zGAU8pNg" src="_XwOHAYD9EeuBc5zGAU8pNg" trg="_XwOHAID9EeuBc5zGAU8pNg" label="etricegen.ecore->Room.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwjeMYD9EeuBc5zGAU8pNg" src="_XwOuEID9EeuBc5zGAU8pNg" trg="_XwbiYID9EeuBc5zGAU8pNg" label="customer.ecore->XMLType"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwkFQID9EeuBc5zGAU8pNg" src="_XwP8MID9EeuBc5zGAU8pNg" trg="_XwGLMID9EeuBc5zGAU8pNg" label="store.ecore->log.ecore"/>
+  <relations xsi:type="mdeecosystem:Distance" xmi:id="_XwkFQYD9EeuBc5zGAU8pNg" src="_XwQjQID9EeuBc5zGAU8pNg" trg="_XwTmkID9EeuBc5zGAU8pNg" label="Petrinetv2.ecore->Petrinetv1.ecore" value="75.0"/>
+  <relations xsi:type="mdeecosystem:Distance" xmi:id="_XwksUID9EeuBc5zGAU8pNg" src="_XwQjQID9EeuBc5zGAU8pNg" trg="_XwVbwID9EeuBc5zGAU8pNg" label="Petrinetv2.ecore->Petrinetv3.ecore" value="100.0"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwksUYD9EeuBc5zGAU8pNg" src="_XwRxYID9EeuBc5zGAU8pNg" trg="_XwOuEID9EeuBc5zGAU8pNg" label="DB.ecore->customer.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwlTYID9EeuBc5zGAU8pNg" src="_XwRxYID9EeuBc5zGAU8pNg" trg="_XwbiYID9EeuBc5zGAU8pNg" label="DB.ecore->XMLType"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwlTYYD9EeuBc5zGAU8pNg" src="_XwSYcID9EeuBc5zGAU8pNg" trg="_XwcJcID9EeuBc5zGAU8pNg" label="system.ecore->operation.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_Xwl6cID9EeuBc5zGAU8pNg" src="_XwSYcID9EeuBc5zGAU8pNg" trg="_XwHZUID9EeuBc5zGAU8pNg" label="system.ecore->process.ecore"/>
+  <relations xsi:type="mdeecosystem:Distance" xmi:id="_Xwl6cYD9EeuBc5zGAU8pNg" src="_XwTmkID9EeuBc5zGAU8pNg" trg="_XwQjQID9EeuBc5zGAU8pNg" label="Petrinetv1.ecore->Petrinetv2.ecore" value="87.0"/>
+  <relations xsi:type="mdeecosystem:Distance" xmi:id="_Xwl6coD9EeuBc5zGAU8pNg" src="_XwTmkID9EeuBc5zGAU8pNg" trg="_XwVbwID9EeuBc5zGAU8pNg" label="Petrinetv1.ecore->Petrinetv3.ecore" value="87.0"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwmhgID9EeuBc5zGAU8pNg" src="_XwU0sID9EeuBc5zGAU8pNg" trg="_XwFkIYD9EeuBc5zGAU8pNg" label="ros.ecore->smach.ecore"/>
+  <relations xsi:type="mdeecosystem:Distance" xmi:id="_XwmhgYD9EeuBc5zGAU8pNg" src="_XwVbwID9EeuBc5zGAU8pNg" trg="_XwQjQID9EeuBc5zGAU8pNg" label="Petrinetv3.ecore->Petrinetv2.ecore" value="83.0"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwnIkID9EeuBc5zGAU8pNg" src="_XwWC0ID9EeuBc5zGAU8pNg" trg="_XwMR0ID9EeuBc5zGAU8pNg" label="workbench.ecore->wikicontent.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwnIkYD9EeuBc5zGAU8pNg" src="_XwX4AID9EeuBc5zGAU8pNg" trg="_XwcJcID9EeuBc5zGAU8pNg" label="derivedModel.ecore->operation.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwnvoID9EeuBc5zGAU8pNg" src="_XwX4AID9EeuBc5zGAU8pNg" trg="_XwSYcID9EeuBc5zGAU8pNg" label="derivedModel.ecore->system.ecore"/>
+  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_XwnvoYD9EeuBc5zGAU8pNg" src="_XwX4AID9EeuBc5zGAU8pNg" trg="_XwHZUID9EeuBc5zGAU8pNg" label="derivedModel.ecore->process.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_XwnvooD9EeuBc5zGAU8pNg" src="_XwcwgID9EeuBc5zGAU8pNg" trg="_XwS_gID9EeuBc5zGAU8pNg" label="personsList.model->PersonList.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_XwoWsID9EeuBc5zGAU8pNg" src="_XwcwgYD9EeuBc5zGAU8pNg" trg="_XwS_gID9EeuBc5zGAU8pNg" label="persons.model->PersonList.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_Xwo9wID9EeuBc5zGAU8pNg" src="_XwdXkID9EeuBc5zGAU8pNg" trg="_XwWp4ID9EeuBc5zGAU8pNg" label="fb.model->SocialNetwork.ecore"/>
 </mdeecosystem:MDEEcosystem>

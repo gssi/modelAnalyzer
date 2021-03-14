@@ -1,0 +1,66 @@
+
+operation Any isModel(){
+for (extension in modelext) { 
+	if(self.name.isDefined() and self.name.endsWith(extension) ){
+		return true;
+	}
+}
+return false;	
+}
+
+operation Sequence(EmfModel) createEcosystem(mdeecosystem: ecosystem!MDEEcosystem){
+
+//generate models nodes
+for (m in self.select(a|a.isModel())) { 
+		var artifact = m.createArtifact(mdeecosystem);				
+}
+
+}
+
+
+operation Any createArtifact(mdeecosystem: ecosystem!MDEEcosystem) : ecosystem!Artifact{
+
+ if(self.isModel()){
+
+		var artifact = new ecosystem!Model();
+		artifact.name=self.name;	
+		artifact.ecosystem = mdeecosystem;
+		
+		self.genConformance(mdeecosystem,artifact);
+		
+		return artifact;
+		
+}else{
+
+	"artifact type unsupported".println();
+}	
+
+}
+
+operation Any genConformance(mdeecosystem: ecosystem!MDEEcosystem,artifact: ecosystem!Artifact){
+var corresponding_mms = self.allInstances().eClass.ePackage.nsURI.asSet();
+ 
+for (mm in corresponding_mms) { 
+			for (mm_trg in mdeecosystem.artifacts.select(a|a.isTypeOf(ecosystem!Metamodel)).select(aa|aa.nsURIs.includes(mm)).asSet()) { 
+						var rel = new ecosystem!Conformance();
+						rel.src = artifact;
+		 				rel.trg = mm_trg;
+		 				rel.label= rel.src.name+"->"+rel.trg.name;
+						rel.ecosystem = mdeecosystem;	
+			}
+
+		}
+}
+
+operation Any getDistance(src : ecosystem!Artifact, ecosystem : ecosystem!MDEEcosystem, distancemodel: distancemodel!DistanceModel): Set{
+
+var distanceedges = distancemodel.measurements.select(measure|measure.left== src.name and measure.value>=distancemodel.threshold);
+for (distance in distanceedges) { 
+	//(distance.left+"->"+distance.right).println();
+	
+}
+
+}
+
+
+

@@ -1,15 +1,30 @@
-operation ecosystem!Model size() : Real {
+operation ecosystem!Model getSize() : Real {
 
 	return self.getRealArtifact().allInstances().size();
 }
 
 
-operation ecosystem!Metamodel size() : Real {
+//Metamodel metrics provider
+
+operation ecosystem!Metamodel getNC() : Real {
 
 	return self.getRealArtifact().getAllOfType("EClass").size();
 }
 
+
 operation ecosystem!Metamodel nrReferences() : Real {
 
 	return self.getRealArtifact().getAllOfType("EReference").size();
+}
+
+operation ecosystem!Metamodel getSumPRED() : Real{
+
+var realMetamodel = self.getRealArtifact();
+var allclasses = realMetamodel.getAllOfType("EClass");
+return  allclasses.collect(mc|mc.getPred().size()+1).sum();
+
+}
+
+operation ecosystem!EClass getPred(){
+return self.closure(mc|mc.eSuperTypes).asSet();
 }

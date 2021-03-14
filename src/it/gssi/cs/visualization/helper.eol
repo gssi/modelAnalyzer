@@ -1,0 +1,24 @@
+
+
+operation QualityEcosystem::QualityEcosystemDef getMapLayers(): Sequence{
+var m =     self.qualityModel.getMapQualityAttr() ;
+return m;
+}
+
+operation QualityModel::QualityModel getMapQualityAttr(): Sequence{
+var general  = Sequence{};
+var i=0;
+for (qa in self.qualityattrs) { 
+	var m = Map{};	
+	m.put("title",qa.subject.name+" "+qa.name);
+	m.put("id",qa.subject.name+"::"+qa.name);
+	if(i==0){
+	m.put("active",true);
+	}else{
+	m.put("active",false);
+	}
+	general.add(m);
+	i++;
+}
+return general;
+}

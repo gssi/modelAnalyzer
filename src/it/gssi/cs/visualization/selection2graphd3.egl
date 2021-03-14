@@ -77,6 +77,7 @@ background-color:#FFFFFF;
 
 </style>
 <body>
+
 <div class="container">
 
       <!-- Static navbar -->
@@ -145,8 +146,8 @@ var nodes = {
 
  };
 
-var width = 1000,
-    height = 700;
+var width = 600,
+    height = 400;
 
 const MIN_LINK_DISTANCE = 100,
 	  MIN_NODE_SIZE = 5, MAX_NODE_SIZE = 50;
@@ -164,8 +165,12 @@ const getMaxMinValuesFromNodes = (nodes) => {
   	Array.isArray(nodes) ?  parse_nodes = nodes : parse_nodes = Object.values(nodes)
 
 	const filter_array = parse_nodes.filter(item => item.type == TYPE_PROPERTY ? +item[SIZE_PROPERTY] : null)
+	
 	//check if there are enough objects with valid SIZE_PROPERTY values
-	if(filter_array < 2) return default_values
+	//check if there are enough objects with valid SIZE_PROPERTY values
+	if(filter_array.length < 2){
+		return [100, 100]
+	}
 
 	const sorted_array = filter_array.sort((prev, current) => prev[SIZE_PROPERTY] - current[SIZE_PROPERTY])
 	const min = +sorted_array[0][SIZE_PROPERTY], max = +sorted_array[sorted_array.length-1][SIZE_PROPERTY]
@@ -174,8 +179,13 @@ const getMaxMinValuesFromNodes = (nodes) => {
 }
 
 //get integer number between
-const getRelativeValue = (n, round) => round ? Math.round((n*MAX_NODE_SIZE)/MAX_VALUE) : (n*MAX_NODE_SIZE)/MAX_VALUE
-
+const getRelativeValue = (n, round) => {
+	//relativeValue is not required when there is ony one elements
+	if(MAX_VALUE === MIN_VALUE){
+		return n
+	}
+	return round ? Math.round((n*MAX_NODE_SIZE)/MAX_VALUE) : (n*MAX_NODE_SIZE)/MAX_VALUE
+}
 //get a valid numeric value from SIZE_PROPERTY property 
 const getNodeSize = d => {	
 	const value = d[SIZE_PROPERTY], type = d.type;
@@ -190,9 +200,9 @@ const getNodeSize = d => {
 	//check if value is a number, null or undefined
 	const num = +value ? +value : 0;
 	
-	//get relative value
-	const rel = getRelativeValue(num)
-
+	
+//get relative value if MIN_VALUE != MAX_VALUE 
+	const rel = MIN_VALUE === MAX_VALUE ? 0 : getRelativeValue(num)
 	return rel + MIN_NODE_SIZE
 }
 
@@ -382,8 +392,8 @@ document.querySelectorAll(".select-activelayer")
 
 	force.stop();
 	
-	node.selectAll("circle").transition().duration(1000).attr("r", d => getNodeSize(d))
-	node.selectAll("text").transition().duration(1000).attr("x", d => getNodeSize(d) + 7)
+	node.selectAll("circle").transition().duration(500).attr("r", d => getNodeSize(d))
+	node.selectAll("text").transition().duration(500).attr("x", d => getNodeSize(d) + 7)
 
 	force.start();
 }))

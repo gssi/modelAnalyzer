@@ -9,6 +9,7 @@ var qualityM = qualitydef.getAllOfType("QualityModel").first;
 var evaluatedqualityM = evaluatedecosystem;
 	
 var  evaluatedeecosys :evaluatedecosystem!QualityEcosystemDef = new evaluatedecosystem!QualityEcosystemDef;
+
 evaluatedeecosys.evaluate(qualityM,ecosys);
 
 

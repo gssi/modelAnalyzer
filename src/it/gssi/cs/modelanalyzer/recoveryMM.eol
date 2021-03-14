@@ -1,0 +1,31 @@
+import "recoveryMM.lib.eol";
+
+//module.getContext().getNativeTypeDelegates().add(new ExtensionPointToolNativeTypeDelegate());
+
+var emfTool = new Native("org.eclipse.epsilon.emc.emf.tools.EmfTool");
+
+//var simmetrics : new Native('it.gssi.cs.modelanalyzer.comparison.tools.SimMetricsTool');
+
+var metamodelext = Sequence{".ecore"};
+
+var repository = System.context.modelRepository.models.excluding(ecosystem);
+
+("Repository recovery:").println();
+repository.println();
+("====================================").println();
+
+
+if(distancemodel.isDefined()) {
+	repository.createEcosystem(distancemodel);
+}else{
+	repository.createEcosystem(null);
+}
+"=============================".println();
+
+
+
+
+
+
+
+
