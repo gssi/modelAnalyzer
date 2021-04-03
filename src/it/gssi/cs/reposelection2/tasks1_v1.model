@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_YEgfQDrQEeubpaf7DBeYtA" author="GSSI Student">
+  <projects xmi:id="_wq04QDrREeubpaf7DBeYtA" name="Smart Cities" category="_wTwcEDrREeubpaf7DBeYtA">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_klIcUDrSEeubpaf7DBeYtA" name="Calculate Smart City Index">
+      <attachments xmi:id="_KzeKMDrUEeubpaf7DBeYtA" externallink="https://assets.ey.com/content/dam/ey-sites/ey-com/it_it/generic/generic-content/ey_smartcityindex_sostenibilita_marzo2020.pdf" sitename="Smart City Index EY 2020" filename=""/>
+      <subtasks xmi:id="_ZJFaUDrTEeubpaf7DBeYtA" name="Calculate sensoristica score" done="false"/>
+      <subtasks xmi:id="_wTN-oDrTEeubpaf7DBeYtA" name="Calculate infrastructure and telecommunications networks score" done="false"/>
+      <subtasks xmi:id="_KOcKgDrUEeubpaf7DBeYtA" name="Calculate services delivery platform score" done="false"/>
+      <subtasks xmi:id="_g4YL0DrUEeubpaf7DBeYtA" name="Calculate government services and applications score" done="false">
+        <attachments xmi:id="_ncOTUDrUEeubpaf7DBeYtA" externallink="https://publicadministration.un.org/egovkb/Portals/egovkb/Documents/un/2020-Survey/2020%20UN%20E-Government%20Survey%20(Full%20Report).pdf" sitename="E-Government Survey 2020 - United Nations"/>
+      </subtasks>
+    </tasks>
+  </projects>
+  <projects xmi:id="_x3vXUDrREeubpaf7DBeYtA" name="Interacting Robots" category="_w-ursDrREeubpaf7DBeYtA">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_hREDgDrSEeubpaf7DBeYtA" name="Understand the requirements" done="true">
+      <attachments xmi:id="_pDkWgDrSEeubpaf7DBeYtA" externallink="" filename="Requirements" size="2 pages" type="document"/>
+      <subtasks xmi:id="_iulxcDrSEeubpaf7DBeYtA" name="Read the requirements" done="true"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_FqrO8DrVEeubpaf7DBeYtA" name="Formalise the model" done="false">
+      <subtasks xmi:id="_JgVR4DrVEeubpaf7DBeYtA" name="Define the language" done="true"/>
+      <subtasks xmi:id="_M-sPIDrVEeubpaf7DBeYtA" name="Define the BPA" done="false"/>
+      <subtasks xmi:id="_OyRFkDrVEeubpaf7DBeYtA" name="Define synchronisation between robots" done="false"/>
+    </tasks>
+  </projects>
+  <projects xmi:id="_NsTqcDrSEeubpaf7DBeYtA" name="Min-Cut Max-Flow Theorem " category="_xWbaADrREeubpaf7DBeYtA">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_jtVRoDrSEeubpaf7DBeYtA" name="Formalise the problem" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_rue9QDrVEeubpaf7DBeYtA" name="Read book chapter" done="true">
+      <attachments xmi:id="_t9UMUDrVEeubpaf7DBeYtA" externallink="" filename="Algorithm Design" size="500 pages" type="Book"/>
+    </tasks>
+  </projects>
+  <categories xmi:id="_wTwcEDrREeubpaf7DBeYtA" name="Software, Systems and Services" _id="123"/>
+  <categories xmi:id="_w-ursDrREeubpaf7DBeYtA" name="Introduction to Formal methods" _id="456"/>
+  <categories xmi:id="_xWbaADrREeubpaf7DBeYtA" name="Design and Analysis of Algorithms" _id="789"/>
+</tasksv1:TasksModel>

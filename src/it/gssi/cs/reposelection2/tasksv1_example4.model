@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_x0DTsEIwEeuDQ8E4Ln9TNg">
+  <projects xmi:id="_zwQhsEIwEeuDQ8E4Ln9TNg" name="Top Secret Project" category="_q_fdYEI1EeuDQ8E4Ln9TNg">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_CNiDkEIxEeuDQ8E4Ln9TNg" name="Hardest task" done="false">
+      <attachments xmi:id="_acm2sEIxEeuDQ8E4Ln9TNg" externallink="Example" sitename="www.worlddomination.com"/>
+      <subtasks xmi:id="_IIj3kEIxEeuDQ8E4Ln9TNg" name="Hardest step" done="true">
+        <attachments xmi:id="_avcTIEIxEeuDQ8E4Ln9TNg" filename="step.png" size="450KB" type="PNG Image"/>
+      </subtasks>
+    </tasks>
+  </projects>
+  <categories xmi:id="_q_fdYEI1EeuDQ8E4Ln9TNg" name="Forbidden" _id="1"/>
+</tasksv1:TasksModel>

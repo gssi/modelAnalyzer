@@ -2,16 +2,22 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="sourceMM" nsURI="http://cs.gssi.it/sourceMM" nsPrefix="sourceMM">
   <eClassifiers xsi:type="ecore:EClass" name="PersonList">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="persons" upperBound="-1"
-        eType="#//Person" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="persons" lowerBound="2"
+        upperBound="4" eType="#//Person" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="cards" upperBound="-1"
         eType="#//Card" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Person">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="card" lowerBound="1" eType="#//Card"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="card" lowerBound="1" upperBound="2"
+        eType="#//Card"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="gender" eType="#//Gender"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Card">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="uid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Gender">
+    <eLiterals name="male"/>
+    <eLiterals name="female" value="1"/>
   </eClassifiers>
 </ecore:EPackage>

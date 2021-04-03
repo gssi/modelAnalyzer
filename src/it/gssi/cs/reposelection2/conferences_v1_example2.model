@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_4nelwEIkEeu7lvhyjXuftQ">
+  <conferences xmi:id="_7jQaYEIkEeu7lvhyjXuftQ" acronym="SIBGRAPI" venue="Universidade Federal de Pernambuco, Porto de Galinhas, PE, Brazil" fullname="Conference on Graphics, Patterns and Images" date="2020-10-20T19:00:00.000-0300">
+    <submissions xmi:id="_OTYRgEIlEeu7lvhyjXuftQ" authors="_6LEYEEInEeu7lvhyjXuftQ _6kPGAEInEeu7lvhyjXuftQ" title="A review on image inpainting techniques and datasets" length="10" reviewers="_DzCCwEImEeu7lvhyjXuftQ"/>
+    <submissions xmi:id="_AWo0YEImEeu7lvhyjXuftQ" authors="_5nWnAEInEeu7lvhyjXuftQ _5NkOAEInEeu7lvhyjXuftQ" title="Superpixel Image Classification with Graph Attention Networks" length="10" reviewers="_ESoI0EImEeu7lvhyjXuftQ"/>
+    <members xsi:type="conference:PcMember" xmi:id="_BbSIQEImEeu7lvhyjXuftQ" name="Emerson Sales" username="emerson.sales" reviews="_-msgwEIlEeu7lvhyjXuftQ"/>
+    <members xsi:type="conference:PcMember" xmi:id="_C0O4MEImEeu7lvhyjXuftQ" name="Samira Silva" username="samira.silva" reviews="_ABZkMEImEeu7lvhyjXuftQ __kcicEIlEeu7lvhyjXuftQ"/>
+    <members xsi:type="conference:Author" xmi:id="_3HItAEInEeu7lvhyjXuftQ" name="Bruce Wayne" username="bruce.wayne"/>
+    <members xsi:type="conference:Author" xmi:id="_6kPGAEInEeu7lvhyjXuftQ" name="Barry Allen" username="barry.allen"/>
+  </conferences>
+  <conferences xmi:id="_PNz5cEIlEeu7lvhyjXuftQ" acronym="WVC" venue="Universidade Federal de Uberlandia, Uberlandia, Minas Gerais, Brazil" fullname="Workshop de Vis&#xe3;o Computacional" date="2020-11-15T19:00:00.000-0300">
+    <submissions xmi:id="_-msgwEIlEeu7lvhyjXuftQ" authors="_4fj4gEInEeu7lvhyjXuftQ _6kPGAEInEeu7lvhyjXuftQ" title="Screen-Space VPL propagation for real-time indirect lighting" length="15" reviewers="_BbSIQEImEeu7lvhyjXuftQ"/>
+    <submissions xmi:id="_ABZkMEImEeu7lvhyjXuftQ" authors="_6kPGAEInEeu7lvhyjXuftQ _5nWnAEInEeu7lvhyjXuftQ _6LEYEEInEeu7lvhyjXuftQ" title="SelfieArt: Interactive Multi-Style Transfer for Selfies and Videos with Soft Transitions" length="15" reviewers="_C0O4MEImEeu7lvhyjXuftQ"/>
+    <members xsi:type="conference:PcMember" xmi:id="_DzCCwEImEeu7lvhyjXuftQ" name="Christian Bartolo" username="christian.bartolo" reviews="_OTYRgEIlEeu7lvhyjXuftQ"/>
+    <members xsi:type="conference:Author" xmi:id="_4fj4gEInEeu7lvhyjXuftQ" name="Clark Kent" username="clark.kent"/>
+    <members xsi:type="conference:Author" xmi:id="_6LEYEEInEeu7lvhyjXuftQ" name="Jessica Jones" username="jessica.jones"/>
+  </conferences>
+  <conferences xmi:id="_g3QcYEIlEeu7lvhyjXuftQ" acronym="CIARP" venue="Universidade do Porto, Porto, Portugal" fullname="Iberoamerican Congress on Pattern Recognition" date="2020-11-15T19:00:00.000-0300">
+    <submissions xmi:id="__AaBQEIlEeu7lvhyjXuftQ" authors="_6kPGAEInEeu7lvhyjXuftQ _5nWnAEInEeu7lvhyjXuftQ _5NkOAEInEeu7lvhyjXuftQ" title="An efficient method for porosity properties extraction of carbonate rocks" length="20" reviewers="_EwXNsEImEeu7lvhyjXuftQ"/>
+    <submissions xmi:id="__kcicEIlEeu7lvhyjXuftQ" authors="_6LEYEEInEeu7lvhyjXuftQ" title="ISOMAP-KL: a parametric approach for unsupervised metric learning" length="20" reviewers="_C0O4MEImEeu7lvhyjXuftQ"/>
+    <members xsi:type="conference:PcMember" xmi:id="_ESoI0EImEeu7lvhyjXuftQ" name="Mario Prado" username="mario.prado" reviews="_AWo0YEImEeu7lvhyjXuftQ"/>
+    <members xsi:type="conference:PcMember" xmi:id="_EwXNsEImEeu7lvhyjXuftQ" name="Joaquin Amigo" username="joaquin.amigo" reviews="__AaBQEIlEeu7lvhyjXuftQ"/>
+    <members xsi:type="conference:Author" xmi:id="_5NkOAEInEeu7lvhyjXuftQ" name="Guy Gardner" username="guy.gardner"/>
+    <members xsi:type="conference:Author" xmi:id="_5nWnAEInEeu7lvhyjXuftQ" name="Peter Parker" username="peter.parker"/>
+  </conferences>
+</conference:ConfManager>

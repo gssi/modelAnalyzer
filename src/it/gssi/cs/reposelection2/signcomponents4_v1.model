@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sigcomp:ComponentModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sigcomp="http://cs.gssi.it/sigcomp/v1" xmi:id="_Wdrg0DrPEeuuw_fgc_cCWw">
+  <signatures xmi:id="_YpQnkDrPEeuuw_fgc_cCWw" inPort="_bSzcsDrPEeuuw_fgc_cCWw _bie3cDrPEeuuw_fgc_cCWw" outPort="_bvupQDrPEeuuw_fgc_cCWw _b9KBQDrPEeuuw_fgc_cCWw" id="s1"/>
+  <signatures xmi:id="_lmprEDrPEeuuw_fgc_cCWw" inPort="_m7mEwDrPEeuuw_fgc_cCWw _oSLdMDrPEeuuw_fgc_cCWw" outPort="_pEN-IDrPEeuuw_fgc_cCWw _qE-3kDrPEeuuw_fgc_cCWw" id="s2"/>
+  <signatures xmi:id="_wcFjkDrPEeuuw_fgc_cCWw" inPort="_bSzcsDrPEeuuw_fgc_cCWw _bie3cDrPEeuuw_fgc_cCWw" outPort="_pEN-IDrPEeuuw_fgc_cCWw _qE-3kDrPEeuuw_fgc_cCWw" id="s3"/>
+  <signatures xmi:id="_zi-cADrPEeuuw_fgc_cCWw" inPort="_m7mEwDrPEeuuw_fgc_cCWw" outPort="_bvupQDrPEeuuw_fgc_cCWw" id="s4"/>
+  <ports xmi:id="_bSzcsDrPEeuuw_fgc_cCWw" id="p1"/>
+  <ports xmi:id="_bie3cDrPEeuuw_fgc_cCWw" id="p2"/>
+  <ports xmi:id="_bvupQDrPEeuuw_fgc_cCWw" id="p3"/>
+  <ports xmi:id="_b9KBQDrPEeuuw_fgc_cCWw" id="p4"/>
+  <ports xmi:id="_m7mEwDrPEeuuw_fgc_cCWw" id="p5"/>
+  <ports xmi:id="_oSLdMDrPEeuuw_fgc_cCWw" id="p6"/>
+  <ports xmi:id="_pEN-IDrPEeuuw_fgc_cCWw" id="p8"/>
+  <ports xmi:id="_qE-3kDrPEeuuw_fgc_cCWw" id="p9"/>
+</sigcomp:ComponentModel>

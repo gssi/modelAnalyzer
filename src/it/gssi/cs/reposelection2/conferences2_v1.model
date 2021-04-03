@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_JocR4DldEeuozp1WtXCPQw">
+  <conferences xmi:id="_fx-U0DldEeuozp1WtXCPQw" acronym="POPL" venue="University of Copenhagen - Denmark, Copenhagen" fullname="Principles of Programming Languages" date="2021-01-17T09:00:00.000+0100">
+    <submissions xmi:id="_AhebcDlfEeuozp1WtXCPQw" authors="__SHsYDleEeuozp1WtXCPQw _kGDHMDlfEeuozp1WtXCPQw" title="A Computational Interpretation of Compact Closed Categories: Reversible Programming with Negative and Fractional Types" length="22" reviewers="__4vAcDleEeuozp1WtXCPQw"/>
+    <submissions xmi:id="__cod0DlfEeuozp1WtXCPQw" authors="_NwPtYDlgEeuozp1WtXCPQw" title="A Graded Dependent Type System with a Usage-Aware Semantics" length="10" reviewers="_umOr8DlgEeuozp1WtXCPQw"/>
+    <submissions xmi:id="_WRhVcDlhEeuozp1WtXCPQw" authors="_ctf6YDlhEeuozp1WtXCPQw" title="Cyclic Proofs, System T, and the Power of Contraction" length="15" reviewers="_6fnxQDlfEeuozp1WtXCPQw"/>
+    <submissions xmi:id="_yeCOgDlhEeuozp1WtXCPQw" authors="_-KdZYDlhEeuozp1WtXCPQw" title="Semantics-Guided Synthesis" length="17" reviewers="_sDdpsDlfEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:Author" xmi:id="__SHsYDleEeuozp1WtXCPQw" name="Amr Sabry" username="amrsabry"/>
+    <members xsi:type="conference:PcMember" xmi:id="__4vAcDleEeuozp1WtXCPQw" name="Andreas Podelski" username="andreaspodelski" reviews="_AhebcDlfEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:Author" xmi:id="_kGDHMDlfEeuozp1WtXCPQw" name="Chao-Hong Chen" username="chaohongchen"/>
+    <members xsi:type="conference:PcMember" xmi:id="_sDdpsDlfEeuozp1WtXCPQw" name="Fritz Henglein" username="fritzhenglein" reviews="_yeCOgDlhEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:PcMember" xmi:id="_6fnxQDlfEeuozp1WtXCPQw" name="Azalea Raad" username="azalearaad" reviews="_WRhVcDlhEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:Author" xmi:id="_NwPtYDlgEeuozp1WtXCPQw" name="Stephanie Weirich" username="stephanieweirich"/>
+    <members xsi:type="conference:PcMember" xmi:id="_umOr8DlgEeuozp1WtXCPQw" name="Hanneli Tavante" username="hannelitavante" reviews="__cod0DlfEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:Author" xmi:id="_ctf6YDlhEeuozp1WtXCPQw" name="Damien Pous" username="damienpous"/>
+    <members xsi:type="conference:Author" xmi:id="_-KdZYDlhEeuozp1WtXCPQw" name="Thomas Reps" username="thomasreps"/>
+  </conferences>
+</conference:ConfManager>

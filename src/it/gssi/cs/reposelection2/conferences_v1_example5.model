@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_HMUsEEIhEeuDQ8E4Ln9TNg">
+  <conferences xmi:id="_HuDgIEIhEeuDQ8E4Ln9TNg" acronym="WiL" fullname="Women in Logic Workshop" date="2020-06-30T00:00:00.000-0300">
+    <submissions xmi:id="_4rA6kEInEeuDQ8E4Ln9TNg" authors="_2sFIsEInEeuDQ8E4Ln9TNg" title="An algebraic framework to reason about concurrency" length="9"/>
+    <submissions xmi:id="_M9_rkEIoEeuDQ8E4Ln9TNg" authors="_1WkHQEInEeuDQ8E4Ln9TNg" title="Nominal Syntax with Atom Substitutions" length="12"/>
+    <members xsi:type="conference:Author" xmi:id="_1WkHQEInEeuDQ8E4Ln9TNg" name="Maribel Fern&#xe1;ndez" username="m.fernandez"/>
+    <members xsi:type="conference:Author" xmi:id="_2sFIsEInEeuDQ8E4Ln9TNg" name="Alexandra Silva" username="a.silva"/>
+  </conferences>
+</conference:ConfManager>

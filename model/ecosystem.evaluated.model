@@ -1,656 +1,974 @@
 <?xml version="1.0" encoding="ASCII"?>
-<qualityecosystem:QualityEcosystemDef xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdeecosystem="http://cs.gssi.it/mdeecosystem" xmlns:qualityecosystem="http://cs.gssi.it/qualityecosystem" xsi:schemaLocation="http://cs.gssi.it/qualityecosystem file:///Users/administrator/git/modelAnalyzer/bin/it/gssi/cs/metamodels/qualityEcosystem.ecore">
-  <evaluations actualizedvalue="21.0">
+<qualityecosystem:QualityEcosystemDef xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdeecosystem="http://cs.gssi.it/mdeecosystem" xmlns:qualityecosystem="http://cs.gssi.it/qualityecosystem" xmi:id="_k5EtkJMaEeumwfShtQplAQ">
+  <evaluations xmi:id="_k5EtkZMaEeumwfShtQplAQ" actualizedvalue="7.0">
     <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwFkIYD9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_lLdeEJMaEeumwfShtQplAQ"/>
+    <calculatedBy xmi:id="_k5EtkpMaEeumwfShtQplAQ">
       <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="21.0">
+      <calculatedMetrics xmi:id="_k5Etk5MaEeumwfShtQplAQ" actualizedvalue="7.0">
         <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="1.3809523582458496">
+  <evaluations xmi:id="_k5EtlJMaEeumwfShtQplAQ" actualizedvalue="1.2857142686843872">
     <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwFkIYD9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#//@artifacts.0"/>
+    <calculatedBy xmi:id="_k5EtlZMaEeumwfShtQplAQ">
       <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="29.0">
+      <calculatedMetrics xmi:id="_k5EtlpMaEeumwfShtQplAQ" actualizedvalue="9.0">
         <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="21.0">
+      <calculatedMetrics xmi:id="_k5Etl5MaEeumwfShtQplAQ" actualizedvalue="7.0">
         <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="25.0">
+  <evaluations xmi:id="_k5EtmJMaEeumwfShtQplAQ" actualizedvalue="3.0">
     <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwGLMID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#//@artifacts.1"/>
+    <calculatedBy xmi:id="_k5EtmZMaEeumwfShtQplAQ">
       <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="25.0">
+      <calculatedMetrics xmi:id="_k5EtmpMaEeumwfShtQplAQ" actualizedvalue="3.0">
         <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="1.9199999570846558">
+  <evaluations xmi:id="_k5Etm5MaEeumwfShtQplAQ" actualizedvalue="1.0">
     <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwGLMID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#//@artifacts.1"/>
+    <calculatedBy xmi:id="_k5EtnJMaEeumwfShtQplAQ">
       <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="48.0">
+      <calculatedMetrics xmi:id="_k5FUoJMaEeumwfShtQplAQ" actualizedvalue="3.0">
         <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="25.0">
+      <calculatedMetrics xmi:id="_k5FUoZMaEeumwfShtQplAQ" actualizedvalue="3.0">
         <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="5.0">
+  <evaluations xmi:id="_k5FUopMaEeumwfShtQplAQ" actualizedvalue="6.0">
     <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwHZUID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#//@artifacts.2"/>
+    <calculatedBy xmi:id="_k5FUo5MaEeumwfShtQplAQ">
       <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="5.0">
+      <calculatedMetrics xmi:id="_k5FUpJMaEeumwfShtQplAQ" actualizedvalue="6.0">
         <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="2.200000047683716">
+  <evaluations xmi:id="_k5FUpZMaEeumwfShtQplAQ" actualizedvalue="1.3333333730697632">
     <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwHZUID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#//@artifacts.2"/>
+    <calculatedBy xmi:id="_k5FUppMaEeumwfShtQplAQ">
       <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="11.0">
+      <calculatedMetrics xmi:id="_k5FUp5MaEeumwfShtQplAQ" actualizedvalue="8.0">
         <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="5.0">
+      <calculatedMetrics xmi:id="_k5FUqJMaEeumwfShtQplAQ" actualizedvalue="6.0">
         <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="5.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwIAYID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="5.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwIAYID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="5.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="5.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="4.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwIncID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.75">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwIncID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="11.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="24.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwJ1kID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="24.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="4.041666507720947">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwJ1kID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="97.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="24.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="4.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwMR0ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwMR0ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="17.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwM44ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="17.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="4.470588207244873">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwM44ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="76.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="17.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="8.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwNf8ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="8.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwNf8ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="8.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="8.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="82.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwOHAID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="82.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.0731706619262695">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwOHAID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="170.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="82.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="18.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwOHAYD9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="18.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.7777777910232544">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwOHAYD9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="32.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="18.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="7.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwOuEID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="7.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.2857142686843872">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwOuEID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="9.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="7.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="8.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwPVIID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="8.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.5">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwPVIID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="12.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="8.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="55.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwP8MID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="55.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.218181848526001">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwP8MID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="67.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="55.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="4.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwQjQID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwQjQID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwRKUID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="2.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwRKUID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="2.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="2.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="5.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwRxYID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="5.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.2000000476837158">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwRxYID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="6.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="5.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="5.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwSYcID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="5.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.7999999523162842">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwSYcID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="9.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="5.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="3.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwS_gID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="3.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwS_gID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="3.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="3.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="3.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwTmkID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="3.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwTmkID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="3.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="3.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="21.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwU0sID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="21.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.3809523582458496">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwU0sID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="29.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="21.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="4.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwVbwID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwVbwID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="4.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwWC0ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="2.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwWC0ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="2.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="2.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="5.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwWp4ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="5.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.399999976158142">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwWp4ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="7.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="5.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="14.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwXQ8ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="14.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.2857143878936768">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwXQ8ID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="32.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="14.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="7.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwX4AID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="7.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.5714285373687744">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwX4AID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="11.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="7.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="14.0">
-    <qa href="qualitydef.model#_12Q6cHKMEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwYfEID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_Z9btMHKeEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="14.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.5">
-    <qa href="qualitydef.model#_cazfgH3LEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_XwYfEID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
-      <calculatedBy href="qualitydef.model#_1_wgcH3LEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="21.0">
-        <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-      <calculatedMetrics actualizedvalue="14.0">
-        <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-      </calculatedMetrics>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="7.0">
+  <evaluations xmi:id="_k5FUqZMaEeumwfShtQplAQ" actualizedvalue="10.0">
     <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_XwcwgID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.3"/>
+    <calculatedBy xmi:id="_k5FUqpMaEeumwfShtQplAQ">
       <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="7.0">
+      <calculatedMetrics xmi:id="_k5FUq5MaEeumwfShtQplAQ" actualizedvalue="10.0">
         <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="5.0">
+  <evaluations xmi:id="_k5FUrJMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.3"/>
+    <calculatedBy xmi:id="_k5FUrZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5FUrpMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FUr5MaEeumwfShtQplAQ" actualizedvalue="13.0">
     <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_XwcwgYD9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.4"/>
+    <calculatedBy xmi:id="_k5FUsJMaEeumwfShtQplAQ">
       <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="5.0">
+      <calculatedMetrics xmi:id="_k5FUsZMaEeumwfShtQplAQ" actualizedvalue="13.0">
         <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
       </calculatedMetrics>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="16.0">
+  <evaluations xmi:id="_k5FUspMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.4"/>
+    <calculatedBy xmi:id="_k5FUs5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5FUtJMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FUtZMaEeumwfShtQplAQ" actualizedvalue="9.0">
     <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
-    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_XwdXkID9EeuBc5zGAU8pNg"/>
-    <calculatedBy>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.5"/>
+    <calculatedBy xmi:id="_k5FUtpMaEeumwfShtQplAQ">
       <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
-      <calculatedMetrics actualizedvalue="16.0">
+      <calculatedMetrics xmi:id="_k5FUt5MaEeumwfShtQplAQ" actualizedvalue="9.0">
         <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FUuJMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.5"/>
+    <calculatedBy xmi:id="_k5FUuZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5FUupMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FUu5MaEeumwfShtQplAQ" actualizedvalue="5.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.6"/>
+    <calculatedBy xmi:id="_k5FUvJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5FUvZMaEeumwfShtQplAQ" actualizedvalue="5.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FUvpMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.6"/>
+    <calculatedBy xmi:id="_k5FUv5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5FUwJMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FUwZMaEeumwfShtQplAQ" actualizedvalue="65.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.7"/>
+    <calculatedBy xmi:id="_k5FUwpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5FUw5MaEeumwfShtQplAQ" actualizedvalue="65.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FUxJMaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.7"/>
+    <calculatedBy xmi:id="_k5FUxZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5FUxpMaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FUx5MaEeumwfShtQplAQ" actualizedvalue="65.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.8"/>
+    <calculatedBy xmi:id="_k5FUyJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5FUyZMaEeumwfShtQplAQ" actualizedvalue="65.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FUypMaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.8"/>
+    <calculatedBy xmi:id="_k5FUy5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5FUzJMaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FUzZMaEeumwfShtQplAQ" actualizedvalue="7.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.9"/>
+    <calculatedBy xmi:id="_k5FUzpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5FUz5MaEeumwfShtQplAQ" actualizedvalue="7.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5FU0JMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.9"/>
+    <calculatedBy xmi:id="_k5F7sJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5F7sZMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F7spMaEeumwfShtQplAQ" actualizedvalue="15.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.10"/>
+    <calculatedBy xmi:id="_k5F7s5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5F7tJMaEeumwfShtQplAQ" actualizedvalue="15.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F7tZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.10"/>
+    <calculatedBy xmi:id="_k5F7tpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5F7t5MaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F7uJMaEeumwfShtQplAQ" actualizedvalue="17.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.11"/>
+    <calculatedBy xmi:id="_k5F7uZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5F7upMaEeumwfShtQplAQ" actualizedvalue="17.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F7u5MaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.11"/>
+    <calculatedBy xmi:id="_k5F7vJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5F7vZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F7vpMaEeumwfShtQplAQ" actualizedvalue="4.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.12"/>
+    <calculatedBy xmi:id="_k5F7v5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5F7wJMaEeumwfShtQplAQ" actualizedvalue="4.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F7wZMaEeumwfShtQplAQ" actualizedvalue="0.8888888955116272">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.12"/>
+    <calculatedBy xmi:id="_k5F7wpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5F7w5MaEeumwfShtQplAQ" actualizedvalue="0.8888888955116272">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F7xJMaEeumwfShtQplAQ" actualizedvalue="5.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.13"/>
+    <calculatedBy xmi:id="_k5F7xZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5F7xpMaEeumwfShtQplAQ" actualizedvalue="5.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F7x5MaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.13"/>
+    <calculatedBy xmi:id="_k5F7yJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5F7yZMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F7ypMaEeumwfShtQplAQ" actualizedvalue="15.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.14"/>
+    <calculatedBy xmi:id="_k5F7y5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5F7zJMaEeumwfShtQplAQ" actualizedvalue="15.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F7zZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.14"/>
+    <calculatedBy xmi:id="_k5F7zpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5F7z5MaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F70JMaEeumwfShtQplAQ" actualizedvalue="39.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.15"/>
+    <calculatedBy xmi:id="_k5F70ZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5F70pMaEeumwfShtQplAQ" actualizedvalue="39.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F705MaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.15"/>
+    <calculatedBy xmi:id="_k5F71JMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5F71ZMaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F71pMaEeumwfShtQplAQ" actualizedvalue="32.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.16"/>
+    <calculatedBy xmi:id="_k5F715MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5F72JMaEeumwfShtQplAQ" actualizedvalue="32.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F72ZMaEeumwfShtQplAQ" actualizedvalue="0.8499999642372131">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.16"/>
+    <calculatedBy xmi:id="_k5F72pMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5F725MaEeumwfShtQplAQ" actualizedvalue="0.8499999642372131">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5F73JMaEeumwfShtQplAQ" actualizedvalue="5.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.17"/>
+    <calculatedBy xmi:id="_k5GiwJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5GiwZMaEeumwfShtQplAQ" actualizedvalue="5.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5GiwpMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.17"/>
+    <calculatedBy xmi:id="_k5Giw5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5GixJMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5GixZMaEeumwfShtQplAQ" actualizedvalue="9.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.18"/>
+    <calculatedBy xmi:id="_k5GixpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Gix5MaEeumwfShtQplAQ" actualizedvalue="9.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5GiyJMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.18"/>
+    <calculatedBy xmi:id="_k5GiyZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5GiypMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Giy5MaEeumwfShtQplAQ" actualizedvalue="7.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.19"/>
+    <calculatedBy xmi:id="_k5GizJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5GizZMaEeumwfShtQplAQ" actualizedvalue="7.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5GizpMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.19"/>
+    <calculatedBy xmi:id="_k5Giz5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Gi0JMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi0ZMaEeumwfShtQplAQ" actualizedvalue="10.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.20"/>
+    <calculatedBy xmi:id="_k5Gi0pMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Gi05MaEeumwfShtQplAQ" actualizedvalue="10.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi1JMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.20"/>
+    <calculatedBy xmi:id="_k5Gi1ZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Gi1pMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi15MaEeumwfShtQplAQ" actualizedvalue="10.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.21"/>
+    <calculatedBy xmi:id="_k5Gi2JMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Gi2ZMaEeumwfShtQplAQ" actualizedvalue="10.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi2pMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.21"/>
+    <calculatedBy xmi:id="_k5Gi25MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Gi3JMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi3ZMaEeumwfShtQplAQ" actualizedvalue="6.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.22"/>
+    <calculatedBy xmi:id="_k5Gi3pMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Gi35MaEeumwfShtQplAQ" actualizedvalue="6.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi4JMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.22"/>
+    <calculatedBy xmi:id="_k5Gi4ZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Gi4pMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi45MaEeumwfShtQplAQ" actualizedvalue="7.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.23"/>
+    <calculatedBy xmi:id="_k5Gi5JMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Gi5ZMaEeumwfShtQplAQ" actualizedvalue="7.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi5pMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.23"/>
+    <calculatedBy xmi:id="_k5Gi55MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Gi6JMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi6ZMaEeumwfShtQplAQ" actualizedvalue="13.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.24"/>
+    <calculatedBy xmi:id="_k5Gi6pMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Gi65MaEeumwfShtQplAQ" actualizedvalue="13.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi7JMaEeumwfShtQplAQ" actualizedvalue="0.8611111640930176">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.24"/>
+    <calculatedBy xmi:id="_k5Gi7ZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Gi7pMaEeumwfShtQplAQ" actualizedvalue="0.8611111640930176">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi75MaEeumwfShtQplAQ" actualizedvalue="43.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.25"/>
+    <calculatedBy xmi:id="_k5Gi8JMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Gi8ZMaEeumwfShtQplAQ" actualizedvalue="43.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Gi8pMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.25"/>
+    <calculatedBy xmi:id="_k5HJ0JMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5HJ0ZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HJ0pMaEeumwfShtQplAQ" actualizedvalue="12.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.26"/>
+    <calculatedBy xmi:id="_k5HJ05MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5HJ1JMaEeumwfShtQplAQ" actualizedvalue="12.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HJ1ZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.26"/>
+    <calculatedBy xmi:id="_k5HJ1pMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5HJ15MaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HJ2JMaEeumwfShtQplAQ" actualizedvalue="48.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.27"/>
+    <calculatedBy xmi:id="_k5HJ2ZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5HJ2pMaEeumwfShtQplAQ" actualizedvalue="48.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HJ25MaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.27"/>
+    <calculatedBy xmi:id="_k5HJ3JMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5HJ3ZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HJ3pMaEeumwfShtQplAQ" actualizedvalue="8.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.28"/>
+    <calculatedBy xmi:id="_k5HJ35MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5HJ4JMaEeumwfShtQplAQ" actualizedvalue="8.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HJ4ZMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.28"/>
+    <calculatedBy xmi:id="_k5HJ4pMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5HJ45MaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HJ5JMaEeumwfShtQplAQ" actualizedvalue="10.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.29"/>
+    <calculatedBy xmi:id="_k5HJ5ZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5HJ5pMaEeumwfShtQplAQ" actualizedvalue="10.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HJ55MaEeumwfShtQplAQ" actualizedvalue="0.944444477558136">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.29"/>
+    <calculatedBy xmi:id="_k5Hw4JMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Hw4ZMaEeumwfShtQplAQ" actualizedvalue="0.944444477558136">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Hw4pMaEeumwfShtQplAQ" actualizedvalue="21.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.30"/>
+    <calculatedBy xmi:id="_k5Hw45MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Hw5JMaEeumwfShtQplAQ" actualizedvalue="21.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Hw5ZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.30"/>
+    <calculatedBy xmi:id="_k5Hw5pMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Hw55MaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Hw6JMaEeumwfShtQplAQ" actualizedvalue="9.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.31"/>
+    <calculatedBy xmi:id="_k5Hw6ZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Hw6pMaEeumwfShtQplAQ" actualizedvalue="9.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Hw65MaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.31"/>
+    <calculatedBy xmi:id="_k5Hw7JMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Hw7ZMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Hw7pMaEeumwfShtQplAQ" actualizedvalue="15.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.32"/>
+    <calculatedBy xmi:id="_k5Hw75MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Hw8JMaEeumwfShtQplAQ" actualizedvalue="15.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Hw8ZMaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.32"/>
+    <calculatedBy xmi:id="_k5Hw8pMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Hw85MaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Hw9JMaEeumwfShtQplAQ" actualizedvalue="11.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.33"/>
+    <calculatedBy xmi:id="_k5Hw9ZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Hw9pMaEeumwfShtQplAQ" actualizedvalue="11.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Hw95MaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.33"/>
+    <calculatedBy xmi:id="_k5Hw-JMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Hw-ZMaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Hw-pMaEeumwfShtQplAQ" actualizedvalue="20.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.34"/>
+    <calculatedBy xmi:id="_k5Hw-5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5Hw_JMaEeumwfShtQplAQ" actualizedvalue="20.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5Hw_ZMaEeumwfShtQplAQ" actualizedvalue="0.7527778148651123">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.34"/>
+    <calculatedBy xmi:id="_k5Hw_pMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5Hw_5MaEeumwfShtQplAQ" actualizedvalue="0.7527778148651123">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HxAJMaEeumwfShtQplAQ" actualizedvalue="7.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.35"/>
+    <calculatedBy xmi:id="_k5HxAZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5HxApMaEeumwfShtQplAQ" actualizedvalue="7.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HxA5MaEeumwfShtQplAQ" actualizedvalue="0.6666666865348816">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.35"/>
+    <calculatedBy xmi:id="_k5HxBJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5HxBZMaEeumwfShtQplAQ" actualizedvalue="0.6666666865348816">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HxBpMaEeumwfShtQplAQ" actualizedvalue="14.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.36"/>
+    <calculatedBy xmi:id="_k5HxB5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5HxCJMaEeumwfShtQplAQ" actualizedvalue="14.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HxCZMaEeumwfShtQplAQ" actualizedvalue="0.694444477558136">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.36"/>
+    <calculatedBy xmi:id="_k5HxCpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5HxC5MaEeumwfShtQplAQ" actualizedvalue="0.694444477558136">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HxDJMaEeumwfShtQplAQ" actualizedvalue="15.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.37"/>
+    <calculatedBy xmi:id="_k5HxDZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5HxDpMaEeumwfShtQplAQ" actualizedvalue="15.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5HxD5MaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.37"/>
+    <calculatedBy xmi:id="_k5HxEJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5HxEZMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IX8JMaEeumwfShtQplAQ" actualizedvalue="13.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.38"/>
+    <calculatedBy xmi:id="_k5IX8ZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5IX8pMaEeumwfShtQplAQ" actualizedvalue="13.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IX85MaEeumwfShtQplAQ" actualizedvalue="1.0">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.38"/>
+    <calculatedBy xmi:id="_k5IX9JMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5IX9ZMaEeumwfShtQplAQ" actualizedvalue="1.0">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IX9pMaEeumwfShtQplAQ" actualizedvalue="6.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.39"/>
+    <calculatedBy xmi:id="_k5IX95MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5IX-JMaEeumwfShtQplAQ" actualizedvalue="6.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IX-ZMaEeumwfShtQplAQ" actualizedvalue="0.7166666388511658">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.39"/>
+    <calculatedBy xmi:id="_k5IX-pMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5IX-5MaEeumwfShtQplAQ" actualizedvalue="0.7166666388511658">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IX_JMaEeumwfShtQplAQ" actualizedvalue="22.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.40"/>
+    <calculatedBy xmi:id="_k5IX_ZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5IX_pMaEeumwfShtQplAQ" actualizedvalue="22.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IX_5MaEeumwfShtQplAQ" actualizedvalue="0.75">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.40"/>
+    <calculatedBy xmi:id="_k5IYAJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5IYAZMaEeumwfShtQplAQ" actualizedvalue="0.75">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYApMaEeumwfShtQplAQ" actualizedvalue="31.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.41"/>
+    <calculatedBy xmi:id="_k5IYA5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5IYBJMaEeumwfShtQplAQ" actualizedvalue="31.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYBZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.41"/>
+    <calculatedBy xmi:id="_k5IYBpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5IYB5MaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYCJMaEeumwfShtQplAQ" actualizedvalue="15.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.42"/>
+    <calculatedBy xmi:id="_k5IYCZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5IYCpMaEeumwfShtQplAQ" actualizedvalue="15.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYC5MaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.42"/>
+    <calculatedBy xmi:id="_k5IYDJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5IYDZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYDpMaEeumwfShtQplAQ" actualizedvalue="10.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.43"/>
+    <calculatedBy xmi:id="_k5IYD5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5IYEJMaEeumwfShtQplAQ" actualizedvalue="10.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYEZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.43"/>
+    <calculatedBy xmi:id="_k5IYEpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5IYE5MaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYFJMaEeumwfShtQplAQ" actualizedvalue="7.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.44"/>
+    <calculatedBy xmi:id="_k5IYFZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5IYFpMaEeumwfShtQplAQ" actualizedvalue="7.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYF5MaEeumwfShtQplAQ" actualizedvalue="0.944444477558136">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.44"/>
+    <calculatedBy xmi:id="_k5IYGJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5IYGZMaEeumwfShtQplAQ" actualizedvalue="0.944444477558136">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYGpMaEeumwfShtQplAQ" actualizedvalue="24.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.45"/>
+    <calculatedBy xmi:id="_k5IYG5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5IYHJMaEeumwfShtQplAQ" actualizedvalue="24.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYHZMaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.45"/>
+    <calculatedBy xmi:id="_k5IYHpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5IYH5MaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYIJMaEeumwfShtQplAQ" actualizedvalue="10.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.46"/>
+    <calculatedBy xmi:id="_k5IYIZMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5IYIpMaEeumwfShtQplAQ" actualizedvalue="10.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYI5MaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.46"/>
+    <calculatedBy xmi:id="_k5IYJJMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5IYJZMaEeumwfShtQplAQ" actualizedvalue="0.9750000238418579">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYJpMaEeumwfShtQplAQ" actualizedvalue="14.0">
+    <qa href="qualitydef.model#_AU7zkHKfEeuBc5zGAU8pNg"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.47"/>
+    <calculatedBy xmi:id="_k5IYJ5MaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_DIfgUHKfEeuBc5zGAU8pNg"/>
+      <calculatedMetrics xmi:id="_k5IYKJMaEeumwfShtQplAQ" actualizedvalue="14.0">
+        <metric href="qualitydef.model#_gg6R4H3OEeuBc5zGAU8pNg"/>
+      </calculatedMetrics>
+    </calculatedBy>
+  </evaluations>
+  <evaluations xmi:id="_k5IYKZMaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_KfLOYJC5EeuBWtQKEF9eRQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#//@artifacts.47"/>
+    <calculatedBy xmi:id="_k5IYKpMaEeumwfShtQplAQ">
+      <calculatedBy href="qualitydef.model#_SyDqkJC5EeuBWtQKEF9eRQ"/>
+      <calculatedMetrics xmi:id="_k5IYK5MaEeumwfShtQplAQ" actualizedvalue="0.9166666865348816">
+        <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
       </calculatedMetrics>
     </calculatedBy>
   </evaluations>
   <qualityModel href="qualitydef.model#_1LL9IHKMEeuBc5zGAU8pNg"/>
-  <ecosystemModel href="ecosystem.model#_XwFkIID9EeuBc5zGAU8pNg"/>
+  <ecosystemModel href="ecosystem.model#_lLc3AJMaEeumwfShtQplAQ"/>
 </qualityecosystem:QualityEcosystemDef>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_LId70C85Eeu69ajeHLyIxQ">
+  <conferences xmi:id="_LykBsC85Eeu69ajeHLyIxQ" acronym="MODELS" venue="University of Montreal - Canada, Montreal" fullname="Intl. Conf. on Models Foundation and application" date="2020-10-01T00:00:00.000+0200">
+    <submissions xmi:id="_sdr0EC85Eeu69ajeHLyIxQ" authors="_ojXTkC85Eeu69ajeHLyIxQ" title="Bridging state based and operational differecing" length="10" reviewers="_qXUkgC85Eeu69ajeHLyIxQ"/>
+    <submissions xmi:id="_-qMyYC86Eeu69ajeHLyIxQ" authors="_CBEAgC87Eeu69ajeHLyIxQ" title="Model Repair" length="10" reviewers="_Hsvw8C87Eeu69ajeHLyIxQ"/>
+    <members xsi:type="conference:Author" xmi:id="_ojXTkC85Eeu69ajeHLyIxQ" name="Ludovico Iovino" username="ludovico.iovino"/>
+    <members xsi:type="conference:PcMember" xmi:id="_qXUkgC85Eeu69ajeHLyIxQ" name="John Doe" username="john.doe" reviews="_sdr0EC85Eeu69ajeHLyIxQ"/>
+    <members xsi:type="conference:PcMember" xmi:id="_waGJ0C86Eeu69ajeHLyIxQ" name="Pippo Baudo" username="pipppo.baudo"/>
+    <members xsi:type="conference:Author" xmi:id="_CBEAgC87Eeu69ajeHLyIxQ" name="Angela Barriga"/>
+    <members xsi:type="conference:PcMember" xmi:id="_Hsvw8C87Eeu69ajeHLyIxQ" name="gino Paoli" reviews="_-qMyYC86Eeu69ajeHLyIxQ"/>
+    <members xsi:type="conference:PcMember" xmi:id="_IXQmgEPUEeu-0I7y8H3Glw" name="Ernesto Fern&#xe1;ndez" username="ernesto.fernandez"/>
+  </conferences>
+  <conferences xmi:id="_VyhAsC9aEeu69ajeHLyIxQ" acronym="iCities2019" venue="GSSI - Gran Sasso Science Institute, 67100 L'Aquila - Italy" fullname="National conference on smart cities and communities" date="2019-09-11T00:00:00.000+0200">
+    <submissions xmi:id="_aRZnYDmNEeugsN2Bhcu1Jw" authors="_ZbQpkDmNEeugsN2Bhcu1Jw" title="Graph Approximation Algorithms " length="14" reviewers="_Zyk9YDmNEeugsN2Bhcu1Jw"/>
+    <members xsi:type="conference:Author" xmi:id="_ZbQpkDmNEeugsN2Bhcu1Jw" name="James Clifton" username="jamesclifton"/>
+    <members xsi:type="conference:PcMember" xmi:id="_Zyk9YDmNEeugsN2Bhcu1Jw" name="Andrea Miguelez" username="andreamiguelez" reviews="_aRZnYDmNEeugsN2Bhcu1Jw"/>
+    <members xsi:type="conference:PcMember" xmi:id="_RhjWYEPVEeu-0I7y8H3Glw" name="Richard Britx" username="richard.britx"/>
+  </conferences>
+</conference:ConfManager>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_t5DqoDllEeuozp1WtXCPQw">
+  <conferences xmi:id="_5EoLMDllEeuozp1WtXCPQw" acronym="FORTE" venue="University of Malta - Valletta, Malta" fullname="International Conference on Formal Techniques for Distributed Objects, Components, and Systems" date="2021-06-14T10:00:00.000+0200">
+    <submissions xmi:id="_8F0O0DlmEeuozp1WtXCPQw" authors="_6KXOwDlmEeuozp1WtXCPQw _4iIssDlmEeuozp1WtXCPQw" title="A Formal Framework for Consent Management &#xA;" length="10" reviewers="_lT7V8DlnEeuozp1WtXCPQw"/>
+    <submissions xmi:id="_9f-_YDlpEeuozp1WtXCPQw" authors="_ez53IDlqEeuozp1WtXCPQw _3sceADlqEeuozp1WtXCPQw" title="Derivation of Heard-Of Predicates From Elementary Behavioral Patterns" length="10" reviewers="_RhS48DlnEeuozp1WtXCPQw"/>
+    <submissions xmi:id="_hPLKQDlrEeuozp1WtXCPQw" authors="_mkPxgDlrEeuozp1WtXCPQw" title="Deep Statistical Model Checking " length="4" reviewers="_f-F5sDlnEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:Author" xmi:id="_4iIssDlmEeuozp1WtXCPQw" name="Shukun Tokas" username="shukuntokas"/>
+    <members xsi:type="conference:Author" xmi:id="_6KXOwDlmEeuozp1WtXCPQw" name="Olaf Owe" username="olafowe"/>
+    <members xsi:type="conference:PcMember" xmi:id="_RhS48DlnEeuozp1WtXCPQw" name="Marco Bernardo" username="marcobernardo" reviews="_9f-_YDlpEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:PcMember" xmi:id="_VO5zIDlnEeuozp1WtXCPQw" name="Nathalie Bertrand" username="nathaliebertrand" reviews="_8nexcDlmEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:PcMember" xmi:id="_f-F5sDlnEeuozp1WtXCPQw" name="Marco Carbone" username="marcocarbone" reviews="_hPLKQDlrEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:Author" xmi:id="_ez53IDlqEeuozp1WtXCPQw" name="Adam Shimi" username="adamshimi"/>
+    <members xsi:type="conference:Author" xmi:id="_3sceADlqEeuozp1WtXCPQw" name="Philippe Queinnec" username="philippequeinnec"/>
+    <members xsi:type="conference:Author" xmi:id="_mkPxgDlrEeuozp1WtXCPQw" name="Michaela Klauck" username="michaelaklauck"/>
+  </conferences>
+  <conferences xmi:id="_O0yE0DlmEeuozp1WtXCPQw" acronym="DAIS" venue="University of Malta - Valletta, Malta" fullname="International Conference on Distributed Applications and Interoperable Systems" date="2021-06-14T10:00:00.000+0200">
+    <submissions xmi:id="_8nexcDlmEeuozp1WtXCPQw" authors="_SaxFUDlsEeuozp1WtXCPQw _5RHSkDlmEeuozp1WtXCPQw" title="Self-Tunable DBMS Replication with Reinforcement Learning" length="20" reviewers="_VO5zIDlnEeuozp1WtXCPQw"/>
+    <submissions xmi:id="_64FBoDlsEeuozp1WtXCPQw" authors="_D1zxoDltEeuozp1WtXCPQw _6x6-ADlmEeuozp1WtXCPQw" title="Capturing Privacy-preserving User Contexts with IndoorHash" length="19" reviewers="_8c9HADlnEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:Author" xmi:id="_5RHSkDlmEeuozp1WtXCPQw" name="Jose Pereira" username="josepereira"/>
+    <members xsi:type="conference:Author" xmi:id="_6x6-ADlmEeuozp1WtXCPQw" name="Lakhdar Meftah" username="lakhdarmeftah"/>
+    <members xsi:type="conference:PcMember" xmi:id="_lT7V8DlnEeuozp1WtXCPQw" name="Sara Bouchenak" username="sarabouchenak" reviews="_8F0O0DlmEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:PcMember" xmi:id="_8c9HADlnEeuozp1WtXCPQw" name="Davide Frey" username="davidefrey" reviews="_64FBoDlsEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:Author" xmi:id="_SaxFUDlsEeuozp1WtXCPQw" name="Luis Ferreira" username="luisferreira"/>
+    <members xsi:type="conference:Author" xmi:id="_D1zxoDltEeuozp1WtXCPQw" name="Romain Rouvoy" username="romainrouvoy"/>
+  </conferences>
+  <conferences xmi:id="_dsk_gDlmEeuozp1WtXCPQw" acronym="COORDINATION" venue="University of Malta - Valletta, Malta" fullname="International Conference on Coordination Models and Languages" date="2021-06-14T10:00:00.000+0200">
+    <submissions xmi:id="_9EpOkDlmEeuozp1WtXCPQw" authors="_5yStADlmEeuozp1WtXCPQw _7YnxoDlmEeuozp1WtXCPQw" title="Weighted PCL over product valuation monoids" length="8" reviewers="__petYDlnEeuozp1WtXCPQw"/>
+    <submissions xmi:id="_ht8fADltEeuozp1WtXCPQw" authors="_0jZiEDltEeuozp1WtXCPQw" title="Choreography Automata" length="10" reviewers="_LNHIoDloEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:Author" xmi:id="_5yStADlmEeuozp1WtXCPQw" name="Paulina Paraponiari" username="paulinaparaponiari"/>
+    <members xsi:type="conference:Author" xmi:id="_7YnxoDlmEeuozp1WtXCPQw" name="Vagia Karyoti" username="vagiakaryoti"/>
+    <members xsi:type="conference:PcMember" xmi:id="__petYDlnEeuozp1WtXCPQw" name="Stephanie Balzer" username="stephaniebalzer" reviews="_9EpOkDlmEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:PcMember" xmi:id="_LNHIoDloEeuozp1WtXCPQw" name="Chiara Bodei" username="chiarabodei" reviews="_ht8fADltEeuozp1WtXCPQw"/>
+    <members xsi:type="conference:PcMember" xmi:id="_OP2g4DloEeuozp1WtXCPQw" name="Roberto Bruni" username="robertobruni"/>
+    <members xsi:type="conference:Author" xmi:id="_0jZiEDltEeuozp1WtXCPQw" name="Emilio Tuosto" username="emiliotuosto"/>
+  </conferences>
+</conference:ConfManager>

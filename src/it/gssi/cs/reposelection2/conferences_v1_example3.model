@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_MoOIgEIrEeu7lvhyjXuftQ">
+  <conferences xmi:id="_yhpLwEIrEeu7lvhyjXuftQ" acronym="IJCB" venue="Potsdam, Nova York, USA" fullname="International Joint Conference on Biometrics" date="2020-04-03T19:00:00.000-0300">
+    <submissions xmi:id="_n41kkEIsEeu7lvhyjXuftQ" authors="_qyi8oEIsEeu7lvhyjXuftQ" title="Impacts of Color Space Transformations on Dysplastic Nuclei Segmentation Using CNN" length="30" reviewers="_o7vzEEIsEeu7lvhyjXuftQ"/>
+    <members xsi:type="conference:Author" xmi:id="_ps9NkEIsEeu7lvhyjXuftQ" name="Ana Meireles" username="ana.meireles"/>
+    <members xsi:type="conference:PcMember" xmi:id="_o7vzEEIsEeu7lvhyjXuftQ" name="Martin Miller" username="martin.miller" reviews="_n41kkEIsEeu7lvhyjXuftQ _GvH8QEItEeu7lvhyjXuftQ _1lp54EIsEeu7lvhyjXuftQ"/>
+  </conferences>
+  <conferences xmi:id="_1xvqkEIrEeu7lvhyjXuftQ" acronym="ECCV" venue="University of Glasgow, Glasgow, UK" fullname="European Conference on Computer Vision" date="2020-12-07T19:00:00.000-0300">
+    <submissions xmi:id="_GvH8QEItEeu7lvhyjXuftQ" authors="_ps9NkEIsEeu7lvhyjXuftQ" title="Unsupervised Segmentation of Breast Infrared Images in Lateral View Using Histogram of Oriented Gradients" length="20" reviewers="_o7vzEEIsEeu7lvhyjXuftQ"/>
+    <members xsi:type="conference:Author" xmi:id="_qyi8oEIsEeu7lvhyjXuftQ" name="Saymon Meireles" username="saymon.meireles"/>
+  </conferences>
+  <conferences xmi:id="_2MiJIEIrEeu7lvhyjXuftQ" acronym="ICIP" venue=" Anchorage, Alaska, USA" fullname="International Conference on Image Processing" date="2020-11-15T19:00:00.000-0300">
+    <submissions xmi:id="_1lp54EIsEeu7lvhyjXuftQ" authors="_ps9NkEIsEeu7lvhyjXuftQ" title="Fundus Eye Images Classification for Diabetic Retinopathy Detection Using Very DeepConvolutional Neural Network" length="30" reviewers="_o7vzEEIsEeu7lvhyjXuftQ"/>
+  </conferences>
+</conference:ConfManager>

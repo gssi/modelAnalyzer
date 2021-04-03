@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_KpKtEDlzEeuzMZnmOaKEQw">
+  <conferences xmi:id="_OE7CQDlzEeuzMZnmOaKEQw" acronym="WoWMoM 2021" venue="University of Rome, Rome, Italy" fullname="IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks" date="2020-12-07T00:00:00.000+0100">
+    <submissions xmi:id="_f_ii0Dl1EeuzMZnmOaKEQw" authors="_cblJUDl0EeuzMZnmOaKEQw" title="Publication WoWMoM n.1" length="3" reviewers="_fP-HEDl1EeuzMZnmOaKEQw"/>
+    <submissions xmi:id="_gjJmMDl1EeuzMZnmOaKEQw" authors="_hYS68Dl0EeuzMZnmOaKEQw" title="Publication WoWMoM n.2" length="5" reviewers="_t0WhEDl2EeuzMZnmOaKEQw"/>
+    <members xsi:type="conference:Author" xmi:id="_cblJUDl0EeuzMZnmOaKEQw" name="Donald Knuth" username="donaldknuth"/>
+    <members xsi:type="conference:Author" xmi:id="_hYS68Dl0EeuzMZnmOaKEQw" name="Tony Hoare" username="tonyhoare"/>
+    <members xsi:type="conference:PcMember" xmi:id="_t0WhEDl2EeuzMZnmOaKEQw" name="Ernesto Fern&#xe1;ndez" username="ernestofdez" reviews="_gjJmMDl1EeuzMZnmOaKEQw"/>
+    <members xsi:type="conference:PcMember" xmi:id="_fP-HEDl1EeuzMZnmOaKEQw" name="Jorge P&#xe9;rez" username="jorgeperez" reviews="_f_ii0Dl1EeuzMZnmOaKEQw"/>
+  </conferences>
+  <conferences xmi:id="_8tjRUDlzEeuzMZnmOaKEQw" acronym="ICCSGP 2020" venue="University of Bangkok, Bangkok, Thailand" fullname="Computers, Software, Graphics and Programming Conference" date="2020-12-15T00:00:00.000+0100">
+    <submissions xmi:id="_g7zWwDl1EeuzMZnmOaKEQw" authors="_if9GkDl0EeuzMZnmOaKEQw" title="Publication ICCSGP 2020 n.1" length="4" reviewers="_w3xOwDl2EeuzMZnmOaKEQw"/>
+    <submissions xmi:id="_xWGwkDl2EeuzMZnmOaKEQw" authors="_if9GkDl0EeuzMZnmOaKEQw" title="Publication ICCSGP 2020 n.2" length="7" reviewers="_wfGQEDl2EeuzMZnmOaKEQw"/>
+    <members xsi:type="conference:Author" xmi:id="_if9GkDl0EeuzMZnmOaKEQw" name="James Rumbaugh" username="jamesrumbaugh"/>
+    <members xsi:type="conference:PcMember" xmi:id="_wfGQEDl2EeuzMZnmOaKEQw" name="Jennifer Linch" username="jenniferlinch" reviews="_xWGwkDl2EeuzMZnmOaKEQw"/>
+    <members xsi:type="conference:PcMember" xmi:id="_w3xOwDl2EeuzMZnmOaKEQw" name="Michael Gino" username="michaelgino" reviews="_g7zWwDl1EeuzMZnmOaKEQw"/>
+    <members xsi:type="conference:PcMember" xmi:id="_3zsfYERIEeuR3r2gbkngGA" name="Siward Fredrika " username="siward.fredrika "/>
+    <members xsi:type="conference:PcMember" xmi:id="_4N9ZgERIEeuR3r2gbkngGA" name="Rada.isidoros " username="rada.isidoros "/>
+    <members xsi:type="conference:PcMember" xmi:id="_4kKTAERIEeuR3r2gbkngGA" name="Catrina A&#xf1;uli " username="catrina.a&#xf1;uli "/>
+  </conferences>
+</conference:ConfManager>

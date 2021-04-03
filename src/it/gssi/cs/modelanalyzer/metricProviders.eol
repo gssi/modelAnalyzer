@@ -1,10 +1,102 @@
+//model metrics providers
+
 operation ecosystem!Model getSize() : Real {
 
 	return self.getRealArtifact().allInstances().size();
 }
+ 
+operation ecosystem!Model getCoverage() : Real {
+	var weight_i = 1.0;
+	var weight_feature = 1.0;
+	var subjectmodel = self;
+	var modelcoverage : Real = 0.0;
+	var coverageattrs: Real = 0.0;
+	var coveragerefs: Real  = 0.0;
 
+if(self.getMetamodel().isDefined()){
+
+var allclasses = self.getMetamodel().getRealArtifact().getAllOfType('EClass').select(c|not c.isAbstract);
+	for (c in allclasses ) { 
+		modelcoverage = modelcoverage + c.getCoverage(weight_i, weight_feature, subjectmodel);
+	}
+	
+	modelcoverage = modelcoverage/allclasses.size();
+	
+}
+	return modelcoverage;
+}
+
+operation ecosystem!EClass getCoverage(weight_i : Real, weight_sf : Real, subjectmodel: ecosystem!Model): Real{
+var allinstances = subjectmodel.getRealArtifact().allInstances().select(i|i.eClass.name = self.name);
+	if(allinstances.size()>0){
+	//if instances exist
+	var features_cov = self.eAllStructuralFeatures.collect(sf|sf.getCoverage(weight_sf, allinstances));
+	//("			"+self.name+":"+features_cov+"-->"+(features_cov.sum()/features_cov.size())).println();
+	return features_cov.sum()/features_cov.size();
+	 
+	}
+	 return 0.0;
+}
+
+operation ecosystem!EAttribute getCoverage(weight : Real, allinstances: List): Real{
+	
+	var i_withdefinedfeature = allinstances.select(i|i.eGet(i.eClass().getEStructuralFeature(self.name)).isDefined());
+	if( i_withdefinedfeature.size()==0)return 0.0;
+	
+		if(self.eType.eClass.name=="EDataType"){
+		
+		if(self.eType.name=="EBoolean" ){
+			 
+			return (weight * i_withdefinedfeature.collect(i|i.eGet(i.eClass().getEStructuralFeature(self.name))).asSet().size())/2;
+			
+		}else if(allinstances.exists(i|i.eGet(i.eClass().getEStructuralFeature(self.name)).isDefined())){
+			return weight;
+		}
+		}else if(self.eType.eClass.name=="EEnum"){
+	
+			return  weight * (i_withdefinedfeature.collect(i|i.eGet(i.eClass().getEStructuralFeature(self.name))).asSet().size().asReal()/self.eType.eLiterals.size().asReal());
+		
+		}	
+	
+	return 0.0;
+}
+
+operation ecosystem!EReference  getCoverage(weight : Real, allinstances: List): Real{
+
+var i_withdefinedfeature = allinstances.select(i|i.eGet(i.eClass().getEStructuralFeature(self.name)).isDefined());
+
+if(self.upperBound < self.lowerBound){
+// 0..*
+	return weight * (i_withdefinedfeature.collect(i|i.eGet(i.eClass().getEStructuralFeature(self.name))).size()>0).booltoint();
+}else if(self.upperBound > self.lowerBound and not self.containment){
+// n..m
+	return weight * (((i_withdefinedfeature.exists(i|(i.eGet(i.eClass().getEStructuralFeature(self.name))).size()==self.lowerBound) ).booltoint() + (i_withdefinedfeature.exists(i|(i.eGet(i.eClass().getEStructuralFeature(self.name))).size()==self.upperBound) ).booltoint())/2);
+}else if(self.upperBound > self.lowerBound and self.containment){
+// n..m
+	return weight * ((i_withdefinedfeature.collect(i|i.eGet(i.eClass().getEStructuralFeature(self.name))).size()==self.lowerBound or i_withdefinedfeature.collect(i|i.eGet(i.eClass().getEStructuralFeature(self.name))).size()==self.upperBound).booltoint());
+}else if(self.upperBound == self.lowerBound){
+// 1..1, 4..4	
+	return weight * (i_withdefinedfeature.collect(i|i.eGet(i.eClass().getEStructuralFeature(self.name))).size()==self.lowerBound).booltoint();
+}
+return 0.0;
+}
+
+
+operation Boolean booltoint(){
+
+	if (self==true){
+		return 1.0;
+	}else{
+		return 0.0;
+	}
+}
 
 //Metamodel metrics provider
+
+operation ecosystem!Model getMetamodel(): ecosystem!Metamodel{
+	var allconnections = ecosystem!Conformance.all;
+	return allconnections.selectOne(con|con.src=self).trg;
+}
 
 operation ecosystem!Metamodel getNC() : Real {
 

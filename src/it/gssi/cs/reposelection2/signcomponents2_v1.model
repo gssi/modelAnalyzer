@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sigcomp:ComponentModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sigcomp="http://cs.gssi.it/sigcomp/v1" xmi:id="_E6EYMDpjEeumMvgsfi2Klw">
+  <signatures xmi:id="_Fvj1wDpjEeumMvgsfi2Klw" inPort="_GehNgDpjEeumMvgsfi2Klw _G0p1kDpjEeumMvgsfi2Klw" outPort="_HIf-oDpjEeumMvgsfi2Klw _IEynwDpjEeumMvgsfi2Klw" id="s1"/>
+  <signatures xmi:id="_Hn7FkDpjEeumMvgsfi2Klw" inPort="_GehNgDpjEeumMvgsfi2Klw" outPort="_aqUYcDpjEeumMvgsfi2Klw" id="s2"/>
+  <signatures xmi:id="_IkA6YDpjEeumMvgsfi2Klw" inPort="_GehNgDpjEeumMvgsfi2Klw _G0p1kDpjEeumMvgsfi2Klw" outPort="_HIf-oDpjEeumMvgsfi2Klw" id="s3"/>
+  <ports xmi:id="_GehNgDpjEeumMvgsfi2Klw" id="p1"/>
+  <ports xmi:id="_G0p1kDpjEeumMvgsfi2Klw" id="p2"/>
+  <ports xmi:id="_HIf-oDpjEeumMvgsfi2Klw" id="p3"/>
+  <ports xmi:id="_IEynwDpjEeumMvgsfi2Klw" id="p4"/>
+  <ports xmi:id="_aqUYcDpjEeumMvgsfi2Klw" id="p5"/>
+</sigcomp:ComponentModel>

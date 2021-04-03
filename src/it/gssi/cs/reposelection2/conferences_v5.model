@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_f0PLkDmSEeuNWMJkFCahtA">
+  <conferences xmi:id="_gZiRADmSEeuNWMJkFCahtA" acronym="ICASE 2020" venue="University of Moscow, Moscow, Russia" fullname="International Conference on Automation Science and Engineering " date="2021-12-20T00:00:00.000+0100">
+    <submissions xmi:id="_h2L1MDmSEeuNWMJkFCahtA" authors="_hFTK0DmSEeuNWMJkFCahtA" title="A Terrestrial-Mass Planet on the Run?" length="41" reviewers="_hccfgDmSEeuNWMJkFCahtA"/>
+    <submissions xmi:id="_iO0XoDmSEeuNWMJkFCahtA" authors="_hFTK0DmSEeuNWMJkFCahtA" title="Astronomy Education Integrates Virtual Reality&#x2014;Mars Exploration" length="3" reviewers="_jObagDmSEeuNWMJkFCahtA"/>
+    <members xsi:type="conference:Author" xmi:id="_hFTK0DmSEeuNWMJkFCahtA" name="Thomas Shelby" username="thomasshelby"/>
+    <members xsi:type="conference:PcMember" xmi:id="_hccfgDmSEeuNWMJkFCahtA" name="Alfie Solomons" username="alfiesolomons" reviews="_h2L1MDmSEeuNWMJkFCahtA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_jObagDmSEeuNWMJkFCahtA" name="Jessica Kimber" username="jessicakimber" reviews="_iO0XoDmSEeuNWMJkFCahtA"/>
+  </conferences>
+  <conferences xmi:id="_juvSQDmSEeuNWMJkFCahtA" acronym="ICSC" venue="University of Wuhan, Wuhan, China" fullname="International Conference on Super Conductors" date="2021-04-28T00:00:00.000+0200">
+    <submissions xmi:id="_kn35sDmSEeuNWMJkFCahtA" authors="_kKBgEDmSEeuNWMJkFCahtA _lfjvoDmSEeuNWMJkFCahtA" title="3D printing of metal-based materials for renewable energy applications" length="12" reviewers="_l6FvgDmSEeuNWMJkFCahtA"/>
+    <members xsi:type="conference:Author" xmi:id="_kKBgEDmSEeuNWMJkFCahtA" name="Michael Gray" username="michaelgray"/>
+    <members xsi:type="conference:Author" xmi:id="_lfjvoDmSEeuNWMJkFCahtA" name="Aberama Gold" username="aberamagold"/>
+    <members xsi:type="conference:PcMember" xmi:id="_l6FvgDmSEeuNWMJkFCahtA" name="Fred Thorne" username="fredthorne" reviews="_kn35sDmSEeuNWMJkFCahtA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_IIz-AEPYEeu-0I7y8H3Glw" name="Guillermo Coccia" username="guillermo.coccia"/>
+  </conferences>
+</conference:ConfManager>

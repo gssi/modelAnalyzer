@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="__z61QDmHEeuLcqC5sQHm-w" author="Microsoft">
+  <projects xmi:id="_R43ocDmIEeuLcqC5sQHm-w" name="WSL" category="_NfZGwDmIEeuLcqC5sQHm-w">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_WOEuIDmIEeuLcqC5sQHm-w" name="Test WSL 3" done="false">
+      <attachments xmi:id="_D4fBcDmJEeuLcqC5sQHm-w" externallink="http://ubuntu.com/help" sitename="ubuntu.com" filename="Ubuntu Help" size="450Kb" type="HTML"/>
+      <subtasks xmi:id="_hUUCwDmIEeuLcqC5sQHm-w" name="Test CUDA Support" done="false">
+        <attachments xmi:id="_u58K8DmIEeuLcqC5sQHm-w" externallink="" sitename="" filename="cuda_architecture_definition" size="10mb" type="PDF"/>
+      </subtasks>
+      <subtasks xmi:id="_8ahbEDmIEeuLcqC5sQHm-w" name="Test GUI Apps Support" done="false"/>
+    </tasks>
+  </projects>
+  <categories xmi:id="_NfZGwDmIEeuLcqC5sQHm-w" name="Testing"/>
+</tasksv1:TasksModel>

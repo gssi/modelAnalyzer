@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_YKuD4EJCEeu7lvhyjXuftQ">
+  <projects xmi:id="_dc5vMEJCEeu7lvhyjXuftQ" name="Math" category="_eEyOkEJCEeu7lvhyjXuftQ">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_GdBdoEJDEeu7lvhyjXuftQ" name="Arithmetic Exam" done="false">
+      <subtasks xmi:id="_h6SrEEJDEeu7lvhyjXuftQ" name="Question on Addition" done="true"/>
+      <subtasks xmi:id="_iM1zoEJDEeu7lvhyjXuftQ" name="Question on Subtraction" done="true"/>
+      <subtasks xmi:id="_ilT-AEJDEeu7lvhyjXuftQ" name="Question on Division" done="true"/>
+    </tasks>
+  </projects>
+  <projects xmi:id="_d0yqwEJCEeu7lvhyjXuftQ" name="Physics" category="_eEyOkEJCEeu7lvhyjXuftQ">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_L18DEEJDEeu7lvhyjXuftQ" name="Dynamics Exam" done="true">
+      <subtasks xmi:id="_zgd3kEJDEeu7lvhyjXuftQ" name="Question on Momentum" done="true"/>
+      <subtasks xmi:id="_0DH4sEJDEeu7lvhyjXuftQ" name="Question on Force" done="false"/>
+    </tasks>
+  </projects>
+  <projects xmi:id="_pew-kEJCEeu7lvhyjXuftQ" name="History" category="_oE0wIEJCEeu7lvhyjXuftQ">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_V_qsIEJDEeu7lvhyjXuftQ" name="Exercise Sheet on French Revolution" done="true"/>
+  </projects>
+  <categories xmi:id="_eEyOkEJCEeu7lvhyjXuftQ" name="Exact Sciences" _id="1"/>
+  <categories xmi:id="_oE0wIEJCEeu7lvhyjXuftQ" name="Human Sciences" _id="2"/>
+</tasksv1:TasksModel>

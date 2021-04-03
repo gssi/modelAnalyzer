@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_HTryIEI-EeuDQ8E4Ln9TNg">
+  <projects xmi:id="_RCgA0EI-EeuDQ8E4Ln9TNg" name="System Development" category="_IG6l4EI-EeuDQ8E4Ln9TNg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_UhiTgEI-EeuDQ8E4Ln9TNg" name="Develop Plan"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_WfbjkEI-EeuDQ8E4Ln9TNg" name="Assign Tasks"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_YAo3oEI-EeuDQ8E4Ln9TNg" name="Obtain Hardware">
+      <attachments xmi:id="_RooXQEI_EeuDQ8E4Ln9TNg" filename="license.exe" size="2MB"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_Zb8YAEI-EeuDQ8E4Ln9TNg" name="Programming"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_b0TWgEI-EeuDQ8E4Ln9TNg" name="Install Hardware"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_cz9csEI-EeuDQ8E4Ln9TNg" name="Program Test"/>
+  </projects>
+  <projects xmi:id="_wgq34EI-EeuDQ8E4Ln9TNg" name="Pancake recipe" category="_qcoR0EI-EeuDQ8E4Ln9TNg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_ymYnMEI-EeuDQ8E4Ln9TNg" name="Preheat pan" done="true"/>
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_1lwiYEI-EeuDQ8E4Ln9TNg" name="Gather ingredients">
+      <attachments xmi:id="_My4JQEI_EeuDQ8E4Ln9TNg" externallink="" sitename="www.supermarket.com"/>
+      <subtasks xmi:id="_5jwpAEI-EeuDQ8E4Ln9TNg" name="Flour"/>
+      <subtasks xmi:id="_7YzfEEI-EeuDQ8E4Ln9TNg" name="Oil"/>
+      <subtasks xmi:id="__S-OkEI-EeuDQ8E4Ln9TNg" name="Banana"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_AvUQwEI_EeuDQ8E4Ln9TNg" name="Mix ingredients"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_EAV8oEI_EeuDQ8E4Ln9TNg" name="Eat"/>
+  </projects>
+  <categories xmi:id="_IG6l4EI-EeuDQ8E4Ln9TNg" name="Project Management" _id="42"/>
+  <categories xmi:id="_qcoR0EI-EeuDQ8E4Ln9TNg" name="Culinary" _id="10"/>
+</tasksv1:TasksModel>
