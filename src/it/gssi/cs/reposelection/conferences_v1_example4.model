@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_M5tCcEIdEeuDQ8E4Ln9TNg">
+  <conferences xmi:id="_NxY4YEIdEeuDQ8E4Ln9TNg" acronym="AiML" venue="University of Helsinki" fullname="Advances in Modal Logic" date="2020-08-24T00:00:00.000-0300">
+    <submissions xmi:id="_Xho_kEIfEeuDQ8E4Ln9TNg" authors="_ZBNU4EIfEeuDQ8E4Ln9TNg _rGx9sEIgEeuDQ8E4Ln9TNg" title="Counterfactuals and dependencies on causal teams: expressive power and deduction systems" length="7" reviewers="_ZmYegEIfEeuDQ8E4Ln9TNg"/>
+    <members xsi:type="conference:Author" xmi:id="_ZBNU4EIfEeuDQ8E4Ln9TNg" name="Fausto Barbero" username="f.barbero"/>
+    <members xsi:type="conference:PcMember" xmi:id="_ZmYegEIfEeuDQ8E4Ln9TNg" name="Sara Negri" username="s.negri" reviews="_Xho_kEIfEeuDQ8E4Ln9TNg"/>
+    <members xsi:type="conference:Author" xmi:id="_rGx9sEIgEeuDQ8E4Ln9TNg" name="Fan Yang" username="f.yang"/>
+    <members xsi:type="conference:PcMember" xmi:id="_62IygEIgEeuDQ8E4Ln9TNg" name="Nicola Olivetti" username="n.olivetti"/>
+  </conferences>
+  <conferences xmi:id="_IyPhAEIhEeuDQ8E4Ln9TNg" acronym="DaL&#xed;" venue="Czech Academy of Sciences" fullname="Dynamic Logic: New Trends and Applications" date="2020-10-09T00:00:00.000-0300">
+    <submissions xmi:id="_wW9BYEIhEeuDQ8E4Ln9TNg" authors="_rxi8gEIhEeuDQ8E4Ln9TNg" title="A Dynamic Logic with Four-Valued Relations and Propositions" length="8"/>
+    <members xsi:type="conference:PcMember" xmi:id="_bpkzYEIhEeuDQ8E4Ln9TNg" name="Igor Sedl&#xe1;r" username="i.sedlar"/>
+    <members xsi:type="conference:PcMember" xmi:id="_h6hNAEIhEeuDQ8E4Ln9TNg" name="Manuel A. Martins" username="m.martins"/>
+    <members xsi:type="conference:Author" xmi:id="_rxi8gEIhEeuDQ8E4Ln9TNg" name="Diana Costa" username="d.costa"/>
+  </conferences>
+</conference:ConfManager>

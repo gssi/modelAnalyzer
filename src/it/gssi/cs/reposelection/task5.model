@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_d2WRoDmJEeuLcqC5sQHm-w" author="Tesla Worker">
+  <projects xmi:id="_neiT4DmJEeuLcqC5sQHm-w" name="Autonomus Driving Module" category="_j5SrgDmJEeuLcqC5sQHm-w">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_zhd6QDmJEeuLcqC5sQHm-w" name="Train Model with Dark Night Images" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_CmeKgDmKEeuLcqC5sQHm-w" name="Test New Pedestrian Recognition Model" done="false"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_Llod4DmKEeuLcqC5sQHm-w" name="Improve Ice Road Detection" done="false"/>
+  </projects>
+  <categories xmi:id="_j5SrgDmJEeuLcqC5sQHm-w" name="AI"/>
+  <categories xmi:id="_HcgP4D5tEeuQSKlY2yaacQ" name="Testing" _id="1"/>
+</tasksv1:TasksModel>

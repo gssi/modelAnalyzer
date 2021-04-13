@@ -131,7 +131,7 @@ if(edge.src.isDefined() and edge.trg.isDefined()){
   %]
 ];
 
-    
+var subject = "[%=subject.name%]";   
 var nodes = {
 [%for (node in nodes) { %]
 	"[%=node.name%]" : {"name":"[%=node.name%]","type":"[%=node.eClass.name%]","info":"[%=node.name%]","virtual":"[%=(node.virtual)?"virtual":"concrete"%]" 

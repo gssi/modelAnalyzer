@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_tOsrwDl1EeuLcqC5sQHm-w" author="IBM">
+  <projects xmi:id="_Xpz8EDl3EeuLcqC5sQHm-w" name="Watson Inference Model" category="_C3QTIDl3EeuLcqC5sQHm-w">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_mYPYADl6EeuLcqC5sQHm-w" name="Review Literature" done="true">
+      <attachments xmi:id="_rBc-0Dl6EeuLcqC5sQHm-w" externallink="http://springer.com/InferenceModelsSurvey.pdf" sitename="springer.com" filename="Inference Models Survey.pdf" size="512Kb" type="PDf"/>
+      <attachments xmi:id="_-MXUgDl6EeuLcqC5sQHm-w" externallink="" sitename="" filename="Watson Modeling.pdf" size="300Kb" type="PDF"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_Q5PqYDl7EeuLcqC5sQHm-w" name="Write Paper" done="false"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_YjDUYDl7EeuLcqC5sQHm-w" name="Publish Paper" done="false"/>
+  </projects>
+  <projects xmi:id="_cPo64Dl7EeuLcqC5sQHm-w" name="Watson Neural Interface" category="_eg3zIDl6EeuLcqC5sQHm-w">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_kZUiUDl8EeuLcqC5sQHm-w" name="Solve Neural Interface Bug" done="false">
+      <subtasks xmi:id="_qoOUkDl8EeuLcqC5sQHm-w" name="Review BERT Feeder Module" done="true"/>
+      <subtasks xmi:id="_2IFDEDl8EeuLcqC5sQHm-w" name="Retrain Model" done="true"/>
+      <subtasks xmi:id="_7Hj00Dl8EeuLcqC5sQHm-w" name="Run Continuous Integration" done="false"/>
+    </tasks>
+  </projects>
+  <categories xmi:id="_C3QTIDl3EeuLcqC5sQHm-w" name="Paper"/>
+  <categories xmi:id="_eg3zIDl6EeuLcqC5sQHm-w" name="Development" _id="1"/>
+</tasksv1:TasksModel>

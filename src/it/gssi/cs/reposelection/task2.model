@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_-GlVQDl9EeuLcqC5sQHm-w" author="Ubisoft">
+  <projects xmi:id="_QRXqsDl-EeuLcqC5sQHm-w" name="Dunia Engine" category="_Emk3gDl-EeuLcqC5sQHm-w">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_csdSYDl-EeuLcqC5sQHm-w" name="Improve Fire Mechanics" done="false">
+      <subtasks xmi:id="_hwaUcDl-EeuLcqC5sQHm-w" name="Study Particle Models" done="true">
+        <attachments xmi:id="_nrl5cDl-EeuLcqC5sQHm-w" externallink="http://ieee.com/particle2020fireston.pdf" sitename="IEEE" filename="Particle Models for Fire Simulation" size="1mb" type="PDF"/>
+      </subtasks>
+      <subtasks xmi:id="_ACcIgDl_EeuLcqC5sQHm-w" name="Improve Fire Model" done="false"/>
+    </tasks>
+  </projects>
+  <projects xmi:id="_IRo-kDl_EeuLcqC5sQHm-w" name="World Art" category="_HvRGwDl-EeuLcqC5sQHm-w">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_LrRM0Dl_EeuLcqC5sQHm-w" name="See Caribbean Island Videos for Inspiration" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_cAGGMDl_EeuLcqC5sQHm-w" name="Draw Sketch of Waterfall in Jungle" done="false"/>
+  </projects>
+  <categories xmi:id="_Emk3gDl-EeuLcqC5sQHm-w" name="Development"/>
+  <categories xmi:id="_HvRGwDl-EeuLcqC5sQHm-w" name="Design" _id="1"/>
+</tasksv1:TasksModel>

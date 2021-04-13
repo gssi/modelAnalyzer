@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="ASCII"?>
-<qualitymodel:QualityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:qualitymodel="http://cs.gssi.it/qualitymodel" xmi:id="_1LL9IHKMEeuBc5zGAU8pNg">
-  <qualityattrs xmi:id="_12Q6cHKMEeuBc5zGAU8pNg" name="Complexity">
-    <calculatedBy xmi:id="_Z9btMHKeEeuBc5zGAU8pNg" withoperation="AVG" metrics="_AVkTIH3LEeuBc5zGAU8pNg"/>
+<qualitymodel:QualityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qualitymodel="http://cs.gssi.it/qualitymodel" xmi:id="_1LL9IHKMEeuBc5zGAU8pNg" author="Ludovic">
+  <qualityattrs xmi:id="_ymeFkJoIEeuLwNyVYONI1A" name="Maintainability">
+    <calculatedBy xmi:id="_omDzwJoMEeuLwNyVYONI1A" withoperation="DIV">
+      <operators xsi:type="qualitymodel:Operation" xmi:id="_znMl8JoMEeuLwNyVYONI1A">
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_p_cokJoMEeuLwNyVYONI1A" name="_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_tA8DoJoMEeuLwNyVYONI1A" name="_RozgwJn_EeuLwNyVYONI1A"/>
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_t-db0JoMEeuLwNyVYONI1A" name="_LCyPAJn_EeuLwNyVYONI1A"/>
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_uugYsJoMEeuLwNyVYONI1A" name="_Wz_zQJn_EeuLwNyVYONI1A"/>
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_vgPXoJoMEeuLwNyVYONI1A" name="_ioxo4Jn_EeuLwNyVYONI1A"/>
+      </operators>
+      <operators xsi:type="qualitymodel:StaticReal" xmi:id="_1-HaAJoMEeuLwNyVYONI1A" value="5.0"/>
+    </calculatedBy>
     <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
   </qualityattrs>
-  <qualityattrs xmi:id="_AU7zkHKfEeuBc5zGAU8pNg" name="Complexity" description="Complexity of models">
-    <calculatedBy xmi:id="_DIfgUHKfEeuBc5zGAU8pNg" withoperation="GET" metrics="_gg6R4H3OEeuBc5zGAU8pNg"/>
-    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Model"/>
-  </qualityattrs>
-  <qualityattrs xmi:id="_cazfgH3LEeuBc5zGAU8pNg" name="Understandability" description="Understandability of the metamodel">
-    <calculatedBy xmi:id="_1_wgcH3LEeuBc5zGAU8pNg" withoperation="DIV" metrics="_Ut1MwH3LEeuBc5zGAU8pNg _AVkTIH3LEeuBc5zGAU8pNg"/>
+  <qualityattrs xmi:id="_3iEgEJoMEeuLwNyVYONI1A" name="Understandability" description="Understandability">
+    <calculatedBy xmi:id="_8A5b0JoMEeuLwNyVYONI1A" withoperation="DIV">
+      <operators xsi:type="qualitymodel:Operation" xmi:id="_JoB_4JoNEeuLwNyVYONI1A">
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_9rYnsJoMEeuLwNyVYONI1A" name="_Ut1MwH3LEeuBc5zGAU8pNg"/>
+      </operators>
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_LiYMsJoNEeuLwNyVYONI1A" name="_AVkTIH3LEeuBc5zGAU8pNg"/>
+    </calculatedBy>
     <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
-  </qualityattrs>
-  <qualityattrs xmi:id="_KfLOYJC5EeuBWtQKEF9eRQ" name="Coverage" description="The coverage wrt metamodel">
-    <calculatedBy xmi:id="_SyDqkJC5EeuBWtQKEF9eRQ" withoperation="GET" metrics="_U1Q4cJC5EeuBWtQKEF9eRQ"/>
-    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Model"/>
   </qualityattrs>
   <metrics xmi:id="_AVkTIH3LEeuBc5zGAU8pNg" name="NC" metricProvider="getNC" description="number of metaclasses"/>
   <metrics xmi:id="_Ut1MwH3LEeuBc5zGAU8pNg" name="PRED" metricProvider="getSumPRED" description="get sum  of predecessor of a classes"/>
   <metrics xmi:id="_gg6R4H3OEeuBc5zGAU8pNg" name="size" metricProvider="getSize" description="Size of the model"/>
   <metrics xmi:id="_U1Q4cJC5EeuBWtQKEF9eRQ" name="Coverage" metricProvider="getCoverage"/>
+  <metrics xmi:id="_LCyPAJn_EeuLwNyVYONI1A" name="NR" metricProvider="nrReferences" description="get number of references"/>
+  <metrics xmi:id="_RozgwJn_EeuLwNyVYONI1A" name="NA" metricProvider="nrAttrs" description="get number of attributes"/>
+  <metrics xmi:id="_Wz_zQJn_EeuLwNyVYONI1A" name="DITMax" metricProvider="getDITmax" description="get max hierarchical level"/>
+  <metrics xmi:id="_ioxo4Jn_EeuLwNyVYONI1A" name="FanOutMax" metricProvider="getMaxFANout" description="get max fanout"/>
 </qualitymodel:QualityModel>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_E6GAgDvbEeuOF6iu8K93Dg" author="Chef">
+  <projects xmi:id="_sDgPgDvcEeuOF6iu8K93Dg" name="Christmas Lunch" category="_aau3cDvbEeuOF6iu8K93Dg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_YVXmEDveEeuOF6iu8K93Dg" name="Appetizers" done="true">
+      <attachments xmi:id="_baEGIDveEeuOF6iu8K93Dg" filename="Standard appetizers list" size="1 page" type="document"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_YvNpcDveEeuOF6iu8K93Dg" name="Starters" done="false">
+      <attachments xmi:id="_DhNlMDvfEeuOF6iu8K93Dg" filename="Starters list" size="1 page" type="document"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_purbQDveEeuOF6iu8K93Dg" name="Main courses" done="false">
+      <subtasks xmi:id="_8GL-EDveEeuOF6iu8K93Dg" name="Taste test" done="false"/>
+      <subtasks xmi:id="__pzOwDveEeuOF6iu8K93Dg" name="Short list options" done="false"/>
+      <subtasks xmi:id="_t2M00DvfEeuOF6iu8K93Dg" name="Prepare final list" done="false"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_cVglQDvfEeuOF6iu8K93Dg" name="Contorni" done="true">
+      <attachments xmi:id="_eGtdIDvfEeuOF6iu8K93Dg" filename="Contorni list" size="1 page" type="document"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_yLCHEDvfEeuOF6iu8K93Dg" name="Desserts" done="true">
+      <subtasks xmi:id="_m5VT4DvgEeuOF6iu8K93Dg" name="Check catalogue" done="true">
+        <attachments xmi:id="_D9Ev4DvhEeuOF6iu8K93Dg" filename="Catalogue" size="50 pages" type="document"/>
+      </subtasks>
+      <subtasks xmi:id="_4OuH0DvfEeuOF6iu8K93Dg" name="Call suppliers" done="true">
+        <attachments xmi:id="_isGecDvgEeuOF6iu8K93Dg" filename="Suppliers list" size="1 page" type="document"/>
+      </subtasks>
+    </tasks>
+  </projects>
+  <projects xmi:id="_sfpY8DvcEeuOF6iu8K93Dg" name="New years eve dinner" category="_z82qADvfEeuOF6iu8K93Dg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_k_A0cDxdEeu02eLwHjeWug" name="Finalise menu" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_uGWewDvhEeuOF6iu8K93Dg" name="Print menus" done="true">
+      <attachments xmi:id="_zFhHcDvhEeuOF6iu8K93Dg" filename="Menu" size="3 pages" type="document"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_3jo4kDvhEeuOF6iu8K93Dg" name="Advertise new years eve dinner" done="false"/>
+  </projects>
+  <projects xmi:id="_CxfjADvgEeuOF6iu8K93Dg" name="Christmas day breakfast" category="_AKAjYDvgEeuOF6iu8K93Dg">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_aPRcEDvgEeuOF6iu8K93Dg" name="Special pastries" done="false">
+      <subtasks xmi:id="_d9TNADvgEeuOF6iu8K93Dg" name="Prepare list of pastries" done="false"/>
+      <subtasks xmi:id="_eajwwDvgEeuOF6iu8K93Dg" name="Taste test pastries" done="false"/>
+      <subtasks xmi:id="_e4gRADvgEeuOF6iu8K93Dg" name="Create a short list" done="false"/>
+      <subtasks xmi:id="_VGYaMDvhEeuOF6iu8K93Dg" name="Assign prices"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_bEBdUDvhEeuOF6iu8K93Dg" name="Advertise christmas pastries" done="false"/>
+  </projects>
+  <categories xmi:id="_aau3cDvbEeuOF6iu8K93Dg" name="Lunch" _id="456"/>
+  <categories xmi:id="_z82qADvfEeuOF6iu8K93Dg" name="Dinner" _id="789"/>
+  <categories xmi:id="_AKAjYDvgEeuOF6iu8K93Dg" name="Breakfast" _id="123"/>
+</tasksv1:TasksModel>

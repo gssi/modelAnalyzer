@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_l6Ah4DmQEeuNWMJkFCahtA">
+  <conferences xmi:id="_mgsHYDmQEeuNWMJkFCahtA" acronym="ICAEP 2021" venue="University of Los Angeles, Los Angeles, United States" fullname="ICAEP 2021: Advanced Electromagnetic and Photonics Conference" date="2021-01-21T00:00:00.000+0100">
+    <submissions xmi:id="_qgSwgDmQEeuNWMJkFCahtA" authors="_pPzZADmQEeuNWMJkFCahtA _oYaeADmQEeuNWMJkFCahtA _o8CvgDmQEeuNWMJkFCahtA" title="Science case for the Einstein telescope" length="13" reviewers="_p88y4DmQEeuNWMJkFCahtA"/>
+    <submissions xmi:id="_tzdxcDmQEeuNWMJkFCahtA" authors="_oYaeADmQEeuNWMJkFCahtA" title="Electromagnetic Counterparts of Compact Binary Mergers" length="17" reviewers="_p88y4DmQEeuNWMJkFCahtA"/>
+    <members xsi:type="conference:Author" xmi:id="_oYaeADmQEeuNWMJkFCahtA" name="Winston Smith" username="winstonsmith"/>
+    <members xsi:type="conference:Author" xmi:id="_o8CvgDmQEeuNWMJkFCahtA" name="Julia Truth" username="juliatruth"/>
+    <members xsi:type="conference:Author" xmi:id="_pPzZADmQEeuNWMJkFCahtA" name="Emmanuel Goldstein" username="emmanuelgoldstein"/>
+    <members xsi:type="conference:PcMember" xmi:id="_p88y4DmQEeuNWMJkFCahtA" name="Michael Scofield" username="michaelscofield" reviews="_qgSwgDmQEeuNWMJkFCahtA _tzdxcDmQEeuNWMJkFCahtA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_Tcg8UEPXEeu-0I7y8H3Glw" name="Arlette Bensilm" username="arlette.bensilm"/>
+  </conferences>
+  <conferences xmi:id="_nKddIDmQEeuNWMJkFCahtA" acronym="ICCC 2021" venue="University of Berlin, Berlin, Germany" fullname="ICCC 2021: Circuits and Coding Conference" date="2021-10-10T00:00:00.000+0200">
+    <submissions xmi:id="_w7ocQDmQEeuNWMJkFCahtA" authors="_wKTF8DmQEeuNWMJkFCahtA _0Z_ZgDmQEeuNWMJkFCahtA" title="Lunar Gravitational-Wave Antenna" length="6" reviewers="_wix3YDmQEeuNWMJkFCahtA"/>
+    <members xsi:type="conference:Author" xmi:id="_wKTF8DmQEeuNWMJkFCahtA" name="Walter White" username="walterwhite"/>
+    <members xsi:type="conference:PcMember" xmi:id="_wix3YDmQEeuNWMJkFCahtA" name="Saul Goodman" username="saulgoodman" reviews="_w7ocQDmQEeuNWMJkFCahtA"/>
+    <members xsi:type="conference:Author" xmi:id="_0Z_ZgDmQEeuNWMJkFCahtA" name="Tuco Salamanca" username="tucosalamanca"/>
+    <members xsi:type="conference:PcMember" xmi:id="_aXua8EPXEeu-0I7y8H3Glw" name="Michel Alvarado" username="michel.alvarado"/>
+  </conferences>
+</conference:ConfManager>

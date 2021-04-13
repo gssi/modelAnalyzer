@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_Cyi5gDr8Eeubpaf7DBeYtA" author="Company">
+  <projects xmi:id="_ZADoEDr9Eeubpaf7DBeYtA" name="Hire people" category="_YL8qkDr9Eeubpaf7DBeYtA">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_UYnLsDvVEeuOF6iu8K93Dg" name="Rank potential candidates" done="false">
+      <subtasks xmi:id="_LNvssDvXEeuOF6iu8K93Dg" name="Read all CVs" done="true">
+        <attachments xmi:id="_cniDADvXEeuOF6iu8K93Dg" filename="CV1" size="3 pages" type="document"/>
+        <attachments xmi:id="_dCReQDvXEeuOF6iu8K93Dg" filename="CV2" size="2 pages" type="document"/>
+        <attachments xmi:id="_dtpWgDvXEeuOF6iu8K93Dg" filename="CV3" size="5 pages" type="document"/>
+      </subtasks>
+      <subtasks xmi:id="_ME4wEDvXEeuOF6iu8K93Dg" name="Summarise each CV" done="false">
+        <attachments xmi:id="_xxMu8DvYEeuOF6iu8K93Dg" filename="Guidelines for summarising CVs" size="4 pages" type="document"/>
+      </subtasks>
+    </tasks>
+  </projects>
+  <projects xmi:id="_Hqo3kDsBEeubpaf7DBeYtA" name="Develop a marketing strategy" category="_ZbauYDr9Eeubpaf7DBeYtA">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_RaVAMDvWEeuOF6iu8K93Dg" name="Compile a presentation" done="false">
+      <attachments xmi:id="_8muHADvYEeuOF6iu8K93Dg" filename="Guidelines for presentations" size="10 pages" type="document"/>
+      <subtasks xmi:id="_Dw4noDvZEeuOF6iu8K93Dg" name="Read guidelines" done="true"/>
+      <subtasks xmi:id="_HXC2ADvZEeuOF6iu8K93Dg" name="Draft presentation" done="false"/>
+      <subtasks xmi:id="_KdYU0DvZEeuOF6iu8K93Dg" name="Practice presentation" done="false">
+        <attachments xmi:id="_mBNdQDvZEeuOF6iu8K93Dg" filename="presentation template" size="5 pages" type="presentation document"/>
+      </subtasks>
+    </tasks>
+  </projects>
+  <projects xmi:id="_Z1PJQDvREeuOF6iu8K93Dg" name="Payroll" category="_-Z4AUDvQEeuOF6iu8K93Dg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_s-fYcDvZEeuOF6iu8K93Dg" name="Send email to all employees with payroll" done="false"/>
+  </projects>
+  <projects xmi:id="_aMr_8DvREeuOF6iu8K93Dg" name="Alitalia website migration" category="_PcGyQDvREeuOF6iu8K93Dg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_FdmysDvaEeuOF6iu8K93Dg" name="Design the system and plan tasks accordingly" done="false"/>
+  </projects>
+  <projects xmi:id="_uQXwsDvREeuOF6iu8K93Dg" name="Uber backend system upgrade" category="_PcGyQDvREeuOF6iu8K93Dg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_Kg3RMDvaEeuOF6iu8K93Dg" name="Familiarise with system requirements" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_SjcnkDvaEeuOF6iu8K93Dg" name="Evaluate all alternatives" done="false">
+      <attachments xmi:id="_XaoY8DvaEeuOF6iu8K93Dg" filename="alternatives list" size="6 pages" type="document"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_aRG20DvaEeuOF6iu8K93Dg" name="Propose solution based on chosen alternative" done="false"/>
+  </projects>
+  <projects xmi:id="_DAXN0DvSEeuOF6iu8K93Dg" name="Food delivery system security updates" category="_PcGyQDvREeuOF6iu8K93Dg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_dZinYDvaEeuOF6iu8K93Dg" name="Finalise the latest patches" done="false"/>
+  </projects>
+  <projects xmi:id="_mqfvADvSEeuOF6iu8K93Dg" name="Test Alitalia website" category="_LA2ScDvSEeuOF6iu8K93Dg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_gpbDwDvaEeuOF6iu8K93Dg" name="Test all functionalities" done="false">
+      <attachments xmi:id="_qeH4ADvaEeuOF6iu8K93Dg" externallink="www.alitalia.com" sitename="Alitalia website" type=""/>
+    </tasks>
+  </projects>
+  <projects xmi:id="_RRJg8DvUEeuOF6iu8K93Dg" name="Uber backend quality assurance testing" category="_LA2ScDvSEeuOF6iu8K93Dg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_jH2OADvaEeuOF6iu8K93Dg" name="Run performance tests " done="false"/>
+  </projects>
+  <projects xmi:id="_MYX-sDvVEeuOF6iu8K93Dg" name="Test security updates" category="_LA2ScDvSEeuOF6iu8K93Dg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_xmj6UDvaEeuOF6iu8K93Dg" name="Attack website for vulnerabilities" done="true"/>
+  </projects>
+  <categories xmi:id="_YL8qkDr9Eeubpaf7DBeYtA" name="Human resources" _id="123"/>
+  <categories xmi:id="_ZbauYDr9Eeubpaf7DBeYtA" name="Marketing department" _id="456"/>
+  <categories xmi:id="_-Z4AUDvQEeuOF6iu8K93Dg" name="Accountancy department" _id="789"/>
+  <categories xmi:id="_PcGyQDvREeuOF6iu8K93Dg" name="Software development team" _id="1011"/>
+  <categories xmi:id="_LA2ScDvSEeuOF6iu8K93Dg" name="Software testing team" _id="1213"/>
+</tasksv1:TasksModel>

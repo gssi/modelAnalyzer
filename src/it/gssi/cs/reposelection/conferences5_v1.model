@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_fq5VQDmFEeudKspV0WawTA">
+  <conferences xmi:id="_rCHsMDmFEeudKspV0WawTA" acronym="PODC" venue="Royal Holloway, University of London, Egham, United Kingdom" fullname="Priciples of Distributed Computing" date="2020-10-01T00:00:00.000+0200">
+    <submissions xmi:id="_SGMvQDmHEeudKspV0WawTA" authors="_IszMYDmGEeudKspV0WawTA" title="Robustly Foraging Using the Golden Ratio" length="12" reviewers="_ySbREDmFEeudKspV0WawTA"/>
+    <submissions xmi:id="_msHDUDmHEeudKspV0WawTA" authors="_JiwkADmGEeudKspV0WawTA _KABu0DmGEeudKspV0WawTA _JLIHIDmGEeudKspV0WawTA" title=": Collective contests: ant colonies invest in defense according to their opponent, and groupsize interacts with resources he" length="11" reviewers="_x7WN0DmFEeudKspV0WawTA"/>
+    <submissions xmi:id="_9IMO0DmHEeudKspV0WawTA" authors="_BYhbkDmIEeudKspV0WawTA" title=" Measuring and modeling how C. elegans explores its environme" length="11" reviewers="_ysWM8DmFEeudKspV0WawTA"/>
+    <submissions xmi:id="_0KNnMDmHEeudKspV0WawTA" authors="_IszMYDmGEeudKspV0WawTA _KABu0DmGEeudKspV0WawTA" title="On the Complexity of Ants Search Algorithm" length="15" reviewers="_xTQ6IDmFEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_xTQ6IDmFEeudKspV0WawTA" name="James Aspnes" username="jamesaspnes" reviews="_0KNnMDmHEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_x7WN0DmFEeudKspV0WawTA" name="Hagit Attiya" username="hagitattiya" reviews="_msHDUDmHEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_ySbREDmFEeudKspV0WawTA" name="Borzoo Bonakdarpour" username="borzoobonakdarpour" reviews="_SGMvQDmHEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_ysWM8DmFEeudKspV0WawTA" name="Trevor Brown" username="trevorbrown" reviews="_9IMO0DmHEeudKspV0WawTA"/>
+    <members xsi:type="conference:Author" xmi:id="_IszMYDmGEeudKspV0WawTA" name="Jared Saia" username="jaredsaia"/>
+    <members xsi:type="conference:Author" xmi:id="_JLIHIDmGEeudKspV0WawTA" name="Victor Paat" username="victorpaat"/>
+    <members xsi:type="conference:Author" xmi:id="_JiwkADmGEeudKspV0WawTA" name="Anna Dornhaus" username="annadornhaus"/>
+    <members xsi:type="conference:Author" xmi:id="_KABu0DmGEeudKspV0WawTA" name="Kenneth Chapin" username="kennethchapin"/>
+    <members xsi:type="conference:Author" xmi:id="_BYhbkDmIEeudKspV0WawTA" name=" William Ryu" username=" williamryu"/>
+  </conferences>
+  <conferences xmi:id="_RJ6tMDmHEeudKspV0WawTA" acronym="IPDPS" venue="Portland Hilton Downtow, Portland, Oregon USA" fullname="International Parallel and Distributed Processing Symposium" date="2019-06-20T00:00:00.000+0200">
+    <submissions xmi:id="_jKndEDmIEeudKspV0WawTA" authors="_fjEuoDmIEeudKspV0WawTA _g46gMDmIEeudKspV0WawTA" title=" A Linear-Algebraic Algorithm for Finding Connected Components in Distributed Memory " length="12" reviewers="_L1QgMDmIEeudKspV0WawTA"/>
+    <submissions xmi:id="_jxTpoDmIEeudKspV0WawTA" authors="_hjpfQDmIEeudKspV0WawTA _iFzxIDmIEeudKspV0WawTA" title="Shared-memory Exact Minimum Cuts" length="11" reviewers="_NITccDmIEeudKspV0WawTA"/>
+    <submissions xmi:id="_lDMvUDmIEeudKspV0WawTA" authors="_QnGzsDmKEeudKspV0WawTA _RPwvIDmKEeudKspV0WawTA" title="Distributed Weighted All Pairs Shortest Paths Through Pipelining " length="11" reviewers="_N9EhQDmIEeudKspV0WawTA"/>
+    <submissions xmi:id="_fdsp8DmJEeudKspV0WawTA" authors="_RPwvIDmKEeudKspV0WawTA _hjpfQDmIEeudKspV0WawTA" title="Local Distributed Algorithms in Highly Dynamic Networks " length="9" reviewers="_NhXx0DmKEeudKspV0WawTA"/>
+    <submissions xmi:id="_oTsaQDmJEeudKspV0WawTA" authors="_ojQDwDmKEeudKspV0WawTA _afP9gDmKEeudKspV0WawTA" title="Effects and benefits of node sharing strategies in HPC batch systems " length="14" reviewers="_So0XUDmLEeudKspV0WawTA"/>
+    <submissions xmi:id="_o7PicDmJEeudKspV0WawTA" authors="_afP9gDmKEeudKspV0WawTA _usxmwDmKEeudKspV0WawTA" title="Design Space Exploration of Next-Generation HPC Machines" length="10" reviewers="_ThC_0DmLEeudKspV0WawTA"/>
+    <submissions xmi:id="_pdwZoDmJEeudKspV0WawTA" authors="_8oCAsDmKEeudKspV0WawTA _3ZPnoDmKEeudKspV0WawTA _5qIFIDmKEeudKspV0WawTA" title="A Modular Benchmarking Infrastructure for High-Performance and Reproducible Deep Learning " length="10" reviewers="_UZ3eMDmLEeudKspV0WawTA"/>
+    <submissions xmi:id="_wtgk4DmJEeudKspV0WawTA" authors="_KOeoQDmLEeudKspV0WawTA _HBzQ4DmLEeudKspV0WawTA" title="Double-precision FPUs in High-Performance Computing: an Embarrassment of Riches?" length="10" reviewers="_VoIBEDmLEeudKspV0WawTA"/>
+    <submissions xmi:id="_MwRFADmKEeudKspV0WawTA" authors="_g46gMDmIEeudKspV0WawTA _ojQDwDmKEeudKspV0WawTA" title="Do your best under exponential time" length="12" reviewers="_OX4jEDmKEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_L1QgMDmIEeudKspV0WawTA" name="Olivier Beaumont" username="olivierbeaumont" reviews="_jKndEDmIEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_NITccDmIEeudKspV0WawTA" name="Petra Berenbrink" username="petraberenbrink" reviews="_jxTpoDmIEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_N9EhQDmIEeudKspV0WawTA" name="Erin Carson" username="erincarson" reviews="_lDMvUDmIEeudKspV0WawTA"/>
+    <members xsi:type="conference:Author" xmi:id="_fjEuoDmIEeudKspV0WawTA" name="Ariful Azad" username="arifulazad"/>
+    <members xsi:type="conference:Author" xmi:id="_g46gMDmIEeudKspV0WawTA" name="Aydin Bulu&#x4ab; " username="aydinbulu&#x4ab; "/>
+    <members xsi:type="conference:Author" xmi:id="_hjpfQDmIEeudKspV0WawTA" name="Monika Henzinger" username="monikahenzinger"/>
+    <members xsi:type="conference:Author" xmi:id="_iFzxIDmIEeudKspV0WawTA" name=" Alexander Noe" username=" alexandernoe"/>
+    <members xsi:type="conference:PcMember" xmi:id="_NhXx0DmKEeudKspV0WawTA" name="Umit Catalyurek" username="umitcatalyurek" reviews="_fdsp8DmJEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_OX4jEDmKEeudKspV0WawTA" name="Pierre Fraigniaud" username="pierrefraigniaud" reviews="_MwRFADmKEeudKspV0WawTA"/>
+    <members xsi:type="conference:Author" xmi:id="_QnGzsDmKEeudKspV0WawTA" name="Udit Agarwal " username="uditagarwal "/>
+    <members xsi:type="conference:Author" xmi:id="_RPwvIDmKEeudKspV0WawTA" name="Philipp Bamberger" username="Philipp Bamberger"/>
+    <members xsi:type="conference:Author" xmi:id="_afP9gDmKEeudKspV0WawTA" name="Alvaro Frank" username="alvarofrank"/>
+    <members xsi:type="conference:Author" xmi:id="_ojQDwDmKEeudKspV0WawTA" name="Constantino Gomez" username="constantinogomez"/>
+    <members xsi:type="conference:Author" xmi:id="_usxmwDmKEeudKspV0WawTA" name="Tal Ben-Nun" username="talbennun"/>
+    <members xsi:type="conference:Author" xmi:id="_3ZPnoDmKEeudKspV0WawTA" name="Jens Domke" username="jensdomke"/>
+    <members xsi:type="conference:Author" xmi:id="_5qIFIDmKEeudKspV0WawTA" name="Kazuaki Matsumura" username="kazuakimatsumura"/>
+    <members xsi:type="conference:Author" xmi:id="_8oCAsDmKEeudKspV0WawTA" name="Mohamed Wahib" username="mohamedwahib"/>
+    <members xsi:type="conference:Author" xmi:id="_HBzQ4DmLEeudKspV0WawTA" name="Edward Hutter " username="edwardhutter "/>
+    <members xsi:type="conference:Author" xmi:id="_KOeoQDmLEeudKspV0WawTA" name="Edgar Solomonik" username="edgardsolomonik"/>
+    <members xsi:type="conference:PcMember" xmi:id="_So0XUDmLEeudKspV0WawTA" name="John Gilbert" username="johngilbert" reviews="_oTsaQDmJEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_ThC_0DmLEeudKspV0WawTA" name="Alfredo Goldman" username="alfredogoldman" reviews="_o7PicDmJEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_UZ3eMDmLEeudKspV0WawTA" name="John A. Gunnels" username="johngunnels" reviews="_pdwZoDmJEeudKspV0WawTA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_VoIBEDmLEeudKspV0WawTA" name="William Cleaburn Hasenplaugh" username="williamcleaburnhasenplaugh" reviews="_wtgk4DmJEeudKspV0WawTA"/>
+  </conferences>
+</conference:ConfManager>

@@ -20,7 +20,7 @@ rule Repo2Graphviz
     }
 }
 
-rule Metamodel
+rule SingleArtifact
  
 	transform qeval : QualityEcosystem::QualityEval{
 
@@ -34,6 +34,7 @@ rule Metamodel
 			
 			
 		},
+		"subject" = qeval.subject,
 		"layers" = qeval.def.getMapLayers(),
         "nodes" =  qeval.getConnected(),
         "evals" =  qeval.def.evaluations,
@@ -44,29 +45,7 @@ rule Metamodel
 	
 }
 
-rule Model
- 
-	transform n : MDEEcosystem::Model{
 
-	template : "selection2graphd3.egl"
-
-	parameters : Map{
-		"path" = Sequence{"Repository", n.subject.name},
-		"icon" = "diagram-c0c0c0",
-		"format" = "html",
-		"layers" = Sequence {
-			
-			
-		},
-		"layers" = qeval.def.getMapLayers(),
-        "nodes" =  qeval.getConnected(),
-        "evals" =  qeval.def.evaluations,
-        "edges" = qeval.def.ecosystemModel.relations.select(e|e.src==qeval.subject or e.trg==qeval.subject)
-        
-		
-	}
-	
-}
 
 operation QualityEval getConnected(): Set(Artifact){
 var ecosystem = self.def.ecosystemModel;

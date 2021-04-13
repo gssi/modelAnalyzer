@@ -11,25 +11,24 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="ecosystemModel" lowerBound="1"
         eType="ecore:EClass http://cs.gssi.it/mdeecosystem#//MDEEcosystem"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="QualityEval">
+  <eClassifiers xsi:type="ecore:EClass" name="QualityEval" eSuperTypes="#//QualityElement">
     <eStructuralFeatures xsi:type="ecore:EReference" name="qa" lowerBound="1" eType="ecore:EClass http://cs.gssi.it/qualitymodel#//QualityAttribute"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="subject" lowerBound="1"
         eType="ecore:EClass http://cs.gssi.it/mdeecosystem#//Artifact"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="actualizedvalue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="calculatedBy" eType="#//CalculatedOperation"
-        containment="true" eOpposite="#//CalculatedOperation/eval"/>
+        containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="def" lowerBound="1" eType="#//QualityEcosystemDef"
         eOpposite="#//QualityEcosystemDef/evaluations"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="CalculatedOperation">
+  <eClassifiers xsi:type="ecore:EClass" name="CalculatedOperation" eSuperTypes="#//CalculatedOperator">
     <eStructuralFeatures xsi:type="ecore:EReference" name="calculatedBy" lowerBound="1"
         eType="ecore:EClass http://cs.gssi.it/qualitymodel#//Operation"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="calculatedMetrics" upperBound="-1"
-        eType="#//CalculatedMetric" containment="true" eOpposite="#//CalculatedMetric/owner"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="eval" eType="#//QualityEval"
-        eOpposite="#//QualityEval/calculatedBy"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="nestedcOps" upperBound="-1"
-        eType="#//CalculatedOperation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="calculatedOperators" upperBound="-1"
+        eType="#//CalculatedOperator" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="container" lowerBound="1"
+        eType="#//QualityElement"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="actualizedvalue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CalculatedMetric">
     <eStructuralFeatures xsi:type="ecore:EReference" name="metric" lowerBound="1"
@@ -37,7 +36,19 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
         eType="ecore:EClass http://cs.gssi.it/mdeecosystem#//Artifact"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="actualizedvalue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="owner" lowerBound="1" eType="#//CalculatedOperation"
-        eOpposite="#//CalculatedOperation/calculatedMetrics"/>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CalculatedOperator" eSuperTypes="#//QualityElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CalculatedMetricOperator" eSuperTypes="#//CalculatedOperator">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="metricOperator" eType="ecore:EClass http://cs.gssi.it/qualitymodel#//MetricOperator"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="calculatedMetric" lowerBound="1"
+        eType="#//CalculatedMetric" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="container" lowerBound="1"
+        eType="#//CalculatedOperation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CalculatedStaticValue" eSuperTypes="#//CalculatedOperator">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="staticvalue" eType="ecore:EClass http://cs.gssi.it/qualitymodel#//StaticValue"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="container" lowerBound="1"
+        eType="#//CalculatedOperation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QualityElement" abstract="true"/>
 </ecore:EPackage>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_EbHw8EI7EeuDQ8E4Ln9TNg">
+  <projects xmi:id="_FMBCYEI7EeuDQ8E4Ln9TNg" name="Daily To Do" category="_FlAxMEI7EeuDQ8E4Ln9TNg">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_NDOPMEI7EeuDQ8E4Ln9TNg" name="Taking out the trash" done="true"/>
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_oqUHAEI7EeuDQ8E4Ln9TNg" name="Going to bank" done="false">
+      <subtasks xmi:id="_qL6coEI7EeuDQ8E4Ln9TNg" name="Paying bills">
+        <attachments xmi:id="_tqNvgEI7EeuDQ8E4Ln9TNg" filename="waterbill.pdf" size="100KB" type="PDF Document"/>
+      </subtasks>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_0Py8YEI7EeuDQ8E4Ln9TNg" name="Cleaning" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_5eICcEI7EeuDQ8E4Ln9TNg" name="Caring for pets">
+      <attachments xmi:id="_7Hl6oEI7EeuDQ8E4Ln9TNg" externallink="How to take care of your pet" sitename="www.pets.com" filename="dogs_manual.doc" size="52KB" type="MS Word Document"/>
+    </tasks>
+  </projects>
+  <categories xmi:id="_FlAxMEI7EeuDQ8E4Ln9TNg" name="Routine" _id="15"/>
+</tasksv1:TasksModel>

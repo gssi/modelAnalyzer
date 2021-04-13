@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_UDFqsDrwEeuHx-RnS2JzLQ" author="Manufacturing">
+  <projects xmi:id="_yE9bgDrzEeuHx-RnS2JzLQ" name="Series 2 Coup&#xe9;" category="_yfk68DrzEeuHx-RnS2JzLQ">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_F35voDr2EeuHx-RnS2JzLQ" name="Components test " done="false">
+      <attachments xmi:id="_eZARcDr3EeuHx-RnS2JzLQ" externallink="https://berlinbmw/testing.com" sitename="Component testing Berlin division" filename=""/>
+      <subtasks xmi:id="_UfNh0Dr3EeuHx-RnS2JzLQ" name="Engine" done="false">
+        <attachments xmi:id="_QQIqkDr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Engine" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_VLMeEDr3EeuHx-RnS2JzLQ" name="Battery" done="false">
+        <attachments xmi:id="_iH-O0Dr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Electric_battery" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_VnvQIDr3EeuHx-RnS2JzLQ" name="Radiator" done="false">
+        <attachments xmi:id="_lEJsEDr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Radiator" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_c5AeUDr3EeuHx-RnS2JzLQ" name="Alternator" done="false">
+        <attachments xmi:id="_nsu34Dr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Alternator" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_dbDbcDr3EeuHx-RnS2JzLQ" name="Front Axle" done="false">
+        <attachments xmi:id="_q1q-wDr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Axle" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_dsRuUDr3EeuHx-RnS2JzLQ" name="Brakes" done="false">
+        <attachments xmi:id="_rxz24Dr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Brake" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_eGsZcDr3EeuHx-RnS2JzLQ" name="Front steering and suspension" done="false">
+        <attachments xmi:id="_sEx2MDr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Car_suspension" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_e9b0MDr3EeuHx-RnS2JzLQ" name="Transmission" done="false">
+        <attachments xmi:id="_tQCvcDr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Transmission_(mechanics)" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_lyoxcDr3EeuHx-RnS2JzLQ" name="Catalytic converter" done="false">
+        <attachments xmi:id="_t1HLYDr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Catalytic_converter" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_mQl4wDr3EeuHx-RnS2JzLQ" name="Muffler" done="false">
+        <attachments xmi:id="_uK0VoDr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Muffler" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_mtf3MDr3EeuHx-RnS2JzLQ" name="Rear axle" done="false">
+        <attachments xmi:id="_u7N30Dr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Axle" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_qqqQUDr3EeuHx-RnS2JzLQ" name="Tailpipe" done="false">
+        <attachments xmi:id="_vQx4IDr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Exhaust_system" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_rO6M4Dr3EeuHx-RnS2JzLQ" name="Fuel tank" done="false">
+        <attachments xmi:id="_vkMjYDr9EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Fuel_tank" sitename="Wikipedia"/>
+      </subtasks>
+      <subtasks xmi:id="_r3fP0Dr3EeuHx-RnS2JzLQ" name="Rear suspension" done="false">
+        <attachments xmi:id="_v0oMEDr9EeuHx-RnS2JzLQ" externallink="https://www.kbb.com/what-is/rear-suspension/" sitename="KBB"/>
+      </subtasks>
+    </tasks>
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_7MOlMDr3EeuHx-RnS2JzLQ" name="Crash test" done="false">
+      <attachments xmi:id="_iEpnUDr4EeuHx-RnS2JzLQ" externallink="https://en.wikipedia.org/wiki/Crash_test" sitename="Wikipedia" filename=""/>
+      <subtasks xmi:id="_OLXIsDr4EeuHx-RnS2JzLQ" name="Frontal-impact tests" done="false"/>
+      <subtasks xmi:id="_P8tKgDr4EeuHx-RnS2JzLQ" name="Moderate Overlap tests" done="false"/>
+      <subtasks xmi:id="_Sx85UDr4EeuHx-RnS2JzLQ" name="Small Overlap tests" done="false"/>
+      <subtasks xmi:id="_VHOHkDr4EeuHx-RnS2JzLQ" name="Side-impact tests" done="false"/>
+      <subtasks xmi:id="_VYVFsDr4EeuHx-RnS2JzLQ" name="Pole-impact tests" done="false"/>
+      <subtasks xmi:id="_VvBucDr4EeuHx-RnS2JzLQ" name="Roll-over tests" done="false"/>
+      <subtasks xmi:id="_ZwMd0Dr4EeuHx-RnS2JzLQ" name="Old versus new" done="false"/>
+      <subtasks xmi:id="_aOmREDr4EeuHx-RnS2JzLQ" name="Roadside hardware crash tests" done="false"/>
+      <subtasks xmi:id="_dLVvADr4EeuHx-RnS2JzLQ" name="Computer model" done="false"/>
+      <subtasks xmi:id="_dgMksDr4EeuHx-RnS2JzLQ" name="Sled testing" done="false"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_nvY8kDr4EeuHx-RnS2JzLQ" name="Preliminary process" done="true">
+      <attachments xmi:id="_sOoIADr4EeuHx-RnS2JzLQ" externallink="https://www.bmw.com" sitename="BMW web page" filename=""/>
+      <subtasks xmi:id="_oRwCwDr4EeuHx-RnS2JzLQ" name="Car design" done="true"/>
+      <subtasks xmi:id="_s1t9MDr4EeuHx-RnS2JzLQ" name="start the prototype production process" done="true"/>
+    </tasks>
+  </projects>
+  <projects xmi:id="_R04-sDr5EeuHx-RnS2JzLQ" name="Hogan" category="_PyOjYDr5EeuHx-RnS2JzLQ">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_VhXQcDr5EeuHx-RnS2JzLQ" name="Production" done="true">
+      <subtasks xmi:id="_aiRlkDr5EeuHx-RnS2JzLQ" name="Design" done="true"/>
+      <subtasks xmi:id="_bQYowDr5EeuHx-RnS2JzLQ" name="Commission the product to third parties" done="true"/>
+      <subtasks xmi:id="_gsuVoDr5EeuHx-RnS2JzLQ" name="Withdraw the completed product from third party accounts" done="true"/>
+      <subtasks xmi:id="_hDczkDr5EeuHx-RnS2JzLQ" name="Quality assessment" done="true"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_tLJlMDr5EeuHx-RnS2JzLQ" name="Marketing" done="true">
+      <attachments xmi:id="_-OZq0Dr5EeuHx-RnS2JzLQ" externallink="https://www.mediaset.it" sitename="Mediaset Web Page" filename=""/>
+      <attachments xmi:id="_ETahQDr6EeuHx-RnS2JzLQ" externallink="" filename="January report" size="10MB" type="csv file"/>
+      <subtasks xmi:id="_u7m2MDr5EeuHx-RnS2JzLQ" name="Talk to Mediaset CEO " done="true"/>
+      <subtasks xmi:id="_vQIUsDr5EeuHx-RnS2JzLQ" name="Market survey" done="true"/>
+      <subtasks xmi:id="_vlCNsDr5EeuHx-RnS2JzLQ" name="Assign sales to the sales department" done="true"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_OZTMIDr6EeuHx-RnS2JzLQ" name="Dispachment" done="false">
+      <subtasks xmi:id="_PxREoDr6EeuHx-RnS2JzLQ" name="Packing shoes" done="false"/>
+      <subtasks xmi:id="_QLPq4Dr6EeuHx-RnS2JzLQ" name="Delivery" done="false"/>
+    </tasks>
+  </projects>
+  <categories xmi:id="_yfk68DrzEeuHx-RnS2JzLQ" name="BMW Testing Process" _id="1236"/>
+  <categories xmi:id="_PyOjYDr5EeuHx-RnS2JzLQ" name="Shoes" _id="5699"/>
+</tasksv1:TasksModel>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_qvkZEDmEEeuLcqC5sQHm-w" author="Google">
+  <projects xmi:id="_QrJ_gDmFEeuLcqC5sQHm-w" name="Google Translate" category="_Hg-u8DmFEeuLcqC5sQHm-w">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_VsDtkDmFEeuLcqC5sQHm-w" name="Improve Google Translate" done="false">
+      <subtasks xmi:id="_YhmXUDmFEeuLcqC5sQHm-w" name="Use BERT for Semantic Understanding" done="true"/>
+      <subtasks xmi:id="_iwsokDmFEeuLcqC5sQHm-w" name="Train on people emails" done="false"/>
+      <subtasks xmi:id="_pGXxMDmFEeuLcqC5sQHm-w" name="Integrate Model into Production " done="false"/>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_1m7HsDmFEeuLcqC5sQHm-w" name="Change Color of GUI" done="true"/>
+  </projects>
+  <projects xmi:id="_DjUKEDmGEeuLcqC5sQHm-w" name="Personalized Advertisment" category="_LewzIDmFEeuLcqC5sQHm-w">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_HmsDcDmHEeuLcqC5sQHm-w" name="Process User Photos" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_SQ2gEDmHEeuLcqC5sQHm-w" name="Process Users Documents" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_aOKU4DmHEeuLcqC5sQHm-w" name="Test New Recommender System" done="false"/>
+  </projects>
+  <projects xmi:id="_ANd5cDzEEeuD0fJm_lUh9A" name="Google Workspaces Campaing" category="_9UqgUDzDEeuD0fJm_lUh9A">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_HrqwYDzEEeuD0fJm_lUh9A" name="Prepare Video Advertising for Youtube" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_QAwqsDzSEeuD0fJm_lUh9A" name="Show banner for gmail users" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_XK5WIDzSEeuD0fJm_lUh9A" name="Use Influencer Marketing" done="false"/>
+  </projects>
+  <projects xmi:id="_ip6XIDzSEeuD0fJm_lUh9A" name="Shopping Assistant" category="_Hg-u8DmFEeuLcqC5sQHm-w">
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_DtZmMDzTEeuD0fJm_lUh9A" name="Tune Hyperparameters" done="true"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_OE7asDzTEeuD0fJm_lUh9A" name="Implement Hybrid Recommender System" done="false"/>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_JNTH8DzUEeuD0fJm_lUh9A" name="Present Project in Next Meeting" done="false"/>
+  </projects>
+  <categories xmi:id="_Hg-u8DmFEeuLcqC5sQHm-w" name="AI"/>
+  <categories xmi:id="_LewzIDmFEeuLcqC5sQHm-w" name="Data Science" _id="1"/>
+  <categories xmi:id="_9UqgUDzDEeuD0fJm_lUh9A" name="Marketing" _id="2"/>
+</tasksv1:TasksModel>

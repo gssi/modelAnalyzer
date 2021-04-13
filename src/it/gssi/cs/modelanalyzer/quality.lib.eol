@@ -1,59 +1,118 @@
 import "metricProviders.eol";
 
-operation qualitydef!Operation getOp(artifact : ecosystem!Artifact, aqualityeval:evaluatedecosystem!QualityEval): Real{
+operation qualitydef!Operation getOp(listresult: Sequence): Real{
 
-var listresult = new Sequence<Real>();
-var calculatedOperation = new CalculatedOperation;
-	for(metric in self.metrics){
-	var calculatedMetric = new CalculatedMetric;
-		calculatedMetric.metric = metric;
-		
-		var result = artifact.call(metric.metricProvider,Sequence{});
-		
-		calculatedMetric.actualizedvalue = result.asReal();
-		listresult.add(result);
-		calculatedOperation.calculatedMetrics.add(calculatedMetric);
-	}
-	calculatedOperation.calculatedBy = self;
-	aqualityeval.calculatedBy = calculatedOperation;
-	
 if(self.withoperation.name=='GET'){
 	
-	return listresult.first;
+	return listresult.first.asReal();
 	
 }else if(self.withoperation.name=='SUM'){
 	
-	return listresult.sum();
+	return listresult.sum().asReal();
 	
 }else if(self.withoperation.name=='SUB'){
 	var result =listresult.first;
 	for (e in listresult.excluding(result.first)) { 
 		result= result-e;
 	} 
-	return result;
+	return result.asReal();
+	
 }else if(self.withoperation.name=='PROD'){
 	
-	return listresult.product();
+	return listresult.product().asReal();
+	
 }else if(self.withoperation.name=='MIN'){
 	
-	return listresult.min();
+	return listresult.min().asReal();
+	
 }else if(self.withoperation.name=='MAX'){
 	
-	return listresult.max();
+	return listresult.max().asReal();
 	
 }else if(self.withoperation.name=='DIV'){
-		
 	if(listresult.size()==2){
 	var first: Real  =listresult.first().asReal();
 	var second:  Real =listresult.second().asReal();
-		return	(first/second);
+		return	(first/second).asReal();
 	}else{
-		return 0.0;
+	"Different arguments size than expected".println();
 	}
 }else if(self.withoperation.name=='AVG'){
 	return (listresult.sum()/listresult.size()).asReal();	
 }
+return 0.0;
+
 }
+
+operation qualitydef!Operation get(artifact : ecosystem!Artifact, container: Any ): Map{
+
+var calculatedOperation = new evaluatedecosystem!CalculatedOperation();
+calculatedOperation.calculatedBy = self;
+if(container.isTypeOf(QualityEval)) container.calculatedBy = calculatedOperation;
+if(container.isTypeOf(CalculatedOperation)) container.calculatedOperators.add(calculatedOperation);
+
+
+var listparams = new Sequence<Real>;
+if(self.operators.isDefined()){
+for (operator in self.operators){
+
+	var temp = operator.get(artifact,calculatedOperation); 
+	 
+		listparams.add(temp.get("result").asReal());
+		
+	}
+}
+
+var result = self.getOp(listparams).asReal();
+
+var results = new Map<Any, Any>;
+results.put("element",calculatedOperation);
+results.put("result",result);
+
+calculatedOperation.actualizedvalue = result;
+return results;
+
+}
+
+operation qualitydef!StaticValue get(artifact : ecosystem!Artifact, container: CalculatedOperation): Map{
+var calculatedOperator = new CalculatedStaticValue();
+
+if(container.isTypeOf(CalculatedOperation)) container.calculatedOperators.add(calculatedOperator);
+
+
+calculatedOperator.staticvalue = self;
+var result = new Map<Any, Any>;
+result.put("element", calculatedOperator);
+
+result.put("result",self.value);
+return result;
+}
+
+operation qualitydef!MetricOperator get(artifact : ecosystem!Artifact, container: evaluatedecosystem!CalculatedOperation):Map{
+
+
+var calculatedOperator = new evaluatedecosystem!CalculatedMetricOperator;
+if(container.isTypeOf(CalculatedOperation)) container.calculatedOperators.add(calculatedOperator);
+
+
+calculatedOperator.metricOperator = self;
+
+var calculatedMetric = new evaluatedecosystem!CalculatedMetric;
+var metric = self.name;
+
+calculatedOperator.calculatedMetric	=	calculatedMetric;
+
+var result = artifact.call(metric.metricProvider,Sequence{});
+calculatedMetric.actualizedvalue = result.asReal();
+calculatedMetric.metric = metric;
+var results = new Map<Any, Any>;
+results.put("element", calculatedOperator);
+results.put("result",result.asReal());
+
+//return calculatedOperator;
+return results;
+}
+
 
 operation ecosystem!Artifact getRealArtifact(){
 	var repository = System.context.modelRepository.models.excluding(ecosystem).excluding(evaluatedecosystem).excluding(qualitydef);
@@ -69,14 +128,17 @@ for (a in ecosys.artifacts.select(a|not a.virtual)) {
 	var qualityattrs = qualityM.qualityattrs.select(qa|emfTool.ecoreUtil.equals(qa.subject,a.eClass));	
 	
 for (qa in qualityattrs) { 
+
 	var aqualityeval = new evaluatedecosystem!QualityEval ();
+	evaluatedeecosys.evaluations.add(aqualityeval);
 	var subject : ecosystem!Artifact()= a;
 	aqualityeval.subject  = subject;
-	var result =qa.calculatedBy.getOp(a, aqualityeval).asReal();
+	
+	var result =qa.calculatedBy.get(a, aqualityeval ).get("result").asReal();
 	aqualityeval.qa = qa;
 	aqualityeval.actualizedvalue = result;
 	("Evaluating: "+a.name+"-->"+qa.name+": "+result).println();
-	evaluatedeecosys.evaluations.add(aqualityeval);
+	
 }
 }
 }

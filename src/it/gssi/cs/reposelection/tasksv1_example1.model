@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasksv1:TasksModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasksv1="cs.gssi.it/tasks_v1" xmi:id="_XB_s0EI4Eeu7lvhyjXuftQ">
+  <projects xmi:id="_B2KrcEI8Eeu7lvhyjXuftQ" name="Evolution of Models and Metamodels" category="_A5BGsEI8Eeu7lvhyjXuftQ">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_zcqu8EI-Eeu7lvhyjXuftQ" name="Evolve Models" done="true">
+      <subtasks xmi:id="_z4JxEEI-Eeu7lvhyjXuftQ" name="Create Models" done="true"/>
+    </tasks>
+  </projects>
+  <projects xmi:id="_4G4GMEI8Eeu7lvhyjXuftQ" name="BPA" category="_xoSSIEI8Eeu7lvhyjXuftQ">
+    <tasks xsi:type="tasksv1:CompositeTask" xmi:id="_1_OdMEI8Eeu7lvhyjXuftQ" name="Derivation" done="false">
+      <subtasks xmi:id="_pN8GkEI9Eeu7lvhyjXuftQ" name="Defining what to prove" done="false"/>
+      <subtasks xmi:id="_obIJkEI9Eeu7lvhyjXuftQ" name="Choose Inference Rules" done="false">
+        <attachments xmi:id="_9rTioEI9Eeu7lvhyjXuftQ" externallink="www.gssi.it/projects" sitename="www.gssi.it/" filename="project-file.zip" size="150MB" type="zip"/>
+      </subtasks>
+    </tasks>
+    <tasks xsi:type="tasksv1:SimpleTask" xmi:id="_3TKKQEI8Eeu7lvhyjXuftQ" name="Create Inference Rules" done="true"/>
+  </projects>
+  <categories xmi:id="_A5BGsEI8Eeu7lvhyjXuftQ" name="SSS" _id="169"/>
+  <categories xmi:id="_xoSSIEI8Eeu7lvhyjXuftQ" name="IFM" _id="120"/>
+  <categories xmi:id="_yG79AEI8Eeu7lvhyjXuftQ" name="Algorithm" _id="300"/>
+</tasksv1:TasksModel>

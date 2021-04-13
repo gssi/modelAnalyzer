@@ -1,5 +1,5 @@
 [%var emfTool = new Native("org.eclipse.epsilon.emc.emf.tools.EmfTool");%]
-
+<html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Latest compiled and minified CSS -->
@@ -16,17 +16,27 @@
   --blue: #60A5FA;
   --green: #6EE7B7;
   --red: #EF4444;
+  --dark: #4B5563;
+  --dark-2: #1F2937;
 }
 body, html{
 	height: 100%;
 	width: 100%;
+}
+*{
+	outline: none;
+	margin: 0;
+	padding: 0;
+	text-shadow: none !important;
 }
 .link {
   fill: none;
   stroke: #666;
   stroke-width: 1.5px;
 }
-
+.node{
+	
+}
 .node circle {
   /*fill: black;*/
   fill: #00000059;
@@ -66,6 +76,12 @@ text {
 }
 .node-label{
 	font-size: 12px;
+	/*text-anchor: middle;*/
+}
+.node-label-bg{
+	fill: rgb(239, 239, 239);
+	/*stroke: #ccc;
+    stroke-width: 1;*/
 }
 div.tooltip {
  	/*
@@ -97,6 +113,12 @@ div.tooltip {
     border-radius: 10px;
     margin-top: 15px;
 }
+.custom-navbar.dark-theme{
+	background: var(--dark)
+}
+.custom-navbar.dark-theme.navbar-default .navbar-brand{
+	color: #fff;
+}
 .custom-navbar .dropdown .dropdown-toggle{
     padding: 10px 15px;
     border-radius: 5px;
@@ -105,18 +127,33 @@ div.tooltip {
     transition: 0.5s;
     margin: 5px 5px 0;
 }
+.custom-navbar .navbar-nav > li > a{
+    font-size: 16px;
+}
+.custom-navbar.dark-theme .navbar-nav > li > a{
+	color: #fff;
+}
 .custom-navbar .dropdown .dropdown-toggle:hover, .custom-navbar .dropdown.open .dropdown-toggle{
 	background: #ededed;
 }
+.custom-navbar.dark-theme .dropdown .dropdown-toggle:hover, .custom-navbar.dark-theme .dropdown.open .dropdown-toggle{
+	background: var(--dark-2);
+	color: #fff;
+}
+.custom-navbar .dropdown-menu{
+	background: var(--dark)
+}
 .custom-navbar .dropdown-menu>li{
 	padding: 5px 10px;
-
+	font-size: 16px;
 }
 .custom-navbar .dropdown-menu>li>a{
-	background: #fff;
     padding: 10px 15px;
     border-radius: 5px;
     transition: 0.5s;
+}
+.custom-navbar.dark-theme .dropdown-menu>li>a{
+	color: #fff;
 }
 .custom-navbar .dropdown-menu>li>a:hover, .custom-navbar .dropdown-menu>li>a:focus{
 	/*background: #ededed;*/
@@ -125,7 +162,7 @@ div.tooltip {
 }
 .custom-navbar .navbar-nav>li>.dropdown-menu{
 	border: 1px solid #ededed;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 10px;
 }
 /* OVERLAY NAVBAR */
@@ -149,7 +186,7 @@ div.tooltip {
 <div class="container">
 
       <!-- Static navbar -->
-      <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default custom-navbar dark-theme">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -205,23 +242,20 @@ var nodes = {
 	"[%=node.name%]" : {"name":"[%=node.name%]","type":"[%=node.eClass.name%]","info":"[%=node.name%]","virtual":"[%=(node.virtual)?"virtual":"concrete"%]" 
 	[% if(evals.size()>0){ %]
 	,
-	[% for(e in evals.select(ev|emfTool.EcoreUtil.equals(node, ev.subject))){ %]
+	quality: {[% for(e in evals.select(ev|emfTool.EcoreUtil.equals(node, ev.subject))){ %]
 	 "[%=e.qa.name%]":"[%=e.actualizedvalue%]",
-	 [%}%]
+	 [%}%]}
 	[%}%]	 
 	},
 [%}%]
 
  };
 
-/*var width = 1000,
-    height = 700;*/
-
 const container = document.getElementById("main-wrapper"), repo = document.getElementById("repo")
 const width = window.innerWidth, // container.clientWidth - (parseFloat(getComputedStyle(container).paddingLeft) * 2),
 	height = window.innerHeight // - repo.offsetTop;
 
-const MIN_LINK_DISTANCE = 100,
+const MIN_LINK_DISTANCE = 200,
 	  MIN_NODE_SIZE = 5, MAX_NODE_SIZE = 30;
 
 const backgroundNodeLabel = "#6EE7B7";
@@ -306,7 +340,7 @@ var force = d3.layout.force()
     .size([width, height])
     //.linkDistance(60)
     .linkDistance(linkDistanceByNodeSize)
-    .charge(-400)
+    .charge(-500)
     //.charge(-300)
     .on("tick", tick)
     .start();
@@ -361,12 +395,14 @@ var node = svg.selectAll(".node")
     //.attr("class", "node")
     .attr("class", function(d) { return "node " + d.type; })
     .call(force.drag);
+
 node.on("mouseenter", mouseover)
 	//.on("mouseout", mouseout)
 	//.on("mouseover", mouseover)
 	.on("mouseleave", mouseout)
 	.on("mousedown", mousedown)
 	.on("mouseup", mouseup);
+
 // add the nodes
 node.append("circle")
  .attr("class", function(d) { return  d.virtual; })
@@ -375,7 +411,7 @@ node.append("circle")
  ;
 
 // add the text 
-node.append("text")
+const nodeLabel = node.append("text")
     // .attr("x", 12)
     .attr("x", d => getNodeSize(d) + 7)
     .attr("dy", ".35em")
@@ -383,12 +419,16 @@ node.append("text")
     .attr("class", d => "node-label")
     .call(getTextBox);
 
-//ADD BACKGROUND TEXT
-node.insert("rect", "text")
+//add background text
+const bgNodeLabel = node.insert("rect", "text")
     .attr("rx", 10)
     .attr("class", "node-label-bg")
-    .style("fill", backgroundNodeLabel)
-    .style("opacity", 0)
+    //.style("fill", "#efefef")
+    .attr("x", d => d.bbox.x - 2.5) 
+    .attr("y", d => -d.bbox.height)
+    //.attr("width", d => {debugger})
+    .attr("width", d => d.bbox.width + 10)
+    .attr("height", d => d.bbox.height*2)
 	;
 
 function getTextBox(selection){
@@ -400,7 +440,6 @@ d3.selection.prototype.moveToFront = function() {
 		this.parentNode.appendChild(this);
 	});
 };
-
 
 // add the curvy lines
 function tick() {
@@ -418,7 +457,9 @@ function tick() {
 
     node
         .attr("transform", function(d) { 
-  	    return "translate(" + d.x + "," + d.y + ")"; });
+  	    return "translate(" + d.x + "," + d.y + ")"; })
+
+    
 
     // set distance based on node's radius
 	path.attr("d", function (d, i) {
@@ -458,10 +499,7 @@ function mouseover(d) {
 		return
 	}
 	//if it's not, bring node to front
-	if(!d.front){
-		d3.select(this).moveToFront()
-		d.front = true;
-	}
+	d3.select(this).moveToFront()
 
 	d3.select(this).select("circle").transition()
       .duration(750)
@@ -469,21 +507,13 @@ function mouseover(d) {
       .attr("r", d => getNodeSize(d) * 1.2);
 
     //INCREASE FONT SIZE
-	const labels = d3.select(this).select("text")
+	/*const labels = d3.select(this).select("text")
 		.style("opacity", 0)
 		.style("font-size", "16px")
 		.attr("fill", "#fff")
-		.call(getTextBox);
+		.call(getTextBox);*/
 
-	const bg_labels = d3.select(this).select("rect")
-		.attr("x", d => d.bbox.x - 2.5) 
-	    .attr("y", d => -d.bbox.height)
-	    //.attr("width", d => {debugger})
-	    .attr("width", d => d.bbox.width + 10)
-	    .attr("height", d => d.bbox.height*2)
-
-	labels.transition().duration(300).style("opacity", 1)
-	bg_labels.transition().duration(300).style("opacity", 0.9)
+	//d3.select(this).select("rect").transition().duration(300).style("opacity", 1)
 	
 	div.transition()
         .duration(300)
@@ -510,17 +540,7 @@ function mouseout(d) {
       //.attr("r", 8);
       .attr("r", d => getNodeSize(d));
 	
-	//REMOVE BACKGROUND TEXT
-    const bg_labels = d3.select(this).select("rect")
-    	.transition().duration(300)
-    	.style("opacity", 0)
-    
-
-    d3.select(this).select("text")
-    	.transition().duration(300)
-    	.attr("fill", "#000")
-    	.style("font-size", "12px")
-    	.style("opacity", 1);;
+	//d3.select(this).select("rect").transition().duration(300).style("opacity", 0.8)
 
 	div.transition()
                 .duration(300)
@@ -541,7 +561,12 @@ document.querySelectorAll(".select-activelayer")
 	force.stop();
 	
 	node.selectAll("circle").transition().duration(500).attr("r", d => getNodeSize(d))
-	node.selectAll("text").transition().duration(500).attr("x", d => getNodeSize(d) + 7)
+	node.selectAll("text").attr("x", d => getNodeSize(d) + 7).call(getTextBox)
+	node.selectAll("rect")
+		.attr("x", d => d.bbox.x - 2.5) 
+	    .attr("y", d => -d.bbox.height)
+	    .attr("width", d => d.bbox.width + 10)
+	    .attr("height", d => d.bbox.height*2)
 
 	force.start();
 }))

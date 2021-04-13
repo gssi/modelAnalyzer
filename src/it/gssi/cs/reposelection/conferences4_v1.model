@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<conference:ConfManager xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conference="conference.com/v1" xmi:id="_uBmioDllEeufGaYp4x4LaA">
+  <conferences xmi:id="__JZKADllEeufGaYp4x4LaA" acronym="CIKM" venue="Virtually, Queensland, Australia " fullname="Conference on Information and Knowledge Management" date="2021-01-11T23:00:00.000+0100">
+    <submissions xmi:id="_TMrnQDloEeufGaYp4x4LaA" authors="_NrqOsDloEeufGaYp4x4LaA _Hk99QDloEeufGaYp4x4LaA _Chus4DloEeufGaYp4x4LaA" title="Describing and Predicting Online Items with Resharing Cascades via Dual Mixture Self-exciting Processes" length="10" reviewers="_YhSJ4DlnEeufGaYp4x4LaA"/>
+    <submissions xmi:id="_m8fZwDloEeufGaYp4x4LaA" authors="_gMYX4DloEeufGaYp4x4LaA _cA9gUDloEeufGaYp4x4LaA" title="Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models" length="10" reviewers="_e-W7ADlnEeufGaYp4x4LaA"/>
+    <submissions xmi:id="_0UNo0DloEeufGaYp4x4LaA" authors="_FZxbkDlpEeufGaYp4x4LaA _5ci0kDloEeufGaYp4x4LaA _MDVJgDlpEeufGaYp4x4LaA" title="Cooperative Multi-Agent Reinforcement Learning in Express System" length="11" reviewers="_TY5JMDlmEeufGaYp4x4LaA"/>
+    <submissions xmi:id="_gukCcDlpEeufGaYp4x4LaA" authors="_nDztQDlpEeufGaYp4x4LaA" title="Semi-Supervised Max-Sum Clustering" length="11" reviewers="_j6YJEDlnEeufGaYp4x4LaA"/>
+    <submissions xmi:id="_DImNsDlqEeufGaYp4x4LaA" authors="_K3ek8DlqEeufGaYp4x4LaA _QB0i4DlqEeufGaYp4x4LaA _TR_TIDlqEeufGaYp4x4LaA _YyoRMDlqEeufGaYp4x4LaA" title="Critically Examining the Claimed Value of Convolutions over User-Item Embedding Maps for Recommender Systems" length="11" reviewers="_TIh8gDlnEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:Author" xmi:id="_Chus4DloEeufGaYp4x4LaA" name="Quyu Kong" username="quyukong"/>
+    <members xsi:type="conference:PcMember" xmi:id="_TY5JMDlmEeufGaYp4x4LaA" name="Mathieu d&#x2019;Aquin" username="mathieudaquin" reviews="_0UNo0DloEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_TIh8gDlnEeufGaYp4x4LaA" name="Stefan Dietze" username="stefandietze" reviews="_DImNsDlqEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_YhSJ4DlnEeufGaYp4x4LaA" name="Claudia Hauff" username="claudiahauff" reviews="_TMrnQDloEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_e-W7ADlnEeufGaYp4x4LaA" name="Edward Curry" username="edwardcurry" reviews="_m8fZwDloEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_j6YJEDlnEeufGaYp4x4LaA" name="Philippe Cudre Mauroux" username="philippecudremauroux" reviews="_gukCcDlpEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:Author" xmi:id="_Hk99QDloEeufGaYp4x4LaA" name="Marian-Andrei Rizoiu" username="marianandreirizoiu"/>
+    <members xsi:type="conference:Author" xmi:id="_NrqOsDloEeufGaYp4x4LaA" name="Lexing Xie" username="lexingxie"/>
+    <members xsi:type="conference:Author" xmi:id="_cA9gUDloEeufGaYp4x4LaA" name="Benedek Rozemberczki" username="benedekrozemberczki"/>
+    <members xsi:type="conference:Author" xmi:id="_gMYX4DloEeufGaYp4x4LaA" name="Rik Sarkar" username="riksarkar"/>
+    <members xsi:type="conference:Author" xmi:id="_5ci0kDloEeufGaYp4x4LaA" name="Yexin Li" username="yexinli"/>
+    <members xsi:type="conference:Author" xmi:id="_FZxbkDlpEeufGaYp4x4LaA" name="Yu Zheng" username="yuzheng"/>
+    <members xsi:type="conference:Author" xmi:id="_MDVJgDlpEeufGaYp4x4LaA" name="Qiang Yang" username="qiangyang"/>
+    <members xsi:type="conference:Author" xmi:id="_nDztQDlpEeufGaYp4x4LaA" name="Konstantin Voevodski" username="konstantinvoevodski"/>
+    <members xsi:type="conference:Author" xmi:id="_K3ek8DlqEeufGaYp4x4LaA" name="Maurizio Ferrari Dacrema" username="maurizioferraridacrema"/>
+    <members xsi:type="conference:Author" xmi:id="_QB0i4DlqEeufGaYp4x4LaA" name="Federico Parroni" username="federicoparroni"/>
+    <members xsi:type="conference:Author" xmi:id="_TR_TIDlqEeufGaYp4x4LaA" name="Paolo Cremonesi" username="paolocremonesi"/>
+    <members xsi:type="conference:Author" xmi:id="_YyoRMDlqEeufGaYp4x4LaA" name="Dietmar Jannach" username="dietmarjannachh"/>
+  </conferences>
+  <conferences xmi:id="_rqGtgDlqEeufGaYp4x4LaA" acronym="FUN" venue="Isola di Favignana, Sicily, Italy" fullname="Fun With Algorithms" date="2021-06-02T00:00:00.000+0200">
+    <submissions xmi:id="_7iBL8DlrEeufGaYp4x4LaA" authors="_D0W1kDlsEeufGaYp4x4LaA _HLa4ADlsEeufGaYp4x4LaA _N1zFUDlsEeufGaYp4x4LaA _KCNe8DlsEeufGaYp4x4LaA _SPJrMDlsEeufGaYp4x4LaA" title="Cutting Bamboo Down to Size" length="12" reviewers="_jevZIDlrEeufGaYp4x4LaA"/>
+    <submissions xmi:id="_ya1IgDlsEeufGaYp4x4LaA" authors="_3kWAADlsEeufGaYp4x4LaA" title="Train Tracks with Gaps" length="15" reviewers="_mgfS4DlrEeufGaYp4x4LaA"/>
+    <submissions xmi:id="_If-asDltEeufGaYp4x4LaA" authors="_Q3uv0DltEeufGaYp4x4LaA _MOf64DltEeufGaYp4x4LaA" title="An Optimal Algorithm for Online Freeze-tag" length="13" reviewers="_wAsd0DlrEeufGaYp4x4LaA"/>
+    <submissions xmi:id="_b4crQDltEeufGaYp4x4LaA" authors="_gpuo8DltEeufGaYp4x4LaA" title="Hyperbolic Minesweeper is in P" length="12" reviewers="_0sRcIDlrEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_jevZIDlrEeufGaYp4x4LaA" name="Flavia  Bonomo" username="flavia bBonomo" reviews="_7iBL8DlrEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_mgfS4DlrEeufGaYp4x4LaA" name="Arnaud Casteigts" username="arnaudcasteigts" reviews="_ya1IgDlsEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_wAsd0DlrEeufGaYp4x4LaA" name="Graham Cormode" username="grahamcormode" reviews="_If-asDltEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:PcMember" xmi:id="_0sRcIDlrEeufGaYp4x4LaA" name="Martin Farach-Colton" username="martinfarachcolton" reviews="_b4crQDltEeufGaYp4x4LaA"/>
+    <members xsi:type="conference:Author" xmi:id="_D0W1kDlsEeufGaYp4x4LaA" name="Davide Bil&#xf2;" username="davideb"/>
+    <members xsi:type="conference:Author" xmi:id="_HLa4ADlsEeufGaYp4x4LaA" name="Luciano Gual&#xe0;" username="lucianog"/>
+    <members xsi:type="conference:Author" xmi:id="_KCNe8DlsEeufGaYp4x4LaA" name=" Stefano Leucci" username=" stefanoleucci"/>
+    <members xsi:type="conference:Author" xmi:id="_N1zFUDlsEeufGaYp4x4LaA" name="Guido Proietti" username="guidoproietti"/>
+    <members xsi:type="conference:Author" xmi:id="_SPJrMDlsEeufGaYp4x4LaA" name="Giacomo Scornavacca" username="giacomoscornavacca"/>
+    <members xsi:type="conference:Author" xmi:id="_3kWAADlsEeufGaYp4x4LaA" name="William Kuszmaul" username="williamkuszmaul"/>
+    <members xsi:type="conference:Author" xmi:id="_MOf64DltEeufGaYp4x4LaA" name=" Julian Wellman" username=" julianwellman"/>
+    <members xsi:type="conference:Author" xmi:id="_Q3uv0DltEeufGaYp4x4LaA" name="Josh Brunner" username="joshbrunner"/>
+    <members xsi:type="conference:Author" xmi:id="_gpuo8DltEeufGaYp4x4LaA" name="Eryk Kopczynski" username="eryk"/>
+  </conferences>
+</conference:ConfManager>

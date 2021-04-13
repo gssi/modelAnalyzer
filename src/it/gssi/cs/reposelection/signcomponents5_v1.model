@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sigcomp:ComponentModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:sigcomp="http://cs.gssi.it/sigcomp/v1" xmi:id="_1oTIwDraEeuuw_fgc_cCWw">
+  <signatures xmi:id="_CptwoDrbEeuuw_fgc_cCWw" inPort="_2fblEDraEeuuw_fgc_cCWw" outPort="_47sMIDraEeuuw_fgc_cCWw _3tlaQDraEeuuw_fgc_cCWw _3_7HcDraEeuuw_fgc_cCWw _4P2Z0DraEeuuw_fgc_cCWw _4eersDraEeuuw_fgc_cCWw _4t4ZoDraEeuuw_fgc_cCWw" id="s1"/>
+  <signatures xmi:id="_JNBsoDrbEeuuw_fgc_cCWw" inPort="_2uhxADraEeuuw_fgc_cCWw" outPort="_3tlaQDraEeuuw_fgc_cCWw _3_7HcDraEeuuw_fgc_cCWw" id="s2"/>
+  <signatures xmi:id="_N21wYDrbEeuuw_fgc_cCWw" inPort="_2_zHMDraEeuuw_fgc_cCWw" outPort="_4eersDraEeuuw_fgc_cCWw _4t4ZoDraEeuuw_fgc_cCWw" id="s3"/>
+  <signatures xmi:id="_Qwk9oDrbEeuuw_fgc_cCWw" inPort="_3Xi40DraEeuuw_fgc_cCWw" outPort="_4P2Z0DraEeuuw_fgc_cCWw _4t4ZoDraEeuuw_fgc_cCWw" id="s4"/>
+  <ports xmi:id="_2fblEDraEeuuw_fgc_cCWw" id="p1"/>
+  <ports xmi:id="_2uhxADraEeuuw_fgc_cCWw" id="p2"/>
+  <ports xmi:id="_2_zHMDraEeuuw_fgc_cCWw" id="p3"/>
+  <ports xmi:id="_3Xi40DraEeuuw_fgc_cCWw" id="p4"/>
+  <ports xmi:id="_3tlaQDraEeuuw_fgc_cCWw" id="p5"/>
+  <ports xmi:id="_3_7HcDraEeuuw_fgc_cCWw" id="p6"/>
+  <ports xmi:id="_4P2Z0DraEeuuw_fgc_cCWw" id="p7"/>
+  <ports xmi:id="_4eersDraEeuuw_fgc_cCWw" id="p8"/>
+  <ports xmi:id="_4t4ZoDraEeuuw_fgc_cCWw" id="p9"/>
+  <ports xmi:id="_47sMIDraEeuuw_fgc_cCWw" id="p10"/>
+</sigcomp:ComponentModel>
