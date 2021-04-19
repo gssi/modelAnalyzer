@@ -4,7 +4,8 @@ operation ecosystem!Model getSize() : Real {
 
 	return self.getRealArtifact().allInstances().size();
 }
- 
+
+
 operation ecosystem!Model getCoverage() : Real {
 	var weight_i = 1.0;
 	var weight_feature = 1.0;
@@ -91,11 +92,21 @@ operation Boolean booltoint(){
 	}
 }
 
-//Metamodel metrics provider
-
 operation ecosystem!Model getMetamodel(): ecosystem!Metamodel{
 	var allconnections = ecosystem!Conformance.all;
 	return allconnections.selectOne(con|con.src=self).trg;
+}
+
+//Metamodel metrics provider
+
+operation ecosystem!Metamodel getINHF() : Real {
+
+	return self.getRealArtifact().getAllOfType("EClass").eAllStructuralFeatures.excludingAll(self.getRealArtifact().getAllOfType("EClass").eStructuralFeatures).size();
+}
+
+operation ecosystem!Metamodel getNTF() : Real {
+
+	return self.getRealArtifact().getAllOfType("EClass").eAllStructuralFeatures.size();
 }
 
 operation ecosystem!Metamodel getNC() : Real {
@@ -107,6 +118,21 @@ operation ecosystem!Metamodel getNC() : Real {
 operation ecosystem!Metamodel nrReferences() : Real {
 
 	return self.getRealArtifact().getAllOfType("EReference").size();
+}
+
+operation ecosystem!Metamodel nrUnidirReferences() : Real {
+
+	return self.getRealArtifact().getAllOfType("EReference").select(r|not r.eOpposite.isDefined() ).size();
+}
+
+operation ecosystem!Metamodel nrOppositeReferences() : Real {
+
+	return self.getRealArtifact().getAllOfType("EReference").select(r|r.eOpposite.isDefined() ).size();
+}
+
+operation ecosystem!Metamodel nrReferencesContainment() : Real {
+
+	return self.getRealArtifact().getAllOfType("EReference").select(r|r.containment ).size();
 }
 
 operation ecosystem!Metamodel nrAttrs() : Real {

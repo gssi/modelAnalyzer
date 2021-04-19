@@ -10,10 +10,27 @@ rule Repo2Graphviz
     
 
     parameters : Map{
-        "path" = Sequence{"Repository"},
+        "path" = Sequence{"Views", "Graph"},
         "icon" = "diagram-ffffff",
         "format" = "html",
-        "layers" = qe.getMapLayers(),
+        "layers" = qe.getMapTemplates(),
+        "nodes" = qe.ecosystemModel.artifacts,
+        "evals" = qe.evaluations,
+        "edges" =qe.ecosystemModel.relations
+    }
+}
+
+rule Repo2Barchart
+    transform qe : QualityEcosystem::QualityEcosystemDef {
+
+    template : "repo2barchart.egl"
+    
+
+    parameters : Map{
+        "path" = Sequence{"Views","Barchart"},
+        "icon" = "barchart",
+        "format" = "html",
+        "layers" = qe.getMapTemplates(),
         "nodes" = qe.ecosystemModel.artifacts,
         "evals" = qe.evaluations,
         "edges" =qe.ecosystemModel.relations
@@ -27,7 +44,7 @@ rule SingleArtifact
 	template : "selection2graphd3.egl"
 
 	parameters : Map{
-		"path" = Sequence{"Repository", qeval.subject.name},
+		"path" = Sequence{"Views","Repository",qeval.subject.internalPath(), qeval.subject.name},
 		"icon" = "diagram-c0c0c0",
 		"format" = "html",
 		"layers" = Sequence {
@@ -35,7 +52,8 @@ rule SingleArtifact
 			
 		},
 		"subject" = qeval.subject,
-		"layers" = qeval.def.getMapLayers(),
+		"layers" = qeval.def.getMapTemplates(),
+		"MAX_QUALITY_ATT" = qeval.def.getMaxValues(qeval.subject.eClass.name),
         "nodes" =  qeval.getConnected(),
         "evals" =  qeval.def.evaluations,
         "edges" = qeval.def.ecosystemModel.relations.select(e|e.src==qeval.subject or e.trg==qeval.subject)

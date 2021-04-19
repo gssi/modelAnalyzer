@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<qualitymodel:QualityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qualitymodel="http://cs.gssi.it/qualitymodel" xmi:id="_1LL9IHKMEeuBc5zGAU8pNg" author="Ludovic">
-  <qualityattrs xmi:id="_ymeFkJoIEeuLwNyVYONI1A" name="Maintainability">
+<qualitymodel:QualityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qualitymodel="http://cs.gssi.it/qualitymodel" xmi:id="_1LL9IHKMEeuBc5zGAU8pNg" author="Ludovico">
+  <qualityattrs xmi:id="_ymeFkJoIEeuLwNyVYONI1A" name="MaintainabilityMM" description="Maintainability">
     <calculatedBy xmi:id="_omDzwJoMEeuLwNyVYONI1A" withoperation="DIV">
       <operators xsi:type="qualitymodel:Operation" xmi:id="_znMl8JoMEeuLwNyVYONI1A">
         <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_p_cokJoMEeuLwNyVYONI1A" name="_AVkTIH3LEeuBc5zGAU8pNg"/>
@@ -13,7 +13,7 @@
     </calculatedBy>
     <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
   </qualityattrs>
-  <qualityattrs xmi:id="_3iEgEJoMEeuLwNyVYONI1A" name="Understandability" description="Understandability">
+  <qualityattrs xmi:id="_3iEgEJoMEeuLwNyVYONI1A" name="UnderstandabilityMM" description="Understandability" best="max">
     <calculatedBy xmi:id="_8A5b0JoMEeuLwNyVYONI1A" withoperation="DIV">
       <operators xsi:type="qualitymodel:Operation" xmi:id="_JoB_4JoNEeuLwNyVYONI1A">
         <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_9rYnsJoMEeuLwNyVYONI1A" name="_Ut1MwH3LEeuBc5zGAU8pNg"/>
@@ -21,6 +21,64 @@
       <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_LiYMsJoNEeuLwNyVYONI1A" name="_AVkTIH3LEeuBc5zGAU8pNg"/>
     </calculatedBy>
     <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_-S4FcJ1BEeuP29a-Hn75kQ" name="ComplexityMM" description="Complexity">
+    <calculatedBy xmi:id="_AsoLEJ1CEeuP29a-Hn75kQ">
+      <operators xsi:type="qualitymodel:Operation" xmi:id="_WDDs8J3NEeuP29a-Hn75kQ" withoperation="SUB">
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_XBUsAJ3NEeuP29a-Hn75kQ" name="_LCyPAJn_EeuLwNyVYONI1A"/>
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_Ydo5AJ3NEeuP29a-Hn75kQ" name="_YnOskJ1OEeuP29a-Hn75kQ"/>
+      </operators>
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_hhQOkJ3NEeuP29a-Hn75kQ" name="_cA5XEJ1OEeuP29a-Hn75kQ"/>
+      <operators xsi:type="qualitymodel:DerivedAttributeOperator" xmi:id="_jhC8EJ3NEeuP29a-Hn75kQ" qa="_3iEgEJoMEeuLwNyVYONI1A"/>
+      <operators xsi:type="qualitymodel:Operation" xmi:id="_lizYcJ3NEeuP29a-Hn75kQ" withoperation="SUB">
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_nF7_IJ3NEeuP29a-Hn75kQ" name="_LCyPAJn_EeuLwNyVYONI1A"/>
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_oojBYJ3NEeuP29a-Hn75kQ" name="_f0jO4J1OEeuP29a-Hn75kQ"/>
+      </operators>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_gx04kJ3UEeuP29a-Hn75kQ" name="ReusabilityMM" description="Reusability" best="max">
+    <calculatedBy xmi:id="_vReZAJ3UEeuP29a-Hn75kQ" withoperation="DIV">
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_wfIe8J3UEeuP29a-Hn75kQ" name="_jTPscJ3UEeuP29a-Hn75kQ"/>
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_zFWTQJ3UEeuP29a-Hn75kQ" name="_s3nlsJ3UEeuP29a-Hn75kQ"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_kGYEYJ6WEeuP29a-Hn75kQ" name="Understandability" description="Understandability" best="max">
+    <calculatedBy xmi:id="_m-fhAJ6WEeuP29a-Hn75kQ" withoperation="AVG">
+      <operators xsi:type="qualitymodel:DerivedAttributeOperator" xmi:id="_otc9MJ6WEeuP29a-Hn75kQ" qa="_3iEgEJoMEeuLwNyVYONI1A"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//MDEEcosystem"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_eiOU8J66EeuP29a-Hn75kQ" name="Complexity" description="Complexity">
+    <calculatedBy xmi:id="_eiOU8Z66EeuP29a-Hn75kQ" withoperation="AVG">
+      <operators xsi:type="qualitymodel:DerivedAttributeOperator" xmi:id="_eiOU8p66EeuP29a-Hn75kQ" qa="_-S4FcJ1BEeuP29a-Hn75kQ"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//MDEEcosystem"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_2ZMfMJ68EeuP29a-Hn75kQ" name="Maintainability" description="Maintainability">
+    <calculatedBy xmi:id="_2ZMfMZ68EeuP29a-Hn75kQ" withoperation="AVG">
+      <operators xsi:type="qualitymodel:DerivedAttributeOperator" xmi:id="_2ZMfMp68EeuP29a-Hn75kQ" qa="_ymeFkJoIEeuLwNyVYONI1A"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//MDEEcosystem"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_DQT7kJ69EeuP29a-Hn75kQ" name="Reusability" description="Reusability" best="max">
+    <calculatedBy xmi:id="_DQT7kZ69EeuP29a-Hn75kQ" withoperation="AVG">
+      <operators xsi:type="qualitymodel:DerivedAttributeOperator" xmi:id="_DQT7kp69EeuP29a-Hn75kQ" qa="_gx04kJ3UEeuP29a-Hn75kQ"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//MDEEcosystem"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_VmHOMJ69EeuP29a-Hn75kQ" name="CoverageM" description="Coverage of the models wrt metamodels" best="max">
+    <calculatedBy xmi:id="_dY-tkJ69EeuP29a-Hn75kQ" withoperation="GET">
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_eq9S0J69EeuP29a-Hn75kQ" name="_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Model"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_lsmwoJ69EeuP29a-Hn75kQ" name="Coverage" description="Coverage of the models in the ecosystem" best="max">
+    <calculatedBy xmi:id="_zc-JMJ69EeuP29a-Hn75kQ" withoperation="MIN">
+      <operators xsi:type="qualitymodel:DerivedAttributeOperator" xmi:id="_3xpqcJ69EeuP29a-Hn75kQ" qa="_VmHOMJ69EeuP29a-Hn75kQ"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//MDEEcosystem"/>
   </qualityattrs>
   <metrics xmi:id="_AVkTIH3LEeuBc5zGAU8pNg" name="NC" metricProvider="getNC" description="number of metaclasses"/>
   <metrics xmi:id="_Ut1MwH3LEeuBc5zGAU8pNg" name="PRED" metricProvider="getSumPRED" description="get sum  of predecessor of a classes"/>
@@ -30,4 +88,9 @@
   <metrics xmi:id="_RozgwJn_EeuLwNyVYONI1A" name="NA" metricProvider="nrAttrs" description="get number of attributes"/>
   <metrics xmi:id="_Wz_zQJn_EeuLwNyVYONI1A" name="DITMax" metricProvider="getDITmax" description="get max hierarchical level"/>
   <metrics xmi:id="_ioxo4Jn_EeuLwNyVYONI1A" name="FanOutMax" metricProvider="getMaxFANout" description="get max fanout"/>
+  <metrics xmi:id="_YnOskJ1OEeuP29a-Hn75kQ" name="NUR" metricProvider="nrUnidirReferences"/>
+  <metrics xmi:id="_cA5XEJ1OEeuP29a-Hn75kQ" name="NOPR" metricProvider="nrOppositeReferences"/>
+  <metrics xmi:id="_f0jO4J1OEeuP29a-Hn75kQ" name="NCR" metricProvider="nrReferencesContainment"/>
+  <metrics xmi:id="_jTPscJ3UEeuP29a-Hn75kQ" name="INHF" metricProvider="getINHF"/>
+  <metrics xmi:id="_s3nlsJ3UEeuP29a-Hn75kQ" name="NTF" metricProvider="getNTF"/>
 </qualitymodel:QualityModel>

@@ -2,13 +2,11 @@
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Latest compiled and minified CSS -->
+		 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
 
-<!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <style>
@@ -28,11 +26,31 @@ body, html{
 	margin: 0;
 	padding: 0;
 	text-shadow: none !important;
+	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;
+}
+.box-shadow{
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    border: none !important;
+}
+.svg-content-responsive{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 .link {
   fill: none;
   stroke: #666;
   stroke-width: 1.5px;
+  stroke-dasharray: 10 10;
+}
+.link.link-dashed{
+	stroke-dasharray: 3 3;
+}
+.all-dashed .link{
+	stroke-dasharray: 3 3;
 }
 .node{
 	
@@ -74,34 +92,18 @@ text {
   font: 10px sans-serif;
   pointer-events: none;
 }
+.link-label {
+    font-size: 12px;
+}
 .node-label{
 	font-size: 12px;
 	/*text-anchor: middle;*/
 }
 .node-label-bg{
-	fill: rgb(239, 239, 239);
+	fill: #efefef;
 	/*stroke: #ccc;
     stroke-width: 1;*/
-}
-div.tooltip {
- 	/*
-    width: 500px;
-    height: 15px;
-    padding: 8px;
-    font: 10px sans-serif;
-    background: lightgray;
-    border: solid 1px #ccc;
-    */
-    position: absolute;
-    text-align: center;
-    border-radius: 10px;
-    pointer-events: none;
-    padding: 10px 15px;
-    font: 14px sans-serif;
-    background: #fff;
-    border: solid 1px #ededed;
-}
-            
+}         
 .jumbotron {
 	background-color:#FFFFFF;
 	padding: 0 !important;
@@ -115,6 +117,9 @@ div.tooltip {
 }
 .custom-navbar.dark-theme{
 	background: var(--dark)
+}
+.custom-navbar .navbar-collapse{
+	border: none;
 }
 .custom-navbar.dark-theme.navbar-default .navbar-brand{
 	color: #fff;
@@ -161,7 +166,7 @@ div.tooltip {
 	color: #fff;
 }
 .custom-navbar .navbar-nav>li>.dropdown-menu{
-	border: 1px solid #ededed;
+	border: none;
     border-radius: 10px;
     margin-top: 10px;
 }
@@ -171,32 +176,75 @@ div.tooltip {
 	top: 0;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 10;
 }
+div.tooltip {
+ 	/*
+    width: 500px;
+    height: 15px;
+    padding: 8px;
+    font: 10px sans-serif;
+    background: lightgray;
+    border: solid 1px #ccc;
+    */
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    pointer-events: none;
+    padding: 10px 20px;
+    font: 14px sans-serif;
+    background: #fff;
+    border: solid 1px #ededed;
+}
+div.tooltip h3{
+	margin: 10px 0; 
+}  
 .tooltip.custom-tooltip{
 	position: absolute;
 	bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 1.5em;
-    background: var(--green);
+    /*font-size: 1.5em;*/
+    background: var(--dark);
     color: #fff;
+    min-width: 250px;
+}
+.tooltip-attr-list{
+	padding-inline-start: 20px;
+    text-align: left;
+    line-height: 1.5em;
+}
+@media (max-width: 767px){
+	#main-wrapper{
+		width: 100%;
+	}
+	.custom-navbar .navbar-nav>li>.dropdown-menu{
+		border-radius: 0;
+		background: var(--dark-2);
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li >a{
+		color: #fefefe;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li:hover >a{
+		color: #fff;
+		background: var(--green)
+	}
 }
 </style>
 <body>
-<div class="container">
-
-      <!-- Static navbar -->
-  <nav class="navbar navbar-default custom-navbar dark-theme">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Repository Explorer</a>
-          </div>
+<div class="container" id="main-wrapper">
+  <!-- Static navbar -->
+  <nav class="navbar navbar-default custom-navbar dark-theme box-shadow">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Repository Explorer</a>
+      </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li><a href="#" class="select-activelayer" data-layerid="A::A">Reset</a></li>
@@ -204,8 +252,8 @@ div.tooltip {
 				<li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">[%=a%] <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                [%for (qa in evals.qa.select(q|q.subject.name==a).name.asSet()) { %]
-                  <li><a href="#" class="select-activelayer" data-layerid="[%=a%]::[%=qa%]">[%=qa%]</a></li>   
+                [%for (qa in evals.qa.select(q|q.subject.name==a).asSet()) { %]
+                  <li><a href="#" class="select-activelayer" data-layerid="[%=a%]::[%=qa.name%]" data-best="[%=qa.best%]">[%=qa.description%]</a></li>   
                   [%}%]          
              </ul>
               </li>
@@ -214,17 +262,13 @@ div.tooltip {
             
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
-      </nav>
+  </nav>
+</div> <!-- /container -->
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron" id="repo">
-        
-      </div>
-
-    </div> <!-- /container -->
-
+<!-- Main component for a primary marketing message or call to action -->
+<div class="jumbotron" id="repo"></div>
 <script src="https://d3js.org/d3.v3.min.js"></script>
-<script>
+<script>    
 
 var links = [
 [%for (edge in edges) { 
@@ -251,19 +295,21 @@ var nodes = {
 
  };
 
+
 const container = document.getElementById("main-wrapper"), repo = document.getElementById("repo")
+
+const MIN_LINK_DISTANCE = 200,
+	  MIN_NODE_SIZE = 5, MAX_NODE_SIZE = 30, MAX_SCALE = 3;
+
 const width = window.innerWidth, // container.clientWidth - (parseFloat(getComputedStyle(container).paddingLeft) * 2),
 	height = window.innerHeight // - repo.offsetTop;
 
-const MIN_LINK_DISTANCE = 200,
-	  MIN_NODE_SIZE = 5, MAX_NODE_SIZE = 30;
-
-const backgroundNodeLabel = "#6EE7B7";
+const backgroundNodeLabel = "#efefef";
 
 let ACTIVELAYER = "A::A", checkClick = false;
 let [TYPE_PROPERTY, SIZE_PROPERTY] = ACTIVELAYER.split("::")
 
-let MAX_VALUE, MIN_VALUE;
+let MAX_VALUE, MIN_VALUE, CHECKBEST = true, BEST_VALUE = "max";
 
 const getMaxMinValuesFromNodes = (nodes) => {
 	//default values
@@ -272,15 +318,15 @@ const getMaxMinValuesFromNodes = (nodes) => {
   	//can be used either nodes object or force.nodes() array
   	Array.isArray(nodes) ?  parse_nodes = nodes : parse_nodes = Object.values(nodes)
 
-	const filter_array = parse_nodes.filter(item => item.type == TYPE_PROPERTY ? +item[SIZE_PROPERTY] : null)
+	const filter_array = parse_nodes.filter(item => item.type == TYPE_PROPERTY ? +item.quality[SIZE_PROPERTY] : null).map(i => parseFloat(i.quality[SIZE_PROPERTY]))
 	
 	//check if there are enough objects with valid SIZE_PROPERTY values
 	if(filter_array < 2) return default_values
 
-	const sorted_array = filter_array.sort((prev, current) => prev[SIZE_PROPERTY] - current[SIZE_PROPERTY])
-	const min = +sorted_array[0][SIZE_PROPERTY], max = +sorted_array[sorted_array.length-1][SIZE_PROPERTY]
+	const sorted_array = filter_array.sort((prev, current) => prev - current)
+	const min = sorted_array[0], max = sorted_array[sorted_array.length-1]
 
-	return min && max ? [min, max] : default_values
+	return (min + max) ? [min, max] : default_values
 }
 
 //get integer number between
@@ -288,22 +334,26 @@ const getRelativeValue = (n, round) => round ? Math.round((n*MAX_NODE_SIZE)/MAX_
 
 //get a valid numeric value from SIZE_PROPERTY property 
 const getNodeSize = d => {	
-	const value = d[SIZE_PROPERTY], type = d.type;
+	const value = d.quality[SIZE_PROPERTY], type = d.type;
 
 	//check type, if it's not TYPE_PROPERTY return default size
 	if(type !== TYPE_PROPERTY){
 		return MIN_NODE_SIZE
 	}
 	
-	//type is ok, then node's size depends on d.SIZE_PROPERTY's value
+	//type is ok, then node's size depends on d.quality.SIZE_PROPERTY's value
+    //check if exist
+    if(!d.quality.hasOwnProperty(SIZE_PROPERTY)){
+        return MIN_NODE_SIZE
+    }
 
 	//check if value is a number, null or undefined
-	const num = +value ? +value : 0;
-	
+	const num = +value ? parseFloat(value) : 0;
+
 	//get relative value
 	const rel = getRelativeValue(num)
-
-	return rel + MIN_NODE_SIZE
+    //console.log(BEST_VALUE, num, MIN_VALUE, MAX_VALUE, rel)
+	return CHECKBEST && BEST_VALUE === "min" ? MAX_NODE_SIZE - rel < MIN_NODE_SIZE ? MIN_NODE_SIZE : MAX_NODE_SIZE - rel : rel + MIN_NODE_SIZE
 }
 
 //set distance for each edge, adding an offset based on nodes' size
@@ -340,15 +390,51 @@ var force = d3.layout.force()
     .size([width, height])
     //.linkDistance(60)
     .linkDistance(linkDistanceByNodeSize)
-    .charge(-500)
+    .charge(-700)
     //.charge(-300)
     .on("tick", tick)
     .start();
 
-var svg = d3.select("div#repo").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+var zoom = d3.behavior.zoom().on("zoom", function (e) {
+		svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" +  d3.event.scale  + ")")
+    }).scaleExtent([0.3, MAX_SCALE]).on("zoomend", zoomend)
 
+/*var svg = d3.select("div#repo").append("svg")
+    .attr("width", width)
+    .attr("height", height);*/
+var svg = d3.select("div#repo").append("svg")
+	.attr("width", "100%")
+	.attr("height", "100%")
+	.call(zoom)
+    .append("g")
+    
+function zoomend(e){
+	const box = this.getBBox();
+	let translated = zoom.translate()
+
+	if(box.width < window.innerWidth) {
+		//when box is smaller than viewport check its own width to limit panning
+		if(box.x < (-box.width/2)) translated[0] += (-box.width/2) - box.x
+		else if(box.x > (window.innerWidth-(box.width/2))) translated[0] -= box.x-(window.innerWidth-(box.width/2));
+	}else{
+		//when box is bigger than viewport check the center of viewport to limit panning
+		if(box.x > (window.innerWidth/2)) translated[0] -= box.x - (window.innerWidth/2)
+		else if(box.x+box.width < (window.innerWidth/2)) translated[0] += (window.innerWidth/2) - (box.x+box.width);
+	}
+
+	if(box.height < window.innerHeight) {
+		//when box is smaller than viewport check its own height to limit panning
+		if(box.y < (-box.height/2)) translated[1] += (-box.height/2) - box.y
+		else if(box.y > (window.innerHeight-(box.height/2))) translated[1] -= box.y-(window.innerHeight-(box.height/2));
+	}else{
+		//when box is bigger than viewport check the center of viewport to limit panning
+		if(box.y > (window.innerHeight/2)) translated[1] -= box.y - (window.innerHeight/2)
+		else if(box.y+box.height < (window.innerHeight/2)) translated[1] += (window.innerWidth/2) - (box.y+box.height)
+	}
+	zoom.translate(translated)
+	svg.transition().duration(300).attr("transform", "translate(" + translated + ")" + " scale(" +  zoom.scale()  + ")")
+		
+}
 // build the arrow.
 svg.append("svg:defs").selectAll("marker")
     .data(["end"])      // Different link/path types can be defined here
@@ -371,22 +457,25 @@ var path = svg.append("svg:g").selectAll("path")
   .enter().append("svg:path")
     .attr("class", function(d) { return "link " + d.relationtype; })
     //.attr("class", "link")
-     .attr("id", (d, i) => "path_" + i)
-  .style("stroke-dasharray", ("3, 3"))
- .attr("marker-end", link => link.type === "unidirectional" ? "url(#end)" : 0)
+     .attr("id", (d, i) => d.relationtype === "Distance" ? "path_" + d.source.name + "_" + d.target.name : null)
+  	//.style("stroke-dasharray", ("3, 3"))
+ 	.attr("marker-end", link => link.type === "unidirectional" ? "url(#end)" : 0)
  ;
- 
-//TEXTPATH
-svg.append("g").selectAll("text")
-.data(force.links())
-.enter()
-.append("text")
-.append("textPath")
-.attr("xlink:href", (d,i) => "#path_" + i)
-.attr("text-anchor", "middle")
-.attr("startOffset", "50%")
-.text(d => d.relationtype === "Distance" && d.value !== "" ? d.value : null)
 
+//TEXTPATH
+const labelpath = svg.append("g").selectAll("text")
+	.data(links.filter(d => d.relationtype === "Distance"))
+	.enter().append("g")
+	.attr("class", "path-label")
+const textpath = labelpath
+	.append("text")
+	.attr("class", "link-label")
+	.append("textPath")
+	.attr("xlink:href", (d,i) => "#path_" + d.source.name + "_" + d.target.name)
+	.attr("text-anchor", "middle")
+	.attr("startOffset", "50%")
+	.text(d => d.value)
+ 
 
 // define the nodes
 var node = svg.selectAll(".node")
@@ -407,13 +496,17 @@ node.on("mouseenter", mouseover)
 node.append("circle")
  .attr("class", function(d) { return  d.virtual; })
     //.attr("r", 5)
-    .attr("r", d => getNodeSize(d));
+    .attr("r", d => {
+    	const radius = getNodeSize(d);
+    	d.radius = radius;
+    	return radius;
+    });
  ;
 
 // add the text 
 const nodeLabel = node.append("text")
     // .attr("x", 12)
-    .attr("x", d => getNodeSize(d) + 7)
+    .attr("x", d => d.radius + 7)
     .attr("dy", ".35em")
     .text(function(d) { return d.name; })
     .attr("class", d => "node-label")
@@ -459,16 +552,14 @@ function tick() {
         .attr("transform", function(d) { 
   	    return "translate(" + d.x + "," + d.y + ")"; })
 
-    
-
     // set distance based on node's radius
 	path.attr("d", function (d, i) {
 		// length of current path
 	    const pl = this.getTotalLength();
 
 	    //calculate radius of target node, including the arrow/marker's size 
-	    const r = getNodeSize(d.target) + Math.sqrt(6**2 + 6**2);
-
+	    //const r = getNodeSize(d.target) + Math.sqrt(6**2 + 6**2);
+	    const r = d.target.radius + Math.sqrt(6**2 + 6**2);
 	    //get the point on the the target node's circumference
 	    const m = this.getPointAtLength(pl - r);
 	    var dx = d.target.x - d.source.x ,
@@ -482,10 +573,11 @@ function tick() {
 }
 
 var div = d3.select("body").append("div")
-        .attr("class", "tooltip custom-tooltip")
+        .attr("class", "tooltip custom-tooltip box-shadow")
         .style("opacity", 0);
 
 function mousedown(d) {
+	d3.event.stopPropagation();
 	checkClick = true;
 }
 
@@ -498,49 +590,61 @@ function mouseover(d) {
 	if(checkClick){
 		return
 	}
+
+	const curr_node = d3.select(this)
+	//here you can check if node is already in front
 	//if it's not, bring node to front
-	d3.select(this).moveToFront()
+	curr_node.moveToFront()
 
-	d3.select(this).select("circle").transition()
-      .duration(750)
+	curr_node.select("circle").transition()
+      .duration(500)
       //.attr("r", 16);
-      .attr("r", d => getNodeSize(d) * 1.2);
+      .attr("r", d => d.radius * 1.3);
 
-    //INCREASE FONT SIZE
-	/*const labels = d3.select(this).select("text")
-		.style("opacity", 0)
-		.style("font-size", "16px")
-		.attr("fill", "#fff")
-		.call(getTextBox);*/
-
-	//d3.select(this).select("rect").transition().duration(300).style("opacity", 1)
+	//HIGHLIGHT LABEL
+	curr_node.select("text").attr("fill", "#fff")
+	curr_node.select("rect").style("fill", "#6EE7B7")
 	
 	div.transition()
         .duration(300)
         .style("opacity", 1);
-	
-   	div.text(d.info)
+
+	//const attrs = getAttributesList(d)
+   	div.html(`<h3>${d.info}</h3>
+   		<ul class="tooltip-attr-list">
+   		${getAttributesList(d.quality)}
+   		</ul>`)
         //.style("left", (d3.event.pageX ) + "px")
         //.style("top", (d3.event.pageY + 100) + "px");
         .style("opacity", 1)
 	
 }
-	
+function getAttributesList(list){
+	let html = ""
+	for(const attr in list){
+		html += `<li>
+				<strong>${attr}</strong>: ${list[attr]}
+			</li>`	
+	}
+	return html
+}
 function mouseout(d) {
 
 	//ignore if node is clicked
 	if(checkClick){
 		return
 	}
-	
-	d.front = false;
 
-  	d3.select(this).select("circle").transition()
-      .duration(750)
+	const curr_node = d3.select(this);
+
+  	curr_node.select("circle").transition()
+      .duration(500)
       //.attr("r", 8);
-      .attr("r", d => getNodeSize(d));
+      .attr("r", d => d.radius);
 	
-	//d3.select(this).select("rect").transition().duration(300).style("opacity", 0.8)
+	//UNHIGHLIGHT LABEL
+	curr_node.select("text").attr("fill", "#333")
+	curr_node.select("rect").style("fill", backgroundNodeLabel)
 
 	div.transition()
                 .duration(300)
@@ -552,16 +656,24 @@ document.querySelectorAll(".select-activelayer")
 .forEach(item => item.addEventListener("click", e => {
 	e.preventDefault()
 	ACTIVELAYER = e.currentTarget.dataset.layerid;
+    const best = e.currentTarget.dataset.best;
 	const properties = ACTIVELAYER.split("::")
 	TYPE_PROPERTY = properties[0]; SIZE_PROPERTY = properties[1];
 
 	//set min and max values by selected properties
 	[MIN_VALUE, MAX_VALUE] = getMaxMinValuesFromNodes(nodes)
 
+    best && best == "min" ? BEST_VALUE = "min" : BEST_VALUE = "max" 
+
 	force.stop();
 	
-	node.selectAll("circle").transition().duration(500).attr("r", d => getNodeSize(d))
-	node.selectAll("text").attr("x", d => getNodeSize(d) + 7).call(getTextBox)
+	node.selectAll("circle").transition().duration(500)
+	.attr("r", d => {
+    	const radius = getNodeSize(d);
+    	d.radius = radius;
+    	return radius;
+    });
+	node.selectAll("text").attr("x", d => d.radius + 7).call(getTextBox)
 	node.selectAll("rect")
 		.attr("x", d => d.bbox.x - 2.5) 
 	    .attr("y", d => -d.bbox.height)
@@ -570,10 +682,30 @@ document.querySelectorAll(".select-activelayer")
 
 	force.start();
 }))
+/* RESPONSIVE 
+function updateWindow(){
+	debugger;
+    x = .innerWidth || e.clientWidth || g.clientWidth;
+    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+
+    svg.attr("width", x).attr("height", y);
+}*/
+var ro = new ResizeObserver( entries => {
+	const cr = entries[0].contentRect;
+	force.stop();
+	force.size([cr.width, cr.height])
+	force.start();
+	//svg.attr("width", cr.width).attr("height", cr.height);
+});
+ro.observe(document.body);
+//document.body.addEventListener('resize', updateWindow);
 
 </script>
+
+
 </body>
 </html>
+
 [%
 operation isLayerActive(id : String) {
     var layer = layers.selectOne(l|l.id = id);

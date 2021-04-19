@@ -14,11 +14,15 @@
         eType="#//Operator" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="QualityAttribute">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="calculatedBy" lowerBound="1"
         eType="#//Operation" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="subject" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="best" eType="#//Solution"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="min" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="max" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Metric">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -43,5 +47,12 @@
   <eClassifiers xsi:type="ecore:EClass" name="Operator" abstract="true"/>
   <eClassifiers xsi:type="ecore:EClass" name="MetricOperator" eSuperTypes="#//Operator">
     <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="#//Metric"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DerivedAttributeOperator" eSuperTypes="#//Operator">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="qa" lowerBound="1" eType="#//QualityAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Solution">
+    <eLiterals name="min"/>
+    <eLiterals name="max" value="1"/>
   </eClassifiers>
 </ecore:EPackage>

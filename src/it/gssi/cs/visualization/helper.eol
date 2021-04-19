@@ -1,24 +1,67 @@
+var metamodelext = Sequence{".ecore"};
+var modelext = Sequence{".model",".xmi"};
 
+operation Quantifiable internalPath():String{
+return self.eClass.name.concat("s");
+}
 
-operation QualityEcosystem::QualityEcosystemDef getMapLayers(): Sequence{
-var m =     self.qualityModel.getMapQualityAttr() ;
+operation Any isMetamodel(){
+for (extension in metamodelext) { 
+	if(self.name.isDefined() and self.name.endsWith(extension)){
+		return true;
+	}	
+}
+return false;
+}
+
+operation Any isModel(){
+for (extension in modelext) { 
+	if(self.name.isDefined() and self.name.endsWith(extension)){
+		return true;
+	}	
+}
+return false;
+}
+
+operation QualityEcosystem::QualityEcosystemDef getMapTemplates(): Sequence{
+var m =     self.qualityModel.getTemplates() ;
 return m;
 }
 
-operation QualityModel::QualityModel getMapQualityAttr(): Sequence{
+operation QualityModel::QualityModel getTemplates(): Sequence{
 var general  = Sequence{};
-var i=0;
-for (qa in self.qualityattrs) { 
-	var m = Map{};	
-	m.put("title",qa.subject.name+" "+qa.name);
-	m.put("id",qa.subject.name+"::"+qa.name);
-	if(i==0){
-	m.put("active",true);
-	}else{
-	m.put("active",false);
-	}
-	general.add(m);
-	i++;
-}
+
+	var graph = Map{};
+
+	graph.put("active",true);
+	graph.put("title", "graph");
+	graph.put("id", "graph");
+	
+	general.add(graph);
+	
+	var barchart = Map{};
+	barchart.put("active",false);
+	barchart.put("title", "barchart");
+	barchart.put("id", "barchart");
+
+	general.add(barchart);
 return general;
+}
+
+operation QualityEcosystemDef getMaxValues( artifacttype: String){
+var qualityvalues = new Sequence();
+var evalstoget = self.evaluations.select(eval|eval.subject.eClass.name=artifacttype);
+for (qa in evalstoget.qa.name.asSet()) { 
+var keyval = new Map<String,Real>; 
+keyval.put("qa",qa);
+
+	for (eval in evalstoget.select(ev|ev.qa.name=qa)) {
+
+		keyval.put("maxvalue",evalstoget.select(e|e.qa.name=qa).actualizedvalue.max());
+		
+	}
+	
+	qualityvalues.add(keyval);
+}
+return qualityvalues;
 }

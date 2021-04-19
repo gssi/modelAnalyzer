@@ -1,0 +1,482 @@
+[%var emfTool = new Native("org.eclipse.epsilon.emc.emf.tools.EmfTool");%]
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<style>
+:root {
+  --blue: #60A5FA;
+  --green: #6EE7B7;
+  --red: #EF4444;
+  --dark: #4B5563;
+  --dark-2: #1F2937;
+}
+body, html{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+*{
+	outline: none;
+	margin: 0;
+	padding: 0;
+	text-shadow: none !important;
+}
+.page-title{
+	margin: 2rem 0;
+	padding: 0 2.5rem;
+	font-size: 2.5rem;
+	text-align: left;
+	font-weight: 400
+}
+g.domain-label .tick {
+    font-size: 14px;
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    pointer-events: none;
+    padding: 10px 20px;
+    font: 14px sans-serif;
+    background: #fff;
+    border: solid 1px #ededed;
+}
+div.tooltip h3{
+	margin: 10px 0;
+	font-size: 1.5rem;
+}
+div.tooltip p{
+	margin-bottom: 10px;
+}
+.tooltip.custom-tooltip{
+	position: absolute;
+    border: none;
+    background: var(--dark);
+    color: #fff;
+    top: 0;
+    left: 0;
+}
+.tooltip-attr-list{
+	padding-inline-start: 20px;
+    text-align: left;
+    line-height: 1.5em;
+}
+.custom-navbar{
+	box-shadow: none;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.custom-navbar.dark-theme{
+	background: var(--dark)
+}
+.custom-navbar .navbar-collapse{
+	border: none;
+}
+.custom-navbar.dark-theme.navbar-default .navbar-brand{
+	color: #fff;
+}
+.custom-navbar .dropdown .dropdown-toggle{
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: none;
+    background: none;
+    transition: 0.5s;
+    margin: 5px 5px 0;
+}
+.custom-navbar .navbar-nav > li > a{
+    font-size: 16px;
+}
+.custom-navbar.dark-theme .navbar-nav > li > a{
+	color: #fff;
+}
+.custom-navbar .dropdown .dropdown-toggle:hover, .custom-navbar .dropdown.open .dropdown-toggle{
+	background: #ededed;
+}
+.custom-navbar.dark-theme .dropdown .dropdown-toggle:hover, .custom-navbar.dark-theme .dropdown.open .dropdown-toggle{
+	background: var(--dark-2);
+	color: #fff;
+}
+.custom-navbar .dropdown-menu{
+	background: var(--dark)
+}
+.custom-navbar .dropdown-menu>li{
+	padding: 5px 10px;
+	font-size: 16px;
+}
+.custom-navbar .dropdown-menu>li>a{
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.custom-navbar.dark-theme .dropdown-menu>li>a{
+	color: #fff;
+}
+.custom-navbar .dropdown-menu>li>a:hover, .custom-navbar .dropdown-menu>li>a:focus{
+	/*background: #ededed;*/
+	background: var(--green);
+	color: #fff;
+}
+.custom-navbar .navbar-nav>li>.dropdown-menu{
+	border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+/* OVERLAY NAVBAR */
+#main-wrapper{
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+#barchart{
+	overflow-x: scroll;
+}
+.active-label{
+    font-weight: 800;
+}
+@media (max-width: 767px){
+	#main-wrapper{
+		width: 100%;
+	}
+	.custom-navbar .navbar-nav>li>.dropdown-menu{
+		border-radius: 0;
+		background: var(--dark-2);
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li >a{
+		color: #fefefe;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li:hover >a{
+		color: #fff;
+		background: var(--green)
+
+</style>
+<body>
+<div class="container" id="main-wrapper">
+  <!-- Static navbar -->
+  <nav class="navbar navbar-default custom-navbar dark-theme box-shadow">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Repository Explorer</a>
+      </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#" class="select-activelayer" data-layerid="A::A">Reset</a></li>
+              [%for (a	 in nodes.eClass.name.asSet()) { %]
+				<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">[%=a%] <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                [%
+                for (qa in evals.qa.select(q|q.subject.name==a).asSet()) { %]
+                
+                  <li><a href="#" class="select-activelayer" data-layerid="[%=a%]::[%=qa.name%]" data-best="[%=qa.best%]">[%=qa.description%]</a></li>   
+                  [%}%]          
+             </ul>
+              </li>
+				[%}%]
+            </ul>
+            
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+  </nav>
+</div> <!-- /container -->
+
+<!-- Main component for a primary marketing message or call to action -->
+<div id="barchart"></div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>    
+
+var links = [
+[%for (edge in edges) { 
+if(edge.src.isDefined() and edge.trg.isDefined()){
+%]
+  {source: "[%=edge.src.name%]", target: "[%=edge.trg.name%]", type: "unidirectional", relationtype: "[%=edge.eClass.name%]", value: "[%=(edge.eClass.name='Distance')?edge.value:''%]"},
+  [%
+ 	}}
+  %]
+];
+
+    
+var nodes = {
+[%for (node in nodes) { %]
+	"[%=node.name%]" : {"name":"[%=node.name%]","type":"[%=node.eClass.name%]","info":"[%=node.name%]","virtual":"[%=(node.virtual)?"virtual":"concrete"%]" 
+	[% if(evals.size()>0){ %]
+	,
+	quality: {[% for(e in evals.select(ev|emfTool.EcoreUtil.equals(node, ev.subject))){ %]
+	 "[%=e.qa.name%]":"[%=e.actualizedvalue%]",
+	 [%}%]}
+	[%}%]	 
+	},
+[%}%]
+
+ };
+
+
+let MAX_VALUE, MIN_VALUE, chartColor = "#60A5FA", dangerColor = "#EF4444", successColor = "#6EE7B7" ;
+let ACTIVELAYER = "[%=evals.qa.first.subject.name%]::[%=evals.qa.first.name%]", checkClick = false, updating = false, CHECKBEST = true, BEST_VALUE = "max";
+let [TYPE_PROPERTY, QUALITY_PROPERTY] = ACTIVELAYER.split("::")
+
+const getMaxMinValuesFromNodes = (nodes, prop, type) => {
+	//default values
+	const default_values = [0, 100]
+	let parse_nodes;
+  	//can be used either nodes object or force.nodes() array
+  	Array.isArray(nodes) ?  parse_nodes = nodes : parse_nodes = Object.values(nodes)
+
+  	const filter_array = parse_nodes.filter(item => item.type == type ? +item.quality[QUALITY_PROPERTY] : null).map(i => parseFloat(i.quality[QUALITY_PROPERTY]))
+	
+	//check if there are enough objects with valid SIZE_PROPERTY values
+	if(filter_array < 2) return default_values
+
+	const sorted_array = filter_array.sort((prev, current) => prev - current)
+	
+	const min = sorted_array[0], max = sorted_array[sorted_array.length-1]
+
+	return (min + max) ? [min, max] : default_values
+}
+//get integer number between
+const getRelativeValue = (n, round) => round ? Math.round((n*MAX_NODE_SIZE)/MAX_VALUE) : (n*MAX_NODE_SIZE)/MAX_VALUE;
+const getLongestWordSize = (nodes) => {
+	let parse_nodes, max = 0;
+  	//can be used either nodes object or force.nodes() array
+  	Array.isArray(nodes) ?  parse_nodes = nodes : parse_nodes = Object.values(nodes)
+  	parse_nodes.map(i => i.info.length > max ? max = i.info.length : null)
+  	return max;
+}
+
+//init min and max values
+[MIN_VALUE, MAX_VALUE] = getMaxMinValuesFromNodes(nodes, QUALITY_PROPERTY, TYPE_PROPERTY);
+
+var data = d3.values(nodes).filter(i => i.type == TYPE_PROPERTY)
+/*var data = d3.values(nodes).sort((a, b) => {
+	const aa = a.name.toUpperCase(), bb = b.name.toUpperCase()
+	return aa < bb ? -1 : aa > bb ? 1 : 0
+});*/
+
+
+//check labels x axis height
+let xLabelsSize = getLongestWordSize(data)*7
+const barchart = document.getElementById("barchart")
+
+// set the dimensions and margins of the graph
+var margin = {top: 100, right: 70 /*+ data[data.length-1].info.length*4*/, bottom: xLabelsSize, left: 40 + data[0].info.length*4},
+    width = 30*data.length //window.innerWidth - margin.left - margin.right,
+    //height = window.innerHeight - document.getElementById("barchart").offsetTop - margin.top - (xLabelsSize < 250 ? margin.bottom : 0);
+    height = xLabelsSize > window.innerHeight/2 ? window.innerHeight-barchart.offsetTop-30 : window.innerHeight - barchart.offsetTop - margin.top - margin.bottom
+
+// append the svg object to the body of the page
+var main = d3.select("#barchart")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+
+var svg = main.append("g")
+    		.attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+// X axis
+var x = d3.scaleBand()
+  .range([ 0, width ])
+  .domain(data.map(function(d) { return d.info; }))
+  .padding(0.3);
+
+let xAxis = svg.append("g")
+  .attr("transform", "translate(0," + height + ")")
+  .attr("class", "domain-label")
+  .call(d3.axisBottom(x))
+
+let xAxisLabels = xAxis.selectAll("text")
+    .attr("transform", "translate(-10,0)rotate(-45)")
+    .style("text-anchor", "end");
+    //.attr("transform", "translate(10, 5)rotate(45)")
+    //.style("text-anchor", "start");
+
+// Add Y axis
+var y = d3.scaleLinear()
+  .domain([0, MAX_VALUE])
+  .range([ height, 0]);
+
+const yAxis = svg.append("g")
+	.attr("class", "y-axis")
+  	//.call(d3.axisLeft(y));
+ 
+// Bars
+const bars = svg.selectAll("value-bar")
+  .data(data)
+  .enter()
+  .append("rect")
+    .attr("x", function(d) { return x(d.info); })
+    .attr("width", x.bandwidth())
+    .style("fill", d => checkTypeProperty(d.type, d.quality[QUALITY_PROPERTY]) ? colorValue(d.quality[QUALITY_PROPERTY]) : chartColor)
+    // no bar at the beginning thus:
+    .attr("height", function(d) { return height - y(0); }) // always equal to 0
+    .attr("y", function(d) { return y(0); }) // always equal to 0
+
+// Animation
+svg.selectAll("rect")
+  .transition()
+  .duration(800)
+  .attr("y", function(d) { return y(d.type == TYPE_PROPERTY && (+d.quality[QUALITY_PROPERTY]) ? +d.quality[QUALITY_PROPERTY] : 0) })
+  .attr("height", function(d) { return height - y(d.type == TYPE_PROPERTY && (+d.quality[QUALITY_PROPERTY]) ? +d.quality[QUALITY_PROPERTY] : 0); })
+  //.delay((d,i) => i*100)
+     
+bars.on("mousemove", mousemove)
+	.on("mouseleave", mouseout)
+	.on("mouseenter", mouseenter)
+
+//Tooltip
+var div = d3.select("body").append("div")
+        .attr("class", "tooltip custom-tooltip")
+        .style("opacity", 0);
+
+function mouseenter(d){
+    //mouse events disabled while updating bars input data
+    if(updating){
+        return
+    }
+    const curr_bar = d3.select(this)
+    curr_bar.transition("highlightbar")
+      .duration(500)
+      //.attr("r", 16);
+      .style("fill", "#FDE68A");
+
+    xAxis.selectAll("text")
+      .attr("class", i => i == d.name ? "active-label" : null)
+
+	div.transition("highlightbar")
+        .duration(300)
+        .style("opacity", 1);
+          
+	div.html(`<h3>${d.info}</h3><p><strong>${QUALITY_PROPERTY}</strong>: ${d.quality[QUALITY_PROPERTY]}</p>`)
+}
+
+function mousemove(d){
+    //mouse events disabled while updating bars input data
+    if(updating){
+        return
+    }
+
+	div
+	.style("transform", `translate(${d3.event.pageX}px, ${d3.event.pageY - (div.node().clientHeight+10)}px)`)
+}
+
+function mouseout(d){
+    //mouse events disabled while updating bars input data
+    if(updating){
+        return
+    }
+    const curr_bar = d3.select(this)
+
+    curr_bar.transition("highlightbar")
+      .duration(500)
+      //.attr("r", 16);    
+    .style("fill", checkTypeProperty(d.type, d.quality[QUALITY_PROPERTY]) ? colorValue(d.quality[QUALITY_PROPERTY]) : chartColor);
+
+    //debugger;
+    xAxis.selectAll(".active-label").attr("class", "")
+
+	div.transition("highlightbar")
+        .duration(300)
+        .style("opacity", 0);
+}
+
+document.querySelectorAll(".select-activelayer")
+.forEach(item => item.addEventListener("click", e => {
+	e.preventDefault()
+    //stop any animations
+    svg.selectAll("rect").transition()
+    //mouse events disabled while updating bars input data
+    updating = true;
+	ACTIVELAYER = e.currentTarget.dataset.layerid;
+    BEST_VALUE = e.currentTarget.dataset.best;
+	const properties = ACTIVELAYER.split("::")
+	TYPE_PROPERTY = properties[0]; QUALITY_PROPERTY = properties[1];
+
+	//set min and max values by selected properties
+	[MIN_VALUE, MAX_VALUE] = getMaxMinValuesFromNodes(nodes, QUALITY_PROPERTY, TYPE_PROPERTY)
+	
+	//new data
+	data = d3.values(nodes).filter(i => i.type == TYPE_PROPERTY)
+
+	//Calculate new sizes and positions
+	width = data.length*30
+	margin = {top: 100, right: 70, bottom: getLongestWordSize(data)*7, left: 40 + data[0].info.length*4};
+	height = xLabelsSize > window.innerHeight/2 ? window.innerHeight-barchart.offsetTop-30 : window.innerHeight - barchart.offsetTop - margin.top - margin.bottom
+	main.attr("width", width + margin.left + margin.right)
+	svg.transition().duration(1000).attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+	//X AXIS
+	x.range([0, width])
+  	.domain(data.map(function(d) { return d.info; }))
+
+  	
+  	xAxis.transition("updatebars").duration(1000).attr("transform", "translate(0," + height + ")").call(d3.axisBottom(x))
+  	.selectAll("text")
+    .attr("transform", "translate(-10,0)rotate(-45)")
+    .style("text-anchor", "end")
+
+	//Y AXIS
+	y.domain([0, MAX_VALUE]).range([ height, 0]); 
+	//yAxis.call(d3.axisLeft(y))
+
+    bars.data(data).enter().append("rect")
+		.attr("x", function(d) { return x(d.info); })
+	    .attr("width", x.bandwidth())
+	    // no bar at the beginning thus:
+	    .attr("height", function(d) { return height - y(0); }) // always equal to 0
+	    .attr("y", function(d) { return y(0); }) // always equal to 0
+
+    // Animation
+	svg.selectAll("rect").transition("updatebars")
+	  .duration(800)
+	  .attr("y", function(d) { return y(checkTypeProperty(d.type, d.quality[QUALITY_PROPERTY]) ? getBestValue(d.quality[QUALITY_PROPERTY]) : 0) })
+	  .attr("height", function(d) { return height - y(checkTypeProperty(d.type, d.quality[QUALITY_PROPERTY]) ? getBestValue(d.quality[QUALITY_PROPERTY]) : 0); })
+      .style("fill", d => checkTypeProperty(d.type, d.quality[QUALITY_PROPERTY]) ? colorValue(d.quality[QUALITY_PROPERTY]) : chartColor)
+	
+    //restore mouse events after update
+    setTimeout(() => {updating = false}, 1000)
+
+}))
+function checkTypeProperty(type, prop){
+    if(type && prop) return type == TYPE_PROPERTY && (typeof parseFloat(prop) === "number");
+    if(type) return type == TYPE_PROPERTY
+    if(prop) return typeof parseFloat(prop) === "number"
+    return false;
+}
+function getBestValue(v){
+    const value = parseFloat(v)
+    if(isNaN(value)) return 0;
+    return CHECKBEST && BEST_VALUE === "min" ? MAX_VALUE - value ? MAX_VALUE - value : 0 : value;  
+}
+function colorValue(v){
+    //return chartColor
+    return getBestValue(v)>= (MAX_VALUE/2) ? successColor : dangerColor;
+}
+</script>
+</body>
+</html>
+
+[%
+operation isLayerActive(id : String) {
+    var layer = layers.selectOne(l|l.id = id);
+    if (layer.isDefined()) {
+        return layer.active;
+    }
+    else {
+        return true;
+    }
+}
+%]

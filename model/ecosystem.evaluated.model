@@ -1,73 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <qualityecosystem:QualityEcosystemDef xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdeecosystem="http://cs.gssi.it/mdeecosystem" xmlns:qualityecosystem="http://cs.gssi.it/qualityecosystem" xmlns:qualitymodel="http://cs.gssi.it/qualitymodel" xsi:schemaLocation="http://cs.gssi.it/qualityecosystem file:///Users/administrator/git/modelAnalyzer/bin/it/gssi/cs/metamodels/qualityEcosystem.ecore">
-  <evaluations actualizedvalue="20.600000381469727">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UWIUZlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="20.600000381469727">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="103.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="21.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="43.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="25.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="11.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.3809523582458496">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UWIUZlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.3809523582458496">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="29.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="29.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="21.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
   <evaluations actualizedvalue="6.0">
     <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UXWcJlDEeuj-PGeCHfG_Q"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tUeQZ7MEeuP29a-Hn75kQ"/>
     <calculatedBy actualizedvalue="6.0">
       <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="30.0">
@@ -110,7 +45,7 @@
   </evaluations>
   <evaluations actualizedvalue="1.2857142686843872">
     <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UXWcJlDEeuj-PGeCHfG_Q"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tUeQZ7MEeuP29a-Hn75kQ"/>
     <calculatedBy actualizedvalue="1.2857142686843872">
       <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="9.0">
@@ -130,659 +65,74 @@
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="11.600000381469727">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UX9gJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="11.600000381469727">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="58.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
+  <evaluations actualizedvalue="7.285714149475098">
+    <qa href="qualitydef.model#_-S4FcJ1BEeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tUeQZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="7.285714149475098">
+      <calculatedBy href="qualitydef.model#_AsoLEJ1CEeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="2.0">
+        <calculatedBy href="qualitydef.model#_WDDs8J3NEeuP29a-Hn75kQ"/>
         <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="25.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="24.0">
+          <metricOperator href="qualitydef.model#_XBUsAJ3NEeuP29a-Hn75kQ"/>
+          <calculatedMetric actualizedvalue="7.0">
             <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
           </calculatedMetric>
         </calculatedOperators>
         <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.9199999570846558">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UX9gJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.9199999570846558">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="48.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="48.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="25.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="3.5999999046325684">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UYkkJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="3.5999999046325684">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="18.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
+          <metricOperator href="qualitydef.model#_Ydo5AJ3NEeuP29a-Hn75kQ"/>
           <calculatedMetric actualizedvalue="5.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.200000047683716">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UYkkJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="2.200000047683716">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="11.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="11.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
+            <metric href="qualitydef.model#_YnOskJ1OEeuP29a-Hn75kQ"/>
           </calculatedMetric>
         </calculatedOperators>
       </calculatedOperators>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="5.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <metricOperator href="qualitydef.model#_hhQOkJ3NEeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="2.0">
+          <metric href="qualitydef.model#_cA5XEJ1OEeuP29a-Hn75kQ"/>
         </calculatedMetric>
       </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="4.400000095367432">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UZLoJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="4.400000095367432">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="22.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedDerivedAttribute" actualizedvalue="1.2857142686843872">
+        <derivedAttribute href="qualitydef.model#_jhC8EJ3NEeuP29a-Hn75kQ"/>
+      </calculatedOperators>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="2.0">
+        <calculatedBy href="qualitydef.model#_lizYcJ3NEeuP29a-Hn75kQ"/>
         <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
+          <metricOperator href="qualitydef.model#_nF7_IJ3NEeuP29a-Hn75kQ"/>
+          <calculatedMetric actualizedvalue="7.0">
+            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
+          </calculatedMetric>
+        </calculatedOperators>
+        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+          <metricOperator href="qualitydef.model#_oojBYJ3NEeuP29a-Hn75kQ"/>
           <calculatedMetric actualizedvalue="5.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+            <metric href="qualitydef.model#_f0jO4J1OEeuP29a-Hn75kQ"/>
           </calculatedMetric>
         </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="10.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="1.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UZLoJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.0">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="5.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="5.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
+  <evaluations actualizedvalue="0.1428571492433548">
+    <qa href="qualitydef.model#_gx04kJ3UEeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tUeQZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.1428571492433548">
+      <calculatedBy href="qualitydef.model#_vReZAJ3UEeuP29a-Hn75kQ"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="5.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <metricOperator href="qualitydef.model#_wfIe8J3UEeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_jTPscJ3UEeuP29a-Hn75kQ"/>
         </calculatedMetric>
       </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="3.5999999046325684">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UZysJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="3.5999999046325684">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="18.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="1.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="6.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.75">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UZysJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="2.75">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="11.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="11.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="4.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="17.799999237060547">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UaZwJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="17.799999237060547">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="89.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="24.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="19.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="30.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="6.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="10.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="4.041666507720947">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UaZwJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="4.041666507720947">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="97.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="97.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="24.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="3.0">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UbA0JlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="3.0">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="15.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="5.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="1.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UbA0JlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.0">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="4.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="4.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="14.600000381469727">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Ubn4JlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="14.600000381469727">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="73.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="17.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="17.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="23.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="6.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="10.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="4.470588207244873">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Ubn4JlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="4.470588207244873">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="76.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="76.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="17.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="8.800000190734863">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Uc2AJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="8.800000190734863">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="44.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="8.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="19.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="12.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="1.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Uc2AJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.0">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="8.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="8.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="8.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="54.79999923706055">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UddEJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="54.79999923706055">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="274.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="82.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="40.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="126.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="5.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="21.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.0731706619262695">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UddEJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="2.0731706619262695">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="170.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="170.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="82.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="17.399999618530273">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UeEIJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="17.399999618530273">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="87.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="18.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="12.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="44.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="10.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.7777777910232544">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UeEIJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.7777777910232544">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="32.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="32.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="18.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <metricOperator href="qualitydef.model#_zFWTQJ3UEeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="7.0">
+          <metric href="qualitydef.model#_s3nlsJ3UEeuP29a-Hn75kQ"/>
         </calculatedMetric>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
   <evaluations actualizedvalue="2.4000000953674316">
     <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UerMJlDEeuj-PGeCHfG_Q"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tVFUJ7MEeuP29a-Hn75kQ"/>
     <calculatedBy actualizedvalue="2.4000000953674316">
       <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="12.0">
@@ -825,7 +175,7 @@
   </evaluations>
   <evaluations actualizedvalue="1.0">
     <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UerMJlDEeuj-PGeCHfG_Q"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tVFUJ7MEeuP29a-Hn75kQ"/>
     <calculatedBy actualizedvalue="1.0">
       <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="3.0">
@@ -845,139 +195,74 @@
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="6.599999904632568">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UfSQJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="6.599999904632568">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="33.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
+  <evaluations actualizedvalue="7.0">
+    <qa href="qualitydef.model#_-S4FcJ1BEeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tVFUJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="7.0">
+      <calculatedBy href="qualitydef.model#_AsoLEJ1CEeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="4.0">
+        <calculatedBy href="qualitydef.model#_WDDs8J3NEeuP29a-Hn75kQ"/>
         <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="7.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="15.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="6.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.2857142686843872">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UfSQJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.2857142686843872">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="9.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="9.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="7.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="3.799999952316284">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Uf5UJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="3.799999952316284">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="19.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="8.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
+          <metricOperator href="qualitydef.model#_XBUsAJ3NEeuP29a-Hn75kQ"/>
           <calculatedMetric actualizedvalue="4.0">
             <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
           </calculatedMetric>
         </calculatedOperators>
         <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.5">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Uf5UJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.5">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="12.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="12.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
+          <metricOperator href="qualitydef.model#_Ydo5AJ3NEeuP29a-Hn75kQ"/>
+          <calculatedMetric actualizedvalue="4.0">
+            <metric href="qualitydef.model#_YnOskJ1OEeuP29a-Hn75kQ"/>
           </calculatedMetric>
         </calculatedOperators>
       </calculatedOperators>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="8.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <metricOperator href="qualitydef.model#_hhQOkJ3NEeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.0">
+          <metric href="qualitydef.model#_cA5XEJ1OEeuP29a-Hn75kQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedDerivedAttribute" actualizedvalue="1.0">
+        <derivedAttribute href="qualitydef.model#_jhC8EJ3NEeuP29a-Hn75kQ"/>
+      </calculatedOperators>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="2.0">
+        <calculatedBy href="qualitydef.model#_lizYcJ3NEeuP29a-Hn75kQ"/>
+        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+          <metricOperator href="qualitydef.model#_nF7_IJ3NEeuP29a-Hn75kQ"/>
+          <calculatedMetric actualizedvalue="4.0">
+            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
+          </calculatedMetric>
+        </calculatedOperators>
+        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+          <metricOperator href="qualitydef.model#_oojBYJ3NEeuP29a-Hn75kQ"/>
+          <calculatedMetric actualizedvalue="2.0">
+            <metric href="qualitydef.model#_f0jO4J1OEeuP29a-Hn75kQ"/>
+          </calculatedMetric>
+        </calculatedOperators>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.0">
+    <qa href="qualitydef.model#_gx04kJ3UEeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tVFUJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.0">
+      <calculatedBy href="qualitydef.model#_vReZAJ3UEeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_wfIe8J3UEeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.0">
+          <metric href="qualitydef.model#_jTPscJ3UEeuP29a-Hn75kQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_zFWTQJ3UEeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="3.0">
+          <metric href="qualitydef.model#_s3nlsJ3UEeuP29a-Hn75kQ"/>
         </calculatedMetric>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
   <evaluations actualizedvalue="4.800000190734863">
     <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UggYJlDEeuj-PGeCHfG_Q"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tVsYJ7MEeuP29a-Hn75kQ"/>
     <calculatedBy actualizedvalue="4.800000190734863">
       <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="24.0">
@@ -1020,7 +305,7 @@
   </evaluations>
   <evaluations actualizedvalue="1.3333333730697632">
     <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UggYJlDEeuj-PGeCHfG_Q"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tVsYJ7MEeuP29a-Hn75kQ"/>
     <calculatedBy actualizedvalue="1.3333333730697632">
       <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="8.0">
@@ -1040,916 +325,706 @@
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="63.400001525878906">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UhHcJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="63.400001525878906">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="317.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="55.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="175.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="73.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="12.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.218181848526001">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UhHcJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.218181848526001">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="67.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="67.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="55.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="3.0">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UhugJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="3.0">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="15.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="5.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="1.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UhugJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.0">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="4.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="4.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="3.0">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UiVkJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="3.0">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="15.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="5.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="1.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UiVkJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.0">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
+  <evaluations actualizedvalue="8.333333015441895">
+    <qa href="qualitydef.model#_-S4FcJ1BEeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tVsYJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="8.333333015441895">
+      <calculatedBy href="qualitydef.model#_AsoLEJ1CEeuP29a-Hn75kQ"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="2.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
+        <calculatedBy href="qualitydef.model#_WDDs8J3NEeuP29a-Hn75kQ"/>
         <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
+          <metricOperator href="qualitydef.model#_XBUsAJ3NEeuP29a-Hn75kQ"/>
+          <calculatedMetric actualizedvalue="6.0">
+            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
+          </calculatedMetric>
+        </calculatedOperators>
+        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+          <metricOperator href="qualitydef.model#_Ydo5AJ3NEeuP29a-Hn75kQ"/>
+          <calculatedMetric actualizedvalue="4.0">
+            <metric href="qualitydef.model#_YnOskJ1OEeuP29a-Hn75kQ"/>
           </calculatedMetric>
         </calculatedOperators>
       </calculatedOperators>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
+        <metricOperator href="qualitydef.model#_hhQOkJ3NEeuP29a-Hn75kQ"/>
         <calculatedMetric actualizedvalue="2.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+          <metric href="qualitydef.model#_cA5XEJ1OEeuP29a-Hn75kQ"/>
         </calculatedMetric>
       </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="7.599999904632568">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Ui8oJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="7.599999904632568">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="38.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="5.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="16.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="9.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="6.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedDerivedAttribute" actualizedvalue="1.3333333730697632">
+        <derivedAttribute href="qualitydef.model#_jhC8EJ3NEeuP29a-Hn75kQ"/>
       </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.2000000476837158">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Ui8oJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.2000000476837158">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="6.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="6.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="5.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="5.400000095367432">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UjjsJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="5.400000095367432">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="27.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="5.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="12.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.7999999523162842">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UjjsJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.7999999523162842">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="9.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="9.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="5.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.4000000953674316">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Ukx0JlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="2.4000000953674316">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="12.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="1.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Ukx0JlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.0">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="3.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
+        <calculatedBy href="qualitydef.model#_lizYcJ3NEeuP29a-Hn75kQ"/>
         <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="3.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.799999952316284">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UlY4JlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="2.799999952316284">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="14.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="1.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UlY4JlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.0">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="3.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="3.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="20.600000381469727">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Ul_8JlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="20.600000381469727">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="103.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="21.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="43.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="25.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="11.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.3809523582458496">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Ul_8JlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.3809523582458496">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="29.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="29.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="21.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-        </calculatedMetric>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="4.0">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UmnAJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="4.0">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="20.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="6.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
+          <metricOperator href="qualitydef.model#_nF7_IJ3NEeuP29a-Hn75kQ"/>
           <calculatedMetric actualizedvalue="6.0">
             <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
           </calculatedMetric>
         </calculatedOperators>
         <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="1.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
+          <metricOperator href="qualitydef.model#_oojBYJ3NEeuP29a-Hn75kQ"/>
           <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
+            <metric href="qualitydef.model#_f0jO4J1OEeuP29a-Hn75kQ"/>
           </calculatedMetric>
         </calculatedOperators>
       </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.1666666716337204">
+    <qa href="qualitydef.model#_gx04kJ3UEeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_-tVsYJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.1666666716337204">
+      <calculatedBy href="qualitydef.model#_vReZAJ3UEeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_wfIe8J3UEeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_jTPscJ3UEeuP29a-Hn75kQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_zFWTQJ3UEeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="6.0">
+          <metric href="qualitydef.model#_s3nlsJ3UEeuP29a-Hn75kQ"/>
+        </calculatedMetric>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
   <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UmnAJlDEeuj-PGeCHfG_Q"/>
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tVsYZ7MEeuP29a-Hn75kQ"/>
     <calculatedBy actualizedvalue="1.0">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="4.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="4.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
         </calculatedMetric>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="1.7999999523162842">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UnOEJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.7999999523162842">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="9.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="1.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tVsYp7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
   <evaluations actualizedvalue="1.0">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UnOEJlDEeuj-PGeCHfG_Q"/>
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tWTcJ7MEeuP29a-Hn75kQ"/>
     <calculatedBy actualizedvalue="1.0">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="2.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="2.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
         </calculatedMetric>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="4.0">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Un1IJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="4.0">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="20.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="5.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="6.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="4.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.399999976158142">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5Un1IJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.399999976158142">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="7.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="7.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tWTcZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="5.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
         </calculatedMetric>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="8.600000381469727">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UpDQJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="8.600000381469727">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="43.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="14.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="10.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="9.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="7.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="2.2857143878936768">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UpDQJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="2.2857143878936768">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="32.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="32.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
+  <evaluations actualizedvalue="0.4583333432674408">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tWTcp7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.4583333432674408">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="14.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.4583333432674408">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
         </calculatedMetric>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="4.800000190734863">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UpqUJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="4.800000190734863">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="24.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="7.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="10.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="2.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
-      </calculatedOperators>
-    </calculatedBy>
-  </evaluations>
-  <evaluations actualizedvalue="1.5714285373687744">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UpqUJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.5714285373687744">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="11.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="11.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
+  <evaluations actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tW6gJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9166666865348816">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="7.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9166666865348816">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
         </calculatedMetric>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="9.199999809265137">
-    <qa href="qualitydef.model#_ymeFkJoIEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UqRYJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="9.199999809265137">
-      <calculatedBy href="qualitydef.model#_omDzwJoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="46.0">
-        <calculatedBy href="qualitydef.model#_znMl8JoMEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_p_cokJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="14.0">
-            <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_tA8DoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="17.0">
-            <metric href="qualitydef.model#_RozgwJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_t-db0JoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="9.0">
-            <metric href="qualitydef.model#_LCyPAJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_uugYsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_Wz_zQJn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_vgPXoJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="3.0">
-            <metric href="qualitydef.model#_ioxo4Jn_EeuLwNyVYONI1A"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedStaticValue">
-        <staticvalue xsi:type="qualitymodel:StaticReal" href="qualitydef.model#_1-HaAJoMEeuLwNyVYONI1A"/>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tW6gZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
-  <evaluations actualizedvalue="1.5">
-    <qa href="qualitydef.model#_3iEgEJoMEeuLwNyVYONI1A"/>
-    <subject xsi:type="mdeecosystem:Metamodel" href="ecosystem.model#_5UqRYJlDEeuj-PGeCHfG_Q"/>
-    <calculatedBy actualizedvalue="1.5">
-      <calculatedBy href="qualitydef.model#_8A5b0JoMEeuLwNyVYONI1A"/>
-      <calculatedOperators xsi:type="qualityecosystem:CalculatedOperation" actualizedvalue="21.0">
-        <calculatedBy href="qualitydef.model#_JoB_4JoNEeuLwNyVYONI1A"/>
-        <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-          <metricOperator href="qualitydef.model#_9rYnsJoMEeuLwNyVYONI1A"/>
-          <calculatedMetric actualizedvalue="21.0">
-            <metric href="qualitydef.model#_Ut1MwH3LEeuBc5zGAU8pNg"/>
-          </calculatedMetric>
-        </calculatedOperators>
-      </calculatedOperators>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tXhkJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
       <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
-        <metricOperator href="qualitydef.model#_LiYMsJoNEeuLwNyVYONI1A"/>
-        <calculatedMetric actualizedvalue="14.0">
-          <metric href="qualitydef.model#_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
         </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tXhkZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.8888888955116272">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tXhkp7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.8888888955116272">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.8888888955116272">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tYIoJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tYIoZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tYIop7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9166666865348816">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9166666865348816">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.8499999642372131">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tYvsJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.8499999642372131">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.8499999642372131">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tYvsZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tYvsp7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tZWwJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tZWwZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tZ90J7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tZ90Z7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tZ90p7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.8611111640930176">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tak4J7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.8611111640930176">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.8611111640930176">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tak4Z7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tak4p7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tbL8J7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tbL8Z7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.944444477558136">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tbL8p7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.944444477558136">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.944444477558136">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tbzAJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tbzAZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tbzAp7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tcaEJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9166666865348816">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9166666865348816">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.7527778148651123">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tcaEZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.7527778148651123">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.7527778148651123">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.6666666865348816">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tcaEp7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.6666666865348816">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.6666666865348816">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.694444477558136">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tdBIJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.694444477558136">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.694444477558136">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tdBIZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.0">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tdBIp7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.0">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="1.0">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.7166666388511658">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tdoMJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.7166666388511658">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.7166666388511658">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.75">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tdoMZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.75">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.75">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tdoMp7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tePQJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tePQZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.944444477558136">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-tePQp7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.944444477558136">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.944444477558136">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-te2UJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9166666865348816">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9166666865348816">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9750000238418579">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-te2UZ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9750000238418579">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9750000238418579">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.9166666865348816">
+    <qa href="qualitydef.model#_VmHOMJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:Model" href="ecosystem.model#_-te2Up7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.9166666865348816">
+      <calculatedBy href="qualitydef.model#_dY-tkJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedMetricOperator">
+        <metricOperator href="qualitydef.model#_eq9S0J69EeuP29a-Hn75kQ"/>
+        <calculatedMetric actualizedvalue="0.9166666865348816">
+          <metric href="qualitydef.model#_U1Q4cJC5EeuBWtQKEF9eRQ"/>
+        </calculatedMetric>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="1.20634925365448">
+    <qa href="qualitydef.model#_kGYEYJ6WEeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:MDEEcosystem" href="ecosystem.model#_-tUeQJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="1.20634925365448">
+      <calculatedBy href="qualitydef.model#_m-fhAJ6WEeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedDerivedAttribute">
+        <derivedAttribute href="qualitydef.model#_otc9MJ6WEeuP29a-Hn75kQ"/>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="7.539682388305664">
+    <qa href="qualitydef.model#_eiOU8J66EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:MDEEcosystem" href="ecosystem.model#_-tUeQJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="7.539682388305664">
+      <calculatedBy href="qualitydef.model#_eiOU8Z66EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedDerivedAttribute">
+        <derivedAttribute href="qualitydef.model#_eiOU8p66EeuP29a-Hn75kQ"/>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="4.400000095367432">
+    <qa href="qualitydef.model#_2ZMfMJ68EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:MDEEcosystem" href="ecosystem.model#_-tUeQJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="4.400000095367432">
+      <calculatedBy href="qualitydef.model#_2ZMfMZ68EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedDerivedAttribute">
+        <derivedAttribute href="qualitydef.model#_2ZMfMp68EeuP29a-Hn75kQ"/>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.1031746044754982">
+    <qa href="qualitydef.model#_DQT7kJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:MDEEcosystem" href="ecosystem.model#_-tUeQJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.1031746044754982">
+      <calculatedBy href="qualitydef.model#_DQT7kZ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedDerivedAttribute">
+        <derivedAttribute href="qualitydef.model#_DQT7kp69EeuP29a-Hn75kQ"/>
+      </calculatedOperators>
+    </calculatedBy>
+  </evaluations>
+  <evaluations actualizedvalue="0.4583333432674408">
+    <qa href="qualitydef.model#_lsmwoJ69EeuP29a-Hn75kQ"/>
+    <subject xsi:type="mdeecosystem:MDEEcosystem" href="ecosystem.model#_-tUeQJ7MEeuP29a-Hn75kQ"/>
+    <calculatedBy actualizedvalue="0.4583333432674408">
+      <calculatedBy href="qualitydef.model#_zc-JMJ69EeuP29a-Hn75kQ"/>
+      <calculatedOperators xsi:type="qualityecosystem:CalculatedDerivedAttribute">
+        <derivedAttribute href="qualitydef.model#_3xpqcJ69EeuP29a-Hn75kQ"/>
       </calculatedOperators>
     </calculatedBy>
   </evaluations>
   <qualityModel href="qualitydef.model#_1LL9IHKMEeuBc5zGAU8pNg"/>
-  <ecosystemModel href="ecosystem.model#_5UWIUJlDEeuj-PGeCHfG_Q"/>
+  <ecosystemModel href="ecosystem.model#_-tUeQJ7MEeuP29a-Hn75kQ"/>
 </qualityecosystem:QualityEcosystemDef>

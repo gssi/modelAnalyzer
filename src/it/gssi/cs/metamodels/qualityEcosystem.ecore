@@ -14,7 +14,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="QualityEval" eSuperTypes="#//QualityElement">
     <eStructuralFeatures xsi:type="ecore:EReference" name="qa" lowerBound="1" eType="ecore:EClass http://cs.gssi.it/qualitymodel#//QualityAttribute"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="subject" lowerBound="1"
-        eType="ecore:EClass http://cs.gssi.it/mdeecosystem#//Artifact"/>
+        eType="ecore:EClass http://cs.gssi.it/mdeecosystem#//Quantifiable"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="actualizedvalue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="calculatedBy" eType="#//CalculatedOperation"
         containment="true"/>
@@ -51,4 +51,9 @@
         eType="#//CalculatedOperation"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="QualityElement" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CalculatedDerivedAttribute" eSuperTypes="#//CalculatedOperator">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="actualizedvalue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="derivedAttribute" lowerBound="1"
+        eType="ecore:EClass http://cs.gssi.it/qualitymodel#//DerivedAttributeOperator"/>
+  </eClassifiers>
 </ecore:EPackage>

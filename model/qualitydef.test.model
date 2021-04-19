@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<qualitymodel:QualityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qualitymodel="http://cs.gssi.it/qualitymodel" xmi:id="_1LL9IHKMEeuBc5zGAU8pNg" author="Ludovic">
+  <qualityattrs xmi:id="_3iEgEJoMEeuLwNyVYONI1A" name="Complexity" description="Complexity">
+    <calculatedBy xmi:id="_8A5b0JoMEeuLwNyVYONI1A" withoperation="GET">
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_LiYMsJoNEeuLwNyVYONI1A" name="_AVkTIH3LEeuBc5zGAU8pNg"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_SCdNQJ0oEeuP29a-Hn75kQ" name="myComplexity">
+    <calculatedBy xmi:id="_s0tc4J0qEeuP29a-Hn75kQ">
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_uO7YIJ0qEeuP29a-Hn75kQ" name="_AVkTIH3LEeuBc5zGAU8pNg"/>
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_vzPqkJ0qEeuP29a-Hn75kQ" name="_RozgwJn_EeuLwNyVYONI1A"/>
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_wy5JsJ0qEeuP29a-Hn75kQ" name="_LCyPAJn_EeuLwNyVYONI1A"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_9FRhUJ0qEeuP29a-Hn75kQ" name="myComplexity2">
+    <calculatedBy xmi:id="_L8a7wJ0rEeuP29a-Hn75kQ" withoperation="DIV">
+      <operators xsi:type="qualitymodel:Operation" xmi:id="_NCqyIJ0rEeuP29a-Hn75kQ">
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_NCqyIZ0rEeuP29a-Hn75kQ" name="_AVkTIH3LEeuBc5zGAU8pNg"/>
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_NCqyIp0rEeuP29a-Hn75kQ" name="_RozgwJn_EeuLwNyVYONI1A"/>
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_NCqyI50rEeuP29a-Hn75kQ" name="_LCyPAJn_EeuLwNyVYONI1A"/>
+      </operators>
+      <operators xsi:type="qualitymodel:StaticReal" xmi:id="_NnWMgJ0rEeuP29a-Hn75kQ" value="5.0"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_V4rwkJ0rEeuP29a-Hn75kQ" name="myComplexity3">
+    <calculatedBy xmi:id="_YXdgIJ0rEeuP29a-Hn75kQ" withoperation="MAX">
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_cDWjEJ0rEeuP29a-Hn75kQ" name="_AVkTIH3LEeuBc5zGAU8pNg"/>
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_cDWjEZ0rEeuP29a-Hn75kQ" name="_RozgwJn_EeuLwNyVYONI1A"/>
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_cDWjEp0rEeuP29a-Hn75kQ" name="_LCyPAJn_EeuLwNyVYONI1A"/>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
+  </qualityattrs>
+  <qualityattrs xmi:id="_LOZl4J0wEeuP29a-Hn75kQ" name="mycomplexity4">
+    <calculatedBy xmi:id="_PqFuEJ0wEeuP29a-Hn75kQ" withoperation="MIN">
+      <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_UEn_sJ0wEeuP29a-Hn75kQ" name="_AVkTIH3LEeuBc5zGAU8pNg"/>
+      <operators xsi:type="qualitymodel:Operation" xmi:id="_dZ3QwJ0wEeuP29a-Hn75kQ" withoperation="DIV">
+        <operators xsi:type="qualitymodel:Operation" xmi:id="_n8gJEJ0wEeuP29a-Hn75kQ">
+          <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_ffECsJ0wEeuP29a-Hn75kQ" name="_RozgwJn_EeuLwNyVYONI1A"/>
+          <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_hCY2oJ0wEeuP29a-Hn75kQ" name="_LCyPAJn_EeuLwNyVYONI1A"/>
+        </operators>
+        <operators xsi:type="qualitymodel:MetricOperator" xmi:id="_qI-AoJ0wEeuP29a-Hn75kQ" name="_Ut1MwH3LEeuBc5zGAU8pNg"/>
+      </operators>
+    </calculatedBy>
+    <subject href="../src/it/gssi/cs/metamodels/MDEEcosystemMM.ecore#//Metamodel"/>
+  </qualityattrs>
+  <metrics xmi:id="_AVkTIH3LEeuBc5zGAU8pNg" name="NC" metricProvider="getNC" description="number of metaclasses"/>
+  <metrics xmi:id="_Ut1MwH3LEeuBc5zGAU8pNg" name="PRED" metricProvider="getSumPRED" description="get sum  of predecessor of a classes"/>
+  <metrics xmi:id="_gg6R4H3OEeuBc5zGAU8pNg" name="size" metricProvider="getSize" description="Size of the model"/>
+  <metrics xmi:id="_U1Q4cJC5EeuBWtQKEF9eRQ" name="Coverage" metricProvider="getCoverage"/>
+  <metrics xmi:id="_LCyPAJn_EeuLwNyVYONI1A" name="NR" metricProvider="nrReferences" description="get number of references"/>
+  <metrics xmi:id="_RozgwJn_EeuLwNyVYONI1A" name="NA" metricProvider="nrAttrs" description="get number of attributes"/>
+  <metrics xmi:id="_Wz_zQJn_EeuLwNyVYONI1A" name="DITMax" metricProvider="getDITmax" description="get max hierarchical level"/>
+  <metrics xmi:id="_ioxo4Jn_EeuLwNyVYONI1A" name="FanOutMax" metricProvider="getMaxFANout" description="get max fanout"/>
+</qualitymodel:QualityModel>

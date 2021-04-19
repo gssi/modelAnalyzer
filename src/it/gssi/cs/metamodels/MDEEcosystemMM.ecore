@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="MDEEcosystem" nsURI="http://cs.gssi.it/mdeecosystem" nsPrefix="mdeecosystem">
-  <eClassifiers xsi:type="ecore:EClass" name="MDEEcosystem">
+  <eClassifiers xsi:type="ecore:EClass" name="MDEEcosystem" eSuperTypes="#//Quantifiable">
     <eStructuralFeatures xsi:type="ecore:EReference" name="artifacts" upperBound="-1"
         eType="#//Artifact" containment="true" eOpposite="#//Artifact/ecosystem"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="author" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="relations" upperBound="-1"
         eType="#//Relation" containment="true" eOpposite="#//Relation/ecosystem"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Artifact" abstract="true">
+  <eClassifiers xsi:type="ecore:EClass" name="Artifact" abstract="true" eSuperTypes="#//Quantifiable">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="ecosystem" lowerBound="1"
         eType="#//MDEEcosystem" eOpposite="#//MDEEcosystem/artifacts"/>
@@ -51,4 +52,5 @@
   <eClassifiers xsi:type="ecore:EClass" name="Distance" eSuperTypes="#//Relation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Quantifiable" abstract="true"/>
 </ecore:EPackage>

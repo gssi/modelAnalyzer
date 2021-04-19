@@ -10,7 +10,7 @@ return false;
 
 operation Sequence(EmfModel) createEcosystem(distancemodel: Any){
 var mdeecosystem = new ecosystem!MDEEcosystem;
-
+mdeecosystem.name = "myecosystem";
 //first metamodels are created...important!
 for (m in self.select(a|a.isMetamodel())) { 
 	("Processing..."+m.name).println();

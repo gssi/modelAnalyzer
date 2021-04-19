@@ -1,6 +1,7 @@
 import "metricProviders.eol";
 
 operation qualitydef!Operation getOp(listresult: Sequence): Real{
+//(self.withoperation+"->"+listresult).println();
 
 if(self.withoperation.name=='GET'){
 	
@@ -11,8 +12,9 @@ if(self.withoperation.name=='GET'){
 	return listresult.sum().asReal();
 	
 }else if(self.withoperation.name=='SUB'){
+
 	var result =listresult.first;
-	for (e in listresult.excluding(result.first)) { 
+	for (e in listresult.excluding(listresult.first)) { 
 		result= result-e;
 	} 
 	return result.asReal();
@@ -44,6 +46,63 @@ return 0.0;
 
 }
 
+operation qualitydef!Operation get(mdeecosystem : ecosystem!MDEEcosystem, container: Any ): Map{
+	var calculatedOperation = new evaluatedecosystem!CalculatedOperation();
+	calculatedOperation.calculatedBy = self;
+	if(container.isTypeOf(QualityEval)) container.calculatedBy = calculatedOperation;
+	if(container.isTypeOf(CalculatedOperation)) container.calculatedOperators.add(calculatedOperation);
+	
+	
+	var listparams = new Sequence<Real>;
+	if(self.operators.isDefined()){
+	for (operator in self.operators){
+
+	var temp = operator.get(mdeecosystem,calculatedOperation); 
+	 
+		listparams.addAll(temp.get("result"));
+		
+	}
+}
+
+	var result = self.getOp(listparams).asReal();
+	var results = new Map<Any, Any>;
+	results.put("element",calculatedOperation);
+	results.put("result",result);
+
+	calculatedOperation.actualizedvalue = result.asReal();
+	return results;
+}
+
+
+operation qualitydef!DerivedAttributeOperator get(mdeecosystem : ecosystem!MDEEcosystem, container: Any): Map{
+var calculatedOperator = new CalculatedDerivedAttribute;
+calculatedOperator.derivedAttribute = self;
+container.calculatedOperators.add(calculatedOperator);
+
+var results = new Map<Any, Any>;
+var result = 0.0;
+var tempresult = new Sequence;
+if(self.qa.subject.name <> mdeecosystem.eClass.name ){
+var artifactstoevaluate = mdeecosystem.artifacts.select(a|a.eClass.name=self.qa.subject.name);
+for (artifact in artifactstoevaluate) { 
+	var qualityeval= evaluatedecosystem!QualityEval.allInstances().selectOne(qe|qe.subject.name=artifact.name and qe.qa=self.qa);
+	if(qualityeval.isDefined()){
+	
+	
+	tempresult.add(qualityeval.actualizedvalue);
+	}
+}
+	
+	
+}
+results.put("result",tempresult);
+results.put("element", calculatedOperator);
+
+//calculatedOperator.actualizedvalue= result.asReal();
+return results;
+}
+
+
 operation qualitydef!Operation get(artifact : ecosystem!Artifact, container: Any ): Map{
 
 var calculatedOperation = new evaluatedecosystem!CalculatedOperation();
@@ -74,6 +133,29 @@ return results;
 
 }
 
+operation qualitydef!DerivedAttributeOperator get(artifact : ecosystem!Artifact, container: Any): Map{
+var calculatedOperator = new CalculatedDerivedAttribute;
+calculatedOperator.derivedAttribute = self;
+container.calculatedOperators.add(calculatedOperator);
+
+
+var results = new Map<Any, Any>;
+var result = 0.0;
+if(self.qa.subject.name = artifact.eClass.name){
+	result = evaluatedecosystem!QualityEval.allInstances().selectOne(qe|qe.subject.name=artifact.name and qe.qa=self.qa).actualizedvalue;
+	results.put("result",result);
+}else{
+	"****______****"+self.subject.println();
+	results.put("result",result);
+}
+
+results.put("element", calculatedOperator);
+
+
+calculatedOperator.actualizedvalue= result;
+return results;
+}
+
 operation qualitydef!StaticValue get(artifact : ecosystem!Artifact, container: CalculatedOperation): Map{
 var calculatedOperator = new CalculatedStaticValue();
 
@@ -90,10 +172,8 @@ return result;
 
 operation qualitydef!MetricOperator get(artifact : ecosystem!Artifact, container: evaluatedecosystem!CalculatedOperation):Map{
 
-
 var calculatedOperator = new evaluatedecosystem!CalculatedMetricOperator;
 if(container.isTypeOf(CalculatedOperation)) container.calculatedOperators.add(calculatedOperator);
-
 
 calculatedOperator.metricOperator = self;
 
@@ -109,7 +189,6 @@ var results = new Map<Any, Any>;
 results.put("element", calculatedOperator);
 results.put("result",result.asReal());
 
-//return calculatedOperator;
 return results;
 }
 
@@ -125,7 +204,7 @@ self.qualityModel = qualityM;
 
 for (a in ecosys.artifacts.select(a|not a.virtual)) { 
 	
-	var qualityattrs = qualityM.qualityattrs.select(qa|emfTool.ecoreUtil.equals(qa.subject,a.eClass));	
+	var qualityattrs = qualityM.qualityattrs.select(qa| emfTool.ecoreUtil.equals(qa.subject,a.eClass));	
 	
 for (qa in qualityattrs) { 
 
@@ -141,6 +220,34 @@ for (qa in qualityattrs) {
 	
 }
 }
+//check if an eval for the ecosystem is required
+	var ecosysqualityattrs = qualityM.qualityattrs.select(qa| emfTool.ecoreUtil.equals(qa.subject,ecosys.eClass));	
+	for (qa in ecosysqualityattrs) { 
+		var aqualityeval = new evaluatedecosystem!QualityEval ();
+		evaluatedeecosys.evaluations.add(aqualityeval);
+		var subject = ecosys;
+		aqualityeval.subject  = subject;
+	
+		var result =qa.calculatedBy.get(subject, aqualityeval ).get("result").asReal();
+		aqualityeval.qa = qa;
+		aqualityeval.actualizedvalue = result.asReal();
+		
+		var toprint = ("= Evaluating: ecosystem -->"+qa.name+": "+result+" =");
+		
+		toprint.depict();
+	}
+}
+
+operation String depict(){
+var prefix="";
+		var i =0;
+		while (i < self.length) { 
+			prefix=prefix.concat("=");
+			i++;
+		}
+		prefix.println();
+		self.println();
+		prefix.println();
 }
 
 operation Any call(op : String, par: Sequence) : Real {

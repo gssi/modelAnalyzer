@@ -1,274 +1,105 @@
 <?xml version="1.0" encoding="ASCII"?>
-<mdeecosystem:MDEEcosystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdeecosystem="http://cs.gssi.it/mdeecosystem" xmi:id="_5UWIUJlDEeuj-PGeCHfG_Q">
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UWIUZlDEeuj-PGeCHfG_Q" name="smach.ecore">
-    <nsURIs>http://smach/1.0</nsURIs>
-    <packagenames>smach</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UXWcJlDEeuj-PGeCHfG_Q" name="tasksv1.ecore">
+<mdeecosystem:MDEEcosystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdeecosystem="http://cs.gssi.it/mdeecosystem" xmi:id="_-tUeQJ7MEeuP29a-Hn75kQ" name="myecosystem">
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_-tUeQZ7MEeuP29a-Hn75kQ" name="tasksv1.ecore">
     <nsURIs>cs.gssi.it/tasks_v1</nsURIs>
     <packagenames>tasksv1</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UX9gJlDEeuj-PGeCHfG_Q" name="log.ecore">
-    <nsURIs>log</nsURIs>
-    <packagenames>log</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UYkkJlDEeuj-PGeCHfG_Q" name="process.ecore">
-    <nsURIs>http://process/1.0</nsURIs>
-    <packagenames>process</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UZLoJlDEeuj-PGeCHfG_Q" name="ETMap.ecore">
-    <nsURIs>http://www.eclipse.org/etrice/core/etmap/ETMap</nsURIs>
-    <packagenames>eTMap</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UZysJlDEeuj-PGeCHfG_Q" name="Feature.ecore">
-    <nsURIs>http:///org/generationcp/model/core/feature.ecore</nsURIs>
-    <packagenames>feature</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UaZwJlDEeuj-PGeCHfG_Q" name="property.ecore">
-    <nsURIs>http:///org/generationcp/model/core/organization/property.ecore</nsURIs>
-    <packagenames>property</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UbA0JlDEeuj-PGeCHfG_Q" name="wikicontent.ecore">
-    <nsURIs>http://wikicontent/1.0</nsURIs>
-    <packagenames>wikicontent</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5Ubn4JlDEeuj-PGeCHfG_Q" name="Publication.ecore">
-    <nsURIs>http:///org/generationcp/model/core/publication.ecore</nsURIs>
-    <packagenames>publication</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5Uc2AJlDEeuj-PGeCHfG_Q" name="ETPhys.ecore">
-    <nsURIs>http://www.eclipse.org/etrice/core/etphys/ETPhys</nsURIs>
-    <packagenames>eTPhys</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UddEJlDEeuj-PGeCHfG_Q" name="Room.ecore">
-    <nsURIs>http://www.eclipse.org/etrice/Room</nsURIs>
-    <packagenames>room</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UeEIJlDEeuj-PGeCHfG_Q" name="etricegen.ecore">
-    <nsURIs>http://www.eclipse.org/etrice/generator</nsURIs>
-    <packagenames>etricegen</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UerMJlDEeuj-PGeCHfG_Q" name="sigocmponentsMMv1.ecore">
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_-tVFUJ7MEeuP29a-Hn75kQ" name="sigocmponentsMMv1.ecore">
     <nsURIs>http://cs.gssi.it/sigcomp/v1</nsURIs>
     <packagenames>sigcomponents_v1</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UfSQJlDEeuj-PGeCHfG_Q" name="customer.ecore">
-    <nsURIs>http:///org.eclipse.emf.test.models/Customer</nsURIs>
-    <packagenames>customer</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5Uf5UJlDEeuj-PGeCHfG_Q" name="My.ecore">
-    <nsURIs>cs.gssi.it/taskmanager</nsURIs>
-    <packagenames>taskmanager</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UggYJlDEeuj-PGeCHfG_Q" name="conferenceV1.ecore">
+  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_-tVsYJ7MEeuP29a-Hn75kQ" name="conferenceV1.ecore">
     <nsURIs>conference.com/v1</nsURIs>
     <packagenames>conferencev1</packagenames>
   </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UhHcJlDEeuj-PGeCHfG_Q" name="store.ecore">
-    <nsURIs>store</nsURIs>
-    <packagenames>store</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UhugJlDEeuj-PGeCHfG_Q" name="Petrinetv2.ecore">
-    <nsURIs>petrinetv2</nsURIs>
-    <packagenames>petrinetv2</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UiVkJlDEeuj-PGeCHfG_Q" name="Features.ecore">
-    <nsURIs>http://www.protos.de/myFeatures/core/Features</nsURIs>
-    <packagenames>features</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5Ui8oJlDEeuj-PGeCHfG_Q" name="DB.ecore">
-    <nsURIs>http:///org.eclipse.emf.test.models/MovieDB</nsURIs>
-    <packagenames>db</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UjjsJlDEeuj-PGeCHfG_Q" name="system.ecore">
-    <nsURIs>http://system/1.0</nsURIs>
-    <packagenames>system</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5Ukx0JlDEeuj-PGeCHfG_Q" name="PersonList.ecore">
-    <nsURIs>http://cs.gssi.it/sourceMM</nsURIs>
-    <packagenames>sourceMM</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UlY4JlDEeuj-PGeCHfG_Q" name="Petrinetv1.ecore">
-    <nsURIs>petrinetv1</nsURIs>
-    <packagenames>petrinetv1</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5Ul_8JlDEeuj-PGeCHfG_Q" name="ros.ecore">
-    <nsURIs>http://ros/1.0</nsURIs>
-    <packagenames>ros</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UmnAJlDEeuj-PGeCHfG_Q" name="Petrinetv3.ecore">
-    <nsURIs>petrinetv3</nsURIs>
-    <packagenames>petrinetv3</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UnOEJlDEeuj-PGeCHfG_Q" name="workbench.ecore">
-    <nsURIs>http://workbench/1.0</nsURIs>
-    <packagenames>workbench</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5Un1IJlDEeuj-PGeCHfG_Q" name="SocialNetwork.ecore">
-    <nsURIs>http://cs.gssi.it/socialnetwork/</nsURIs>
-    <packagenames>socialnetwork</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UpDQJlDEeuj-PGeCHfG_Q" name="task.ecore">
-    <nsURIs>http://www.sebastianbenz.de/task/2011/</nsURIs>
-    <packagenames>task</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UpqUJlDEeuj-PGeCHfG_Q" name="derivedModel.ecore">
-    <nsURIs>http://derivedmodel/1.0</nsURIs>
-    <packagenames>derivedmodel</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UqRYJlDEeuj-PGeCHfG_Q" name="SqlDSL.ecore">
-    <nsURIs>http://www.lunifera.org/metamodel/dsl/SqlDSL</nsURIs>
-    <packagenames>sqlDSL</packagenames>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5Uq4cJlDEeuj-PGeCHfG_Q" name="ontology.ecore" virtual="true">
-    <nsURIs>ontology.ecore</nsURIs>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UrfgJlDEeuj-PGeCHfG_Q" name="identification.ecore" virtual="true">
-    <nsURIs>identification.ecore</nsURIs>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UsGkJlDEeuj-PGeCHfG_Q" name="evidence.ecore" virtual="true">
-    <nsURIs>evidence.ecore</nsURIs>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UsGkZlDEeuj-PGeCHfG_Q" name="value.ecore" virtual="true">
-    <nsURIs>value.ecore</nsURIs>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UtUsJlDEeuj-PGeCHfG_Q" name="organization.ecore" virtual="true">
-    <nsURIs>organization.ecore</nsURIs>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5Ut7wJlDEeuj-PGeCHfG_Q" name="XMLType" virtual="true">
-    <nsURIs>http://www.eclipse.org/emf/2003/XMLType</nsURIs>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Metamodel" xmi:id="_5UvJ4JlDEeuj-PGeCHfG_Q" name="operation.ecore" virtual="true">
-    <nsURIs>operation.ecore</nsURIs>
-  </artifacts>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5UvJ4ZlDEeuj-PGeCHfG_Q" name="sigcomponents-model5.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5Uvw8JlDEeuj-PGeCHfG_Q" name="personsList.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5Uvw8ZlDEeuj-PGeCHfG_Q" name="persons.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5UwYAJlDEeuj-PGeCHfG_Q" name="conferences_v5.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5UwYAZlDEeuj-PGeCHfG_Q" name="sigocmponentsMMv1_example2.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5Uw_EJlDEeuj-PGeCHfG_Q" name="signcomponents1_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5Uw_EZlDEeuj-PGeCHfG_Q" name="tasks5_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5UxmIJlDEeuj-PGeCHfG_Q" name="tasks4_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5UxmIZlDEeuj-PGeCHfG_Q" name="sigcomponents-model3.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5UyNMJlDEeuj-PGeCHfG_Q" name="conferences_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5UyNMZlDEeuj-PGeCHfG_Q" name="conferences_v3.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5Uy0QJlDEeuj-PGeCHfG_Q" name="sigcomponents-model1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5UzbUJlDEeuj-PGeCHfG_Q" name="sigocmponentsMMv1_example4.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5UzbUZlDEeuj-PGeCHfG_Q" name="conferences_v4.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U0CYJlDEeuj-PGeCHfG_Q" name="tasks2_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U0pcJlDEeuj-PGeCHfG_Q" name="tasks3_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U0pcZlDEeuj-PGeCHfG_Q" name="sigocmponentsMMv1_example3.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U1QgJlDEeuj-PGeCHfG_Q" name="sigcomponents-model4.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U1QgZlDEeuj-PGeCHfG_Q" name="sigocmponentsMMv1_example1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U13kJlDEeuj-PGeCHfG_Q" name="conferences1_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U13kZlDEeuj-PGeCHfG_Q" name="conferences_v2.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U2eoJlDEeuj-PGeCHfG_Q" name="sigocmponentsMMv1_example5.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U2eoZlDEeuj-PGeCHfG_Q" name="sigcomponents-model2.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U3FsJlDEeuj-PGeCHfG_Q" name="tasksv1_example1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U3FsZlDEeuj-PGeCHfG_Q" name="conferences4_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U3swJlDEeuj-PGeCHfG_Q" name="conferences_v1_example4.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U4T0JlDEeuj-PGeCHfG_Q" name="conferences5_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U4T0ZlDEeuj-PGeCHfG_Q" name="task4.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U464JlDEeuj-PGeCHfG_Q" name="fb.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U464ZlDEeuj-PGeCHfG_Q" name="tasksv1_example3.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U5h8JlDEeuj-PGeCHfG_Q" name="conferences_v1_example2.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U6JAJlDEeuj-PGeCHfG_Q" name="signcomponents2_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U6JAZlDEeuj-PGeCHfG_Q" name="signcomponents3_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U6wEJlDEeuj-PGeCHfG_Q" name="task2.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U6wEZlDEeuj-PGeCHfG_Q" name="tasksv1_example5.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U7XIJlDEeuj-PGeCHfG_Q" name="task5.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U7XIZlDEeuj-PGeCHfG_Q" name="tasksv1_example2.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U7-MJlDEeuj-PGeCHfG_Q" name="signcomponents5_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U7-MZlDEeuj-PGeCHfG_Q" name="signcomponents4_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U8lQJlDEeuj-PGeCHfG_Q" name="conferences_v1_example5.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U8lQZlDEeuj-PGeCHfG_Q" name="task3.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U9MUJlDEeuj-PGeCHfG_Q" name="conferences3_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U9MUZlDEeuj-PGeCHfG_Q" name="conferences2_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U9zYJlDEeuj-PGeCHfG_Q" name="conferences_v1_example1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U-acJlDEeuj-PGeCHfG_Q" name="tasksv1_example4.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U-acZlDEeuj-PGeCHfG_Q" name="tasks1_v1.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U_BgJlDEeuj-PGeCHfG_Q" name="conferences_v1_example3.model"/>
-  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_5U_BgZlDEeuj-PGeCHfG_Q" name="task1.model"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5U_okJlDEeuj-PGeCHfG_Q" src="_5UWIUZlDEeuj-PGeCHfG_Q" trg="_5Ul_8JlDEeuj-PGeCHfG_Q" label="smach.ecore->ros.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5U_okZlDEeuj-PGeCHfG_Q" src="_5UX9gJlDEeuj-PGeCHfG_Q" trg="_5UhHcJlDEeuj-PGeCHfG_Q" label="log.ecore->store.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VAPoJlDEeuj-PGeCHfG_Q" src="_5UZLoJlDEeuj-PGeCHfG_Q" trg="_5Uc2AJlDEeuj-PGeCHfG_Q" label="ETMap.ecore->ETPhys.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VA2sJlDEeuj-PGeCHfG_Q" src="_5UZLoJlDEeuj-PGeCHfG_Q" trg="_5UddEJlDEeuj-PGeCHfG_Q" label="ETMap.ecore->Room.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VA2sZlDEeuj-PGeCHfG_Q" src="_5UZysJlDEeuj-PGeCHfG_Q" trg="_5Uq4cJlDEeuj-PGeCHfG_Q" label="Feature.ecore->ontology.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VBdwJlDEeuj-PGeCHfG_Q" src="_5UZysJlDEeuj-PGeCHfG_Q" trg="_5UrfgJlDEeuj-PGeCHfG_Q" label="Feature.ecore->identification.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VBdwZlDEeuj-PGeCHfG_Q" src="_5UZysJlDEeuj-PGeCHfG_Q" trg="_5UsGkJlDEeuj-PGeCHfG_Q" label="Feature.ecore->evidence.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VCE0JlDEeuj-PGeCHfG_Q" src="_5UZysJlDEeuj-PGeCHfG_Q" trg="_5UsGkZlDEeuj-PGeCHfG_Q" label="Feature.ecore->value.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VCr4JlDEeuj-PGeCHfG_Q" src="_5UaZwJlDEeuj-PGeCHfG_Q" trg="_5Ubn4JlDEeuj-PGeCHfG_Q" label="property.ecore->Publication.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VCr4ZlDEeuj-PGeCHfG_Q" src="_5UaZwJlDEeuj-PGeCHfG_Q" trg="_5UtUsJlDEeuj-PGeCHfG_Q" label="property.ecore->organization.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VDS8JlDEeuj-PGeCHfG_Q" src="_5UaZwJlDEeuj-PGeCHfG_Q" trg="_5UZysJlDEeuj-PGeCHfG_Q" label="property.ecore->Feature.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VDS8ZlDEeuj-PGeCHfG_Q" src="_5UaZwJlDEeuj-PGeCHfG_Q" trg="_5UrfgJlDEeuj-PGeCHfG_Q" label="property.ecore->identification.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VD6AJlDEeuj-PGeCHfG_Q" src="_5UaZwJlDEeuj-PGeCHfG_Q" trg="_5Uq4cJlDEeuj-PGeCHfG_Q" label="property.ecore->ontology.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VEhEJlDEeuj-PGeCHfG_Q" src="_5Ubn4JlDEeuj-PGeCHfG_Q" trg="_5UtUsJlDEeuj-PGeCHfG_Q" label="Publication.ecore->organization.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VEhEZlDEeuj-PGeCHfG_Q" src="_5Ubn4JlDEeuj-PGeCHfG_Q" trg="_5UZysJlDEeuj-PGeCHfG_Q" label="Publication.ecore->Feature.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VFIIJlDEeuj-PGeCHfG_Q" src="_5Ubn4JlDEeuj-PGeCHfG_Q" trg="_5Uq4cJlDEeuj-PGeCHfG_Q" label="Publication.ecore->ontology.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VFIIZlDEeuj-PGeCHfG_Q" src="_5Ubn4JlDEeuj-PGeCHfG_Q" trg="_5UrfgJlDEeuj-PGeCHfG_Q" label="Publication.ecore->identification.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VFvMJlDEeuj-PGeCHfG_Q" src="_5UeEIJlDEeuj-PGeCHfG_Q" trg="_5UddEJlDEeuj-PGeCHfG_Q" label="etricegen.ecore->Room.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VFvMZlDEeuj-PGeCHfG_Q" src="_5UfSQJlDEeuj-PGeCHfG_Q" trg="_5Ut7wJlDEeuj-PGeCHfG_Q" label="customer.ecore->XMLType"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VGWQJlDEeuj-PGeCHfG_Q" src="_5UhHcJlDEeuj-PGeCHfG_Q" trg="_5UX9gJlDEeuj-PGeCHfG_Q" label="store.ecore->log.ecore"/>
-  <relations xsi:type="mdeecosystem:Distance" xmi:id="_5VGWQZlDEeuj-PGeCHfG_Q" src="_5UhugJlDEeuj-PGeCHfG_Q" trg="_5UlY4JlDEeuj-PGeCHfG_Q" label="Petrinetv2.ecore->Petrinetv1.ecore" value="75.0"/>
-  <relations xsi:type="mdeecosystem:Distance" xmi:id="_5VG9UJlDEeuj-PGeCHfG_Q" src="_5UhugJlDEeuj-PGeCHfG_Q" trg="_5UmnAJlDEeuj-PGeCHfG_Q" label="Petrinetv2.ecore->Petrinetv3.ecore" value="100.0"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VHkYJlDEeuj-PGeCHfG_Q" src="_5Ui8oJlDEeuj-PGeCHfG_Q" trg="_5UfSQJlDEeuj-PGeCHfG_Q" label="DB.ecore->customer.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VHkYZlDEeuj-PGeCHfG_Q" src="_5Ui8oJlDEeuj-PGeCHfG_Q" trg="_5Ut7wJlDEeuj-PGeCHfG_Q" label="DB.ecore->XMLType"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VILcJlDEeuj-PGeCHfG_Q" src="_5UjjsJlDEeuj-PGeCHfG_Q" trg="_5UvJ4JlDEeuj-PGeCHfG_Q" label="system.ecore->operation.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VILcZlDEeuj-PGeCHfG_Q" src="_5UjjsJlDEeuj-PGeCHfG_Q" trg="_5UYkkJlDEeuj-PGeCHfG_Q" label="system.ecore->process.ecore"/>
-  <relations xsi:type="mdeecosystem:Distance" xmi:id="_5VIygJlDEeuj-PGeCHfG_Q" src="_5UlY4JlDEeuj-PGeCHfG_Q" trg="_5UhugJlDEeuj-PGeCHfG_Q" label="Petrinetv1.ecore->Petrinetv2.ecore" value="87.0"/>
-  <relations xsi:type="mdeecosystem:Distance" xmi:id="_5VIygZlDEeuj-PGeCHfG_Q" src="_5UlY4JlDEeuj-PGeCHfG_Q" trg="_5UmnAJlDEeuj-PGeCHfG_Q" label="Petrinetv1.ecore->Petrinetv3.ecore" value="87.0"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VJZkJlDEeuj-PGeCHfG_Q" src="_5Ul_8JlDEeuj-PGeCHfG_Q" trg="_5UWIUZlDEeuj-PGeCHfG_Q" label="ros.ecore->smach.ecore"/>
-  <relations xsi:type="mdeecosystem:Distance" xmi:id="_5VJZkZlDEeuj-PGeCHfG_Q" src="_5UmnAJlDEeuj-PGeCHfG_Q" trg="_5UhugJlDEeuj-PGeCHfG_Q" label="Petrinetv3.ecore->Petrinetv2.ecore" value="83.0"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VKAoJlDEeuj-PGeCHfG_Q" src="_5UnOEJlDEeuj-PGeCHfG_Q" trg="_5UbA0JlDEeuj-PGeCHfG_Q" label="workbench.ecore->wikicontent.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VKnsJlDEeuj-PGeCHfG_Q" src="_5UpqUJlDEeuj-PGeCHfG_Q" trg="_5UvJ4JlDEeuj-PGeCHfG_Q" label="derivedModel.ecore->operation.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VKnsZlDEeuj-PGeCHfG_Q" src="_5UpqUJlDEeuj-PGeCHfG_Q" trg="_5UjjsJlDEeuj-PGeCHfG_Q" label="derivedModel.ecore->system.ecore"/>
-  <relations xsi:type="mdeecosystem:Dependency" xmi:id="_5VLOwJlDEeuj-PGeCHfG_Q" src="_5UpqUJlDEeuj-PGeCHfG_Q" trg="_5UYkkJlDEeuj-PGeCHfG_Q" label="derivedModel.ecore->process.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VLOwZlDEeuj-PGeCHfG_Q" src="_5UvJ4ZlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="sigcomponents-model5.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VL10JlDEeuj-PGeCHfG_Q" src="_5Uvw8JlDEeuj-PGeCHfG_Q" trg="_5Ukx0JlDEeuj-PGeCHfG_Q" label="personsList.model->PersonList.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VMc4JlDEeuj-PGeCHfG_Q" src="_5Uvw8ZlDEeuj-PGeCHfG_Q" trg="_5Ukx0JlDEeuj-PGeCHfG_Q" label="persons.model->PersonList.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VMc4ZlDEeuj-PGeCHfG_Q" src="_5UwYAJlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences_v5.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VND8JlDEeuj-PGeCHfG_Q" src="_5UwYAZlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="sigocmponentsMMv1_example2.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VND8ZlDEeuj-PGeCHfG_Q" src="_5Uw_EJlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="signcomponents1_v1.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VNrAJlDEeuj-PGeCHfG_Q" src="_5Uw_EZlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="tasks5_v1.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VNrAZlDEeuj-PGeCHfG_Q" src="_5UxmIJlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="tasks4_v1.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VOSEJlDEeuj-PGeCHfG_Q" src="_5UxmIZlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="sigcomponents-model3.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VOSEZlDEeuj-PGeCHfG_Q" src="_5UyNMJlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences_v1.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VO5IJlDEeuj-PGeCHfG_Q" src="_5UyNMZlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences_v3.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VPgMJlDEeuj-PGeCHfG_Q" src="_5Uy0QJlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="sigcomponents-model1.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VPgMZlDEeuj-PGeCHfG_Q" src="_5UzbUJlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="sigocmponentsMMv1_example4.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VQHQJlDEeuj-PGeCHfG_Q" src="_5UzbUZlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences_v4.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VQHQZlDEeuj-PGeCHfG_Q" src="_5U0CYJlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="tasks2_v1.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VQuUJlDEeuj-PGeCHfG_Q" src="_5U0pcJlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="tasks3_v1.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VRVYJlDEeuj-PGeCHfG_Q" src="_5U0pcZlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="sigocmponentsMMv1_example3.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VRVYZlDEeuj-PGeCHfG_Q" src="_5U1QgJlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="sigcomponents-model4.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VR8cJlDEeuj-PGeCHfG_Q" src="_5U1QgZlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="sigocmponentsMMv1_example1.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VR8cZlDEeuj-PGeCHfG_Q" src="_5U13kJlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences1_v1.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VSjgJlDEeuj-PGeCHfG_Q" src="_5U13kZlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences_v2.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VSjgZlDEeuj-PGeCHfG_Q" src="_5U2eoJlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="sigocmponentsMMv1_example5.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VTKkJlDEeuj-PGeCHfG_Q" src="_5U2eoZlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="sigcomponents-model2.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VTKkZlDEeuj-PGeCHfG_Q" src="_5U3FsJlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="tasksv1_example1.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VdioJlDEeuj-PGeCHfG_Q" src="_5U3FsZlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences4_v1.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VeJsJlDEeuj-PGeCHfG_Q" src="_5U3swJlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences_v1_example4.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VewwJlDEeuj-PGeCHfG_Q" src="_5U4T0JlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences5_v1.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VewwZlDEeuj-PGeCHfG_Q" src="_5U4T0ZlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="task4.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VfX0JlDEeuj-PGeCHfG_Q" src="_5U464JlDEeuj-PGeCHfG_Q" trg="_5Un1IJlDEeuj-PGeCHfG_Q" label="fb.model->SocialNetwork.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VfX0ZlDEeuj-PGeCHfG_Q" src="_5U464ZlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="tasksv1_example3.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5Vf-4JlDEeuj-PGeCHfG_Q" src="_5U5h8JlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences_v1_example2.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5Vgl8JlDEeuj-PGeCHfG_Q" src="_5U6JAJlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="signcomponents2_v1.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5Vgl8ZlDEeuj-PGeCHfG_Q" src="_5U6JAZlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="signcomponents3_v1.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VhNAJlDEeuj-PGeCHfG_Q" src="_5U6wEJlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="task2.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5Vh0EJlDEeuj-PGeCHfG_Q" src="_5U6wEZlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="tasksv1_example5.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5Vh0EZlDEeuj-PGeCHfG_Q" src="_5U7XIJlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="task5.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VibIJlDEeuj-PGeCHfG_Q" src="_5U7XIZlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="tasksv1_example2.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VibIZlDEeuj-PGeCHfG_Q" src="_5U7-MJlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="signcomponents5_v1.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VjCMJlDEeuj-PGeCHfG_Q" src="_5U7-MZlDEeuj-PGeCHfG_Q" trg="_5UerMJlDEeuj-PGeCHfG_Q" label="signcomponents4_v1.model->sigocmponentsMMv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VjCMZlDEeuj-PGeCHfG_Q" src="_5U8lQJlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences_v1_example5.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VjpQJlDEeuj-PGeCHfG_Q" src="_5U8lQZlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="task3.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VkQUJlDEeuj-PGeCHfG_Q" src="_5U9MUJlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences3_v1.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VkQUZlDEeuj-PGeCHfG_Q" src="_5U9MUZlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences2_v1.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5Vk3YJlDEeuj-PGeCHfG_Q" src="_5U9zYJlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences_v1_example1.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5Vk3YZlDEeuj-PGeCHfG_Q" src="_5U-acJlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="tasksv1_example4.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VlecJlDEeuj-PGeCHfG_Q" src="_5U-acZlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="tasks1_v1.model->tasksv1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VlecZlDEeuj-PGeCHfG_Q" src="_5U_BgJlDEeuj-PGeCHfG_Q" trg="_5UggYJlDEeuj-PGeCHfG_Q" label="conferences_v1_example3.model->conferenceV1.ecore"/>
-  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_5VmFgJlDEeuj-PGeCHfG_Q" src="_5U_BgZlDEeuj-PGeCHfG_Q" trg="_5UXWcJlDEeuj-PGeCHfG_Q" label="task1.model->tasksv1.ecore"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tVsYZ7MEeuP29a-Hn75kQ" name="sigcomponents-model5.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tVsYp7MEeuP29a-Hn75kQ" name="conferences_v5.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tWTcJ7MEeuP29a-Hn75kQ" name="sigocmponentsMMv1_example2.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tWTcZ7MEeuP29a-Hn75kQ" name="signcomponents1_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tWTcp7MEeuP29a-Hn75kQ" name="tasks5_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tW6gJ7MEeuP29a-Hn75kQ" name="tasks4_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tW6gZ7MEeuP29a-Hn75kQ" name="sigcomponents-model3.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tXhkJ7MEeuP29a-Hn75kQ" name="conferences_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tXhkZ7MEeuP29a-Hn75kQ" name="conferences_v3.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tXhkp7MEeuP29a-Hn75kQ" name="sigcomponents-model1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tYIoJ7MEeuP29a-Hn75kQ" name="sigocmponentsMMv1_example4.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tYIoZ7MEeuP29a-Hn75kQ" name="conferences_v4.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tYIop7MEeuP29a-Hn75kQ" name="tasks2_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tYvsJ7MEeuP29a-Hn75kQ" name="tasks3_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tYvsZ7MEeuP29a-Hn75kQ" name="sigocmponentsMMv1_example3.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tYvsp7MEeuP29a-Hn75kQ" name="sigcomponents-model4.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tZWwJ7MEeuP29a-Hn75kQ" name="sigocmponentsMMv1_example1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tZWwZ7MEeuP29a-Hn75kQ" name="conferences1_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tZ90J7MEeuP29a-Hn75kQ" name="conferences_v2.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tZ90Z7MEeuP29a-Hn75kQ" name="sigocmponentsMMv1_example5.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tZ90p7MEeuP29a-Hn75kQ" name="sigcomponents-model2.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tak4J7MEeuP29a-Hn75kQ" name="tasksv1_example1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tak4Z7MEeuP29a-Hn75kQ" name="conferences4_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tak4p7MEeuP29a-Hn75kQ" name="conferences_v1_example4.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tbL8J7MEeuP29a-Hn75kQ" name="conferences5_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tbL8Z7MEeuP29a-Hn75kQ" name="task4.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tbL8p7MEeuP29a-Hn75kQ" name="tasksv1_example3.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tbzAJ7MEeuP29a-Hn75kQ" name="conferences_v1_example2.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tbzAZ7MEeuP29a-Hn75kQ" name="signcomponents2_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tbzAp7MEeuP29a-Hn75kQ" name="signcomponents3_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tcaEJ7MEeuP29a-Hn75kQ" name="task2.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tcaEZ7MEeuP29a-Hn75kQ" name="tasksv1_example5.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tcaEp7MEeuP29a-Hn75kQ" name="task5.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tdBIJ7MEeuP29a-Hn75kQ" name="tasksv1_example2.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tdBIZ7MEeuP29a-Hn75kQ" name="signcomponents5_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tdBIp7MEeuP29a-Hn75kQ" name="signcomponents4_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tdoMJ7MEeuP29a-Hn75kQ" name="conferences_v1_example5.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tdoMZ7MEeuP29a-Hn75kQ" name="task3.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tdoMp7MEeuP29a-Hn75kQ" name="conferences3_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tePQJ7MEeuP29a-Hn75kQ" name="conferences2_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tePQZ7MEeuP29a-Hn75kQ" name="conferences_v1_example1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-tePQp7MEeuP29a-Hn75kQ" name="tasksv1_example4.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-te2UJ7MEeuP29a-Hn75kQ" name="tasks1_v1.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-te2UZ7MEeuP29a-Hn75kQ" name="conferences_v1_example3.model"/>
+  <artifacts xsi:type="mdeecosystem:Model" xmi:id="_-te2Up7MEeuP29a-Hn75kQ" name="task1.model"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tfdYJ7MEeuP29a-Hn75kQ" src="_-tVsYZ7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="sigcomponents-model5.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tfdYZ7MEeuP29a-Hn75kQ" src="_-tVsYp7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences_v5.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tfdYp7MEeuP29a-Hn75kQ" src="_-tWTcJ7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="sigocmponentsMMv1_example2.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tgEcJ7MEeuP29a-Hn75kQ" src="_-tWTcZ7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="signcomponents1_v1.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tgEcZ7MEeuP29a-Hn75kQ" src="_-tWTcp7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="tasks5_v1.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tgEcp7MEeuP29a-Hn75kQ" src="_-tW6gJ7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="tasks4_v1.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tgrgJ7MEeuP29a-Hn75kQ" src="_-tW6gZ7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="sigcomponents-model3.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tgrgZ7MEeuP29a-Hn75kQ" src="_-tXhkJ7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences_v1.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tgrgp7MEeuP29a-Hn75kQ" src="_-tXhkZ7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences_v3.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-thSkJ7MEeuP29a-Hn75kQ" src="_-tXhkp7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="sigcomponents-model1.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-thSkZ7MEeuP29a-Hn75kQ" src="_-tYIoJ7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="sigocmponentsMMv1_example4.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-thSkp7MEeuP29a-Hn75kQ" src="_-tYIoZ7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences_v4.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-th5oJ7MEeuP29a-Hn75kQ" src="_-tYIop7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="tasks2_v1.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-th5oZ7MEeuP29a-Hn75kQ" src="_-tYvsJ7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="tasks3_v1.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-th5op7MEeuP29a-Hn75kQ" src="_-tYvsZ7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="sigocmponentsMMv1_example3.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tigsJ7MEeuP29a-Hn75kQ" src="_-tYvsp7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="sigcomponents-model4.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tigsZ7MEeuP29a-Hn75kQ" src="_-tZWwJ7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="sigocmponentsMMv1_example1.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tjHwJ7MEeuP29a-Hn75kQ" src="_-tZWwZ7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences1_v1.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tjHwZ7MEeuP29a-Hn75kQ" src="_-tZ90J7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences_v2.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tjHwp7MEeuP29a-Hn75kQ" src="_-tZ90Z7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="sigocmponentsMMv1_example5.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tju0J7MEeuP29a-Hn75kQ" src="_-tZ90p7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="sigcomponents-model2.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tju0Z7MEeuP29a-Hn75kQ" src="_-tak4J7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="tasksv1_example1.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tju0p7MEeuP29a-Hn75kQ" src="_-tak4Z7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences4_v1.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tkV4J7MEeuP29a-Hn75kQ" src="_-tak4p7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences_v1_example4.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tkV4Z7MEeuP29a-Hn75kQ" src="_-tbL8J7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences5_v1.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tkV4p7MEeuP29a-Hn75kQ" src="_-tbL8Z7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="task4.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tk88J7MEeuP29a-Hn75kQ" src="_-tbL8p7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="tasksv1_example3.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tk88Z7MEeuP29a-Hn75kQ" src="_-tbzAJ7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences_v1_example2.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tk88p7MEeuP29a-Hn75kQ" src="_-tbzAZ7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="signcomponents2_v1.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tlkAJ7MEeuP29a-Hn75kQ" src="_-tbzAp7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="signcomponents3_v1.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tlkAZ7MEeuP29a-Hn75kQ" src="_-tcaEJ7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="task2.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tlkAp7MEeuP29a-Hn75kQ" src="_-tcaEZ7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="tasksv1_example5.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tmLEJ7MEeuP29a-Hn75kQ" src="_-tcaEp7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="task5.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tmLEZ7MEeuP29a-Hn75kQ" src="_-tdBIJ7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="tasksv1_example2.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tmLEp7MEeuP29a-Hn75kQ" src="_-tdBIZ7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="signcomponents5_v1.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tmyIJ7MEeuP29a-Hn75kQ" src="_-tdBIp7MEeuP29a-Hn75kQ" trg="_-tVFUJ7MEeuP29a-Hn75kQ" label="signcomponents4_v1.model->sigocmponentsMMv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tmyIZ7MEeuP29a-Hn75kQ" src="_-tdoMJ7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences_v1_example5.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tmyIp7MEeuP29a-Hn75kQ" src="_-tdoMZ7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="task3.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tnZMJ7MEeuP29a-Hn75kQ" src="_-tdoMp7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences3_v1.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tnZMZ7MEeuP29a-Hn75kQ" src="_-tePQJ7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences2_v1.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-toAQJ7MEeuP29a-Hn75kQ" src="_-tePQZ7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences_v1_example1.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-toAQZ7MEeuP29a-Hn75kQ" src="_-tePQp7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="tasksv1_example4.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-toAQp7MEeuP29a-Hn75kQ" src="_-te2UJ7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="tasks1_v1.model->tasksv1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tonUJ7MEeuP29a-Hn75kQ" src="_-te2UZ7MEeuP29a-Hn75kQ" trg="_-tVsYJ7MEeuP29a-Hn75kQ" label="conferences_v1_example3.model->conferenceV1.ecore"/>
+  <relations xsi:type="mdeecosystem:Conformance" xmi:id="_-tonUZ7MEeuP29a-Hn75kQ" src="_-te2Up7MEeuP29a-Hn75kQ" trg="_-tUeQZ7MEeuP29a-Hn75kQ" label="task1.model->tasksv1.ecore"/>
 </mdeecosystem:MDEEcosystem>
